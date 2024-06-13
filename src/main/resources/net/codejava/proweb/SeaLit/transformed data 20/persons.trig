@@ -1,0 +1,603 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <https://rs.sealitproject.eu/kb/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<https://rs.sealitproject.eu/kb/date/1832>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1832" ;
+        crm:P82_at_some_time_within  "1832"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/ids/3949>
+        a                crm:E42_Identifier ;
+        rdfs:label       "3949" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/6022D642-4CA9-3675-8A6B-7EB125C0DBA4>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giovanni Antonio Repetto" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/A0105FA1-8E16-34B4-91E4-7D5D0515C42F> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Giovanni Antonio" ;
+        sealit:has_last_name     "Repetto" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/1A20FDBB-34AB-3B0E-A3E9-92A4F2A80B8C> .
+
+<https://rs.sealitproject.eu/kb/person/35063FDD-6539-3308-8680-6BBE5F3FE97F>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giuseppe Denegri" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/AC400A21-C437-3DD7-B7E0-529759C3E1DE> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Giuseppe" ;
+        sealit:has_last_name     "Denegri" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/66653882-2035-32B3-9373-797C69CF71E2> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/7DE596D7-8798-3C23-9460-4D8750C88778>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Chiarina, 1853-07-06, Massimo Ponasso | row: 7, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T10%3A04%3A33.274Z_2> , <https://rs.sealitproject.eu/kb/person/F16D971F-395B-3DE3-AD1E-7592CC0C6927> .
+
+<https://rs.sealitproject.eu/kb/person/E9F99C0E-A2B4-392A-99AC-0E0751E7589A>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/9314>
+        a                crm:E42_Identifier ;
+        rdfs:label       "9314" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/DEB3D7A7-8155-398A-90A9-601B39BB0C51>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Chiarina, 1853-07-06, Massimo Ponasso | row: 14, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T10%3A04%3A33.274Z_2> , <https://rs.sealitproject.eu/kb/person/E9F99C0E-A2B4-392A-99AC-0E0751E7589A> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/C6959E3E-2021-3BB0-9E3A-676355F9E0EC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Chiarina, 1853-07-06, Massimo Ponasso | row: 13, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T10%3A04%3A33.274Z_2> , <https://rs.sealitproject.eu/kb/person/C0FBE3E9-9101-3E87-8D7B-C77FC009024A> .
+
+<urn:uuid:2e5d1abb-5d41-402a-a271-7335d2119039>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Repetto" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1819> .
+
+<urn:uuid:3af478f4-7906-4a57-81de-3a85d074683d>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Chiesa" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1833> .
+
+<https://rs.sealitproject.eu/kb/date/1824>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1824" ;
+        crm:P82_at_some_time_within  "1824"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/AC400A21-C437-3DD7-B7E0-529759C3E1DE>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Denegri" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/8AEEC168-A8A4-34C8-BD1C-089D516CB0EA>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giuseppe Repetto" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/10988> , <https://rs.sealitproject.eu/kb/appellation_surname/A0105FA1-8E16-34B4-91E4-7D5D0515C42F> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:a6226d05-a916-4b8d-947d-7a0f5671c22e> ;
+        sealit:has_first_name    "Giuseppe" ;
+        sealit:has_last_name     "Repetto" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/CF3B0B6F-5DDA-3C27-B291-5CFEF39D683B> .
+
+<https://rs.sealitproject.eu/kb/person/7EEFEA69-FB92-32D9-A3CB-7A45592D7FA1>
+        a                        crm:E21_Person ;
+        rdfs:label               "Angelo Antola" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/3949> , <https://rs.sealitproject.eu/kb/appellation_surname/E07A803F-BDAC-33D0-BC62-85C50F37CA35> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:e1ed53b8-5c36-48ed-b427-d3bcc71e7053> ;
+        sealit:has_first_name    "Angelo" ;
+        sealit:has_last_name     "Antola" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/430E7E63-7F69-36C6-9433-70F0DCEE3138> .
+
+<https://rs.sealitproject.eu/kb/ids/10988>
+        a                crm:E42_Identifier ;
+        rdfs:label       "10988" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/5CE0BF96-CF3A-3A6F-9329-E0D8C3C34B80>
+        a                        crm:E21_Person ;
+        rdfs:label               "Denegri" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/AC400A21-C437-3DD7-B7E0-529759C3E1DE> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_last_name     "Denegri" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/A4187022-7296-3E7F-A6F5-E9D9C73B8560> .
+
+<https://rs.sealitproject.eu/kb/person/66653882-2035-32B3-9373-797C69CF71E2>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/A4E77381-FE06-3121-9D05-9DB8329EF87B>
+        a                        crm:E21_Person ;
+        rdfs:label               "Davide Oneto" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/8185> , <https://rs.sealitproject.eu/kb/appellation_surname/1AAAF796-6416-30BC-9EAA-E08321D8DFA3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:1d8900f7-e82d-4c4f-b623-c3332a730b32> ;
+        sealit:has_first_name    "Davide" ;
+        sealit:has_last_name     "Oneto" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/D9F16D6B-0567-3177-9750-80872C62662F> .
+
+<https://rs.sealitproject.eu/kb/person/DCA2EED1-0E57-3BC3-A27B-92DEFC085BEA>
+        a                        crm:E21_Person ;
+        rdfs:label               "Francesco Gazzolo" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/102> , <https://rs.sealitproject.eu/kb/appellation_surname/2AD7602D-A105-3783-978A-08EC956B09B0> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:06d37e32-8a1e-4211-a920-13166fb9f566> ;
+        sealit:has_first_name    "Francesco" ;
+        sealit:has_last_name     "Gazzolo" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/E1ED593F-7FF3-3846-A148-195C341B38CD> .
+
+<https://rs.sealitproject.eu/kb/numbers/serial%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "serial number" .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/31EC3E71-BB5B-3548-A7D7-954B45A1DFC0>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Chiesa" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/ids/2111>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2111" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/1AAAF796-6416-30BC-9EAA-E08321D8DFA3>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Oneto" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/7D3A4F16-9770-349F-AFA8-3364A7386F0E>
+        a                        crm:E21_Person ;
+        rdfs:label               "Bartolomeo Chiesa" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/9266> , <https://rs.sealitproject.eu/kb/appellation_surname/31EC3E71-BB5B-3548-A7D7-954B45A1DFC0> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:3af478f4-7906-4a57-81de-3a85d074683d> ;
+        sealit:has_first_name    "Bartolomeo" ;
+        sealit:has_last_name     "Chiesa" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/0532386E-84F9-3EE8-AE05-1CD51EF8E33B> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/970D74C3-5B1B-35F9-A78E-C90BD6DB2FF5>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Massone" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/90450EE2-9938-3B83-AD08-57ADF9DD8656>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Chiarina, 1853-07-06, Massimo Ponasso | row: 1, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T10%3A04%3A33.274Z_2> , <https://rs.sealitproject.eu/kb/person/660621C8-336B-3BEB-9377-276874BD27DC> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/A0105FA1-8E16-34B4-91E4-7D5D0515C42F>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Repetto" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/date/1829>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1829" ;
+        crm:P82_at_some_time_within  "1829"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/2F53B486-B4C3-3FB5-B67F-721EEB5343F9>
+        a       crm:E21_Person .
+
+<urn:uuid:51826a32-b4c2-4866-8fa2-3508fb5fc6fb>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Feretto" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1824> .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/FA022A24-385C-3EFF-8662-43F1D62F2FE5>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Casareggio" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/6FED48C9-F819-3DC1-B533-97D020803492>
+        a                        crm:E21_Person ;
+        rdfs:label               "Gio. Batta Carletti" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/6E659D6C-9FC5-3DAA-AB1E-F8516B765852> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:c1a07800-225d-4d72-8138-96bd15f42a83> ;
+        sealit:has_first_name    "Gio. Batta" ;
+        sealit:has_last_name     "Carletti" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/E9F99C0E-A2B4-392A-99AC-0E0751E7589A> .
+
+<https://rs.sealitproject.eu/kb/person/488B3B79-C920-3975-B6C9-C854BCA5C13A>
+        a       crm:E21_Person .
+
+<urn:uuid:09d6b323-93de-4878-934d-b670ea6d4102>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Antola" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1808> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/610B939F-FB90-3957-86A3-F9C7BF24EA54>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Chiarina, 1853-07-06, Massimo Ponasso | row: 3, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T10%3A04%3A33.274Z_2> , <https://rs.sealitproject.eu/kb/person/D9F16D6B-0567-3177-9750-80872C62662F> .
+
+<urn:uuid:1d8900f7-e82d-4c4f-b623-c3332a730b32>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Oneto" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1835> .
+
+<https://rs.sealitproject.eu/kb/ids/1651>
+        a                crm:E42_Identifier ;
+        rdfs:label       "1651" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/date/1836>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1836" ;
+        crm:P82_at_some_time_within  "1836"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/date/1808>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1808" ;
+        crm:P82_at_some_time_within  "1808"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/CF3B0B6F-5DDA-3C27-B291-5CFEF39D683B>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/5114>
+        a                crm:E42_Identifier ;
+        rdfs:label       "5114" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/752418D7-9DB0-3DE2-AB85-B566E28F4DBD>
+        a                        crm:E21_Person ;
+        rdfs:label               "Nicolò Chiesa" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/685> , <https://rs.sealitproject.eu/kb/appellation_surname/31EC3E71-BB5B-3548-A7D7-954B45A1DFC0> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:e25ea5c9-2aca-4033-a75f-bf49af98dbd4> ;
+        sealit:has_first_name    "Nicolò" ;
+        sealit:has_last_name     "Chiesa" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/12C25387-4EE0-3C1C-AFED-1BB3F2438621> .
+
+<https://rs.sealitproject.eu/kb/person/0532386E-84F9-3EE8-AE05-1CD51EF8E33B>
+        a       crm:E21_Person .
+
+<urn:uuid:898a41a2-026c-48fe-b180-2b57b223b610>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Casareggio" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1836> .
+
+<https://rs.sealitproject.eu/kb/person/430E7E63-7F69-36C6-9433-70F0DCEE3138>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/F16D971F-395B-3DE3-AD1E-7592CC0C6927>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/DCF56568-FC9B-38F1-8708-39121732A0BA>
+        a                        crm:E21_Person ;
+        rdfs:label               "Gio. Batta Massone" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/2111> , <https://rs.sealitproject.eu/kb/appellation_surname/970D74C3-5B1B-35F9-A78E-C90BD6DB2FF5> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:ffd589c8-8bea-446d-87e9-ac338c53f975> ;
+        sealit:has_first_name    "Gio. Batta" ;
+        sealit:has_last_name     "Massone" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/84414D39-B3C7-3799-A551-4D7AED90C9F9> .
+
+<https://rs.sealitproject.eu/kb/ids/685>
+        a                crm:E42_Identifier ;
+        rdfs:label       "685" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/D4B75105-BBFF-3554-8FC1-4C3DEE0DB397>
+        a       crm:E21_Person .
+
+<urn:uuid:06d37e32-8a1e-4211-a920-13166fb9f566>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Gazzolo" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1824> .
+
+<https://rs.sealitproject.eu/kb/names/surname%20a>
+        a           crm:E55_Type ;
+        rdfs:label  "surname A" .
+
+<https://rs.sealitproject.eu/kb/register_record_point/C8D7B1FC-3B3A-3536-9672-CB7A1E78F432>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Chiarina, 1853-07-06, Massimo Ponasso | row: 12, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T10%3A04%3A33.274Z_2> , <https://rs.sealitproject.eu/kb/person/90D503A5-DE96-3693-8C00-06D49776A0EF> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/5ED60452-00FA-3046-8351-EBBCCC6B51A9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Chiarina, 1853-07-06, Massimo Ponasso | row: 2, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T10%3A04%3A33.274Z_2> , <https://rs.sealitproject.eu/kb/person/12C25387-4EE0-3C1C-AFED-1BB3F2438621> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/9ED8AAC2-B517-33CA-B2EF-68D7892BE524>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Chiarina, 1853-07-06, Massimo Ponasso | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/person/488B3B79-C920-3975-B6C9-C854BCA5C13A> , <https://rs.sealitproject.eu/kb/person/1A20FDBB-34AB-3B0E-A3E9-92A4F2A80B8C> , <https://rs.sealitproject.eu/kb/person/A4187022-7296-3E7F-A6F5-E9D9C73B8560> , <https://rs.sealitproject.eu/kb/register_record/2018-12-12T10%3A04%3A33.274Z_2> , <https://rs.sealitproject.eu/kb/person/66653882-2035-32B3-9373-797C69CF71E2> .
+
+<https://rs.sealitproject.eu/kb/ids/8337>
+        a                crm:E42_Identifier ;
+        rdfs:label       "8337" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/date/1835>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1835" ;
+        crm:P82_at_some_time_within  "1835"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/FC76D8FB-B375-35CB-AF06-321D75060227>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Feretto" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/C0FBE3E9-9101-3E87-8D7B-C77FC009024A>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/2683>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2683" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/ids/9266>
+        a                crm:E42_Identifier ;
+        rdfs:label       "9266" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/2AD7602D-A105-3783-978A-08EC956B09B0>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Gazzolo" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/D9F16D6B-0567-3177-9750-80872C62662F>
+        a       crm:E21_Person .
+
+<urn:uuid:e25ea5c9-2aca-4033-a75f-bf49af98dbd4>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Chiesa" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1829> .
+
+<https://rs.sealitproject.eu/kb/person/5C8A45CE-03E2-3FC2-947C-D3A68E41794B>
+        a                        crm:E21_Person ;
+        rdfs:label               "Repetto" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/A0105FA1-8E16-34B4-91E4-7D5D0515C42F> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_last_name     "Repetto" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/488B3B79-C920-3975-B6C9-C854BCA5C13A> .
+
+<https://rs.sealitproject.eu/kb/person/A4187022-7296-3E7F-A6F5-E9D9C73B8560>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/date/1801>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1801" ;
+        crm:P82_at_some_time_within  "1801"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:38e2eca4-6d8b-4ca5-b3f6-2992a2f599e6>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Olivari" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1833> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/71A0F027-F4C7-3E4C-97E0-E91ABF663930>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Demarchi" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/8A693A33-80B2-3523-9A5F-5216764CE605>
+        a                        crm:E21_Person ;
+        rdfs:label               "Antonio Olivari" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/8337> , <https://rs.sealitproject.eu/kb/appellation_surname/A63286C4-03F3-365D-ACA3-CBC8C9CC6D52> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:38e2eca4-6d8b-4ca5-b3f6-2992a2f599e6> ;
+        sealit:has_first_name    "Antonio" ;
+        sealit:has_last_name     "Olivari" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/D4B75105-BBFF-3554-8FC1-4C3DEE0DB397> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/60923927-9248-3587-B811-A3959E6E8F7D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Chiarina, 1853-07-06, Massimo Ponasso | row: 6, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T10%3A04%3A33.274Z_2> , <https://rs.sealitproject.eu/kb/person/0532386E-84F9-3EE8-AE05-1CD51EF8E33B> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/E07A803F-BDAC-33D0-BC62-85C50F37CA35>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Antola" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<urn:uuid:ffd589c8-8bea-446d-87e9-ac338c53f975>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Massone" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1836> .
+
+<https://rs.sealitproject.eu/kb/ids/8185>
+        a                crm:E42_Identifier ;
+        rdfs:label       "8185" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew list (ruoli di equipaggio)" .
+
+<https://rs.sealitproject.eu/kb/person/E1ED593F-7FF3-3846-A148-195C341B38CD>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/1A20FDBB-34AB-3B0E-A3E9-92A4F2A80B8C>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/536C3B4D-73BF-3594-8032-C3CCB81EE1B9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Chiarina, 1853-07-06, Massimo Ponasso | row: 5, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T10%3A04%3A33.274Z_2> , <https://rs.sealitproject.eu/kb/person/D4B75105-BBFF-3554-8FC1-4C3DEE0DB397> .
+
+<https://rs.sealitproject.eu/kb/date/1819>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1819" ;
+        crm:P82_at_some_time_within  "1819"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/12C25387-4EE0-3C1C-AFED-1BB3F2438621>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/75CEDABE-61DF-38CE-A026-7D147FCB20A9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Chiarina, 1853-07-06, Massimo Ponasso | row: 4, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T10%3A04%3A33.274Z_2> , <https://rs.sealitproject.eu/kb/person/430E7E63-7F69-36C6-9433-70F0DCEE3138> .
+
+<https://rs.sealitproject.eu/kb/ids/102>
+        a                crm:E42_Identifier ;
+        rdfs:label       "102" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/date/1841>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1841" ;
+        crm:P82_at_some_time_within  "1841"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/6E43E7CE-5793-3775-945D-F2F0AEE46888>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Chiarina, 1853-07-06, Massimo Ponasso | row: 8, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T10%3A04%3A33.274Z_2> , <https://rs.sealitproject.eu/kb/person/84414D39-B3C7-3799-A551-4D7AED90C9F9> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/BA3BAF71-3295-3055-88A2-1B70C02D7E7D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Chiarina, 1853-07-06, Massimo Ponasso | row: 9, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T10%3A04%3A33.274Z_2> , <https://rs.sealitproject.eu/kb/person/CF3B0B6F-5DDA-3C27-B291-5CFEF39D683B> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/2176D578-1B95-35FD-8F81-05D340C9EEE6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Chiarina, 1853-07-06, Massimo Ponasso | row: 10, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T10%3A04%3A33.274Z_2> , <https://rs.sealitproject.eu/kb/person/2F53B486-B4C3-3FB5-B67F-721EEB5343F9> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-12T10:04:33.274Z_2&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/date/1826>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1826" ;
+        crm:P82_at_some_time_within  "1826"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:c1a07800-225d-4d72-8138-96bd15f42a83>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Carletti" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1826> .
+
+<https://rs.sealitproject.eu/kb/person/B324355F-3828-3E69-A48C-4E37A70CAA52>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giacomo Demarchi" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/9314> , <https://rs.sealitproject.eu/kb/appellation_surname/71A0F027-F4C7-3E4C-97E0-E91ABF663930> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:ccbec989-29b5-4269-a1f0-e4c5e79357b5> ;
+        sealit:has_first_name    "Giacomo" ;
+        sealit:has_last_name     "Demarchi" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/2F53B486-B4C3-3FB5-B67F-721EEB5343F9> .
+
+<https://rs.sealitproject.eu/kb/person/0B02AEC3-1499-3F64-9F38-E0710A42E869>
+        a                        crm:E21_Person ;
+        rdfs:label               "Carlo Antola" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/2683> , <https://rs.sealitproject.eu/kb/appellation_surname/E07A803F-BDAC-33D0-BC62-85C50F37CA35> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:09d6b323-93de-4878-934d-b670ea6d4102> ;
+        sealit:has_first_name    "Carlo" ;
+        sealit:has_last_name     "Antola" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/F16D971F-395B-3DE3-AD1E-7592CC0C6927> .
+
+<https://rs.sealitproject.eu/kb/person/1B684709-CF73-3227-A091-8278922B3957>
+        a                        crm:E21_Person ;
+        rdfs:label               "Enrico Casareggio" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/9256> , <https://rs.sealitproject.eu/kb/appellation_surname/FA022A24-385C-3EFF-8662-43F1D62F2FE5> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:898a41a2-026c-48fe-b180-2b57b223b610> ;
+        sealit:has_first_name    "Enrico" ;
+        sealit:has_last_name     "Casareggio" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/C0FBE3E9-9101-3E87-8D7B-C77FC009024A> .
+
+<https://rs.sealitproject.eu/kb/person/660621C8-336B-3BEB-9377-276874BD27DC>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/6E659D6C-9FC5-3DAA-AB1E-F8516B765852>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Carletti" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/date/1833>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1833" ;
+        crm:P82_at_some_time_within  "1833"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/4EE1890E-0521-38AC-ACD5-93C5A3DB3C7F>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giovanni Antonio Repetto" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/5114> , <https://rs.sealitproject.eu/kb/appellation_surname/A0105FA1-8E16-34B4-91E4-7D5D0515C42F> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:2e5d1abb-5d41-402a-a271-7335d2119039> ;
+        sealit:has_first_name    "Giovanni Antonio" ;
+        sealit:has_last_name     "Repetto" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/660621C8-336B-3BEB-9377-276874BD27DC> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/A63286C4-03F3-365D-ACA3-CBC8C9CC6D52>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Olivari" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/90D503A5-DE96-3693-8C00-06D49776A0EF>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-12-12T10%3A04%3A33.274Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Chiarina, 1853-07-06, Massimo Ponasso" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-12T10:04:33.274Z_2&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/person/1C192189-77A2-340A-9D92-E5CF3E92DC01>
+        a                        crm:E21_Person ;
+        rdfs:label               "Nicolò Feretto" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/1651> , <https://rs.sealitproject.eu/kb/appellation_surname/FC76D8FB-B375-35CB-AF06-321D75060227> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:51826a32-b4c2-4866-8fa2-3508fb5fc6fb> ;
+        sealit:has_first_name    "Nicolò" ;
+        sealit:has_last_name     "Feretto" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/90D503A5-DE96-3693-8C00-06D49776A0EF> .
+
+<https://rs.sealitproject.eu/kb/ids/9256>
+        a                crm:E42_Identifier ;
+        rdfs:label       "9256" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/84414D39-B3C7-3799-A551-4D7AED90C9F9>
+        a       crm:E21_Person .
+
+<urn:uuid:ccbec989-29b5-4269-a1f0-e4c5e79357b5>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Demarchi" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1832> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/F4DA4D28-92A7-37B2-AA23-C0BD8A8002A8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Chiarina, 1853-07-06, Massimo Ponasso | row: 11, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T10%3A04%3A33.274Z_2> , <https://rs.sealitproject.eu/kb/person/E1ED593F-7FF3-3846-A148-195C341B38CD> .
+
+<urn:uuid:e1ed53b8-5c36-48ed-b427-d3bcc71e7053>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Antola" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1801> .
+
+<urn:uuid:a6226d05-a916-4b8d-947d-7a0f5671c22e>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Repetto" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1841> .

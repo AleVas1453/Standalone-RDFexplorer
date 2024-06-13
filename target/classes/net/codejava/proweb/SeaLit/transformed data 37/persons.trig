@@ -1,0 +1,549 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <https://rs.sealitproject.eu/kb/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/EE7E4E11-89B2-3D46-99E5-226EBC7C792F>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Rovegno" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/3625FDF5-95C6-333F-B2AD-540880604EE9>
+        a                        crm:E21_Person ;
+        rdfs:label               "Bartolomeo Bertolotto" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/2E353D59-247D-390D-A70F-93C0C06CA541> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Bartolomeo" ;
+        sealit:has_last_name     "Bertolotto" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/0E5DD143-0927-363E-9707-CC821277699A> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/EDF7D533-681B-369E-BFC1-3D69817DF63A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Giorgina, 1861-02-08, Francesco Ferrando | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T13%3A12%3A23.975Z_1> , <https://rs.sealitproject.eu/kb/person/0E5DD143-0927-363E-9707-CC821277699A> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/EB281F5F-1C4D-3C39-9512-F569E7757690>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Cichero" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/6837602A-C3D1-3367-B1B9-0DAF81BC14F6>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/933972C2-3E60-3087-895E-E690F38F0B32>
+        a                        crm:E21_Person ;
+        rdfs:label               "Vincenzo Pilepich" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/16EF14AF-E120-323D-98D4-D35C687F4013> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:e935d011-7e5f-4173-bd0a-919c46065d90> ;
+        sealit:has_first_name    "Vincenzo" ;
+        sealit:has_last_name     "Pilepich" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/64C4902F-0EC8-31C9-8036-C7D83A669244> .
+
+<https://rs.sealitproject.eu/kb/person/0608D5A6-3AD6-3C1D-8AA3-AD607FAFADF1>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/3429>
+        a                crm:E42_Identifier ;
+        rdfs:label       "3429" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/ids/13960>
+        a                crm:E42_Identifier ;
+        rdfs:label       "13960" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/4159EBAA-4A98-37E2-A912-F167769894C5>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/4809CA2A-5623-36B3-AE0C-6A7A48344939>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Giorgina, 1861-02-08, Francesco Ferrando | row: 2, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T13%3A12%3A23.975Z_1> , <https://rs.sealitproject.eu/kb/person/4159EBAA-4A98-37E2-A912-F167769894C5> .
+
+<https://rs.sealitproject.eu/kb/date/1837>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1837" ;
+        crm:P82_at_some_time_within  "1837"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/3F705F8E-4C6F-3427-8E4B-84B4241173CE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Giorgina, 1861-02-08, Francesco Ferrando | row: 6, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T13%3A12%3A23.975Z_1> , <https://rs.sealitproject.eu/kb/person/1275A2D5-990B-3DF2-83BD-BBA8E2EFC807> .
+
+<urn:uuid:96388f2d-6c83-49c4-a1f0-98e883cd38aa>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Rovegno" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1846> .
+
+<https://rs.sealitproject.eu/kb/numbers/serial%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "serial number" .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/1CBF2D82-CA0D-3F27-B822-7CC6F5F52491>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Castellino" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/2E353D59-247D-390D-A70F-93C0C06CA541>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Bertolotto" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/date/1803>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1803" ;
+        crm:P82_at_some_time_within  "1803"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/A6DEEC09-85FA-35D5-9824-C2DD517CB587>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/793670F7-7BA3-33E8-8040-E38A62A6DB83>
+        a       crm:E21_Person .
+
+<urn:uuid:21dde507-1f64-4987-ad28-02985744b961>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Cichero" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1840> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/A4826C3E-CDF9-3893-A31B-669ECDACEFF2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Giorgina, 1861-02-08, Francesco Ferrando | row: 7, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T13%3A12%3A23.975Z_1> , <https://rs.sealitproject.eu/kb/person/EDAE1EDF-9801-3B6F-95F7-C928DF31DA92> .
+
+<https://rs.sealitproject.eu/kb/person/CCFD389E-2A4B-3220-950D-6345982A970C>
+        a                        crm:E21_Person ;
+        rdfs:label               "Gio Batta Rovegno" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/17133> , <https://rs.sealitproject.eu/kb/appellation_surname/EE7E4E11-89B2-3D46-99E5-226EBC7C792F> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:96388f2d-6c83-49c4-a1f0-98e883cd38aa> ;
+        sealit:has_first_name    "Gio Batta" ;
+        sealit:has_last_name     "Rovegno" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/24C6FF4C-4291-3D67-8CF6-41ED1817B3C4> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/16EF14AF-E120-323D-98D4-D35C687F4013>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Pilepich" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/date/1829>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1829" ;
+        crm:P82_at_some_time_within  "1829"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/620C02F6-D63C-361F-A0B5-6C5C0DE8342C>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Viacava" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/ids/14524>
+        a                crm:E42_Identifier ;
+        rdfs:label       "14524" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<https://rs.sealitproject.eu/kb/register_record_point/316F007E-26CA-35B6-BE5A-0339029BA1EC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Giorgina, 1861-02-08, Francesco Ferrando | row: 3, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T13%3A12%3A23.975Z_1> , <https://rs.sealitproject.eu/kb/person/A6DEEC09-85FA-35D5-9824-C2DD517CB587> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/511E01F9-CCA9-3FFF-BB8D-2DA7CC496681>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Giorgina, 1861-02-08, Francesco Ferrando | row: 14, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T13%3A12%3A23.975Z_1> , <https://rs.sealitproject.eu/kb/person/64C4902F-0EC8-31C9-8036-C7D83A669244> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/DC72EFED-8A01-3896-B1CD-7C9867E724A5>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Della Casa" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/ids/6774>
+        a                crm:E42_Identifier ;
+        rdfs:label       "6774" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/4D176B6D-EB4E-3FDA-9B45-7883E2289329>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Giorgina, 1861-02-08, Francesco Ferrando | row: 9, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T13%3A12%3A23.975Z_1> , <https://rs.sealitproject.eu/kb/person/24C6FF4C-4291-3D67-8CF6-41ED1817B3C4> .
+
+<https://rs.sealitproject.eu/kb/person/1275A2D5-990B-3DF2-83BD-BBA8E2EFC807>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/9FA67BCE-2235-301F-B650-28ADB70D582A>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-02-27T13%3A12%3A23.975Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Giorgina, 1861-02-08, Francesco Ferrando" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T13:12:23.975Z_1&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<urn:uuid:ead0178f-a9b3-471b-9f5d-5efb39e351a9>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Giorgiò" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1835> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T13:12:23.975Z_1&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/person/A39953AB-B8BC-3401-A12B-C3AF915FDE9B>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/73DB50C8-92CF-3F21-8A9B-64B58BD0F5ED>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/date/1830>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1830" ;
+        crm:P82_at_some_time_within  "1830"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:c879414a-df05-4ad9-b587-fcd4d61e0526>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Lisalerno" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/Permesso> .
+
+<https://rs.sealitproject.eu/kb/person/F90D5304-65E1-3F7B-8576-9E2FFA1CD37A>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/572F93F9-0923-359F-BEA3-FEAAC6955F68>
+        a                        crm:E21_Person ;
+        rdfs:label               "Nicolò Castellino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/1CBF2D82-CA0D-3F27-B822-7CC6F5F52491> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:67042ab4-2097-4add-a7ef-2b3e810d2d07> ;
+        sealit:has_first_name    "Nicolò" ;
+        sealit:has_last_name     "Castellino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/0608D5A6-3AD6-3C1D-8AA3-AD607FAFADF1> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/45DC3F54-82E4-3B10-99C0-CF013AD034FF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Giorgina, 1861-02-08, Francesco Ferrando | row: 8, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T13%3A12%3A23.975Z_1> , <https://rs.sealitproject.eu/kb/person/6837602A-C3D1-3367-B1B9-0DAF81BC14F6> .
+
+<https://rs.sealitproject.eu/kb/names/surname%20a>
+        a           crm:E55_Type ;
+        rdfs:label  "surname A" .
+
+<https://rs.sealitproject.eu/kb/person/24C6FF4C-4291-3D67-8CF6-41ED1817B3C4>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/EDAE1EDF-9801-3B6F-95F7-C928DF31DA92>
+        a       crm:E21_Person .
+
+<urn:uuid:9fab9e61-526f-4801-992b-775b86df64a2>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Caccagnini" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/Permesso> .
+
+<https://rs.sealitproject.eu/kb/date/1835>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1835" ;
+        crm:P82_at_some_time_within  "1835"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<urn:uuid:4a910970-6268-4894-a7b6-1fc62ab98cfd>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Stigari" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1841> .
+
+<https://rs.sealitproject.eu/kb/person/0E5DD143-0927-363E-9707-CC821277699A>
+        a       crm:E21_Person .
+
+<urn:uuid:579152f3-bfff-46ea-99b2-560432188569>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Ferro" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1830> .
+
+<urn:uuid:67042ab4-2097-4add-a7ef-2b3e810d2d07>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Castellino" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1803> .
+
+<https://rs.sealitproject.eu/kb/person/BF3DFC0A-2716-39ED-B367-A255BEA71CCF>
+        a                        crm:E21_Person ;
+        rdfs:label               "Vincenzo Viacava" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/2812> , <https://rs.sealitproject.eu/kb/appellation_surname/620C02F6-D63C-361F-A0B5-6C5C0DE8342C> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:992ad6d2-a3fe-4598-b588-044aa13cf973> ;
+        sealit:has_first_name    "Vincenzo" ;
+        sealit:has_last_name     "Viacava" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/4159EBAA-4A98-37E2-A912-F167769894C5> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/EC5D3F5A-5406-3FE5-BD30-48C41E352AAC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Giorgina, 1861-02-08, Francesco Ferrando | row: 5, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T13%3A12%3A23.975Z_1> , <https://rs.sealitproject.eu/kb/person/343546BC-7A92-3C02-A41C-4E608690FFEF> .
+
+<https://rs.sealitproject.eu/kb/person/9E4E251E-EC37-3B15-A071-5431B4C86D7A>
+        a                        crm:E21_Person ;
+        rdfs:label               "Michelangiolo Ferro" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/3429> , <https://rs.sealitproject.eu/kb/appellation_surname/175A0071-416F-31D4-8BC1-BCB246261EE7> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:579152f3-bfff-46ea-99b2-560432188569> ;
+        sealit:has_first_name    "Michelangiolo" ;
+        sealit:has_last_name     "Ferro" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/73DB50C8-92CF-3F21-8A9B-64B58BD0F5ED> .
+
+<https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew list (ruoli di equipaggio)" .
+
+<https://rs.sealitproject.eu/kb/date/1834>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1834" ;
+        crm:P82_at_some_time_within  "1834"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:bd0df326-e135-4d4c-b23d-f2111e8f13d2>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Della Casa" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1837> .
+
+<https://rs.sealitproject.eu/kb/ids/3282>
+        a                crm:E42_Identifier ;
+        rdfs:label       "3282" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/62F8002E-A5F1-3B29-B39C-C8521DFEDF8B>
+        a                        crm:E21_Person ;
+        rdfs:label               "Antonio Piantini" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/03B6CFE0-053D-3E09-AFFC-21CCCB93B75E> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:9fec3901-b956-47d1-bced-95001248550b> ;
+        sealit:has_first_name    "Antonio" ;
+        sealit:has_last_name     "Piantini" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/F90D5304-65E1-3F7B-8576-9E2FFA1CD37A> .
+
+<https://rs.sealitproject.eu/kb/person/6A616FDF-8AE0-33DB-9B3E-52AE768BC1B2>
+        a                        crm:E21_Person ;
+        rdfs:label               "Prospero Cazzolo" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/14524> , <https://rs.sealitproject.eu/kb/appellation_surname/9E7900D6-A785-3FE8-B4B3-E27CB8B74B16> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:ec22128b-8517-44d7-85b7-d8c043b2fc47> ;
+        sealit:has_first_name    "Prospero" ;
+        sealit:has_last_name     "Cazzolo" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/EDAE1EDF-9801-3B6F-95F7-C928DF31DA92> .
+
+<https://rs.sealitproject.eu/kb/person/64C4902F-0EC8-31C9-8036-C7D83A669244>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/date/1841>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1841" ;
+        crm:P82_at_some_time_within  "1841"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/2E0FE522-7432-3437-BF5D-1CEBB6B0B9E4>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Stigari" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/ids/2812>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2812" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/A1C48F90-2A2A-3537-BCF1-5C358110A8B3>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Caccagnini" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<urn:uuid:992ad6d2-a3fe-4598-b588-044aa13cf973>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Viacava" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1829> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/175A0071-416F-31D4-8BC1-BCB246261EE7>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Ferro" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/841ABFBC-B339-377D-BA55-F4534144B26B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Giorgina, 1861-02-08, Francesco Ferrando | row: 13, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T13%3A12%3A23.975Z_1> , <https://rs.sealitproject.eu/kb/person/A39953AB-B8BC-3401-A12B-C3AF915FDE9B> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/FD238316-385E-3DE3-A53D-A6BB9237C724>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Ancreani" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<urn:uuid:9fec3901-b956-47d1-bced-95001248550b>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Piantini" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1841> .
+
+<https://rs.sealitproject.eu/kb/ids/17133>
+        a                crm:E42_Identifier ;
+        rdfs:label       "17133" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/date/Permesso>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date Permesso" ;
+        crm:P82_at_some_time_within  "Permesso"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/2CA449CD-452A-3B80-9F63-1F22548A4A25>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Giorgina, 1861-02-08, Francesco Ferrando | row: 12, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T13%3A12%3A23.975Z_1> , <https://rs.sealitproject.eu/kb/person/0608D5A6-3AD6-3C1D-8AA3-AD607FAFADF1> .
+
+<https://rs.sealitproject.eu/kb/person/343546BC-7A92-3C02-A41C-4E608690FFEF>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/date/1846>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1846" ;
+        crm:P82_at_some_time_within  "1846"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/09C43AD5-27FF-3EEA-91DD-CBE6347ED286>
+        a                        crm:E21_Person ;
+        rdfs:label               "Matteo Lisalerno" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/0DCE9FFF-75F3-3A6D-9197-A8EF1D4FE842> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:c879414a-df05-4ad9-b587-fcd4d61e0526> ;
+        sealit:has_first_name    "Matteo" ;
+        sealit:has_last_name     "Lisalerno" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/6837602A-C3D1-3367-B1B9-0DAF81BC14F6> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/00F9CA88-576D-3504-BD40-8DFD90D359E9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Giorgina, 1861-02-08, Francesco Ferrando | row: 4, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T13%3A12%3A23.975Z_1> , <https://rs.sealitproject.eu/kb/person/F90D5304-65E1-3F7B-8576-9E2FFA1CD37A> .
+
+<https://rs.sealitproject.eu/kb/person/F780DBB3-809A-3042-96A0-2A42B4663C6B>
+        a                        crm:E21_Person ;
+        rdfs:label               "Lorenzo Stigari" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/6774> , <https://rs.sealitproject.eu/kb/appellation_surname/2E0FE522-7432-3437-BF5D-1CEBB6B0B9E4> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:4a910970-6268-4894-a7b6-1fc62ab98cfd> ;
+        sealit:has_first_name    "Lorenzo" ;
+        sealit:has_last_name     "Stigari" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/1275A2D5-990B-3DF2-83BD-BBA8E2EFC807> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/0DCE9FFF-75F3-3A6D-9197-A8EF1D4FE842>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Lisalerno" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<urn:uuid:e935d011-7e5f-4173-bd0a-919c46065d90>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Pilepich" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1834> .
+
+<https://rs.sealitproject.eu/kb/person/CEFFBDE5-E576-3145-8A2D-69271D917EA6>
+        a                        crm:E21_Person ;
+        rdfs:label               "Fortunato Della Casa" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/DC72EFED-8A01-3896-B1CD-7C9867E724A5> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:bd0df326-e135-4d4c-b23d-f2111e8f13d2> ;
+        sealit:has_first_name    "Fortunato" ;
+        sealit:has_last_name     "Della Casa" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/A39953AB-B8BC-3401-A12B-C3AF915FDE9B> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/03B6CFE0-053D-3E09-AFFC-21CCCB93B75E>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Piantini" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/date/1840>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1840" ;
+        crm:P82_at_some_time_within  "1840"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/69AA036F-C628-3F70-A4E3-1CD9D509444E>
+        a                        crm:E21_Person ;
+        rdfs:label               "Dionisio Giorgiò" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/163656BD-DD27-325D-A3A2-71580298F030> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:ead0178f-a9b3-471b-9f5d-5efb39e351a9> ;
+        sealit:has_first_name    "Dionisio" ;
+        sealit:has_last_name     "Giorgiò" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/793670F7-7BA3-33E8-8040-E38A62A6DB83> .
+
+<urn:uuid:29954e92-74f5-4edc-811d-83dc83031376>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Ancreani" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1840> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/163656BD-DD27-325D-A3A2-71580298F030>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Giorgiò" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/FF274195-174B-34D2-9DDD-6EE2FA7575AE>
+        a                        crm:E21_Person ;
+        rdfs:label               "Gio Batta Cichero" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/13960> , <https://rs.sealitproject.eu/kb/appellation_surname/EB281F5F-1C4D-3C39-9512-F569E7757690> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:21dde507-1f64-4987-ad28-02985744b961> ;
+        sealit:has_first_name    "Gio Batta" ;
+        sealit:has_last_name     "Cichero" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/A6DEEC09-85FA-35D5-9824-C2DD517CB587> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/9E7900D6-A785-3FE8-B4B3-E27CB8B74B16>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Cazzolo" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<urn:uuid:ec22128b-8517-44d7-85b7-d8c043b2fc47>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Cazzolo" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1846> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/522928FC-F24F-32EA-A7D5-F7E9FC81DEEC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Giorgina, 1861-02-08, Francesco Ferrando | row: 10, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T13%3A12%3A23.975Z_1> , <https://rs.sealitproject.eu/kb/person/9FA67BCE-2235-301F-B650-28ADB70D582A> .
+
+<https://rs.sealitproject.eu/kb/person/3BD8954C-505F-3ED1-B8BB-7148AB6392AD>
+        a                        crm:E21_Person ;
+        rdfs:label               "Vincenzo Caccagnini" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/A1C48F90-2A2A-3537-BCF1-5C358110A8B3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:9fab9e61-526f-4801-992b-775b86df64a2> ;
+        sealit:has_first_name    "Vincenzo" ;
+        sealit:has_last_name     "Caccagnini" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/9FA67BCE-2235-301F-B650-28ADB70D582A> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/55651CB9-ACB0-3481-A94C-56F31BC6E271>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Giorgina, 1861-02-08, Francesco Ferrando | row: 11, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T13%3A12%3A23.975Z_1> , <https://rs.sealitproject.eu/kb/person/793670F7-7BA3-33E8-8040-E38A62A6DB83> .
+
+<https://rs.sealitproject.eu/kb/person/A7A4365A-BEBC-3927-A109-A89060F1174A>
+        a                        crm:E21_Person ;
+        rdfs:label               "Nicolo Ancreani" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/3282> , <https://rs.sealitproject.eu/kb/appellation_surname/FD238316-385E-3DE3-A53D-A6BB9237C724> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:29954e92-74f5-4edc-811d-83dc83031376> ;
+        sealit:has_first_name    "Nicolo" ;
+        sealit:has_last_name     "Ancreani" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/343546BC-7A92-3C02-A41C-4E608690FFEF> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/371F05DA-DA9C-3A42-9E15-1B36AF45E255>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Giorgina, 1861-02-08, Francesco Ferrando | row: 1, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T13%3A12%3A23.975Z_1> , <https://rs.sealitproject.eu/kb/person/73DB50C8-92CF-3F21-8A9B-64B58BD0F5ED> .

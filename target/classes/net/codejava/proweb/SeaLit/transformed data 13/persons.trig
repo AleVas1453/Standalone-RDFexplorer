@@ -1,0 +1,289 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <https://rs.sealitproject.eu/kb/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/B89956A1-EA41-33BC-B8AB-EAF7E975A286>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Vignolo" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<urn:uuid:f7851539-3875-47e4-b9b2-69530aebf4c4>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Brignelli" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1821> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/9B97D98D-2E6C-337B-8559-7C2ADCDF6489>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Simoncelli" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/308E08E8-72C0-3176-86E2-A275E5885FEE>
+        a                        crm:E21_Person ;
+        rdfs:label               "Fortunato Mortola" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/3256A258-CD28-3F87-AEDC-A59AC063C4C8> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:d1412915-12c7-42ec-ade1-95a91a91e280> ;
+        sealit:has_first_name    "Fortunato" ;
+        sealit:has_last_name     "Mortola" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/E21DAEAC-2BEE-3471-8AD6-3031BE8B70C1> .
+
+<https://rs.sealitproject.eu/kb/person/3392369F-D4F3-3254-B037-39F4CCA2D206>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/E28294DF-9F3F-308E-A911-04BA70C99CA9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Assunta, 1863-02-17, Carolina Gaggero | row: 6, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-26T15%3A12%3A55.461Z_19> , <https://rs.sealitproject.eu/kb/person/72E6C3F9-6A3F-3098-A297-F896A1873D74> .
+
+<https://rs.sealitproject.eu/kb/person/95401737-EDAD-33EE-A387-3700D16A6C8C>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/numbers/serial%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "serial number" .
+
+<urn:uuid:0e026d15-db49-4922-ac4a-11b6c6343514>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Schiaffino" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1827> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Schiaffino" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/D2C77558-B24E-326E-850B-0FA32095A8CD>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giobatta Simoncelli" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/2981> , <https://rs.sealitproject.eu/kb/appellation_surname/9B97D98D-2E6C-337B-8559-7C2ADCDF6489> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:530f21b7-123c-4b0e-9b0a-395807cc9116> ;
+        sealit:has_first_name    "Giobatta" ;
+        sealit:has_last_name     "Simoncelli" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/99389E30-A704-374F-8268-D7E90E02796C> .
+
+<https://rs.sealitproject.eu/kb/person/99389E30-A704-374F-8268-D7E90E02796C>
+        a       crm:E21_Person .
+
+<urn:uuid:9198fa36-824c-4d9c-982e-907db49d7933>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Vignolo" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1833> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/7A9A9769-563A-3731-80D9-496F872804A4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Assunta, 1863-02-17, Carolina Gaggero | row: 3, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-26T15%3A12%3A55.461Z_19> , <https://rs.sealitproject.eu/kb/person/99389E30-A704-374F-8268-D7E90E02796C> .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<https://rs.sealitproject.eu/kb/person/E21DAEAC-2BEE-3471-8AD6-3031BE8B70C1>
+        a       crm:E21_Person .
+
+<urn:uuid:a0a4d35e-1deb-4aad-aa6f-1212d426ed96>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Schiaffino" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1835> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/D54320AF-0FD8-3C17-9D49-F669071DDA3C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Assunta, 1863-02-17, Carolina Gaggero | row: 4, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-26T15%3A12%3A55.461Z_19> , <https://rs.sealitproject.eu/kb/person/A7060D9A-1BDD-3279-A3EF-D7D4923BA0B4> .
+
+<https://rs.sealitproject.eu/kb/person/8DED0D80-EB52-3864-AF3D-006BC7BE34EB>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/A7060D9A-1BDD-3279-A3EF-D7D4923BA0B4>
+        a       crm:E21_Person .
+
+<urn:uuid:d1412915-12c7-42ec-ade1-95a91a91e280>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Mortola" ;
+        crm:P97_from_father  <https://rs.sealitproject.eu/kb/person/79189EDA-BAC6-3F9A-8149-5A0905AD0952> .
+
+<https://rs.sealitproject.eu/kb/person/655D77ED-D050-3696-8583-1E41815B2C8B>
+        a                        crm:E21_Person ;
+        rdfs:label               "Simone Schiaffino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/8255> , <https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:a0a4d35e-1deb-4aad-aa6f-1212d426ed96> ;
+        sealit:has_first_name    "Simone" ;
+        sealit:has_last_name     "Schiaffino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/A7060D9A-1BDD-3279-A3EF-D7D4923BA0B4> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/9393BB14-A5B1-3F6D-8DB2-159A9B909DA6>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Brignelli" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/ids/4176>
+        a                crm:E42_Identifier ;
+        rdfs:label       "4176" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/names/surname%20a>
+        a           crm:E55_Type ;
+        rdfs:label  "surname A" .
+
+<https://rs.sealitproject.eu/kb/register_record_point/2EEA2DD5-E69A-3482-8B25-0A750223156C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Assunta, 1863-02-17, Carolina Gaggero | row: 2, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-26T15%3A12%3A55.461Z_19> , <https://rs.sealitproject.eu/kb/person/8DED0D80-EB52-3864-AF3D-006BC7BE34EB> .
+
+<https://rs.sealitproject.eu/kb/date/1835>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1835" ;
+        crm:P82_at_some_time_within  "1835"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T15:12:55.461Z_19&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<https://rs.sealitproject.eu/kb/register_record_point/7EED07EE-1A78-34AF-AEE5-304EE9FAE79A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Assunta, 1863-02-17, Carolina Gaggero | row: 1, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-26T15%3A12%3A55.461Z_19> , <https://rs.sealitproject.eu/kb/person/3392369F-D4F3-3254-B037-39F4CCA2D206> .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-03-26T15%3A12%3A55.461Z_19>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Assunta, 1863-02-17, Carolina Gaggero" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T15:12:55.461Z_19&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/414CDC2B-ACD1-3694-B872-324A5780A3DD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Assunta, 1863-02-17, Carolina Gaggero | row: 5, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-26T15%3A12%3A55.461Z_19> , <https://rs.sealitproject.eu/kb/person/A5EEB102-FC84-3471-9FC1-049BB220E236> .
+
+<https://rs.sealitproject.eu/kb/date/1827>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1827" ;
+        crm:P82_at_some_time_within  "1827"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/ids/7158>
+        a                crm:E42_Identifier ;
+        rdfs:label       "7158" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/A5EEB102-FC84-3471-9FC1-049BB220E236>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/date/1821>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1821" ;
+        crm:P82_at_some_time_within  "1821"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/72E6C3F9-6A3F-3098-A297-F896A1873D74>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew list (ruoli di equipaggio)" .
+
+<https://rs.sealitproject.eu/kb/person/1B7449A1-B4BF-377E-BD81-B98B631DB53C>
+        a                        crm:E21_Person ;
+        rdfs:label               "Luigi Vignolo" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/5060> , <https://rs.sealitproject.eu/kb/appellation_surname/B89956A1-EA41-33BC-B8AB-EAF7E975A286> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:9198fa36-824c-4d9c-982e-907db49d7933> ;
+        sealit:has_first_name    "Luigi" ;
+        sealit:has_last_name     "Vignolo" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/A5EEB102-FC84-3471-9FC1-049BB220E236> .
+
+<https://rs.sealitproject.eu/kb/date/1819>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1819" ;
+        crm:P82_at_some_time_within  "1819"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/ids/2981>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2981" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/EB0FFEB8-A5B6-369B-9C65-FFD0B95E4B66>
+        a                        crm:E21_Person ;
+        rdfs:label               "Andrea Vignolo" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/7158> , <https://rs.sealitproject.eu/kb/appellation_surname/B89956A1-EA41-33BC-B8AB-EAF7E975A286> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Andrea" ;
+        sealit:has_last_name     "Vignolo" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/72E6C3F9-6A3F-3098-A297-F896A1873D74> .
+
+<https://rs.sealitproject.eu/kb/ids/5060>
+        a                crm:E42_Identifier ;
+        rdfs:label       "5060" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/date/1833>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1833" ;
+        crm:P82_at_some_time_within  "1833"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/ED8849D6-FF27-3332-BC53-50F13B672C9B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Assunta, 1863-02-17, Carolina Gaggero | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/person/95401737-EDAD-33EE-A387-3700D16A6C8C> , <https://rs.sealitproject.eu/kb/register_record/2018-03-26T15%3A12%3A55.461Z_19> , <https://rs.sealitproject.eu/kb/person/E21DAEAC-2BEE-3471-8AD6-3031BE8B70C1> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/3256A258-CD28-3F87-AEDC-A59AC063C4C8>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Mortola" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/745D0448-5B18-3DF3-91F7-A92C59B34C25>
+        a                        crm:E21_Person ;
+        rdfs:label               "Biagio Schiaffino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/1374> , <https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:0e026d15-db49-4922-ac4a-11b6c6343514> ;
+        sealit:has_first_name    "Biagio" ;
+        sealit:has_last_name     "Schiaffino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/3392369F-D4F3-3254-B037-39F4CCA2D206> .
+
+<https://rs.sealitproject.eu/kb/person/79189EDA-BAC6-3F9A-8149-5A0905AD0952>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giuseppe Mortola" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/3256A258-CD28-3F87-AEDC-A59AC063C4C8> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Giuseppe" ;
+        sealit:has_last_name     "Mortola" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/95401737-EDAD-33EE-A387-3700D16A6C8C> .
+
+<https://rs.sealitproject.eu/kb/person/64E1636E-D2AD-3E15-98D5-FCDE6B4B9277>
+        a                        crm:E21_Person ;
+        rdfs:label               "Stefano Brignelli" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/4176> , <https://rs.sealitproject.eu/kb/appellation_surname/9393BB14-A5B1-3F6D-8DB2-159A9B909DA6> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:f7851539-3875-47e4-b9b2-69530aebf4c4> ;
+        sealit:has_first_name    "Stefano" ;
+        sealit:has_last_name     "Brignelli" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/8DED0D80-EB52-3864-AF3D-006BC7BE34EB> .
+
+<https://rs.sealitproject.eu/kb/ids/8255>
+        a                crm:E42_Identifier ;
+        rdfs:label       "8255" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/ids/1374>
+        a                crm:E42_Identifier ;
+        rdfs:label       "1374" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<urn:uuid:530f21b7-123c-4b0e-9b0a-395807cc9116>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Simoncelli" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1819> .

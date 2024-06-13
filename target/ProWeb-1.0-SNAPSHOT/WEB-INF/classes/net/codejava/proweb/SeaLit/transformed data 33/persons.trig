@@ -1,0 +1,1413 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <https://rs.sealitproject.eu/kb/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<https://rs.sealitproject.eu/kb/person/11073135-C955-3017-B1F3-D92F7998DA6E>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/B7E7D0BE-8759-33A0-A2B7-ABF77FC08850>
+        a                        crm:E21_Person ;
+        rdfs:label               "Angelo Giorgio" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/7ABF62C9-2356-3E65-AE5C-E18F1E92F943> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Angelo" ;
+        sealit:has_last_name     "Giorgio" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/0E3654FC-435A-3D65-95F5-C35D74DD8978> .
+
+<https://rs.sealitproject.eu/kb/person/713AE3ED-5CC3-3C2A-A1E6-FC456D92B24C>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/17046>
+        a                crm:E42_Identifier ;
+        rdfs:label       "17046" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/E746FFFD-DA4D-3143-A26B-ADC39A9A6482>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 50, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/0D404E84-940B-3DA7-A937-636628AD7726> .
+
+<https://rs.sealitproject.eu/kb/person/DED2094F-3CFD-3EC1-8BF7-9653CBEE861E>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/FA7F7E6F-9A44-382C-848B-5FC2EAAD08E0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 6, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/506D32C6-A58F-3F97-A8AD-B645BE7018A5> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/E07A803F-BDAC-33D0-BC62-85C50F37CA35>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Antola" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/D9A51DE6-D130-3BAB-9CCC-A2C97ECB191D>
+        a                        crm:E21_Person ;
+        rdfs:label               "Primillo Mottafini" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/F0B844B7-95B0-3707-88A3-BEED9667BFDD> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Primillo" ;
+        sealit:has_last_name     "Mottafini" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/11073135-C955-3017-B1F3-D92F7998DA6E> .
+
+<https://rs.sealitproject.eu/kb/person/7BFABC30-9F9D-3CB4-9CA3-0900D969AE19>
+        a                        crm:E21_Person ;
+        rdfs:label               "Leonida Deneretri" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/1A7C4B49-4C1A-3D40-96AA-A0355D35AE6E> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Leonida" ;
+        sealit:has_last_name     "Deneretri" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/56498F4C-D23C-340A-994B-E40A109A1AA8> .
+
+<https://rs.sealitproject.eu/kb/ids/3085>
+        a                crm:E42_Identifier ;
+        rdfs:label       "3085" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/7DAD1645-0E9B-3DFB-969D-3AFD01AA5C6E>
+        a                        crm:E21_Person ;
+        rdfs:label               "Francesco Parodi" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/3736> , <https://rs.sealitproject.eu/kb/appellation_surname/56F4C734-AA2C-304F-83EB-464BCF4EF7DA> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Francesco" ;
+        sealit:has_last_name     "Parodi" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/BEA96E4F-C7D5-3D20-8AC0-51C1A7C247D7> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/4372720B-E778-364B-A13C-DEFF3BC0F5EB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 14, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/713AE3ED-5CC3-3C2A-A1E6-FC456D92B24C> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/FECF2CCE-7911-3D51-A8AD-17140796EEE0>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Costantini" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/D56418B4-1110-30D8-BB32-7960C1C37C39>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 38, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/81BC3B95-BA70-303F-8840-D2A7ECAE0018> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/FBA82CE4-CBE0-39B1-83FB-8A3A42FEC6F0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 5, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/FFFD4CD5-43DC-308E-A248-0D3FE4C2DEE5> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/560B556E-CFBE-3372-B5C4-D8417C570CF4>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Gardone" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/ACF1538B-6E98-3A14-AFC6-AA61E15FD19C>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giovanni Casilari" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/2D9FA30D-EC66-3B82-A661-D958BDC16038> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Giovanni" ;
+        sealit:has_last_name     "Casilari" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/448B20C1-4A4C-3352-BCF5-447845D7B0A3> .
+
+<https://rs.sealitproject.eu/kb/person/8043D83E-A522-3293-A72D-3875975BFE50>
+        a                        crm:E21_Person ;
+        rdfs:label               "Sebastiano Giuria" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/5778> , <https://rs.sealitproject.eu/kb/appellation_surname/E39D7E7D-902A-35B9-AC12-456D08633625> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Sebastiano" ;
+        sealit:has_last_name     "Giuria" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/1570D37F-A0AF-32C1-8E20-AF18E210878D> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/C54853E8-D132-30FD-B143-08DFC85EF34A>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Faleo" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/numbers/serial%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "serial number" .
+
+<https://rs.sealitproject.eu/kb/person/0D404E84-940B-3DA7-A937-636628AD7726>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/28CFE425-C75A-3A68-B35A-5DAC4A5DF65F>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Airaldi" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/27B1B451-2C0F-32BB-B910-EC9B3CEA9F98>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/448B20C1-4A4C-3352-BCF5-447845D7B0A3>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/A5ACB0A6-A8F5-3813-81D7-AC08F5924DDC>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Grassi" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/95CA1343-05CB-3B7F-9C67-0BFD02A2DD76>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 37, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/E51A488C-68E9-3089-B7F7-F19CD542E52F> .
+
+<https://rs.sealitproject.eu/kb/person/68871062-F7F7-32F8-8365-FF534DC4FC19>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/DB957D0E-30D2-3A17-81CF-C639EF8537E1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 2, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/AA03B22D-D9A2-30D7-AFA8-10318BFE6CAC> .
+
+<https://rs.sealitproject.eu/kb/ids/4357>
+        a                crm:E42_Identifier ;
+        rdfs:label       "4357" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/57DEEC69-169E-3226-9C1B-E71B95098FBE>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/FD15357C-DC81-3CC2-BC2F-0C0B3CC8281F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 10, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/6B251F17-C6CC-392E-B3BE-35DC2A38361A> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/CA0CCF97-4409-35AB-8B41-5950B648A973>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Livina" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/ids/892>
+        a                crm:E42_Identifier ;
+        rdfs:label       "892" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/64A1A985-5AA6-303B-B926-8C2B2492AE28>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giovanni Statio" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/9678CC69-336E-32F9-B58E-B953A21A7628> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Giovanni" ;
+        sealit:has_last_name     "Statio" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/A2A7D262-DD4F-3E41-8923-0829B00FBD15> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/FCAE2EE7-F2FB-33A8-BB30-233122E13EE0>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Ottone" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<https://rs.sealitproject.eu/kb/person/EB1BC527-CB99-3A44-A70C-46E8AC7117DC>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/D7DD6961-2C00-347C-9F48-FCD8913A5DBF>
+        a                        crm:E21_Person ;
+        rdfs:label               "Domenico Antonio Maggi" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/2912> , <https://rs.sealitproject.eu/kb/appellation_surname/5E50CDD7-D570-3061-AC4B-EBDC85A9D019> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Domenico Antonio" ;
+        sealit:has_last_name     "Maggi" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/10BB62D1-2CB5-3FDE-99F6-53464CFF36D5> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/D4DD14F7-74AF-3FDB-BA81-61D631456429>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Lazzerini" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/D567679D-1E25-3DAB-B6E5-01A77F1B70D1>
+        a                        crm:E21_Person ;
+        rdfs:label               "Nicolò Giuseppe Bozzo" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/2418> , <https://rs.sealitproject.eu/kb/appellation_surname/6A1E1BB8-8A93-3EE0-B2E4-F3CFF0FB029B> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Nicolò Giuseppe" ;
+        sealit:has_last_name     "Bozzo" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/AA03B22D-D9A2-30D7-AFA8-10318BFE6CAC> .
+
+<https://rs.sealitproject.eu/kb/person/2CFBA46A-FD49-359D-AF6A-82A5624F999C>
+        a                        crm:E21_Person ;
+        rdfs:label               "Fortunato Ottone" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/3899> , <https://rs.sealitproject.eu/kb/appellation_surname/FCAE2EE7-F2FB-33A8-BB30-233122E13EE0> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Fortunato" ;
+        sealit:has_last_name     "Ottone" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/2B8E350A-DC92-3DD2-8D92-F4998FA1832B> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/79B9D30F-9C5C-3A16-8341-6BC2F95C5A47>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Caso" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/2D9FA30D-EC66-3B82-A661-D958BDC16038>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Casilari" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/B60F370A-E6E3-38EB-8BE5-A85A29C98C42>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Figari" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/60D1AE14-1189-35C3-9D9E-75F7E85439B5>
+        a                        crm:E21_Person ;
+        rdfs:label               "Quirio Monsneti" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/16047> , <https://rs.sealitproject.eu/kb/appellation_surname/A5542C20-4A75-3245-BA04-5C2FC52041A8> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Quirio" ;
+        sealit:has_last_name     "Monsneti" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/57DEEC69-169E-3226-9C1B-E71B95098FBE> .
+
+<https://rs.sealitproject.eu/kb/ids/5971>
+        a                crm:E42_Identifier ;
+        rdfs:label       "5971" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/ids/9124>
+        a                crm:E42_Identifier ;
+        rdfs:label       "9124" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/23B966BF-949F-3EFE-93D9-7E82A0C374C5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/81E9E113-FF1D-368E-89BA-1F0357B180BE> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/06024666-C106-3D4D-AC9D-62C46FC1B5AF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 36, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/39532970-0FD9-3DAC-9A26-5B15AA59207F> .
+
+<https://rs.sealitproject.eu/kb/person/D5B29AEE-60F6-3001-8D43-D9C8E2A3BF4E>
+        a                        crm:E21_Person ;
+        rdfs:label               "Natale Unghelli" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/340> , <https://rs.sealitproject.eu/kb/appellation_surname/9A3117A7-3BDC-32FE-AE9F-25883B9581CE> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Natale" ;
+        sealit:has_last_name     "Unghelli" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/506D32C6-A58F-3F97-A8AD-B645BE7018A5> .
+
+<https://rs.sealitproject.eu/kb/person/968FAB6A-F6A8-3D7A-9271-D0C67A6F53BE>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/4C33C8A7-CA41-3793-8AD8-6D86BC9D1B6D>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Galleano" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/BEDF9963-C22B-3A99-892F-B078188E81E7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 33, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/141B30AA-54AC-37BA-BB91-E8642A01CCAB> .
+
+<https://rs.sealitproject.eu/kb/person/EEC7E802-11C4-3C07-9F83-6CFF73CBFE84>
+        a                        crm:E21_Person ;
+        rdfs:label               "Cosimo Domenico Faleo" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/5118> , <https://rs.sealitproject.eu/kb/appellation_surname/C54853E8-D132-30FD-B143-08DFC85EF34A> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Cosimo Domenico" ;
+        sealit:has_last_name     "Faleo" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/713AE3ED-5CC3-3C2A-A1E6-FC456D92B24C> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/CDFAF02C-710D-3DD1-A876-C45A6A2B848B>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Massatervo" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/ids/340>
+        a                crm:E42_Identifier ;
+        rdfs:label       "340" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/751286B0-9A56-35F6-9541-E6A49D6A4751>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Ansaldo" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/FD96ED43-0078-35D7-AFA0-114434EB3846>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 23, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/57DEEC69-169E-3226-9C1B-E71B95098FBE> .
+
+<https://rs.sealitproject.eu/kb/person/09D18EFB-DFEA-3F25-8C01-59AD4E9EAD29>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/15847>
+        a                crm:E42_Identifier ;
+        rdfs:label       "15847" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/46B02C62-550A-3860-9D82-BD4D3511C356>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 22, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/8975C7A0-813B-33CF-B54F-34DEF43BEB60> .
+
+<https://rs.sealitproject.eu/kb/ids/2232>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2232" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/1570D37F-A0AF-32C1-8E20-AF18E210878D>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/813AD0F5-F28C-3441-BC57-37030F830405>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giobatta Mortola" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/6983> , <https://rs.sealitproject.eu/kb/appellation_surname/3256A258-CD28-3F87-AEDC-A59AC063C4C8> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Giobatta" ;
+        sealit:has_last_name     "Mortola" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/EB1BC527-CB99-3A44-A70C-46E8AC7117DC> , <https://rs.sealitproject.eu/kb/person/D968F9E1-E7A3-3C0C-A822-CCA1A51E6520> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/1BC647C8-4826-3B3F-886F-51DCD9FB0101>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Recchi" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/7B7444A9-C6F3-3F79-8279-EE3D565802D7>
+        a                        crm:E21_Person ;
+        rdfs:label               "Marco Demistri" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/F7349373-5BD9-3B19-906A-9CC6AA926965> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Marco" ;
+        sealit:has_last_name     "Demistri" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/0E9350D2-D46D-3B9E-AB4D-BBA484B6BE4E> .
+
+<https://rs.sealitproject.eu/kb/person/51BD4688-A576-3F03-B3A6-B37D927143C0>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giuseppe Crovaro" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/10977> , <https://rs.sealitproject.eu/kb/appellation_surname/4E804CD5-D0B0-34A3-9662-C0892211AF78> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Giuseppe" ;
+        sealit:has_last_name     "Crovaro" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/EB11011C-FA78-3F5E-A097-D4A2C7A567AF> .
+
+<https://rs.sealitproject.eu/kb/person/1557E88F-FE36-3DF8-88D0-F70ECE5A9314>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/F2527CDF-6872-349D-A352-A83C5C9D9CD1>
+        a                        crm:E21_Person ;
+        rdfs:label               "Agostino Antola" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/17046> , <https://rs.sealitproject.eu/kb/appellation_surname/E07A803F-BDAC-33D0-BC62-85C50F37CA35> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Agostino" ;
+        sealit:has_last_name     "Antola" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/56E340AA-1D2C-36F3-86B2-9F93707AA20F> .
+
+<https://rs.sealitproject.eu/kb/person/6D0D1CB5-1439-3B61-B8D6-90E6DDD39A52>
+        a                        crm:E21_Person ;
+        rdfs:label               "Stamati Leptachi" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/D441BD0F-8EB1-3929-BF55-F08494E25E70> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Stamati" ;
+        sealit:has_last_name     "Leptachi" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/67BEE536-A17D-3B68-96F7-CEEA0E5E300D> .
+
+<https://rs.sealitproject.eu/kb/person/AA03B22D-D9A2-30D7-AFA8-10318BFE6CAC>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/4410BF25-0E8F-3EFF-939D-9F17263800FE>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Allegro" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/6B251F17-C6CC-392E-B3BE-35DC2A38361A>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/22EF1698-DA21-3EE9-B7DC-04520CFE95EE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 8, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/7C8E8C7D-D40F-3B83-8DCC-F09876419A36> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/E5882674-33C7-37AD-97CE-CEA0F043F190>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 9, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/10BB62D1-2CB5-3FDE-99F6-53464CFF36D5> .
+
+<https://rs.sealitproject.eu/kb/person/10BB62D1-2CB5-3FDE-99F6-53464CFF36D5>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/6EB6400B-5F4B-3833-AB75-838E875C4A93>
+        a                        crm:E21_Person ;
+        rdfs:label               "Nicolò Grassi" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/2641> , <https://rs.sealitproject.eu/kb/appellation_surname/A5ACB0A6-A8F5-3813-81D7-AC08F5924DDC> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Nicolò" ;
+        sealit:has_last_name     "Grassi" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/0D404E84-940B-3DA7-A937-636628AD7726> .
+
+<https://rs.sealitproject.eu/kb/person/461F6778-9ACC-30EC-9C29-0001A44B0102>
+        a                        crm:E21_Person ;
+        rdfs:label               "Mirone Recchi" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/3085> , <https://rs.sealitproject.eu/kb/appellation_surname/1BC647C8-4826-3B3F-886F-51DCD9FB0101> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Mirone" ;
+        sealit:has_last_name     "Recchi" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/24C0F858-782E-3571-8F2B-C32425901BDA> .
+
+<https://rs.sealitproject.eu/kb/ids/690>
+        a                crm:E42_Identifier ;
+        rdfs:label       "690" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/5E50CDD7-D570-3061-AC4B-EBDC85A9D019>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Maggi" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/4FE9B04B-A20A-3901-900E-513E77AAE831>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 42, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/0E3654FC-435A-3D65-95F5-C35D74DD8978> .
+
+<https://rs.sealitproject.eu/kb/person/035FC206-6754-37E7-92A4-E12552971551>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/4E804CD5-D0B0-34A3-9662-C0892211AF78>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Crovaro" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/D50578F3-156F-308A-AA01-67DA983F1057>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/0FF23086-4F0D-3B4A-910F-A8B4F10FA782>
+        a                        crm:E21_Person ;
+        rdfs:label               "Pietro Cambiagio" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/969B5D2D-38A1-3D90-9D0F-7FBE65C6847E> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Pietro" ;
+        sealit:has_last_name     "Cambiagio" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/2A434974-376F-38C8-B6DB-2A86911F29BE> .
+
+<https://rs.sealitproject.eu/kb/person/141B30AA-54AC-37BA-BB91-E8642A01CCAB>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/24C0F858-782E-3571-8F2B-C32425901BDA>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/E57AF8F9-C3FC-3F51-A510-B08ABEA61FCB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 11, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/09D18EFB-DFEA-3F25-8C01-59AD4E9EAD29> .
+
+<https://rs.sealitproject.eu/kb/person/AE78D9C8-262A-3FEE-876C-FBFD1D324856>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/659AE21A-E7F0-3C19-9C3F-87794EB35F91>
+        a                        crm:E21_Person ;
+        rdfs:label               "Domenico Attergo" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/3287> , <https://rs.sealitproject.eu/kb/appellation_surname/6A0BBD7A-5109-3275-BF8C-ED07D530A635> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Domenico" ;
+        sealit:has_last_name     "Attergo" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/B9BFA644-0504-3C60-8250-948237EF3076> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/B45AEEF2-BA62-307B-A6B5-21388F647C9A>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Maglione" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/A62FA404-7B78-3352-B0C2-A7C358738A40>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giorgio Carabini" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/E951D162-988A-3EB1-8E65-48FB6B77EEEF> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Giorgio" ;
+        sealit:has_last_name     "Carabini" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/1557E88F-FE36-3DF8-88D0-F70ECE5A9314> .
+
+<https://rs.sealitproject.eu/kb/person/5C82B999-9B76-3FE1-A978-076275752D53>
+        a                        crm:E21_Person ;
+        rdfs:label               "Nicolò Mortola" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/2204> , <https://rs.sealitproject.eu/kb/appellation_surname/3256A258-CD28-3F87-AEDC-A59AC063C4C8> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Nicolò" ;
+        sealit:has_last_name     "Mortola" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/5B58629E-8665-3089-853E-A25A10540091> .
+
+<https://rs.sealitproject.eu/kb/ids/6044>
+        a                crm:E42_Identifier ;
+        rdfs:label       "6044" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/ids/969>
+        a                crm:E42_Identifier ;
+        rdfs:label       "969" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/65217A43-C32F-3B8C-8DCA-D0EF53924573>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 27, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/0F9EBC23-D678-35D2-B90E-97D30771777C> .
+
+<https://rs.sealitproject.eu/kb/person/BEEA08CF-531D-394B-B112-C3F57B3A7425>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giovanni Tassara" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/14518> , <https://rs.sealitproject.eu/kb/appellation_surname/B5A7E885-CF9E-3353-98C2-73588D73747C> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Giovanni" ;
+        sealit:has_last_name     "Tassara" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/8975C7A0-813B-33CF-B54F-34DEF43BEB60> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/55F5ABB3-2444-3EA8-8AF9-DCB98830E8AD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 52, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/56498F4C-D23C-340A-994B-E40A109A1AA8> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/69C28429-8051-32BB-9B87-C31D87DD8E23>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Rosso" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/03DA2A02-E9CE-36A5-9A8F-2576E74BB689>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 26, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/EB1BC527-CB99-3A44-A70C-46E8AC7117DC> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/71B1147E-B5F6-353B-99A9-1010B3CF6F92>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 40, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/0E9350D2-D46D-3B9E-AB4D-BBA484B6BE4E> .
+
+<https://rs.sealitproject.eu/kb/ids/2861>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2861" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/5B58629E-8665-3089-853E-A25A10540091>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/10977>
+        a                crm:E42_Identifier ;
+        rdfs:label       "10977" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/ids/6983>
+        a                crm:E42_Identifier ;
+        rdfs:label       "6983" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/2A434974-376F-38C8-B6DB-2A86911F29BE>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/39532970-0FD9-3DAC-9A26-5B15AA59207F>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/3256A258-CD28-3F87-AEDC-A59AC063C4C8>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Mortola" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/ids/13730>
+        a                crm:E42_Identifier ;
+        rdfs:label       "13730" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/69401167-0016-35A0-9CEC-81630C920D68>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 31, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/968FAB6A-F6A8-3D7A-9271-D0C67A6F53BE> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/AB0B4DE9-41F5-34EB-BE64-EF2233A1175F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 34, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/BEA96E4F-C7D5-3D20-8AC0-51C1A7C247D7> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/0CFB20E1-6D57-3E87-B777-CBAB78E1C023>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 29, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/EEFAFD03-369B-3CAD-9796-0EBEC945B77E> .
+
+<https://rs.sealitproject.eu/kb/person/DC37CF41-C17D-36C6-BB2D-3C6A2028F560>
+        a                        crm:E21_Person ;
+        rdfs:label               "Francesco Domenico Gardone" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/2728> , <https://rs.sealitproject.eu/kb/appellation_surname/560B556E-CFBE-3372-B5C4-D8417C570CF4> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Francesco Domenico" ;
+        sealit:has_last_name     "Gardone" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/09D18EFB-DFEA-3F25-8C01-59AD4E9EAD29> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/9A3117A7-3BDC-32FE-AE9F-25883B9581CE>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Unghelli" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/93BB8167-A009-374F-B789-A3660FC35038>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Borlesi" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/67BEE536-A17D-3B68-96F7-CEEA0E5E300D>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/54FDB96C-1810-397C-95D5-0786787E622F>
+        a                        crm:E21_Person ;
+        rdfs:label               "Domenico Danei" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/690> , <https://rs.sealitproject.eu/kb/appellation_surname/0CF335FC-A396-3AFE-B373-725DCA59E045> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Domenico" ;
+        sealit:has_last_name     "Danei" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/39532970-0FD9-3DAC-9A26-5B15AA59207F> .
+
+<https://rs.sealitproject.eu/kb/person/1F6624C1-1B34-37DF-87B5-00C3ABD99D43>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giuseppe Bozzo" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/13730> , <https://rs.sealitproject.eu/kb/appellation_surname/6A1E1BB8-8A93-3EE0-B2E4-F3CFF0FB029B> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Giuseppe" ;
+        sealit:has_last_name     "Bozzo" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/968FAB6A-F6A8-3D7A-9271-D0C67A6F53BE> .
+
+<https://rs.sealitproject.eu/kb/person/8975C7A0-813B-33CF-B54F-34DEF43BEB60>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/2464>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2464" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew list (ruoli di equipaggio)" .
+
+<https://rs.sealitproject.eu/kb/ids/14518>
+        a                crm:E42_Identifier ;
+        rdfs:label       "14518" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/5A829E25-57F6-3C35-8942-3ECDE4CEE6C8>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giorgio Costantini" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/FECF2CCE-7911-3D51-A8AD-17140796EEE0> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Giorgio" ;
+        sealit:has_last_name     "Costantini" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/AE78D9C8-262A-3FEE-876C-FBFD1D324856> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/E951D162-988A-3EB1-8E65-48FB6B77EEEF>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Carabini" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/506D32C6-A58F-3F97-A8AD-B645BE7018A5>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/83321BD7-3A25-3448-A2FF-98BE4C804CA3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 49, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/53678D49-0A59-3FE5-9676-E78B7DD6E46E> .
+
+<https://rs.sealitproject.eu/kb/person/BDA34771-CE49-30D5-B655-C80C45B3778B>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/EE2463CB-FFF7-3159-AAF9-C88C3553729B>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Ciucci" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/A3C12E75-9AD9-3547-AB5F-FDE9EFE6F09B>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Sansoni" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/ids/15874>
+        a                crm:E42_Identifier ;
+        rdfs:label       "15874" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/7CAF60E9-633A-312B-AF40-CC81F54CD70E>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Mimondo" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/ECD7DF2A-4977-390F-B65B-3E3DFC7930AC>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giuseppe Sansoni" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/515> , <https://rs.sealitproject.eu/kb/appellation_surname/A3C12E75-9AD9-3547-AB5F-FDE9EFE6F09B> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Giuseppe" ;
+        sealit:has_last_name     "Sansoni" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/035FC206-6754-37E7-92A4-E12552971551> .
+
+<https://rs.sealitproject.eu/kb/person/56498F4C-D23C-340A-994B-E40A109A1AA8>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/3736>
+        a                crm:E42_Identifier ;
+        rdfs:label       "3736" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/ids/3899>
+        a                crm:E42_Identifier ;
+        rdfs:label       "3899" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/9F601B5E-D7A7-3151-836F-17AD17BE843E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 1, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/2B8E350A-DC92-3DD2-8D92-F4998FA1832B> .
+
+<https://rs.sealitproject.eu/kb/ids/6694>
+        a                crm:E42_Identifier ;
+        rdfs:label       "6694" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/6A1E1BB8-8A93-3EE0-B2E4-F3CFF0FB029B>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Bozzo" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/C6416950-7414-3B90-9267-EA681B1D92F8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 7, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/8C2095DC-AB18-3049-A36A-190537961AAD> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/E39D7E7D-902A-35B9-AC12-456D08633625>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Giuria" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/4EBA5B5F-68F2-38D0-9C04-9E89E65C67F7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 24, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/11073135-C955-3017-B1F3-D92F7998DA6E> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/F4F0795E-5A2C-3A78-841C-8466422FFE21>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 3, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/D968F9E1-E7A3-3C0C-A822-CCA1A51E6520> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/9678CC69-336E-32F9-B58E-B953A21A7628>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Statio" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/7EA2A5C3-DF5B-3CE8-AFEF-8F1DB88EB3FE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 13, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/2920C9DA-1196-3219-95F8-A00C88ABB35A> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/30A98E8F-75EA-3CEF-A1EC-479B8CE58545>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 39, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/56E340AA-1D2C-36F3-86B2-9F93707AA20F> .
+
+<https://rs.sealitproject.eu/kb/person/81BC3B95-BA70-303F-8840-D2A7ECAE0018>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/691BDF7D-FA3B-33C0-80E8-0AD6E35A672E>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/969B5D2D-38A1-3D90-9D0F-7FBE65C6847E>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Cambiagio" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/56F4C734-AA2C-304F-83EB-464BCF4EF7DA>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Parodi" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/01920B3B-7A8F-3483-A115-DE8CCEB3B79A>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giuseppe Debenedetti" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/6044> , <https://rs.sealitproject.eu/kb/appellation_surname/B3865FDE-8D0C-399A-A547-9C8F450DF05F> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Giuseppe" ;
+        sealit:has_last_name     "Debenedetti" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/FFFD4CD5-43DC-308E-A248-0D3FE4C2DEE5> .
+
+<https://rs.sealitproject.eu/kb/ids/2204>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2204" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/5E8D0522-734C-370D-BE09-ACD19D6307CB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 18, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/EB11011C-FA78-3F5E-A097-D4A2C7A567AF> .
+
+<https://rs.sealitproject.eu/kb/person/EB11011C-FA78-3F5E-A097-D4A2C7A567AF>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/3B3A989A-9B0F-371E-9AA4-C01DB1C13FDF>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giovanni Tassara" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/14158> , <https://rs.sealitproject.eu/kb/appellation_surname/B5A7E885-CF9E-3353-98C2-73588D73747C> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Giovanni" ;
+        sealit:has_last_name     "Tassara" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/0F9EBC23-D678-35D2-B90E-97D30771777C> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/A5542C20-4A75-3245-BA04-5C2FC52041A8>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Monsneti" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/7284244A-96FF-346F-A94F-2008E2019C5F>
+        a                        crm:E21_Person ;
+        rdfs:label               "Fortunato Ottone" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/FCAE2EE7-F2FB-33A8-BB30-233122E13EE0> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Fortunato" ;
+        sealit:has_last_name     "Ottone" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/81E9E113-FF1D-368E-89BA-1F0357B180BE> .
+
+<https://rs.sealitproject.eu/kb/person/2920C9DA-1196-3219-95F8-A00C88ABB35A>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/B5A7E885-CF9E-3353-98C2-73588D73747C>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Tassara" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/F74EB577-0C10-3917-9F89-271BB2A551A4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 28, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/08AABC7A-A992-33A8-8D99-E50EE5499DA8> .
+
+<https://rs.sealitproject.eu/kb/person/23FBE2B8-4E53-3071-AA21-85BD2C22B3BE>
+        a                        crm:E21_Person ;
+        rdfs:label               "Antonio Emanuele Vincenzo Airaldi" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/2861> , <https://rs.sealitproject.eu/kb/appellation_surname/28CFE425-C75A-3A68-B35A-5DAC4A5DF65F> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Antonio Emanuele Vincenzo" ;
+        sealit:has_last_name     "Airaldi" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/6B251F17-C6CC-392E-B3BE-35DC2A38361A> .
+
+<https://rs.sealitproject.eu/kb/ids/14158>
+        a                crm:E42_Identifier ;
+        rdfs:label       "14158" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/FFFD4CD5-43DC-308E-A248-0D3FE4C2DEE5>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/ACE78F7A-FE97-3617-8469-428901273371>
+        a                        crm:E21_Person ;
+        rdfs:label               "Carlo Rocco Cerrutti" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/5971> , <https://rs.sealitproject.eu/kb/appellation_surname/FBD20ED0-264F-3C86-A390-1F1471043C6A> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Carlo Rocco" ;
+        sealit:has_last_name     "Cerrutti" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/E51A488C-68E9-3089-B7F7-F19CD542E52F> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/0345E737-0067-37A1-AD8B-CB303E2143CB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 48, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/C24F5E7F-068D-36C7-9E76-4E448AA95165> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/DC72EFED-8A01-3896-B1CD-7C9867E724A5>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Della Casa" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/1A7C4B49-4C1A-3D40-96AA-A0355D35AE6E>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Deneretri" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/EEFAFD03-369B-3CAD-9796-0EBEC945B77E>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/F91B8D97-CE17-315C-8F0A-76492D24936C>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/0E9350D2-D46D-3B9E-AB4D-BBA484B6BE4E>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/A430039B-9C08-33CC-B834-04493E4DFDFC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 17, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/5B58629E-8665-3089-853E-A25A10540091> .
+
+<https://rs.sealitproject.eu/kb/ids/1440>
+        a                crm:E42_Identifier ;
+        rdfs:label       "1440" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/B3865FDE-8D0C-399A-A547-9C8F450DF05F>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Debenedetti" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/8C2095DC-AB18-3049-A36A-190537961AAD>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/names/surname%20a>
+        a           crm:E55_Type ;
+        rdfs:label  "surname A" .
+
+<https://rs.sealitproject.eu/kb/person/E0EF17A2-13BD-3C45-9183-A59A3B3235A4>
+        a                        crm:E21_Person ;
+        rdfs:label               "Nicolò Ansaldo" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/17117> , <https://rs.sealitproject.eu/kb/appellation_surname/751286B0-9A56-35F6-9541-E6A49D6A4751> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Nicolò" ;
+        sealit:has_last_name     "Ansaldo" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/691BDF7D-FA3B-33C0-80E8-0AD6E35A672E> .
+
+<https://rs.sealitproject.eu/kb/person/53678D49-0A59-3FE5-9676-E78B7DD6E46E>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/7C8E8C7D-D40F-3B83-8DCC-F09876419A36>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/2B8E350A-DC92-3DD2-8D92-F4998FA1832B>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/A65F8CF9-58B7-38C8-A253-5D73F3E456D7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 35, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/B9BFA644-0504-3C60-8250-948237EF3076> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/FBD20ED0-264F-3C86-A390-1F1471043C6A>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Cerrutti" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/ids/16047>
+        a                crm:E42_Identifier ;
+        rdfs:label       "16047" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/F7349373-5BD9-3B19-906A-9CC6AA926965>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Demistri" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/0D65A267-EC6C-39AF-8725-3ECF8FE12713>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 30, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/68871062-F7F7-32F8-8365-FF534DC4FC19> .
+
+<https://rs.sealitproject.eu/kb/person/B9BFA644-0504-3C60-8250-948237EF3076>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/7297B30F-C4C8-3B2B-8DAF-D8986E75A1D1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 21, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/035FC206-6754-37E7-92A4-E12552971551> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/0CF335FC-A396-3AFE-B373-725DCA59E045>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Danei" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/ids/515>
+        a                crm:E42_Identifier ;
+        rdfs:label       "515" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/6A0BBD7A-5109-3275-BF8C-ED07D530A635>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Attergo" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/ids/2641>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2641" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/9ADC6923-2A2D-389F-89BB-1D830FE07110>
+        a                        crm:E21_Person ;
+        rdfs:label               "Carlo Rocco Maglione" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/2232> , <https://rs.sealitproject.eu/kb/appellation_surname/B45AEEF2-BA62-307B-A6B5-21388F647C9A> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Carlo Rocco" ;
+        sealit:has_last_name     "Maglione" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/8C2095DC-AB18-3049-A36A-190537961AAD> .
+
+<https://rs.sealitproject.eu/kb/person/DAC2A6FA-6B1D-33CB-BE5C-1DBD62E884BC>
+        a                        crm:E21_Person ;
+        rdfs:label               "Luigi Borlesi" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/93BB8167-A009-374F-B789-A3660FC35038> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Luigi" ;
+        sealit:has_last_name     "Borlesi" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/D50578F3-156F-308A-AA01-67DA983F1057> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/7BEC6215-96F2-3FE1-BC6C-6A8327662CBA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 44, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/448B20C1-4A4C-3352-BCF5-447845D7B0A3> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/E5A938C3-8016-3FD2-81F5-D79546ECE54D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 19, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/27B1B451-2C0F-32BB-B910-EC9B3CEA9F98> .
+
+<https://rs.sealitproject.eu/kb/person/3F6EEA74-9BC8-3C73-BE78-3EF9F413DEB2>
+        a                        crm:E21_Person ;
+        rdfs:label               "Cristo Statio" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/9678CC69-336E-32F9-B58E-B953A21A7628> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Cristo" ;
+        sealit:has_last_name     "Statio" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/DED2094F-3CFD-3EC1-8BF7-9653CBEE861E> .
+
+<https://rs.sealitproject.eu/kb/ids/2912>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2912" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/7340FB79-8BF6-3464-9753-03D17659CC1A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 12, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/F91B8D97-CE17-315C-8F0A-76492D24936C> .
+
+<https://rs.sealitproject.eu/kb/person/F4497C30-9833-3BB7-87FD-FCA9F19894EF>
+        a                        crm:E21_Person ;
+        rdfs:label               "Bartolomeo Antola" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/4357> , <https://rs.sealitproject.eu/kb/appellation_surname/E07A803F-BDAC-33D0-BC62-85C50F37CA35> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Bartolomeo" ;
+        sealit:has_last_name     "Antola" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/68871062-F7F7-32F8-8365-FF534DC4FC19> .
+
+<https://rs.sealitproject.eu/kb/person/BEA96E4F-C7D5-3D20-8AC0-51C1A7C247D7>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/8172630A-7C0A-3BE0-87BC-69BD4C38446B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 32, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/BDA34771-CE49-30D5-B655-C80C45B3778B> .
+
+<https://rs.sealitproject.eu/kb/person/B9737AAB-10AE-3869-A659-B68833E27A51>
+        a                        crm:E21_Person ;
+        rdfs:label               "Domenico Nicola Rosso" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/892> , <https://rs.sealitproject.eu/kb/appellation_surname/69C28429-8051-32BB-9B87-C31D87DD8E23> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Domenico Nicola" ;
+        sealit:has_last_name     "Rosso" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/7C8E8C7D-D40F-3B83-8DCC-F09876419A36> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/9065475E-3CE1-3083-865E-CF6D7C80EEF3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 53, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/AE78D9C8-262A-3FEE-876C-FBFD1D324856> .
+
+<https://rs.sealitproject.eu/kb/ids/3166>
+        a                crm:E42_Identifier ;
+        rdfs:label       "3166" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/ids/5778>
+        a                crm:E42_Identifier ;
+        rdfs:label       "5778" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/C28D28EE-C081-396E-9FF6-53F15001F070>
+        a                        crm:E21_Person ;
+        rdfs:label               "Antonio Della Casa" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/15847> , <https://rs.sealitproject.eu/kb/appellation_surname/DC72EFED-8A01-3896-B1CD-7C9867E724A5> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Antonio" ;
+        sealit:has_last_name     "Della Casa" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/81BC3B95-BA70-303F-8840-D2A7ECAE0018> .
+
+<https://rs.sealitproject.eu/kb/ids/2728>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2728" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/7ABF62C9-2356-3E65-AE5C-E18F1E92F943>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Giorgio" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/3A9D0E59-7AC7-3F24-8806-4A3991EEDF2B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 4, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/2A434974-376F-38C8-B6DB-2A86911F29BE> .
+
+<https://rs.sealitproject.eu/kb/ids/4601>
+        a                crm:E42_Identifier ;
+        rdfs:label       "4601" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/ids/3287>
+        a                crm:E42_Identifier ;
+        rdfs:label       "3287" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-04-03T12:24:53.427Z_25&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/person/C24F5E7F-068D-36C7-9E76-4E448AA95165>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/D968F9E1-E7A3-3C0C-A822-CCA1A51E6520>
+        a       crm:E21_Person .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<https://rs.sealitproject.eu/kb/ids/5686>
+        a                crm:E42_Identifier ;
+        rdfs:label       "5686" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/30C2D973-959E-3C05-B6DC-A7DD45FB78EE>
+        a                        crm:E21_Person ;
+        rdfs:label               "Leopoldo Caso" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/2464> , <https://rs.sealitproject.eu/kb/appellation_surname/79B9D30F-9C5C-3A16-8341-6BC2F95C5A47> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Leopoldo" ;
+        sealit:has_last_name     "Caso" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/53678D49-0A59-3FE5-9676-E78B7DD6E46E> .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-04-03T12:24:53.427Z_25&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/ids/5118>
+        a                crm:E42_Identifier ;
+        rdfs:label       "5118" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/4A87CA38-F237-380B-834C-01FA64701B19>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 51, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/02E71535-F7C8-3A11-AC46-3DDD9D2F977A> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/5436A31D-4033-34E5-8765-7302EA18BE00>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 16, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/691BDF7D-FA3B-33C0-80E8-0AD6E35A672E> .
+
+<https://rs.sealitproject.eu/kb/person/D846BA39-1183-381E-9EBD-539AD25F8C7B>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/0F9EBC23-D678-35D2-B90E-97D30771777C>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/77BC655F-7BB1-3272-8B7A-88428D80273E>
+        a                        crm:E21_Person ;
+        rdfs:label               "Antonio Emanuele Vincenzi Lazzerini" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/1440> , <https://rs.sealitproject.eu/kb/appellation_surname/D4DD14F7-74AF-3FDB-BA81-61D631456429> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Antonio Emanuele Vincenzi" ;
+        sealit:has_last_name     "Lazzerini" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/C24F5E7F-068D-36C7-9E76-4E448AA95165> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/F0B844B7-95B0-3707-88A3-BEED9667BFDD>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Mottafini" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/CD1173D7-0ABC-35E6-AEF8-B52FFFBBACBD>
+        a                        crm:E21_Person ;
+        rdfs:label               "Baniamino Livina" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/CA0CCF97-4409-35AB-8B41-5950B648A973> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Baniamino" ;
+        sealit:has_last_name     "Livina" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/D846BA39-1183-381E-9EBD-539AD25F8C7B> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/017D6823-3B8F-3BE0-B2D2-AD524DFF0B40>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 20, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/24C0F858-782E-3571-8F2B-C32425901BDA> .
+
+<https://rs.sealitproject.eu/kb/person/A039789A-6ECD-357E-8438-829D85026AAF>
+        a                        crm:E21_Person ;
+        rdfs:label               "Luigi Allegro" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/6694> , <https://rs.sealitproject.eu/kb/appellation_surname/4410BF25-0E8F-3EFF-939D-9F17263800FE> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Luigi" ;
+        sealit:has_last_name     "Allegro" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/141B30AA-54AC-37BA-BB91-E8642A01CCAB> .
+
+<https://rs.sealitproject.eu/kb/person/08AABC7A-A992-33A8-8D99-E50EE5499DA8>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/77083292-86D5-300B-9855-518C49506ADD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 15, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/1570D37F-A0AF-32C1-8E20-AF18E210878D> .
+
+<https://rs.sealitproject.eu/kb/person/AAB67D35-8242-31CF-8A4E-AE4C6E217F5F>
+        a                        crm:E21_Person ;
+        rdfs:label               "Stefano Galleano" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/5686> , <https://rs.sealitproject.eu/kb/appellation_surname/4C33C8A7-CA41-3793-8AD8-6D86BC9D1B6D> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Stefano" ;
+        sealit:has_last_name     "Galleano" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/2920C9DA-1196-3219-95F8-A00C88ABB35A> .
+
+<https://rs.sealitproject.eu/kb/person/1CAEC336-A319-356A-8E25-98505A40DABD>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giacomo Massatervo" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/4601> , <https://rs.sealitproject.eu/kb/appellation_surname/CDFAF02C-710D-3DD1-A876-C45A6A2B848B> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Giacomo" ;
+        sealit:has_last_name     "Massatervo" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/BDA34771-CE49-30D5-B655-C80C45B3778B> .
+
+<https://rs.sealitproject.eu/kb/person/1561B7B4-4A4A-3FC5-9BC6-3122DCD52913>
+        a                        crm:E21_Person ;
+        rdfs:label               "Antonio Della Casa" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/15874> , <https://rs.sealitproject.eu/kb/appellation_surname/DC72EFED-8A01-3896-B1CD-7C9867E724A5> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Antonio" ;
+        sealit:has_last_name     "Della Casa" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/F91B8D97-CE17-315C-8F0A-76492D24936C> .
+
+<https://rs.sealitproject.eu/kb/person/E51A488C-68E9-3089-B7F7-F19CD542E52F>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/F4F138AE-9053-37B3-B432-42344A8CE862>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 41, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/67BEE536-A17D-3B68-96F7-CEEA0E5E300D> .
+
+<https://rs.sealitproject.eu/kb/person/4F7BB72D-1C50-3946-913D-1D0A4BD11C23>
+        a                        crm:E21_Person ;
+        rdfs:label               "Enrico Ciucci" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/969> , <https://rs.sealitproject.eu/kb/appellation_surname/EE2463CB-FFF7-3159-AAF9-C88C3553729B> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Enrico" ;
+        sealit:has_last_name     "Ciucci" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/27B1B451-2C0F-32BB-B910-EC9B3CEA9F98> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/DFBC29E0-B0EE-3B9E-B2FA-315CAE7782CF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 47, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/D846BA39-1183-381E-9EBD-539AD25F8C7B> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/996EE9CA-B6F1-362E-A59D-34B07CB9F639>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 43, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/1557E88F-FE36-3DF8-88D0-F70ECE5A9314> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/53AF54C1-1D97-3D1B-B486-765B9561F6AC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 46, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/DED2094F-3CFD-3EC1-8BF7-9653CBEE861E> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/CC95E1BF-A616-3E56-8B9B-97D66730056E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 25, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/D50578F3-156F-308A-AA01-67DA983F1057> .
+
+<https://rs.sealitproject.eu/kb/person/81E9E113-FF1D-368E-89BA-1F0357B180BE>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/56E340AA-1D2C-36F3-86B2-9F93707AA20F>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/1048F3FA-0EA3-3AA7-A2FD-30DF32DD8D40>
+        a                        crm:E21_Person ;
+        rdfs:label               "Francesco Mimondo" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/7CAF60E9-633A-312B-AF40-CC81F54CD70E> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Francesco" ;
+        sealit:has_last_name     "Mimondo" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/02E71535-F7C8-3A11-AC46-3DDD9D2F977A> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/D441BD0F-8EB1-3929-BF55-F08494E25E70>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Leptachi" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/ids/2418>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2418" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/200FF1AA-D882-3392-BE94-C2EE72E289E2>
+        a                        crm:E21_Person ;
+        rdfs:label               "Lorenzo Giuseppe Bozzo" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/9124> , <https://rs.sealitproject.eu/kb/appellation_surname/6A1E1BB8-8A93-3EE0-B2E4-F3CFF0FB029B> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Lorenzo Giuseppe" ;
+        sealit:has_last_name     "Bozzo" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/EEFAFD03-369B-3CAD-9796-0EBEC945B77E> .
+
+<https://rs.sealitproject.eu/kb/person/A2A7D262-DD4F-3E41-8923-0829B00FBD15>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/848C30CF-7351-3682-B629-6CDA00ACE873>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Fortuna, 1862-02-24, Carolina Gaggero | row: 45, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A24%3A53.427Z_25> , <https://rs.sealitproject.eu/kb/person/A2A7D262-DD4F-3E41-8923-0829B00FBD15> .
+
+<https://rs.sealitproject.eu/kb/ids/17117>
+        a                crm:E42_Identifier ;
+        rdfs:label       "17117" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/02E71535-F7C8-3A11-AC46-3DDD9D2F977A>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/0E3654FC-435A-3D65-95F5-C35D74DD8978>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/16211D83-B711-345D-9246-450BECE66FC1>
+        a                        crm:E21_Person ;
+        rdfs:label               "Bartolomeo Figari" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/3166> , <https://rs.sealitproject.eu/kb/appellation_surname/B60F370A-E6E3-38EB-8BE5-A85A29C98C42> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Bartolomeo" ;
+        sealit:has_last_name     "Figari" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/08AABC7A-A992-33A8-8D99-E50EE5499DA8> .

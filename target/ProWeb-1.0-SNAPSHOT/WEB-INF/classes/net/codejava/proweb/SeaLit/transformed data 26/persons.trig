@@ -1,0 +1,1126 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <https://rs.sealitproject.eu/kb/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/DD05F3D7-7A0D-3AB9-B682-6AE0F51F2D98>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Gagliardi" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/CC277DD6-8656-3372-8F00-A9FA362429A7>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giacomo Vinciguerra" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/4324> , <https://rs.sealitproject.eu/kb/appellation_surname/DCB2FB9B-316D-3CF5-994E-3D3D1753DC58> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:11a3ad73-3d8f-4cb9-ae78-656e7d7f877c> ;
+        sealit:has_first_name    "Giacomo" ;
+        sealit:has_last_name     "Vinciguerra" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/6298472E-2B90-37CA-91EB-8696F6D8B649> .
+
+<https://rs.sealitproject.eu/kb/person/303CE51A-FB90-333F-AC50-A3D7C23FA4E1>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giovanni Razeto" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/14682> , <https://rs.sealitproject.eu/kb/appellation_surname/49A46119-B532-3341-860A-F3C0887F1DFA> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:206b1a53-12ba-4819-8100-dd9df2015913> ;
+        sealit:has_first_name    "Giovanni" ;
+        sealit:has_last_name     "Razeto" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/C4BBABC7-DFD2-314C-AE43-E2EFE6255057> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/A63286C4-03F3-365D-ACA3-CBC8C9CC6D52>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Olivari" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<urn:uuid:d1cfe15a-1b2e-4838-9f80-1256e2187aaa>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Lavagnino" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1840> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/5DFFC318-B420-387A-9E57-54EF3B538E85>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Merani" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/ids/10066>
+        a                crm:E42_Identifier ;
+        rdfs:label       "10066" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/873ED8ED-F359-33D0-90A5-B63E72B31D7D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 17, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/ED5CC652-666E-30FB-AD9E-4577F05EC610> .
+
+<https://rs.sealitproject.eu/kb/date/1830>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1830" ;
+        crm:P82_at_some_time_within  "1830"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/numbers/serial%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "serial number" .
+
+<urn:uuid:e8474190-d552-407e-90ef-c76ea4356a3e>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Lavagnino" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1830> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/EF75C58E-2F22-39DD-B001-13FB29B0058E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 9, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/3098AA1E-63FD-3636-B105-14CE59C7FABB> .
+
+<https://rs.sealitproject.eu/kb/person/93AFB3CA-C5A5-3B04-8DA3-4FF27D495896>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/2CE827A2-D38D-36D1-9272-1CB6B3DEAB2C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 21, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/0BE8C8E7-EA5C-3022-8D73-9F9B2BA00058> .
+
+<https://rs.sealitproject.eu/kb/person/23B43B4A-3608-3FC0-AC42-7F9A10E3925B>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/79080458-2D19-398E-8574-E49CAA920ED1>
+        a                        crm:E21_Person ;
+        rdfs:label               "Francesco Faridone" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/3783> , <https://rs.sealitproject.eu/kb/appellation_surname/B92B0D3D-04B0-39A9-9B33-D49E1C36F81B> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:1f22fc7f-8291-4013-85e2-8d2e8a7c77d3> ;
+        sealit:has_first_name    "Francesco" ;
+        sealit:has_last_name     "Faridone" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/41B9B1F0-1D86-3A8E-9DFC-AD2BA648E3E9> .
+
+<https://rs.sealitproject.eu/kb/person/7BC1C176-4E78-320A-B3BF-B1AE0BC764DA>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/date/1838>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1838" ;
+        crm:P82_at_some_time_within  "1838"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/ids/10153>
+        a                crm:E42_Identifier ;
+        rdfs:label       "10153" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/date/1817>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1817" ;
+        crm:P82_at_some_time_within  "1817"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:c6b03093-db43-467d-a0f1-161e9829e930>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Capellino" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1810> .
+
+<urn:uuid:28926ebc-3cec-4764-8bf4-246caa978e73>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Parodi" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1845> .
+
+<urn:uuid:8a7427a7-0297-40c4-8333-742534005c2f>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Valle" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1839> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/6F50B8C8-A110-32C7-90CB-CD28FDE3713C>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Costa" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<https://rs.sealitproject.eu/kb/ids/2279>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2279" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/432410AC-F71F-3E66-984C-176C94AB9A5A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 4, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/267B860F-4C26-3329-B07A-BA751F767764> .
+
+<urn:uuid:7a6820ab-7975-416c-8676-09abc70fedc4>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Dini" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1834> .
+
+<https://rs.sealitproject.eu/kb/date/1846>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1846" ;
+        crm:P82_at_some_time_within  "1846"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/061BEF97-6E1D-37A6-B8DF-227FAB6340A6>
+        a                        crm:E21_Person ;
+        rdfs:label               "Gio.Batta Capellino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/17315> , <https://rs.sealitproject.eu/kb/appellation_surname/4F087C6F-1FFC-3A8C-BFE7-73B05B03F21A> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:14f8b6dc-7a98-47b1-90c1-1679a45c099d> ;
+        sealit:has_first_name    "Gio.Batta" ;
+        sealit:has_last_name     "Capellino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/7BC1C176-4E78-320A-B3BF-B1AE0BC764DA> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/3FA3E0DF-05A9-3D70-B3F2-92116B79E369>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Cortese" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/ids/1386>
+        a                crm:E42_Identifier ;
+        rdfs:label       "1386" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/E9BBB031-DA76-31B4-B8DB-62C6505F708E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 25, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/1A65A5BA-DE6D-3951-886C-C2364DB644FD> .
+
+<https://rs.sealitproject.eu/kb/person/B8E61F24-C560-3630-8BD8-7A20C44F2E43>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/68B3B17B-04B0-3B13-9FA2-DA27721114F9>
+        a                        crm:E21_Person ;
+        rdfs:label               "Michele Razeto" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/49A46119-B532-3341-860A-F3C0887F1DFA> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Michele" ;
+        sealit:has_last_name     "Razeto" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/3DA3B68F-D0A9-3E1D-B2C1-FF1023B76AEC> .
+
+<urn:uuid:3904187e-6bab-4ef4-a743-767dd97126e2>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Bruzzo" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1841> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/BF619991-2B70-36EA-AABB-ACC0F96E9D22>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 12, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/7BC1C176-4E78-320A-B3BF-B1AE0BC764DA> .
+
+<https://rs.sealitproject.eu/kb/person/59CC45EC-B858-38BC-A55E-0451D552BB5D>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/4E3AAC4B-134E-3AAE-AB52-3DB9EBAAB6ED>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Badino" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/6298472E-2B90-37CA-91EB-8696F6D8B649>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/3914>
+        a                crm:E42_Identifier ;
+        rdfs:label       "3914" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/DCB2FB9B-316D-3CF5-994E-3D3D1753DC58>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Vinciguerra" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/ids/93>
+        a                crm:E42_Identifier ;
+        rdfs:label       "93" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/date/1833>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1833" ;
+        crm:P82_at_some_time_within  "1833"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/45A9B95D-5AD2-3697-B7B7-0705C648419D>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Monti" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/0FB54C79-3515-3C28-AA2E-3F89F3146CAB>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giovanni Razeto" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/49A46119-B532-3341-860A-F3C0887F1DFA> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:b8c3a428-7a59-44cc-861d-ee3df938643e> ;
+        sealit:has_first_name    "Giovanni" ;
+        sealit:has_last_name     "Razeto" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/021D6C47-CE76-3607-B623-818FA24B777A> .
+
+<https://rs.sealitproject.eu/kb/ids/4623>
+        a                crm:E42_Identifier ;
+        rdfs:label       "4623" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/ED8359C7-F6FC-3264-B81A-42C79D13D61D>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Lavagnino" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/B0651837-7C1A-3C20-8449-ADBAFEFB4D2B>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Massa" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/ids/permesso>
+        a                crm:E42_Identifier ;
+        rdfs:label       "permesso" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/ids/1502>
+        a                crm:E42_Identifier ;
+        rdfs:label       "1502" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/4B7B4461-FAF4-365D-AF8F-3E401ED744CE>
+        a                        crm:E21_Person ;
+        rdfs:label               "Francesco Carniglia" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/permesso> , <https://rs.sealitproject.eu/kb/appellation_surname/B90BC555-24B9-3EED-B764-0B9F3DF05E64> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:a44cb2af-20c6-4790-aa8d-f44d79006b28> ;
+        sealit:has_first_name    "Francesco" ;
+        sealit:has_last_name     "Carniglia" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/91BC747E-E984-3D52-B199-DC8FB07BDE12> .
+
+<urn:uuid:1f22fc7f-8291-4013-85e2-8d2e8a7c77d3>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Faridone" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1844> .
+
+<https://rs.sealitproject.eu/kb/person/66300573-B4B3-31E5-AA1C-120D943C8CD1>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/date/1841>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1841" ;
+        crm:P82_at_some_time_within  "1841"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/0B946885-0DC7-36FC-AC03-6E105661C82E>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Remaggi" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/B90BC555-24B9-3EED-B764-0B9F3DF05E64>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Carniglia" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/ids/17315>
+        a                crm:E42_Identifier ;
+        rdfs:label       "17315" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/6F1F3172-8D51-3741-99CF-8AAE77255B11>
+        a                        crm:E21_Person ;
+        rdfs:label               "Luigi Badino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/permesso> , <https://rs.sealitproject.eu/kb/appellation_surname/4E3AAC4B-134E-3AAE-AB52-3DB9EBAAB6ED> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:b7861e7b-26b0-4c0a-be80-f39442a6673e> ;
+        sealit:has_first_name    "Luigi" ;
+        sealit:has_last_name     "Badino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/A444B330-9452-394A-B5ED-E4D54ED4B101> .
+
+<https://rs.sealitproject.eu/kb/person/3DF5E1C2-AB9C-31B1-BBF9-09EE38F15D4D>
+        a                        crm:E21_Person ;
+        rdfs:label               "Agostino Muzio" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/1261> , <https://rs.sealitproject.eu/kb/appellation_surname/D61F9931-C212-3330-A660-AA2AAAE3F9D7> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:c37a85eb-3df0-4449-9961-f49ea1c22b77> ;
+        sealit:has_first_name    "Agostino" ;
+        sealit:has_last_name     "Muzio" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/267B860F-4C26-3329-B07A-BA751F767764> .
+
+<https://rs.sealitproject.eu/kb/person/7281AE4F-FE70-3909-BE09-91FE284CAB5D>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giacomo Lavagnino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/1600> , <https://rs.sealitproject.eu/kb/appellation_surname/ED8359C7-F6FC-3264-B81A-42C79D13D61D> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:e8474190-d552-407e-90ef-c76ea4356a3e> ;
+        sealit:has_first_name    "Giacomo" ;
+        sealit:has_last_name     "Lavagnino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/F1B93011-19FB-3C53-812F-388E835875D8> .
+
+<urn:uuid:af396b20-5eda-4511-9b60-10028122c7d9>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Razeto" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1838> .
+
+<https://rs.sealitproject.eu/kb/person/96E6E4A6-956B-35FA-B47E-064463F471AD>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/CB37F605-0513-3D0B-8D80-24DCE6AE8436>
+        a                        crm:E21_Person ;
+        rdfs:label               "Gio.Batta Merani" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/3253> , <https://rs.sealitproject.eu/kb/appellation_surname/5DFFC318-B420-387A-9E57-54EF3B538E85> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:cdc745b0-80ea-4df7-90aa-03d29812d612> ;
+        sealit:has_first_name    "Gio.Batta" ;
+        sealit:has_last_name     "Merani" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/B2D0EB46-2AD7-3879-BF22-B6FF7DCC37C6> .
+
+<https://rs.sealitproject.eu/kb/date/1849>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1849" ;
+        crm:P82_at_some_time_within  "1849"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/FBE240B7-5546-388D-A0FA-800CA8AE21A9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 22, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/724FACD4-4137-370B-9F3C-DD46C133399F> .
+
+<urn:uuid:732637d7-ecab-4a9a-81d8-798429fb3eef>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Cortese" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1841> .
+
+<https://rs.sealitproject.eu/kb/ids/12784>
+        a                crm:E42_Identifier ;
+        rdfs:label       "12784" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/date/1836>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1836" ;
+        crm:P82_at_some_time_within  "1836"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/B5262487-2F59-3C8F-A838-B29C5266A04C>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Valle" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<urn:uuid:33de39b4-5c25-4572-b616-a7f590d422fa>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Gagliardi" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1840> .
+
+<https://rs.sealitproject.eu/kb/person/ED5CC652-666E-30FB-AD9E-4577F05EC610>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/C4BBABC7-DFD2-314C-AE43-E2EFE6255057>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/0BE8C8E7-EA5C-3022-8D73-9F9B2BA00058>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/D76F8FB8-3471-3DBE-9959-85004B01A20D>
+        a                        crm:E21_Person ;
+        rdfs:label               "Angelo Potestà" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/93> , <https://rs.sealitproject.eu/kb/appellation_surname/8227B498-EC6B-3F06-8F6E-0BF858B6AF37> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:a76f4179-e33e-4787-9e5f-f45d67c36fe4> ;
+        sealit:has_first_name    "Angelo" ;
+        sealit:has_last_name     "Potestà" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/A9B98F53-1668-39AF-B06A-16C52110F143> .
+
+<https://rs.sealitproject.eu/kb/date/1844>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1844" ;
+        crm:P82_at_some_time_within  "1844"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/41B9B1F0-1D86-3A8E-9DFC-AD2BA648E3E9>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/date/1823>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1823" ;
+        crm:P82_at_some_time_within  "1823"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/6F73DE99-A949-3A4C-8F77-FC1EAAAB0E65>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 13, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/C4B84419-EB41-31B6-9B60-E475F22091B7> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/9CD8BD04-6E1C-3F75-9327-2AD15C78D713>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 14, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/C225C92B-74CD-3DAE-AC4A-6094CBFDC220> .
+
+<urn:uuid:cdc745b0-80ea-4df7-90aa-03d29812d612>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Merani" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1839> .
+
+<https://rs.sealitproject.eu/kb/person/4E585FEA-5A1F-3FD5-BC3D-6CF32F519B9B>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/3C3CF956-A6E2-3892-832F-932F2860FEB4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 28, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/6298472E-2B90-37CA-91EB-8696F6D8B649> .
+
+<https://rs.sealitproject.eu/kb/person/91BC747E-E984-3D52-B199-DC8FB07BDE12>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/0619E7FB-A2F1-3094-837E-CB4E32B75565>
+        a                        crm:E21_Person ;
+        rdfs:label               "Luigi Razeto" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/10153> , <https://rs.sealitproject.eu/kb/appellation_surname/49A46119-B532-3341-860A-F3C0887F1DFA> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:af396b20-5eda-4511-9b60-10028122c7d9> ;
+        sealit:has_first_name    "Luigi" ;
+        sealit:has_last_name     "Razeto" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/4405E58B-70D2-3A76-A496-B7825CBC3779> .
+
+<https://rs.sealitproject.eu/kb/ids/3783>
+        a                crm:E42_Identifier ;
+        rdfs:label       "3783" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<urn:uuid:206b1a53-12ba-4819-8100-dd9df2015913>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Razeto" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1823> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/4F087C6F-1FFC-3A8C-BFE7-73B05B03F21A>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Capellino" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/49A46119-B532-3341-860A-F3C0887F1DFA>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Razeto" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/date/1810>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1810" ;
+        crm:P82_at_some_time_within  "1810"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/C4B84419-EB41-31B6-9B60-E475F22091B7>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew list (ruoli di equipaggio)" .
+
+<urn:uuid:c1a7cd4c-1e24-49b3-8363-0b98c9798eda>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Olivari" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1849> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/0DE780FC-4EB4-3B92-8F1C-7219BA33E0F3>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Mezzano" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/2DCF1683-870D-334C-80E5-16E3CEDE33C5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 23, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/F1B93011-19FB-3C53-812F-388E835875D8> .
+
+<https://rs.sealitproject.eu/kb/person/B5D4725F-FAC6-3D0B-9230-EA7DE668E9E7>
+        a                        crm:E21_Person ;
+        rdfs:label               "Domenico Gio.Batta Dini" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/2279> , <https://rs.sealitproject.eu/kb/appellation_surname/869031EB-B503-3F6B-91E2-5096CE9432E3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:7a6820ab-7975-416c-8676-09abc70fedc4> ;
+        sealit:has_first_name    "Domenico Gio.Batta" ;
+        sealit:has_last_name     "Dini" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/4E585FEA-5A1F-3FD5-BC3D-6CF32F519B9B> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/0EA842A2-C436-3BFE-B80C-B78B831245E0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 18, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/4E585FEA-5A1F-3FD5-BC3D-6CF32F519B9B> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/9B7D02DA-4614-307F-9F58-3EF40716DECB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 2, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/B8E61F24-C560-3630-8BD8-7A20C44F2E43> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/A0D7E679-72E8-3768-9C2D-8DEA1E6A603E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 26, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/59CC45EC-B858-38BC-A55E-0451D552BB5D> .
+
+<https://rs.sealitproject.eu/kb/date/1839>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1839" ;
+        crm:P82_at_some_time_within  "1839"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/A444B330-9452-394A-B5ED-E4D54ED4B101>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/AFC54C9B-62BC-3117-B117-D75BDE8C2512>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 3, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/93AFB3CA-C5A5-3B04-8DA3-4FF27D495896> .
+
+<https://rs.sealitproject.eu/kb/ids/1600>
+        a                crm:E42_Identifier ;
+        rdfs:label       "1600" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/1A2DE48A-156E-3427-B1B7-FB16E7592620>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 24, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/23B43B4A-3608-3FC0-AC42-7F9A10E3925B> .
+
+<https://rs.sealitproject.eu/kb/person/4405E58B-70D2-3A76-A496-B7825CBC3779>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/54663DD7-9609-3DAA-9A71-8AEF35A480A6>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giacomo Lavagnino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/12451> , <https://rs.sealitproject.eu/kb/appellation_surname/ED8359C7-F6FC-3264-B81A-42C79D13D61D> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:d1cfe15a-1b2e-4838-9f80-1256e2187aaa> ;
+        sealit:has_first_name    "Giacomo" ;
+        sealit:has_last_name     "Lavagnino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/724FACD4-4137-370B-9F3C-DD46C133399F> .
+
+<https://rs.sealitproject.eu/kb/person/143C217B-6668-3F0D-975D-410D02534CD9>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/C68386D9-2C1F-3A87-8B61-FBE9C73EB2CE>
+        a                        crm:E21_Person ;
+        rdfs:label               "Antonio Valle" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/12784> , <https://rs.sealitproject.eu/kb/appellation_surname/B5262487-2F59-3C8F-A838-B29C5266A04C> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:8a7427a7-0297-40c4-8333-742534005c2f> ;
+        sealit:has_first_name    "Antonio" ;
+        sealit:has_last_name     "Valle" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/C225C92B-74CD-3DAE-AC4A-6094CBFDC220> .
+
+<urn:uuid:865ee8cc-c4a7-46f4-b774-6cac11f001d2>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Monti" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1838> .
+
+<https://rs.sealitproject.eu/kb/ids/10930>
+        a                crm:E42_Identifier ;
+        rdfs:label       "10930" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/ids/4324>
+        a                crm:E42_Identifier ;
+        rdfs:label       "4324" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/B8545711-6E11-30F4-B212-6943BC693B29>
+        a                        crm:E21_Person ;
+        rdfs:label               "Carlo Rossi" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/permesso> , <https://rs.sealitproject.eu/kb/appellation_surname/7BD16211-F650-3BBC-B61A-3E45560E51AE> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:88cdf5fc-f8a8-406a-b447-92429ef05329> ;
+        sealit:has_first_name    "Carlo" ;
+        sealit:has_last_name     "Rossi" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/0BE8C8E7-EA5C-3022-8D73-9F9B2BA00058> .
+
+<https://rs.sealitproject.eu/kb/date/1826>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1826" ;
+        crm:P82_at_some_time_within  "1826"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/B92B0D3D-04B0-39A9-9B33-D49E1C36F81B>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Faridone" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/78FD551D-F62C-3905-A312-54E2E86C4E88>
+        a                        crm:E21_Person ;
+        rdfs:label               "Alessio Giuseppe Cortese" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/4623> , <https://rs.sealitproject.eu/kb/appellation_surname/3FA3E0DF-05A9-3D70-B3F2-92116B79E369> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:732637d7-ecab-4a9a-81d8-798429fb3eef> ;
+        sealit:has_first_name    "Alessio Giuseppe" ;
+        sealit:has_last_name     "Cortese" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/8C7852F1-B035-3D74-8C40-3F89FCC1F4D7> .
+
+<https://rs.sealitproject.eu/kb/ids/10454>
+        a                crm:E42_Identifier ;
+        rdfs:label       "10454" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<urn:uuid:b8c3a428-7a59-44cc-861d-ee3df938643e>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Razeto" ;
+        crm:P97_from_father  <https://rs.sealitproject.eu/kb/person/68B3B17B-04B0-3B13-9FA2-DA27721114F9> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/56F4C734-AA2C-304F-83EB-464BCF4EF7DA>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Parodi" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/A5166A5C-0794-36E7-A205-DE60A983EE35>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 29, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/04A7E21F-8613-35D6-A011-F27B67D37CC4> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/869031EB-B503-3F6B-91E2-5096CE9432E3>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Dini" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<urn:uuid:a44cb2af-20c6-4790-aa8d-f44d79006b28>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Carniglia" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1836> .
+
+<https://rs.sealitproject.eu/kb/date/1834>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1834" ;
+        crm:P82_at_some_time_within  "1834"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:b7861e7b-26b0-4c0a-be80-f39442a6673e>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Badino" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1837> .
+
+<https://rs.sealitproject.eu/kb/person/3DA3B68F-D0A9-3E1D-B2C1-FF1023B76AEC>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/1A65A5BA-DE6D-3951-886C-C2364DB644FD>
+        a       crm:E21_Person .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T15:30:46.728Z_3&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/register_record_point/44A12241-3C37-33BC-8E31-8A12D2EA4672>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 20, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/A9B98F53-1668-39AF-B06A-16C52110F143> .
+
+<https://rs.sealitproject.eu/kb/date/1842>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1842" ;
+        crm:P82_at_some_time_within  "1842"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/021D6C47-CE76-3607-B623-818FA24B777A>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/17003>
+        a                crm:E42_Identifier ;
+        rdfs:label       "17003" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/8C7852F1-B035-3D74-8C40-3F89FCC1F4D7>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/1261>
+        a                crm:E42_Identifier ;
+        rdfs:label       "1261" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/0DD7BDD9-A2DE-3CDF-91E1-C018211F536E>
+        a                        crm:E21_Person ;
+        rdfs:label               "Pietro Parodi" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/17003> , <https://rs.sealitproject.eu/kb/appellation_surname/56F4C734-AA2C-304F-83EB-464BCF4EF7DA> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:28926ebc-3cec-4764-8bf4-246caa978e73> ;
+        sealit:has_first_name    "Pietro" ;
+        sealit:has_last_name     "Parodi" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/C4B84419-EB41-31B6-9B60-E475F22091B7> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/8227B498-EC6B-3F06-8F6E-0BF858B6AF37>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Potestà" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/498F6B09-1F2D-3372-A416-8027101FB4FB>
+        a                        crm:E21_Person ;
+        rdfs:label               "Luigi Gagliardi" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/7043> , <https://rs.sealitproject.eu/kb/appellation_surname/DD05F3D7-7A0D-3AB9-B682-6AE0F51F2D98> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:33de39b4-5c25-4572-b616-a7f590d422fa> ;
+        sealit:has_first_name    "Luigi" ;
+        sealit:has_last_name     "Gagliardi" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/96E6E4A6-956B-35FA-B47E-064463F471AD> .
+
+<https://rs.sealitproject.eu/kb/ids/7043>
+        a                crm:E42_Identifier ;
+        rdfs:label       "7043" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/289DF97C-36C0-36A4-976D-2DC6AF285CDA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/person/3DA3B68F-D0A9-3E1D-B2C1-FF1023B76AEC> , <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/021D6C47-CE76-3607-B623-818FA24B777A> .
+
+<https://rs.sealitproject.eu/kb/date/1829>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1829" ;
+        crm:P82_at_some_time_within  "1829"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/6AA22CC6-145B-3144-855F-0F3890324C58>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Magrini" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/names/surname%20a>
+        a           crm:E55_Type ;
+        rdfs:label  "surname A" .
+
+<https://rs.sealitproject.eu/kb/person/B2D0EB46-2AD7-3879-BF22-B6FF7DCC37C6>
+        a       crm:E21_Person .
+
+<urn:uuid:b8484698-779a-468d-a63b-fe6164f77d0e>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Mezzano" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1838> .
+
+<https://rs.sealitproject.eu/kb/person/04A7E21F-8613-35D6-A011-F27B67D37CC4>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/1035>
+        a                crm:E42_Identifier ;
+        rdfs:label       "1035" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/9CEAADB3-4445-30FE-8E75-FAE277E2033C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 8, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/A174DF0B-5448-30DD-AB8D-CA89E1B5251D> .
+
+<https://rs.sealitproject.eu/kb/person/01C8FBC9-1E96-3D6D-9A36-F371DA382381>
+        a                        crm:E21_Person ;
+        rdfs:label               "Gerolamo Remaggi" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/10454> , <https://rs.sealitproject.eu/kb/appellation_surname/0B946885-0DC7-36FC-AC03-6E105661C82E> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:ba603bd4-9e2c-4d1c-8a37-bf9e9a0921b5> ;
+        sealit:has_first_name    "Gerolamo" ;
+        sealit:has_last_name     "Remaggi" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/143C217B-6668-3F0D-975D-410D02534CD9> .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T15:30:46.728Z_3&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<urn:uuid:4a1ce3b9-2aa2-4958-a6ec-5c824c2bc371>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Dagnino" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1833> .
+
+<https://rs.sealitproject.eu/kb/ids/12856>
+        a                crm:E42_Identifier ;
+        rdfs:label       "12856" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/ids/12451>
+        a                crm:E42_Identifier ;
+        rdfs:label       "12451" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/date/1837>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1837" ;
+        crm:P82_at_some_time_within  "1837"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/4E6E83EC-6D8B-3661-9F66-4559B7C6E36B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 27, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/143C217B-6668-3F0D-975D-410D02534CD9> .
+
+<https://rs.sealitproject.eu/kb/ids/7656>
+        a                crm:E42_Identifier ;
+        rdfs:label       "7656" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/97A12EF2-100C-3AFA-9F8E-869115B5979D>
+        a                        crm:E21_Person ;
+        rdfs:label               "Gio.Batta Costa" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/10930> , <https://rs.sealitproject.eu/kb/appellation_surname/6F50B8C8-A110-32C7-90CB-CD28FDE3713C> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:ba317020-e3a6-4972-bf8c-8e5239094fd4> ;
+        sealit:has_first_name    "Gio.Batta" ;
+        sealit:has_last_name     "Costa" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/59CC45EC-B858-38BC-A55E-0451D552BB5D> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/E0568731-A784-3218-A9EC-D3FBEEB27D15>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 1, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/C4BBABC7-DFD2-314C-AE43-E2EFE6255057> .
+
+<urn:uuid:14f8b6dc-7a98-47b1-90c1-1679a45c099d>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Capellino" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1846> .
+
+<https://rs.sealitproject.eu/kb/date/1845>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1845" ;
+        crm:P82_at_some_time_within  "1845"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:a76f4179-e33e-4787-9e5f-f45d67c36fe4>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Potestà" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1829> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/DB83E383-35A1-3F9E-9F8D-6BC908149964>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 10, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/91BC747E-E984-3D52-B199-DC8FB07BDE12> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/609FB2A2-2FC9-36F0-B9E4-06FB80B10302>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 16, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/B2D0EB46-2AD7-3879-BF22-B6FF7DCC37C6> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/B7E62F8F-C83A-38F5-836A-993693523B6C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 5, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/96E6E4A6-956B-35FA-B47E-064463F471AD> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/7BD16211-F650-3BBC-B61A-3E45560E51AE>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Rossi" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/14A8190E-ADF9-30E7-B4DD-437A4D09D47E>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Bruzzo" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/C862AF94-619A-3635-8487-DE6E368E1B07>
+        a                        crm:E21_Person ;
+        rdfs:label               "Luigi Monti" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/1502> , <https://rs.sealitproject.eu/kb/appellation_surname/45A9B95D-5AD2-3697-B7B7-0705C648419D> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:865ee8cc-c4a7-46f4-b774-6cac11f001d2> ;
+        sealit:has_first_name    "Luigi" ;
+        sealit:has_last_name     "Monti" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/1A65A5BA-DE6D-3951-886C-C2364DB644FD> .
+
+<urn:uuid:88cdf5fc-f8a8-406a-b447-92429ef05329>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Rossi" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1835> .
+
+<https://rs.sealitproject.eu/kb/date/1832>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1832" ;
+        crm:P82_at_some_time_within  "1832"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/ids/2365>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2365" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/4807F97F-266F-3325-A1B1-1B99779A7FD3>
+        a                        crm:E21_Person ;
+        rdfs:label               "Prospero Domenico Bruzzo" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/2365> , <https://rs.sealitproject.eu/kb/appellation_surname/14A8190E-ADF9-30E7-B4DD-437A4D09D47E> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:3904187e-6bab-4ef4-a743-767dd97126e2> ;
+        sealit:has_first_name    "Prospero Domenico" ;
+        sealit:has_last_name     "Bruzzo" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/A174DF0B-5448-30DD-AB8D-CA89E1B5251D> .
+
+<https://rs.sealitproject.eu/kb/person/F1B93011-19FB-3C53-812F-388E835875D8>
+        a       crm:E21_Person .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<https://rs.sealitproject.eu/kb/register_record_point/A3D9011C-6F8F-32E8-88F3-80D0738282F7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 19, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/4405E58B-70D2-3A76-A496-B7825CBC3779> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/87ED9AED-F71B-3DEA-B301-0E2DACB05865>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 11, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/41B9B1F0-1D86-3A8E-9DFC-AD2BA648E3E9> .
+
+<urn:uuid:11a3ad73-3d8f-4cb9-ae78-656e7d7f877c>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Vinciguerra" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1842> .
+
+<urn:uuid:ba317020-e3a6-4972-bf8c-8e5239094fd4>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Costa" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1839> .
+
+<https://rs.sealitproject.eu/kb/date/1840>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1840" ;
+        crm:P82_at_some_time_within  "1840"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/267B860F-4C26-3329-B07A-BA751F767764>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/14682>
+        a                crm:E42_Identifier ;
+        rdfs:label       "14682" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/A174DF0B-5448-30DD-AB8D-CA89E1B5251D>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/F046D1E5-4E28-316E-8DC9-EA683BF72BB2>
+        a                        crm:E21_Person ;
+        rdfs:label               "Olivari" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/12856> , <https://rs.sealitproject.eu/kb/appellation_surname/A63286C4-03F3-365D-ACA3-CBC8C9CC6D52> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:c1a7cd4c-1e24-49b3-8363-0b98c9798eda> ;
+        sealit:has_last_name     "Olivari" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/04A7E21F-8613-35D6-A011-F27B67D37CC4> .
+
+<https://rs.sealitproject.eu/kb/person/69B076A5-12B6-3E7A-BEAC-E82788A97CFA>
+        a                        crm:E21_Person ;
+        rdfs:label               "Prospero Domenico Magrini" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/permesso> , <https://rs.sealitproject.eu/kb/appellation_surname/6AA22CC6-145B-3144-855F-0F3890324C58> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:4419128f-2ea1-4dc1-b88b-69043f87af70> ;
+        sealit:has_first_name    "Prospero Domenico" ;
+        sealit:has_last_name     "Magrini" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/3098AA1E-63FD-3636-B105-14CE59C7FABB> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/D719A615-1C9B-3D60-AF6A-47B719782881>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 15, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/A444B330-9452-394A-B5ED-E4D54ED4B101> .
+
+<https://rs.sealitproject.eu/kb/person/3098AA1E-63FD-3636-B105-14CE59C7FABB>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/3253>
+        a                crm:E42_Identifier ;
+        rdfs:label       "3253" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<urn:uuid:4419128f-2ea1-4dc1-b88b-69043f87af70>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Magrini" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1832> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/28B480BC-1391-3ACE-BE28-0119DD32BEC5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 6, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/66300573-B4B3-31E5-AA1C-120D943C8CD1> .
+
+<https://rs.sealitproject.eu/kb/person/45B28BCE-9D5A-3592-98A7-9758E4D0EFB5>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giuseppe Dagnino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/7656> , <https://rs.sealitproject.eu/kb/appellation_surname/D5937E77-5EED-32F2-8924-4AF3494CF8C3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:4a1ce3b9-2aa2-4958-a6ec-5c824c2bc371> ;
+        sealit:has_first_name    "Giuseppe" ;
+        sealit:has_last_name     "Dagnino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/23B43B4A-3608-3FC0-AC42-7F9A10E3925B> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/D61F9931-C212-3330-A660-AA2AAAE3F9D7>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Muzio" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/E3DD053F-08B4-300F-9BDF-4CF48F8E1F2C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dittatore Garibaldi, 1861-04-06, Giacomo Calcagno | row: 7, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T15%3A30%3A46.728Z_3> , <https://rs.sealitproject.eu/kb/person/8C7852F1-B035-3D74-8C40-3F89FCC1F4D7> .
+
+<https://rs.sealitproject.eu/kb/person/F8D9974C-50F7-354B-AF5B-EAB1FC075424>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giacomo Capellino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/1386> , <https://rs.sealitproject.eu/kb/appellation_surname/4F087C6F-1FFC-3A8C-BFE7-73B05B03F21A> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:c6b03093-db43-467d-a0f1-161e9829e930> ;
+        sealit:has_first_name    "Giacomo" ;
+        sealit:has_last_name     "Capellino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/93AFB3CA-C5A5-3B04-8DA3-4FF27D495896> .
+
+<https://rs.sealitproject.eu/kb/person/724FACD4-4137-370B-9F3C-DD46C133399F>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/3B95AE48-4A49-3BEC-A469-7DD754589CC8>
+        a                        crm:E21_Person ;
+        rdfs:label               "Filippo Mezzano" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/10066> , <https://rs.sealitproject.eu/kb/appellation_surname/0DE780FC-4EB4-3B92-8F1C-7219BA33E0F3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:b8484698-779a-468d-a63b-fe6164f77d0e> ;
+        sealit:has_first_name    "Filippo" ;
+        sealit:has_last_name     "Mezzano" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/66300573-B4B3-31E5-AA1C-120D943C8CD1> .
+
+<https://rs.sealitproject.eu/kb/person/BFF32832-8DEE-381D-B4F8-2396902B106E>
+        a                        crm:E21_Person ;
+        rdfs:label               "Pasquale Massa" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/3914> , <https://rs.sealitproject.eu/kb/appellation_surname/B0651837-7C1A-3C20-8449-ADBAFEFB4D2B> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:32263669-3743-41e6-9642-6ff4e6afa20b> ;
+        sealit:has_first_name    "Pasquale" ;
+        sealit:has_last_name     "Massa" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/B8E61F24-C560-3630-8BD8-7A20C44F2E43> .
+
+<urn:uuid:1f725016-e39a-429f-b93e-212c446ca7cf>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Olivari" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1810> .
+
+<https://rs.sealitproject.eu/kb/date/1835>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1835" ;
+        crm:P82_at_some_time_within  "1835"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:c37a85eb-3df0-4449-9961-f49ea1c22b77>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Muzio" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1826> .
+
+<urn:uuid:32263669-3743-41e6-9642-6ff4e6afa20b>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Massa" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1817> .
+
+<https://rs.sealitproject.eu/kb/person/C225C92B-74CD-3DAE-AC4A-6094CBFDC220>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/A9B98F53-1668-39AF-B06A-16C52110F143>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/784CA198-C465-37AB-AF23-F1B28B25F167>
+        a                        crm:E21_Person ;
+        rdfs:label               "Gio.Batta Olivari" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/1035> , <https://rs.sealitproject.eu/kb/appellation_surname/A63286C4-03F3-365D-ACA3-CBC8C9CC6D52> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:1f725016-e39a-429f-b93e-212c446ca7cf> ;
+        sealit:has_first_name    "Gio.Batta" ;
+        sealit:has_last_name     "Olivari" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/ED5CC652-666E-30FB-AD9E-4577F05EC610> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/D5937E77-5EED-32F2-8924-4AF3494CF8C3>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Dagnino" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<urn:uuid:ba603bd4-9e2c-4d1c-8a37-bf9e9a0921b5>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Remaggi" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1835> .

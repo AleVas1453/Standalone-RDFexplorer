@@ -1,0 +1,99 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <https://rs.sealitproject.eu/kb/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew list (ruoli di equipaggio)" .
+
+<https://rs.sealitproject.eu/kb/ship/A431F399-CBFA-359D-85EC-5F4B3B83745B>
+        a       sealit:Ship .
+
+<https://rs.sealitproject.eu/kb/ship%20name/andrea>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Andrea" .
+
+<https://rs.sealitproject.eu/kb/register%20numbers/register%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "register number" .
+
+<https://rs.sealitproject.eu/kb/ship_identifier/2024>
+        a                sealit:Ship_ID ;
+        rdfs:label       "2024" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/register%20numbers/register%20number> .
+
+<https://rs.sealitproject.eu/kb/date/1859>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1859" ;
+        crm:P82_at_some_time_within  "1859"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-03-27T12%3A47%3A41.229Z_14>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Andrea, 1862-03-18, Beatrice Corradi" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T12:47:41.229Z_14&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T12:47:41.229Z_14&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/ship/B2591D75-D57F-3EDD-8A11-F4BFE10FF130>
+        a       sealit:Ship .
+
+<https://rs.sealitproject.eu/kb/registration_number/2024>
+        a                    sealit:Ship_Registration ;
+        rdfs:label           "Registration of Andrea" ;
+        sealit:with_ship_ID  <https://rs.sealitproject.eu/kb/ship_identifier/2024> .
+
+<https://rs.sealitproject.eu/kb/location/sestri%20ponente>
+        a           crm:E53_Place ;
+        rdfs:label  "Sestri Ponente" .
+
+<https://rs.sealitproject.eu/kb/ship%20type/brigantino>
+        a           crm:E55_Type ;
+        rdfs:label  "brigantino" .
+
+<urn:uuid:b259ba9d-fdfc-4407-83a5-d29d62d31244>
+        a                     sealit:Ship_Construction ;
+        rdfs:label            "Construction of Andrea" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1859> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/sestri%20ponente> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T13:26:48.597Z_2&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<https://rs.sealitproject.eu/kb/register_record_point/3ED5E57A-19E3-34C0-950D-7088355D9D66>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Andrea, 1862-03-18, Beatrice Corradi | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-27T12%3A47%3A41.229Z_14> , <https://rs.sealitproject.eu/kb/ship/B2591D75-D57F-3EDD-8A11-F4BFE10FF130> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/B930F4AF-03C3-39C9-AFC8-D166B36EDFAC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Andrea, 1860-04-09, Giacomo Calcagno | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T13%3A26%3A48.597Z_2> , <https://rs.sealitproject.eu/kb/ship/A431F399-CBFA-359D-85EC-5F4B3B83745B> .
+
+<https://rs.sealitproject.eu/kb/ship/83C2C135-8535-336F-B8DB-6AD3DD73E4B8>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Andrea" ;
+        crm:P1_is_identified_by    <https://rs.sealitproject.eu/kb/ship%20name/andrea> ;
+        crm:P2_has_type            <https://rs.sealitproject.eu/kb/ship%20type/brigantino> , <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:is_registered_by    <https://rs.sealitproject.eu/kb/registration_number/2024> ;
+        sealit:was_constructed_by  <urn:uuid:b259ba9d-fdfc-4407-83a5-d29d62d31244> ;
+        owl:sameAs                 <https://rs.sealitproject.eu/kb/ship/A431F399-CBFA-359D-85EC-5F4B3B83745B> , <https://rs.sealitproject.eu/kb/ship/B2591D75-D57F-3EDD-8A11-F4BFE10FF130> .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-02-27T13%3A26%3A48.597Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Andrea, 1860-04-09, Giacomo Calcagno" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T13:26:48.597Z_2&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .

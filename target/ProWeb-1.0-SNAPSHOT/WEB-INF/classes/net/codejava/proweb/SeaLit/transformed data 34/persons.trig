@@ -1,0 +1,319 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <https://rs.sealitproject.eu/kb/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-28T15:55:19.727Z_6&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/register_record_point/65CBFB53-566C-3937-9E83-D7E0EA4E5123>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Francesco, 1861-01-31, Maurizio Antinori | row: 8, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-28T15%3A55%3A19.727Z_6> , <https://rs.sealitproject.eu/kb/person/B43C6130-2E49-3C93-82F5-61F04DDD9F99> .
+
+<https://rs.sealitproject.eu/kb/person/5CBC3EE1-6651-3A2C-966D-7A6F85F56848>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/E3873CAF-69FA-3A03-BE07-20C39A3DDE52>
+        a                        crm:E21_Person ;
+        rdfs:label               "Benedetto Bozzo" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/10444> , <https://rs.sealitproject.eu/kb/appellation_surname/6A1E1BB8-8A93-3EE0-B2E4-F3CFF0FB029B> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Benedetto" ;
+        sealit:has_last_name     "Bozzo" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/58ACAD5E-4A0B-3447-B26D-05B56E15266B> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/E15DD87C-659E-3281-BDD4-4F1E3B59925F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Francesco, 1861-01-31, Maurizio Antinori | row: 2, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-28T15%3A55%3A19.727Z_6> , <https://rs.sealitproject.eu/kb/person/CF546805-D720-3BC4-8460-8090EB9D7BF3> .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-03-26T13%3A28%3A11.810Z_16>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Sincero, 1862-12-01, Carolina Gaggero" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T13:28:11.810Z_16&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/person/921E4D20-3A82-3905-87B9-3EE5698767CE>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giuseppe Olivari" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/548> , <https://rs.sealitproject.eu/kb/appellation_surname/A63286C4-03F3-365D-ACA3-CBC8C9CC6D52> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Giuseppe" ;
+        sealit:has_last_name     "Olivari" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/5CBC3EE1-6651-3A2C-966D-7A6F85F56848> .
+
+<https://rs.sealitproject.eu/kb/ids/12106>
+        a                crm:E42_Identifier ;
+        rdfs:label       "12106" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/numbers/serial%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "serial number" .
+
+<https://rs.sealitproject.eu/kb/register_record_point/FD01685F-6F2C-3B5E-8135-D3FE90C92B4B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Il Prudente, 1853-07-06, Massimo Ponasso | row: 7, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T12%3A54%3A01.032Z_3> , <https://rs.sealitproject.eu/kb/person/598E2119-6601-3430-9EE9-73311DE9E18F> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Schiaffino" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/19BFAD03-6118-3E42-8E1F-B1A4C47C5093>
+        a                        crm:E21_Person ;
+        rdfs:label               "Emmanuele Schiaffino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/13818> , <https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Emmanuele" ;
+        sealit:has_last_name     "Schiaffino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/B43C6130-2E49-3C93-82F5-61F04DDD9F99> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-26T13:28:11.810Z_16&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/register_record_point/33C5E839-B684-304C-8111-5892EFE4D369>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Francesco, 1861-01-31, Maurizio Antinori | row: 6, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-28T15%3A55%3A19.727Z_6> , <https://rs.sealitproject.eu/kb/person/2F372AB8-6E70-35DA-ADA4-049126AEE9E8> .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-02-28T15%3A55%3A19.727Z_6>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Francesco, 1861-01-31, Maurizio Antinori" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-28T15:55:19.727Z_6&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/person/CC16B11C-E6D5-3996-BC50-ABD0C26EFF72>
+        a                        crm:E21_Person ;
+        rdfs:label               "Francesco Schiaffino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/10213> , <https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Francesco" ;
+        sealit:has_last_name     "Schiaffino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/CF546805-D720-3BC4-8460-8090EB9D7BF3> .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<https://rs.sealitproject.eu/kb/person/2F372AB8-6E70-35DA-ADA4-049126AEE9E8>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/96DB9F84-B7A0-309E-AC82-D6AEDE82618D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Francesco, 1861-01-31, Maurizio Antinori | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-28T15%3A55%3A19.727Z_6> , <https://rs.sealitproject.eu/kb/person/8DB98C2D-9F6F-37FF-8B44-469875B3499D> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/6A1E1BB8-8A93-3EE0-B2E4-F3CFF0FB029B>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Bozzo" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/1E8BD78B-67C6-376C-A198-711C650182B0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Francesco, 1861-01-31, Maurizio Antinori | row: 4, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-28T15%3A55%3A19.727Z_6> , <https://rs.sealitproject.eu/kb/person/58ACAD5E-4A0B-3447-B26D-05B56E15266B> .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-12-12T12%3A54%3A01.032Z_3>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Il Prudente, 1853-07-06, Massimo Ponasso" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-12T12:54:01.032Z_3&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/ids/3947>
+        a                crm:E42_Identifier ;
+        rdfs:label       "3947" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/598E2119-6601-3430-9EE9-73311DE9E18F>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/049B1C4D-F6BC-36E1-AC95-6260813438D1>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/3F41F076-54D9-30A0-95B2-1DDECF9F0246>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Francesco, 1861-01-31, Maurizio Antinori | row: 1, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-28T15%3A55%3A19.727Z_6> , <https://rs.sealitproject.eu/kb/person/5CBC3EE1-6651-3A2C-966D-7A6F85F56848> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/2DA1CA57-0330-3214-9771-ACC46E4A4CC6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Francesco, 1861-01-31, Maurizio Antinori | row: 3, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-28T15%3A55%3A19.727Z_6> , <https://rs.sealitproject.eu/kb/person/3FFD7FCE-3D3D-3E77-94B3-BA795463458F> .
+
+<https://rs.sealitproject.eu/kb/person/27D399C9-E58C-38CE-996C-E06322CABDE6>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/names/surname%20a>
+        a           crm:E55_Type ;
+        rdfs:label  "surname A" .
+
+<https://rs.sealitproject.eu/kb/ids/10213>
+        a                crm:E42_Identifier ;
+        rdfs:label       "10213" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/2333B9A6-CBA9-3A29-A5A2-5719C49B0BFB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Francesco, 1861-01-31, Maurizio Antinori | row: 7, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-28T15%3A55%3A19.727Z_6> , <https://rs.sealitproject.eu/kb/person/42C39797-C5FA-3B3C-90B7-07EAD943A984> .
+
+<https://rs.sealitproject.eu/kb/person/7A929D43-41D6-3966-BE89-4E79F5B0317F>
+        a                        crm:E21_Person ;
+        rdfs:label               "Antonio Ageno" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/3947> , <https://rs.sealitproject.eu/kb/appellation_surname/77ECC537-C498-3709-8849-63F9AB306FC9> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Antonio" ;
+        sealit:has_last_name     "Ageno" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/42C39797-C5FA-3B3C-90B7-07EAD943A984> .
+
+<https://rs.sealitproject.eu/kb/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<https://rs.sealitproject.eu/kb/person/225E64D5-3F07-33F5-B499-907C64264C29>
+        a                        crm:E21_Person ;
+        rdfs:label               "Silvestro Mortola" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/3437> , <https://rs.sealitproject.eu/kb/appellation_surname/3256A258-CD28-3F87-AEDC-A59AC063C4C8> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Silvestro" ;
+        sealit:has_last_name     "Mortola" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/3FFD7FCE-3D3D-3E77-94B3-BA795463458F> .
+
+<https://rs.sealitproject.eu/kb/person/42C39797-C5FA-3B3C-90B7-07EAD943A984>
+        a       crm:E21_Person .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-12T12:54:01.032Z_3&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/person/C98BF371-596A-3654-964C-938596799A5F>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giovanni Battista Ageno" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/15019> , <https://rs.sealitproject.eu/kb/appellation_surname/77ECC537-C498-3709-8849-63F9AB306FC9> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Giovanni Battista" ;
+        sealit:has_last_name     "Ageno" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/606EF028-593F-383B-9B1A-CC3E23527757> .
+
+<https://rs.sealitproject.eu/kb/person/58ACAD5E-4A0B-3447-B26D-05B56E15266B>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/CF546805-D720-3BC4-8460-8090EB9D7BF3>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew list (ruoli di equipaggio)" .
+
+<https://rs.sealitproject.eu/kb/person/7E26DC75-59E9-3776-A09F-F6CFA959270B>
+        a                        crm:E21_Person ;
+        rdfs:label               "Benedetto Bozzo" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/12106> , <https://rs.sealitproject.eu/kb/appellation_surname/6A1E1BB8-8A93-3EE0-B2E4-F3CFF0FB029B> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Benedetto" ;
+        sealit:has_last_name     "Bozzo" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/049B1C4D-F6BC-36E1-AC95-6260813438D1> , <https://rs.sealitproject.eu/kb/person/2F372AB8-6E70-35DA-ADA4-049126AEE9E8> .
+
+<https://rs.sealitproject.eu/kb/person/3FFD7FCE-3D3D-3E77-94B3-BA795463458F>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/B43C6130-2E49-3C93-82F5-61F04DDD9F99>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/F4F6A45D-C681-3412-A66B-52B60CFD2161>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Francesco, 1861-01-31, Maurizio Antinori | row: 9, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-28T15%3A55%3A19.727Z_6> , <https://rs.sealitproject.eu/kb/person/606EF028-593F-383B-9B1A-CC3E23527757> .
+
+<https://rs.sealitproject.eu/kb/ids/548>
+        a                crm:E42_Identifier ;
+        rdfs:label       "548" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/D374DC92-2C91-3CFE-AFB5-F58F5D3603B9>
+        a                        crm:E21_Person ;
+        rdfs:label               "Paolo Olivari" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/8022> , <https://rs.sealitproject.eu/kb/appellation_surname/A63286C4-03F3-365D-ACA3-CBC8C9CC6D52> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Paolo" ;
+        sealit:has_last_name     "Olivari" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/598E2119-6601-3430-9EE9-73311DE9E18F> , <https://rs.sealitproject.eu/kb/person/27D399C9-E58C-38CE-996C-E06322CABDE6> .
+
+<https://rs.sealitproject.eu/kb/ids/10444>
+        a                crm:E42_Identifier ;
+        rdfs:label       "10444" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/77ECC537-C498-3709-8849-63F9AB306FC9>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Ageno" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/8DB98C2D-9F6F-37FF-8B44-469875B3499D>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/3256A258-CD28-3F87-AEDC-A59AC063C4C8>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Mortola" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/ids/15019>
+        a                crm:E42_Identifier ;
+        rdfs:label       "15019" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/A63286C4-03F3-365D-ACA3-CBC8C9CC6D52>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Olivari" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/A1C9EB46-4D76-3A33-8FA3-20ECD0F0AB77>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Francesco, 1861-01-31, Maurizio Antinori | row: 5, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-28T15%3A55%3A19.727Z_6> , <https://rs.sealitproject.eu/kb/person/27D399C9-E58C-38CE-996C-E06322CABDE6> .
+
+<https://rs.sealitproject.eu/kb/ids/8022>
+        a                crm:E42_Identifier ;
+        rdfs:label       "8022" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/606EF028-593F-383B-9B1A-CC3E23527757>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/57C21E97-100F-37E6-93EC-5BB88AC1A343>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Sincero, 1862-12-01, Carolina Gaggero | row: 4, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-26T13%3A28%3A11.810Z_16> , <https://rs.sealitproject.eu/kb/person/049B1C4D-F6BC-36E1-AC95-6260813438D1> .
+
+<https://rs.sealitproject.eu/kb/ids/3437>
+        a                crm:E42_Identifier ;
+        rdfs:label       "3437" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/828457A4-1F0D-3D64-B9D6-E3BF8CB072CC>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giuseppe Schiaffino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Giuseppe" ;
+        sealit:has_last_name     "Schiaffino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/8DB98C2D-9F6F-37FF-8B44-469875B3499D> .
+
+<https://rs.sealitproject.eu/kb/ids/13818>
+        a                crm:E42_Identifier ;
+        rdfs:label       "13818" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .

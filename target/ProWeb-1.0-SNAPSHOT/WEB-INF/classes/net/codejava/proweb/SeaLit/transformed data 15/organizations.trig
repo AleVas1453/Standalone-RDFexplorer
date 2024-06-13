@@ -1,0 +1,229 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <https://rs.sealitproject.eu/kb/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<https://rs.sealitproject.eu/kb/organisation/master_uri-direzione%20marittima>
+        a                        crm:E74_Group ;
+        rdfs:label               "Direzione marittima" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/organization_appellation/25BA4EA3-27F4-36BA-AA3E-8D9CE7747BF4> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/organisation/direzione%20marittima> .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-03-20T14%3A33%3A27.932Z_9>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Concordia, 1861-01-29, Beatrice Corradi" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T14:33:27.932Z_9&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/28D0C9B6-C1C8-3ED6-8AED-0F374134B864>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi | row: 1, table: source_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/organisation/direzione%20marittima> , <https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5> , <https://rs.sealitproject.eu/kb/organisation/archivio%20di%20stato> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/D734184C-5C6E-37CD-9612-ACBFAAEFB2E7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Argo, 1861-01-14, Beatrice Corradi | row: 1, table: source_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/organisation/direzione%20marittima> , <https://rs.sealitproject.eu/kb/register_record/2018-02-27T16%3A14%3A57.376Z_2> , <https://rs.sealitproject.eu/kb/organisation/archivio%20di%20stato> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/74DB7A39-B0F1-365A-ACBB-75D09FFF3C94>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Andrea, 1862-03-18, Beatrice Corradi | row: 1, table: source_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/organisation/direzione%20marittima> , <https://rs.sealitproject.eu/kb/register_record/2018-03-27T12%3A47%3A41.229Z_14> , <https://rs.sealitproject.eu/kb/organisation/archivio%20di%20stato> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/2C7BC7E3-7931-3929-918A-4E2CB620E8B1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Mentore, 1861-01-16, Beatrice Corradi | row: 1, table: source_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/organisation/direzione%20marittima> , <https://rs.sealitproject.eu/kb/register_record/2018-03-06T13%3A31%3A18.342Z_4> , <https://rs.sealitproject.eu/kb/organisation/archivio%20di%20stato> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T15:09:41.939Z_10&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<https://rs.sealitproject.eu/kb/organisation/direzione%20marittima>
+        a       crm:E74_Group .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-03-20T15%3A09%3A41.939Z_10>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Camilla, 1861-01-30, Beatrice Corradi" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T15:09:41.939Z_10&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-06T13:31:18.342Z_4&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/organisation/master_uri-archivio%20di%20stato>
+        a                        crm:E74_Group ;
+        rdfs:label               "Archivio di stato" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/organization_appellation/8EB21EF7-B9CA-3E7A-A64A-C50B288F13E2> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/organisation/archivio%20di%20stato> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T13:17:37.457Z_1&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/register_record_point/57C4B456-6291-3945-BA8B-26B4D6858429>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Ave, 1861-01-24, Beatrice Corradi | row: 1, table: source_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/organisation/direzione%20marittima> , <https://rs.sealitproject.eu/kb/register_record/2018-03-20T14%3A12%3A31.437Z_8> , <https://rs.sealitproject.eu/kb/organisation/archivio%20di%20stato> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T16:14:57.376Z_2&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/register_record_point/736F336E-0C71-382D-83C8-041BD52C5CDF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), La Rosa, 1862-03-14, Beatrice Corradi | row: 1, table: source_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/organisation/direzione%20marittima> , <https://rs.sealitproject.eu/kb/register_record/2018-03-20T16%3A13%3A08.665Z_11> , <https://rs.sealitproject.eu/kb/organisation/archivio%20di%20stato> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T12:47:41.229Z_14&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<https://rs.sealitproject.eu/kb/register_record/2019-11-29T08%3A51%3A01.444Z_98>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), L`Unione, 1854-03-08, Leonardo Scavino" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2019-11-29T08:51:01.444Z_98&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-03-06T16%3A22%3A46.010Z_6>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Il prosperoso, 1861-01-18, Beatrice Corradi" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-06T16:22:46.010Z_6&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/organization_appellation/8EB21EF7-B9CA-3E7A-A64A-C50B288F13E2>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Archivio di stato" .
+
+<https://rs.sealitproject.eu/kb/register_record_point/BF13501E-BC6B-354F-B5AD-3E41C69A2053>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Aurora, 1862-03-18, Beatrice | row: 1, table: source_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/organisation/direzione%20marittima> , <https://rs.sealitproject.eu/kb/register_record/2018-03-27T12%3A18%3A57.414Z_13> , <https://rs.sealitproject.eu/kb/organisation/archivio%20di%20stato> .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-03-20T13%3A39%3A33.445Z_7>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Angiolina, 1861-01-24, Beatrice Corradi" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T13:39:33.445Z_7&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/255422CE-60DE-357B-AA84-F0B66AD202FC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Giovanni, 1861-01-22, Beatrice Corradi | row: 1, table: source_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/organisation/direzione%20marittima> , <https://rs.sealitproject.eu/kb/register_record/2018-02-27T13%3A17%3A37.457Z_1> , <https://rs.sealitproject.eu/kb/organisation/archivio%20di%20stato> .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-03-20T16%3A13%3A08.665Z_11>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), La Rosa, 1862-03-14, Beatrice Corradi" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T16:13:08.665Z_11&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T12:18:57.414Z_13&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew list (ruoli di equipaggio)" .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T13:39:33.445Z_7&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-02-27T13%3A17%3A37.457Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Giovanni, 1861-01-22, Beatrice Corradi" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T13:17:37.457Z_1&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-06T16:22:46.010Z_6&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/register_record_point/6CD4864E-8ACD-38FF-9192-D07068634825>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), L`Unione, 1854-03-08, Leonardo Scavino | row: 1, table: source_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2019-11-29T08%3A51%3A01.444Z_98> , <https://rs.sealitproject.eu/kb/organisation/direzione%20marittima> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2019-11-29T08:51:01.444Z_98&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/organization_appellation/25BA4EA3-27F4-36BA-AA3E-8D9CE7747BF4>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Direzione marittima" .
+
+<https://rs.sealitproject.eu/kb/register_record_point/5CAB2009-D558-36D1-ABD6-DFA1D2751F08>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Angiolina, 1861-01-24, Beatrice Corradi | row: 1, table: source_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/organisation/direzione%20marittima> , <https://rs.sealitproject.eu/kb/register_record/2018-03-20T13%3A39%3A33.445Z_7> , <https://rs.sealitproject.eu/kb/organisation/archivio%20di%20stato> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/48D0A268-B0A4-32A0-8A99-B87767AC026E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Camilla, 1861-01-30, Beatrice Corradi | row: 1, table: source_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/organisation/direzione%20marittima> , <https://rs.sealitproject.eu/kb/register_record/2018-03-20T15%3A09%3A41.939Z_10> , <https://rs.sealitproject.eu/kb/organisation/archivio%20di%20stato> .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-02-27T16%3A14%3A57.376Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Argo, 1861-01-14, Beatrice Corradi" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T16:14:57.376Z_2&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/21BE09A6-35DE-31D5-A1F0-32DB700A7382>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Il prosperoso, 1861-01-18, Beatrice Corradi | row: 1, table: source_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/organisation/direzione%20marittima> , <https://rs.sealitproject.eu/kb/register_record/2018-03-06T16%3A22%3A46.010Z_6> , <https://rs.sealitproject.eu/kb/organisation/archivio%20di%20stato> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T16:13:08.665Z_11&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-03-27T12%3A18%3A57.414Z_13>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Aurora, 1862-03-18, Beatrice" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T12:18:57.414Z_13&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/34458300-7935-3307-94FB-76257A546A7A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Concordia, 1861-01-29, Beatrice Corradi | row: 1, table: source_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/organisation/direzione%20marittima> , <https://rs.sealitproject.eu/kb/register_record/2018-03-20T14%3A33%3A27.932Z_9> , <https://rs.sealitproject.eu/kb/organisation/archivio%20di%20stato> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T14:12:31.437Z_8&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/organisation/archivio%20di%20stato>
+        a       crm:E74_Group .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-06T14:38:02.713Z_5&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-03-06T13%3A31%3A18.342Z_4>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Mentore, 1861-01-16, Beatrice Corradi" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-06T13:31:18.342Z_4&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-06T14:38:02.713Z_5&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-03-20T14%3A12%3A31.437Z_8>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Ave, 1861-01-24, Beatrice Corradi" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T14:12:31.437Z_8&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-03-27T12%3A47%3A41.229Z_14>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Andrea, 1862-03-18, Beatrice Corradi" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T12:47:41.229Z_14&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T14:33:27.932Z_9&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .

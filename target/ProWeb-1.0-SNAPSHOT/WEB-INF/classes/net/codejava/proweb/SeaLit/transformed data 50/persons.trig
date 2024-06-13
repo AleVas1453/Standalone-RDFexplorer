@@ -1,0 +1,612 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <https://rs.sealitproject.eu/kb/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<https://rs.sealitproject.eu/kb/person/F4403D56-20F3-3537-ABB9-B760C58DE5D5>
+        a                        crm:E21_Person ;
+        rdfs:label               "Antonio Bozzo" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/878> , <https://rs.sealitproject.eu/kb/appellation_surname/6A1E1BB8-8A93-3EE0-B2E4-F3CFF0FB029B> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:c8e682de-137c-4a97-ba98-3274395b2009> ;
+        sealit:has_first_name    "Antonio" ;
+        sealit:has_last_name     "Bozzo" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/C5815D67-7906-374F-A95B-5F9F2C648075> .
+
+<urn:uuid:7915147d-bf30-4b7a-89e5-a4845ccc9c8a>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Bozzo" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1841> .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-02-27T14%3A39%3A07.123Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Telemaco, 1861-1-30, Maurizio Antinori" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T14:39:07.123Z_2&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T14:39:07.123Z_2&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/B0651837-7C1A-3C20-8449-ADBAFEFB4D2B>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Massa" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/DCB8AF59-AF34-339E-8D6D-C3788A1F3DF1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), La Concezione, 1853-07-28, Massimo Ponasso | row: 11, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-18T09%3A52%3A08.344Z_14> , <https://rs.sealitproject.eu/kb/person/0E880BD5-D8BA-3B58-8CB8-5DD14CAC3934> .
+
+<https://rs.sealitproject.eu/kb/person/650F3802-56F1-3D9F-A804-536B9701F0F5>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-02-26T15%3A21%3A10.239Z_3>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), S. Giobatta, 1861-06-03, Carolina Gaggero" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-26T15:21:10.239Z_3&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-12-18T09%3A52%3A08.344Z_14>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), La Concezione, 1853-07-28, Massimo Ponasso" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-18T09:52:08.344Z_14&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/date/1824>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1824" ;
+        crm:P82_at_some_time_within  "1824"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/CCE6890A-CEDB-3344-9466-125461608243>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/10143>
+        a                crm:E42_Identifier ;
+        rdfs:label       "10143" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<urn:uuid:c8e682de-137c-4a97-ba98-3274395b2009>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Bozzo" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1828> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/CC40F41A-C3A3-3497-9AEB-FC4D010C0148>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), La Concezione, 1853-07-28, Massimo Ponasso | row: 7, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-18T09%3A52%3A08.344Z_14> , <https://rs.sealitproject.eu/kb/person/8FC02C0B-E97A-3392-B606-659DF8C73864> .
+
+<https://rs.sealitproject.eu/kb/person/1EB44ABE-23FB-31B3-B955-B41A6EFA9B0B>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/DD7C7208-8842-3876-8526-0A4CC612EBDF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), La Concezione, 1853-07-28, Massimo Ponasso | row: 13, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-18T09%3A52%3A08.344Z_14> , <https://rs.sealitproject.eu/kb/person/8C17D199-E973-3EDB-A4DB-0574708D86F1> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/7DA8704C-B1E0-3B0B-9AE4-917198FA9FFE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), La Concezione, 1853-07-28, Massimo Ponasso | row: 4, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-18T09%3A52%3A08.344Z_14> , <https://rs.sealitproject.eu/kb/person/47CEC21B-239A-39DB-B16E-5648C4370CF3> .
+
+<https://rs.sealitproject.eu/kb/person/53E7FB63-1CDE-319E-B787-E53BA407CAD9>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/numbers/serial%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "serial number" .
+
+<https://rs.sealitproject.eu/kb/date/1831>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1831" ;
+        crm:P82_at_some_time_within  "1831"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Schiaffino" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/47CEC21B-239A-39DB-B16E-5648C4370CF3>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/date/1829>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1829" ;
+        crm:P82_at_some_time_within  "1829"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/A0105FA1-8E16-34B4-91E4-7D5D0515C42F>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Repetto" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/ids/878>
+        a                crm:E42_Identifier ;
+        rdfs:label       "878" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/6A1E1BB8-8A93-3EE0-B2E4-F3CFF0FB029B>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Bozzo" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/3353B15A-1F53-3F91-9F2A-1162C9A92209>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), La Concezione, 1853-07-28, Massimo Ponasso | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-18T09%3A52%3A08.344Z_14> , <https://rs.sealitproject.eu/kb/person/44142D66-2E0F-3ADB-B8B5-DDC033020D6F> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/716BFCBB-A840-339D-92E9-60E5622319A9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), La Concezione, 1853-07-28, Massimo Ponasso | row: 12, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-18T09%3A52%3A08.344Z_14> , <https://rs.sealitproject.eu/kb/person/21C85990-D55C-38B1-994A-727DD1EE6DCF> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/1E3D02D1-8463-3EE9-A3B4-1739BC6D2939>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Telemaco, 1861-1-30, Maurizio Antinori | row: 26, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T14%3A39%3A07.123Z_2> , <https://rs.sealitproject.eu/kb/person/55A11125-42E7-33BD-AE76-048BF3CB5B1C> .
+
+<https://rs.sealitproject.eu/kb/ids/71>
+        a                crm:E42_Identifier ;
+        rdfs:label       "71" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/date/1823>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1823" ;
+        crm:P82_at_some_time_within  "1823"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:75ab1784-ca0a-4232-8438-8004f61d155b>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Schiaffino" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1834> .
+
+<urn:uuid:3bd7b88e-78fc-426a-a873-136f628a0f94>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Olcese" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1839> .
+
+<https://rs.sealitproject.eu/kb/person/21C85990-D55C-38B1-994A-727DD1EE6DCF>
+        a       crm:E21_Person .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-26T15:21:10.239Z_3&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/person/C5815D67-7906-374F-A95B-5F9F2C648075>
+        a       crm:E21_Person .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-18T09:52:08.344Z_14&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/person/C55BC0AC-FC1A-391F-947D-C8E2899106CB>
+        a                        crm:E21_Person ;
+        rdfs:label               "Andrea Mortola" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/60> , <https://rs.sealitproject.eu/kb/appellation_surname/3256A258-CD28-3F87-AEDC-A59AC063C4C8> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:a7a1a0cc-9d7c-4037-bba1-3323e20f9ac7> ;
+        sealit:has_first_name    "Andrea" ;
+        sealit:has_last_name     "Mortola" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/6B37B3E3-73F0-33F8-BD8C-8B8D2E869602> .
+
+<https://rs.sealitproject.eu/kb/date/1828>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1828" ;
+        crm:P82_at_some_time_within  "1828"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/5972217F-ADDC-3041-ABCD-C54FCCA2AEBC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), La Concezione, 1853-07-28, Massimo Ponasso | row: 2, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-18T09%3A52%3A08.344Z_14> , <https://rs.sealitproject.eu/kb/person/6B37B3E3-73F0-33F8-BD8C-8B8D2E869602> .
+
+<https://rs.sealitproject.eu/kb/person/B9BB221B-F38B-3520-8351-A58D9D3CDEB8>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/names/surname%20a>
+        a           crm:E55_Type ;
+        rdfs:label  "surname A" .
+
+<https://rs.sealitproject.eu/kb/person/9BAB8A4B-22BA-35FC-B2E6-F452C5F6FD48>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giuseppe Schiaffino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/6842> , <https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:38564df4-ca3d-431b-87ac-e625a0f31fda> ;
+        sealit:has_first_name    "Giuseppe" ;
+        sealit:has_last_name     "Schiaffino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/71CD7D89-EF31-38C6-9219-EECD780D00DB> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/17407435-890A-38E1-8968-9DD3F9ACB10B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), La Concezione, 1853-07-28, Massimo Ponasso | row: 14, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-18T09%3A52%3A08.344Z_14> , <https://rs.sealitproject.eu/kb/person/71CD7D89-EF31-38C6-9219-EECD780D00DB> .
+
+<https://rs.sealitproject.eu/kb/person/8C17D199-E973-3EDB-A4DB-0574708D86F1>
+        a       crm:E21_Person .
+
+<urn:uuid:38564df4-ca3d-431b-87ac-e625a0f31fda>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Schiaffino" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1829> .
+
+<https://rs.sealitproject.eu/kb/person/8FC02C0B-E97A-3392-B606-659DF8C73864>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<https://rs.sealitproject.eu/kb/person/E6BE6E53-F425-30B7-9A08-2B2537FB7A88>
+        a                        crm:E21_Person ;
+        rdfs:label               "Gio.Batta Bozzo" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/11432> , <https://rs.sealitproject.eu/kb/appellation_surname/6A1E1BB8-8A93-3EE0-B2E4-F3CFF0FB029B> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:7915147d-bf30-4b7a-89e5-a4845ccc9c8a> ;
+        sealit:has_first_name    "Gio.Batta" ;
+        sealit:has_last_name     "Bozzo" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/BA650ACA-F0A6-3FF3-A6DE-0C13067EC934> .
+
+<https://rs.sealitproject.eu/kb/person/DFEF9058-670E-3EB9-805F-190FE545EB43>
+        a                        crm:E21_Person ;
+        rdfs:label               "Fortunato Schiaffino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/5679> , <https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:824b969d-db32-4698-bd17-c5a0671d01ab> ;
+        sealit:has_first_name    "Fortunato" ;
+        sealit:has_last_name     "Schiaffino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/CCE6890A-CEDB-3344-9466-125461608243> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/284105FA-5C1A-3973-B7F0-B7AC9707E949>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Olcese" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/ids/11432>
+        a                crm:E42_Identifier ;
+        rdfs:label       "11432" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<urn:uuid:e1a8930f-583b-4944-a42c-fa791619fa29>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Massa" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1834> .
+
+<https://rs.sealitproject.eu/kb/person/BA650ACA-F0A6-3FF3-A6DE-0C13067EC934>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/5679>
+        a                crm:E42_Identifier ;
+        rdfs:label       "5679" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/ids/116>
+        a                crm:E42_Identifier ;
+        rdfs:label       "116" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<urn:uuid:824b969d-db32-4698-bd17-c5a0671d01ab>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Schiaffino" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1832> .
+
+<https://rs.sealitproject.eu/kb/person/8F09CC74-77ED-3A52-A329-1621789EDF72>
+        a                        crm:E21_Person ;
+        rdfs:label               "Gio.Batta Schiaffino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Gio.Batta" ;
+        sealit:has_last_name     "Schiaffino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/44142D66-2E0F-3ADB-B8B5-DDC033020D6F> .
+
+<https://rs.sealitproject.eu/kb/ids/6279>
+        a                crm:E42_Identifier ;
+        rdfs:label       "6279" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/50DC728D-90CE-376C-BB4F-120A370DDCC6>
+        a       crm:E21_Person .
+
+<urn:uuid:3e875018-d675-4f43-a2fc-09ffbe30fe1b>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Schiaffino" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1824> .
+
+<https://rs.sealitproject.eu/kb/ids/11716>
+        a                crm:E42_Identifier ;
+        rdfs:label       "11716" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/1FC7D9EF-79E0-3F29-8FA3-05097180656A>
+        a                        crm:E21_Person ;
+        rdfs:label               "Domenico Olcese" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/284105FA-5C1A-3973-B7F0-B7AC9707E949> , <https://rs.sealitproject.eu/kb/ids/11716> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:49baa070-a34a-4819-affc-fd55afa7509c> ;
+        sealit:has_first_name    "Domenico" ;
+        sealit:has_last_name     "Olcese" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/55A11125-42E7-33BD-AE76-048BF3CB5B1C> , <https://rs.sealitproject.eu/kb/person/21C85990-D55C-38B1-994A-727DD1EE6DCF> .
+
+<https://rs.sealitproject.eu/kb/person/50658D7E-7477-39CA-AC68-92E6EDAE1BF7>
+        a                        crm:E21_Person ;
+        rdfs:label               "Filippo Repetto" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/116> , <https://rs.sealitproject.eu/kb/appellation_surname/A0105FA1-8E16-34B4-91E4-7D5D0515C42F> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:c3c344e5-1374-4c91-a5f6-6129e646f258> ;
+        sealit:has_first_name    "Filippo" ;
+        sealit:has_last_name     "Repetto" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/8FC02C0B-E97A-3392-B606-659DF8C73864> .
+
+<https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew list (ruoli di equipaggio)" .
+
+<https://rs.sealitproject.eu/kb/register_record_point/C1D9367F-604A-30AE-9289-797675FC1924>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), S. Giobatta, 1861-06-03, Carolina Gaggero | row: 14, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-26T15%3A21%3A10.239Z_3> , <https://rs.sealitproject.eu/kb/person/1EB44ABE-23FB-31B3-B955-B41A6EFA9B0B> .
+
+<https://rs.sealitproject.eu/kb/date/1834>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1834" ;
+        crm:P82_at_some_time_within  "1834"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/A61FEF07-BF07-3F3B-8F79-093B12AA0D9D>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/8402>
+        a                crm:E42_Identifier ;
+        rdfs:label       "8402" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/ids/8236>
+        a                crm:E42_Identifier ;
+        rdfs:label       "8236" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<urn:uuid:c3c344e5-1374-4c91-a5f6-6129e646f258>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Repetto" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1831> .
+
+<https://rs.sealitproject.eu/kb/date/1800>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1800" ;
+        crm:P82_at_some_time_within  "1800"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/AD2E3BA8-7584-37A9-894F-F43BB4DB5883>
+        a                        crm:E21_Person ;
+        rdfs:label               "Pasquale Agostino Olivari" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/71> , <https://rs.sealitproject.eu/kb/appellation_surname/A63286C4-03F3-365D-ACA3-CBC8C9CC6D52> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:2533f7e6-2c4d-46a5-8486-d582badccffc> ;
+        sealit:has_first_name    "Pasquale Agostino" ;
+        sealit:has_last_name     "Olivari" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/8C17D199-E973-3EDB-A4DB-0574708D86F1> .
+
+<urn:uuid:cb4025db-cd4b-406e-990d-04a1e32e75e5>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Schiaffino" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1800> .
+
+<https://rs.sealitproject.eu/kb/date/1841>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1841" ;
+        crm:P82_at_some_time_within  "1841"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/9598C62F-500C-3BD1-9BFE-8ED3BCDAA084>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), La Concezione, 1853-07-28, Massimo Ponasso | row: 9, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-18T09%3A52%3A08.344Z_14> , <https://rs.sealitproject.eu/kb/person/BA650ACA-F0A6-3FF3-A6DE-0C13067EC934> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/7255FB6A-9E19-3B65-B574-B067C7F538B0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), La Concezione, 1853-07-28, Massimo Ponasso | row: 8, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-18T09%3A52%3A08.344Z_14> , <https://rs.sealitproject.eu/kb/person/50DC728D-90CE-376C-BB4F-120A370DDCC6> .
+
+<https://rs.sealitproject.eu/kb/person/07EB447B-8F33-3385-9C08-2AA18DE33D8F>
+        a                        crm:E21_Person ;
+        rdfs:label               "Gio. Batta Schiaffino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/8670> , <https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:75ab1784-ca0a-4232-8438-8004f61d155b> ;
+        sealit:has_first_name    "Gio. Batta" ;
+        sealit:has_last_name     "Schiaffino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/47CEC21B-239A-39DB-B16E-5648C4370CF3> .
+
+<https://rs.sealitproject.eu/kb/person/55A11125-42E7-33BD-AE76-048BF3CB5B1C>
+        a       crm:E21_Person .
+
+<urn:uuid:49baa070-a34a-4819-affc-fd55afa7509c>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Olcese" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1841> .
+
+<https://rs.sealitproject.eu/kb/date/1839>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1839" ;
+        crm:P82_at_some_time_within  "1839"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:a7a1a0cc-9d7c-4037-bba1-3323e20f9ac7>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Mortola" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1823> .
+
+<https://rs.sealitproject.eu/kb/ids/2367>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2367" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/7D16CB50-33D5-355F-9983-EDAEAEE427D2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), La Concezione, 1853-07-28, Massimo Ponasso | row: 6, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-18T09%3A52%3A08.344Z_14> , <https://rs.sealitproject.eu/kb/person/53E7FB63-1CDE-319E-B787-E53BA407CAD9> .
+
+<https://rs.sealitproject.eu/kb/ids/8670>
+        a                crm:E42_Identifier ;
+        rdfs:label       "8670" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/2B5C0F2B-A2ED-3459-8093-1541EF645BF6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), La Concezione, 1853-07-28, Massimo Ponasso | row: 3, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-18T09%3A52%3A08.344Z_14> , <https://rs.sealitproject.eu/kb/person/CCE6890A-CEDB-3344-9466-125461608243> .
+
+<https://rs.sealitproject.eu/kb/ids/6784>
+        a                crm:E42_Identifier ;
+        rdfs:label       "6784" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/90261B39-EFC6-3A10-8DCA-D54C94753743>
+        a                        crm:E21_Person ;
+        rdfs:label               "Antonio Mortola" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/8236> , <https://rs.sealitproject.eu/kb/appellation_surname/3256A258-CD28-3F87-AEDC-A59AC063C4C8> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:6b117fb0-5f3f-4262-bf4d-eb2750cafa7e> ;
+        sealit:has_first_name    "Antonio" ;
+        sealit:has_last_name     "Mortola" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/0E880BD5-D8BA-3B58-8CB8-5DD14CAC3934> .
+
+<https://rs.sealitproject.eu/kb/person/71CD7D89-EF31-38C6-9219-EECD780D00DB>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/1AE56CF9-859C-3DF4-B91B-66343D028DBB>
+        a                        crm:E21_Person ;
+        rdfs:label               "Gio.Batta Olcese" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/10143> , <https://rs.sealitproject.eu/kb/appellation_surname/284105FA-5C1A-3973-B7F0-B7AC9707E949> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:3bd7b88e-78fc-426a-a873-136f628a0f94> ;
+        sealit:has_first_name    "Gio.Batta" ;
+        sealit:has_last_name     "Olcese" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/50DC728D-90CE-376C-BB4F-120A370DDCC6> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/7F1A0893-5BCB-3C7A-BC8B-B4592E0F9FC6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), La Concezione, 1853-07-28, Massimo Ponasso | row: 1, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-18T09%3A52%3A08.344Z_14> , <https://rs.sealitproject.eu/kb/person/B9BB221B-F38B-3520-8351-A58D9D3CDEB8> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/3256A258-CD28-3F87-AEDC-A59AC063C4C8>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Mortola" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<urn:uuid:7f85a3c9-4d43-4881-adba-442f31527afe>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Schiaffino" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1834> .
+
+<https://rs.sealitproject.eu/kb/person/E0CD9ACA-0BAE-3D43-BAF0-A226D970D4F1>
+        a                        crm:E21_Person ;
+        rdfs:label               "Gio.Batta Schiaffino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/6279> , <https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:cb4025db-cd4b-406e-990d-04a1e32e75e5> ;
+        sealit:has_first_name    "Gio.Batta" ;
+        sealit:has_last_name     "Schiaffino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/B9BB221B-F38B-3520-8351-A58D9D3CDEB8> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/A63286C4-03F3-365D-ACA3-CBC8C9CC6D52>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Olivari" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/ids/60>
+        a                crm:E42_Identifier ;
+        rdfs:label       "60" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<urn:uuid:2533f7e6-2c4d-46a5-8486-d582badccffc>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Olivari" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1828> .
+
+<https://rs.sealitproject.eu/kb/person/D6488C4B-6BFB-3122-B42E-13D006AA8333>
+        a                        crm:E21_Person ;
+        rdfs:label               "Antonio Bartolomeo Massa" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/6784> , <https://rs.sealitproject.eu/kb/appellation_surname/B0651837-7C1A-3C20-8449-ADBAFEFB4D2B> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:e1a8930f-583b-4944-a42c-fa791619fa29> ;
+        sealit:has_first_name    "Antonio Bartolomeo" ;
+        sealit:has_last_name     "Massa" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/A61FEF07-BF07-3F3B-8F79-093B12AA0D9D> .
+
+<https://rs.sealitproject.eu/kb/person/F5DF2AFD-DD7D-330A-896B-F97D50075887>
+        a                        crm:E21_Person ;
+        rdfs:label               "Bernardo Schiaffino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3> , <https://rs.sealitproject.eu/kb/ids/8402> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:7f85a3c9-4d43-4881-adba-442f31527afe> ;
+        sealit:has_first_name    "Bernardo" ;
+        sealit:has_last_name     "Schiaffino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/53E7FB63-1CDE-319E-B787-E53BA407CAD9> , <https://rs.sealitproject.eu/kb/person/1EB44ABE-23FB-31B3-B955-B41A6EFA9B0B> .
+
+<https://rs.sealitproject.eu/kb/ids/6842>
+        a                crm:E42_Identifier ;
+        rdfs:label       "6842" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/date/1838>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1838" ;
+        crm:P82_at_some_time_within  "1838"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/D30AE95B-58EC-3158-98BC-BDE151F5D5E9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), La Concezione, 1853-07-28, Massimo Ponasso | row: 5, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-18T09%3A52%3A08.344Z_14> , <https://rs.sealitproject.eu/kb/person/650F3802-56F1-3D9F-A804-536B9701F0F5> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/1F4BDBD1-C624-339E-9FDA-D62795BCF6AF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), La Concezione, 1853-07-28, Massimo Ponasso | row: 10, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-18T09%3A52%3A08.344Z_14> , <https://rs.sealitproject.eu/kb/person/C5815D67-7906-374F-A95B-5F9F2C648075> .
+
+<https://rs.sealitproject.eu/kb/person/6B37B3E3-73F0-33F8-BD8C-8B8D2E869602>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/71314659-5B0B-37D9-A858-7BFBEDA630D5>
+        a                        crm:E21_Person ;
+        rdfs:label               "Gio.Batta Schiaffino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/2367> , <https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:3e875018-d675-4f43-a2fc-09ffbe30fe1b> ;
+        sealit:has_first_name    "Gio.Batta" ;
+        sealit:has_last_name     "Schiaffino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/650F3802-56F1-3D9F-A804-536B9701F0F5> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/6CEC38A9-F9BD-39C6-A719-3CB5E2F536D2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), La Concezione, 1853-07-28, Massimo Ponasso | row: 15, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-18T09%3A52%3A08.344Z_14> , <https://rs.sealitproject.eu/kb/person/A61FEF07-BF07-3F3B-8F79-093B12AA0D9D> .
+
+<https://rs.sealitproject.eu/kb/person/0E880BD5-D8BA-3B58-8CB8-5DD14CAC3934>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/date/1832>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1832" ;
+        crm:P82_at_some_time_within  "1832"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:6b117fb0-5f3f-4262-bf4d-eb2750cafa7e>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Mortola" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1838> .
+
+<https://rs.sealitproject.eu/kb/person/44142D66-2E0F-3ADB-B8B5-DDC033020D6F>
+        a       crm:E21_Person .

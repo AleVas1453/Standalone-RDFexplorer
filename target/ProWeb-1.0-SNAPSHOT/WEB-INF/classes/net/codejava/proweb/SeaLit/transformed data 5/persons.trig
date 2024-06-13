@@ -1,0 +1,558 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <https://rs.sealitproject.eu/kb/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/B2C0D775-B74C-3888-9559-A2E118B32901>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Angelina, 1861-02-16, Francesco Ferrando | row: 2, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T13%3A21%3A37.243Z_15> , <https://rs.sealitproject.eu/kb/person/1AB5394B-B5FF-3C9D-BB7C-AD9CAD1D9A80> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/B1361FE4-67D0-31E9-A630-2787CE90F4A8>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Malagamba" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/D281ECC2-510F-3F41-BB46-BDEA55EEC1C7>
+        a                        crm:E21_Person ;
+        rdfs:label               "Pietro Repetto" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/4681> , <https://rs.sealitproject.eu/kb/appellation_surname/A0105FA1-8E16-34B4-91E4-7D5D0515C42F> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:01603235-3914-458c-8091-fc8a07a30f49> ;
+        sealit:has_first_name    "Pietro" ;
+        sealit:has_last_name     "Repetto" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/2C844444-C8C6-36C1-8EDE-BCEA6AF454EF> , <https://rs.sealitproject.eu/kb/person/554A04A2-F702-3C5F-B776-CE1159F2B755> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/8D7340A5-3830-3752-BCA0-B54FD89490BE>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Cancelli" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/2C844444-C8C6-36C1-8EDE-BCEA6AF454EF>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/EB281F5F-1C4D-3C39-9512-F569E7757690>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Cichero" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/9215AC77-B741-3509-AD8B-F7191A987341>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Angelina, 1861-02-16, Francesco Ferrando | row: 11, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T13%3A21%3A37.243Z_15> , <https://rs.sealitproject.eu/kb/person/209E1DF1-B564-36D2-BC0C-F37A51F9C700> .
+
+<https://rs.sealitproject.eu/kb/ids/3651>
+        a                crm:E42_Identifier ;
+        rdfs:label       "3651" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/4A2CF7F4-F8BB-3C4E-9C83-E7FA1E34CC82>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Angelita, 18/02/1861, Leonardo Scavino | row: 11, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2017-12-21T13%3A31%3A25.667Z_2> , <https://rs.sealitproject.eu/kb/person/0AA03260-6EE1-3D5D-9ABE-D53F6C88CE38> .
+
+<https://rs.sealitproject.eu/kb/date/1824>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1824" ;
+        crm:P82_at_some_time_within  "1824"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/AD69E135-BCCE-3FD5-BBD2-4F7BD88D7F07>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/numbers/serial%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "serial number" .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/89FCEDBB-A7A4-3FB8-8C89-4851E5EEB20B>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Gighlione" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/1DB0F48B-2B6B-3FB1-90C6-9C1FD9227031>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Angelina, 1861-02-16, Francesco Ferrando | row: 10, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T13%3A21%3A37.243Z_15> , <https://rs.sealitproject.eu/kb/person/AC3056FE-F46F-3BF2-935E-94CE6ADC46E5> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/970D74C3-5B1B-35F9-A78E-C90BD6DB2FF5>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Massone" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/7A8265C1-E456-32F4-B9F7-3C5E4892D86F>
+        a                        crm:E21_Person ;
+        rdfs:label               "Gasparo Francesco Rosa" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/3681> , <https://rs.sealitproject.eu/kb/appellation_surname/0856A4AA-9C78-362F-A43A-04C64BAB47F2> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:fcba5f1d-393e-4892-bca2-8776b85715f7> ;
+        sealit:has_first_name    "Gasparo Francesco" ;
+        sealit:has_last_name     "Rosa" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/83F8290E-D6AF-3502-A403-7D3C9CDC97DD> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/7656468E-E823-3F5E-B637-FFDC6EFDAF7B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Angelita, 18/02/1861, Leonardo Scavino | row: 3, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2017-12-21T13%3A31%3A25.667Z_2> , <https://rs.sealitproject.eu/kb/person/31F3DEB4-3661-31FE-8A73-9A43D109AC8B> .
+
+<https://rs.sealitproject.eu/kb/person/E83C5C33-378B-33CA-A877-7B08917B3FCB>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giuseppe Malfino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/7531> , <https://rs.sealitproject.eu/kb/appellation_surname/9C32CE6D-B900-3745-A7E4-B07CAC531C80> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:638fbc69-38c9-43d9-ba5c-742e2b0f419c> ;
+        sealit:has_first_name    "Giuseppe" ;
+        sealit:has_last_name     "Malfino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/1AB5394B-B5FF-3C9D-BB7C-AD9CAD1D9A80> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/A0105FA1-8E16-34B4-91E4-7D5D0515C42F>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Repetto" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/DBC2A390-656F-39F6-8FB2-D3B0ABBE2745>
+        a                        crm:E21_Person ;
+        rdfs:label               "Agostino Repetto" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/3219> , <https://rs.sealitproject.eu/kb/appellation_surname/A0105FA1-8E16-34B4-91E4-7D5D0515C42F> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:ab44b246-c20c-4852-825a-e327d383e37c> ;
+        sealit:has_first_name    "Agostino" ;
+        sealit:has_last_name     "Repetto" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/45F9304F-6027-3401-99DB-3DE94FEBAFA4> .
+
+<https://rs.sealitproject.eu/kb/ids/11068>
+        a                crm:E42_Identifier ;
+        rdfs:label       "11068" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<https://rs.sealitproject.eu/kb/person/83F8290E-D6AF-3502-A403-7D3C9CDC97DD>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/BEB28E3F-104F-3C03-AF85-013AF4DAA83D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Angelina, 1861-02-16, Francesco Ferrando | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T13%3A21%3A37.243Z_15> , <https://rs.sealitproject.eu/kb/person/6AD68BC5-7303-3D6D-8FDB-C14240DC4B9B> .
+
+<https://rs.sealitproject.eu/kb/ids/4222>
+        a                crm:E42_Identifier ;
+        rdfs:label       "4222" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2017-12-21T13:31:25.667Z_2&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/register_record_point/AF2D0E19-32CA-35AF-919D-F95986501C09>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Angelina, 1861-02-16, Francesco Ferrando | row: 6, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T13%3A21%3A37.243Z_15> , <https://rs.sealitproject.eu/kb/person/EA2706BD-014F-372F-9465-34B85BC80A44> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/D0E88B51-0D4E-3C8B-8063-0B5CE37B333F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Angelita, 18/02/1861, Leonardo Scavino | row: 7, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2017-12-21T13%3A31%3A25.667Z_2> , <https://rs.sealitproject.eu/kb/person/DEAC03F3-4F94-3C44-9536-CF6567A40E23> .
+
+<https://rs.sealitproject.eu/kb/person/1AB5394B-B5FF-3C9D-BB7C-AD9CAD1D9A80>
+        a       crm:E21_Person .
+
+<urn:uuid:2a2d6108-0b20-4b0b-a8ae-e70d6e47f767>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Gighlione" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1841> .
+
+<urn:uuid:20cea4f3-978b-4967-a9f1-9c9cab5b1ae4>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Olivari" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1841> .
+
+<https://rs.sealitproject.eu/kb/person/8D8E8E7F-FF48-3BC1-BD7C-206A4C67533A>
+        a       crm:E21_Person .
+
+<urn:uuid:01603235-3914-458c-8091-fc8a07a30f49>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Repetto" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1824> .
+
+<https://rs.sealitproject.eu/kb/date/1843>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1843" ;
+        crm:P82_at_some_time_within  "1843"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:c6bc5580-79a5-48ae-a3ae-3a91be95f4f4>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Cichero" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1840> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/5057A64C-3454-3F4E-87C5-43BD77E49732>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Angelina, 1861-02-16, Francesco Ferrando | row: 3, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T13%3A21%3A37.243Z_15> , <https://rs.sealitproject.eu/kb/person/50AC6BE5-7EE7-3A87-91BA-A940BC789FB8> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/195409C9-31A7-3693-AA89-ADAFDBB4C0E8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Angelina, 1861-02-16, Francesco Ferrando | row: 9, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T13%3A21%3A37.243Z_15> , <https://rs.sealitproject.eu/kb/person/AD69E135-BCCE-3FD5-BBD2-4F7BD88D7F07> .
+
+<urn:uuid:e893725c-1889-43d9-8d3e-bd75e7297aa9>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Massone" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1834> .
+
+<https://rs.sealitproject.eu/kb/person/E6AFAB75-C2AE-37F5-A3F7-B70E72594447>
+        a                        crm:E21_Person ;
+        rdfs:label               "Michele Fortunato" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/3894> , <https://rs.sealitproject.eu/kb/appellation_surname/025B3996-3D95-30EE-80FA-1A4E0BDC7190> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:6f78be26-4466-4b72-aca9-a359933e8b64> ;
+        sealit:has_first_name    "Michele" ;
+        sealit:has_last_name     "Fortunato" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/21A54609-9AA6-3E8F-9E23-92E79B4D5580> , <https://rs.sealitproject.eu/kb/person/C2E1377E-F214-3B82-8CD2-A0F42971CC97> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/68081A10-B3FA-3C8A-B0A2-54DB1E2D94F7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Angelita, 18/02/1861, Leonardo Scavino | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2017-12-21T13%3A31%3A25.667Z_2> , <https://rs.sealitproject.eu/kb/person/8D8E8E7F-FF48-3BC1-BD7C-206A4C67533A> .
+
+<https://rs.sealitproject.eu/kb/names/surname%20a>
+        a           crm:E55_Type ;
+        rdfs:label  "surname A" .
+
+<https://rs.sealitproject.eu/kb/person/960C8AA8-2A79-3E3C-BCB8-04B853E02368>
+        a                        crm:E21_Person ;
+        rdfs:label               "Francesco Olivari" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/15039> , <https://rs.sealitproject.eu/kb/appellation_surname/A63286C4-03F3-365D-ACA3-CBC8C9CC6D52> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:20cea4f3-978b-4967-a9f1-9c9cab5b1ae4> ;
+        sealit:has_first_name    "Francesco" ;
+        sealit:has_last_name     "Olivari" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/AD69E135-BCCE-3FD5-BBD2-4F7BD88D7F07> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/30CC377B-83AF-3189-B943-9C50793F7BFC>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Angelita, 18/02/1861, Leonardo Scavino | row: 1, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2017-12-21T13%3A31%3A25.667Z_2> , <https://rs.sealitproject.eu/kb/person/2C844444-C8C6-36C1-8EDE-BCEA6AF454EF> .
+
+<https://rs.sealitproject.eu/kb/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<https://rs.sealitproject.eu/kb/ids/3741>
+        a                crm:E42_Identifier ;
+        rdfs:label       "3741" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/50AC6BE5-7EE7-3A87-91BA-A940BC789FB8>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/7F616623-BA6F-3C4C-AEB2-68442DF09DBA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Angelina, 1861-02-16, Francesco Ferrando | row: 8, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T13%3A21%3A37.243Z_15> , <https://rs.sealitproject.eu/kb/person/FF8B8921-A047-339D-996F-6040D98D45BE> .
+
+<urn:uuid:ab44b246-c20c-4852-825a-e327d383e37c>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Repetto" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1833> .
+
+<urn:uuid:6f78be26-4466-4b72-aca9-a359933e8b64>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Fortunato" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1841> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/98D8BA1B-B75C-3F7E-9DAF-FE419A5CA834>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Angelina, 1861-02-16, Francesco Ferrando | row: 7, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T13%3A21%3A37.243Z_15> , <https://rs.sealitproject.eu/kb/person/C2E1377E-F214-3B82-8CD2-A0F42971CC97> .
+
+<https://rs.sealitproject.eu/kb/person/AC3056FE-F46F-3BF2-935E-94CE6ADC46E5>
+        a       crm:E21_Person .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-04-03T13:21:37.243Z_15&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/ids/7531>
+        a                crm:E42_Identifier ;
+        rdfs:label       "7531" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/45F9304F-6027-3401-99DB-3DE94FEBAFA4>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-04-03T13%3A21%3A37.243Z_15>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Angelina, 1861-02-16, Francesco Ferrando" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-04-03T13:21:37.243Z_15&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/ids/4681>
+        a                crm:E42_Identifier ;
+        rdfs:label       "4681" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record/2017-12-21T13%3A31%3A25.667Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Angelita, 18/02/1861, Leonardo Scavino" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2017-12-21T13:31:25.667Z_2&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/ids/3219>
+        a                crm:E42_Identifier ;
+        rdfs:label       "3219" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/1869C075-9976-3241-88A8-E6074AF7DD81>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/31F3DEB4-3661-31FE-8A73-9A43D109AC8B>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/DEAC03F3-4F94-3C44-9536-CF6567A40E23>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/2767>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2767" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew list (ruoli di equipaggio)" .
+
+<https://rs.sealitproject.eu/kb/register_record_point/1B57C004-F36A-391C-A529-96224822D05E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Angelita, 18/02/1861, Leonardo Scavino | row: 6, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2017-12-21T13%3A31%3A25.667Z_2> , <https://rs.sealitproject.eu/kb/person/21A54609-9AA6-3E8F-9E23-92E79B4D5580> .
+
+<https://rs.sealitproject.eu/kb/date/1834>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1834" ;
+        crm:P82_at_some_time_within  "1834"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/EA5F17D9-6DDA-394C-BE19-611475935232>
+        a                        crm:E21_Person ;
+        rdfs:label               "Virgilio Bisio" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/4222> , <https://rs.sealitproject.eu/kb/appellation_surname/69BE5528-8C44-3D6A-8972-0DA7CD862871> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:e77111f7-90ca-4d1f-9722-d0957f1117cc> ;
+        sealit:has_first_name    "Virgilio" ;
+        sealit:has_last_name     "Bisio" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/209E1DF1-B564-36D2-BC0C-F37A51F9C700> .
+
+<urn:uuid:e77111f7-90ca-4d1f-9722-d0957f1117cc>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Bisio" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1843> .
+
+<https://rs.sealitproject.eu/kb/ids/3894>
+        a                crm:E42_Identifier ;
+        rdfs:label       "3894" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/745A147C-20BD-3187-9E83-B006B3313C47>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Angelina, 1861-02-16, Francesco Ferrando | row: 4, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T13%3A21%3A37.243Z_15> , <https://rs.sealitproject.eu/kb/person/1869C075-9976-3241-88A8-E6074AF7DD81> .
+
+<urn:uuid:638fbc69-38c9-43d9-ba5c-742e2b0f419c>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Malfino" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1834> .
+
+<https://rs.sealitproject.eu/kb/person/FF8B8921-A047-339D-996F-6040D98D45BE>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/3681>
+        a                crm:E42_Identifier ;
+        rdfs:label       "3681" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/date/1841>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1841" ;
+        crm:P82_at_some_time_within  "1841"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/69BE5528-8C44-3D6A-8972-0DA7CD862871>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Bisio" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<urn:uuid:fcba5f1d-393e-4892-bca2-8776b85715f7>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Rosa" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1841> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/9C32CE6D-B900-3745-A7E4-B07CAC531C80>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Malfino" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/1ECF0289-797A-34C6-ACB2-891B3A9026CB>
+        a                        crm:E21_Person ;
+        rdfs:label               "Amgelo Gighlione" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/2767> , <https://rs.sealitproject.eu/kb/appellation_surname/89FCEDBB-A7A4-3FB8-8C89-4851E5EEB20B> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:2a2d6108-0b20-4b0b-a8ae-e70d6e47f767> ;
+        sealit:has_first_name    "Amgelo" ;
+        sealit:has_last_name     "Gighlione" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/EA2706BD-014F-372F-9465-34B85BC80A44> .
+
+<https://rs.sealitproject.eu/kb/person/EA2706BD-014F-372F-9465-34B85BC80A44>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/date/1839>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1839" ;
+        crm:P82_at_some_time_within  "1839"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/C2E1377E-F214-3B82-8CD2-A0F42971CC97>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/0B93429B-6118-392C-B76F-13712C434471>
+        a                        crm:E21_Person ;
+        rdfs:label               "Isco Cancelli" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/3651> , <https://rs.sealitproject.eu/kb/appellation_surname/8D7340A5-3830-3752-BCA0-B54FD89490BE> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:40ba70e8-de89-4a15-b5f6-8088bd22b416> ;
+        sealit:has_first_name    "Isco" ;
+        sealit:has_last_name     "Cancelli" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/1869C075-9976-3241-88A8-E6074AF7DD81> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/0856A4AA-9C78-362F-A43A-04C64BAB47F2>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Rosa" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/363BD354-EF1D-3291-B6F7-95C4B8FB1432>
+        a                        crm:E21_Person ;
+        rdfs:label               "Bertolotto Gerolamo" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/8D8640AF-4B2E-3633-9C56-599FA14D544B> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Bertolotto" ;
+        sealit:has_last_name     "Gerolamo" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/6AD68BC5-7303-3D6D-8FDB-C14240DC4B9B> , <https://rs.sealitproject.eu/kb/person/8D8E8E7F-FF48-3BC1-BD7C-206A4C67533A> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/8D8640AF-4B2E-3633-9C56-599FA14D544B>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Gerolamo" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/date/1833>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1833" ;
+        crm:P82_at_some_time_within  "1833"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/18327592-C141-308C-A2D8-F37DD8942788>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Angelina, 1861-02-16, Francesco Ferrando | row: 12, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T13%3A21%3A37.243Z_15> , <https://rs.sealitproject.eu/kb/person/83F8290E-D6AF-3502-A403-7D3C9CDC97DD> .
+
+<https://rs.sealitproject.eu/kb/person/EE232C81-81D4-31B1-9AA6-F10E797E31FA>
+        a                        crm:E21_Person ;
+        rdfs:label               "Stefano Massone" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/854> , <https://rs.sealitproject.eu/kb/appellation_surname/970D74C3-5B1B-35F9-A78E-C90BD6DB2FF5> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:e893725c-1889-43d9-8d3e-bd75e7297aa9> ;
+        sealit:has_first_name    "Stefano" ;
+        sealit:has_last_name     "Massone" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/AC3056FE-F46F-3BF2-935E-94CE6ADC46E5> , <https://rs.sealitproject.eu/kb/person/0AA03260-6EE1-3D5D-9ABE-D53F6C88CE38> .
+
+<https://rs.sealitproject.eu/kb/ids/854>
+        a                crm:E42_Identifier ;
+        rdfs:label       "854" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/BBA361FF-E59A-3DB6-AA49-B2CBC8D41B02>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Angelina, 1861-02-16, Francesco Ferrando | row: 1, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T13%3A21%3A37.243Z_15> , <https://rs.sealitproject.eu/kb/person/554A04A2-F702-3C5F-B776-CE1159F2B755> .
+
+<https://rs.sealitproject.eu/kb/person/6AD68BC5-7303-3D6D-8FDB-C14240DC4B9B>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/21A54609-9AA6-3E8F-9E23-92E79B4D5580>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/554A04A2-F702-3C5F-B776-CE1159F2B755>
+        a       crm:E21_Person .
+
+<urn:uuid:40ba70e8-de89-4a15-b5f6-8088bd22b416>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Cancelli" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1839> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/025B3996-3D95-30EE-80FA-1A4E0BDC7190>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Fortunato" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/A63286C4-03F3-365D-ACA3-CBC8C9CC6D52>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Olivari" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/date/1840>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1840" ;
+        crm:P82_at_some_time_within  "1840"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/2247725E-921A-3719-8B88-52DBB344D6F9>
+        a                        crm:E21_Person ;
+        rdfs:label               "Pasquale Cichero" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/EB281F5F-1C4D-3C39-9512-F569E7757690> , <https://rs.sealitproject.eu/kb/ids/11068> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:c6bc5580-79a5-48ae-a3ae-3a91be95f4f4> ;
+        sealit:has_first_name    "Pasquale" ;
+        sealit:has_last_name     "Cichero" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/DEAC03F3-4F94-3C44-9536-CF6567A40E23> , <https://rs.sealitproject.eu/kb/person/FF8B8921-A047-339D-996F-6040D98D45BE> .
+
+<urn:uuid:bc5ba14d-5b50-428f-864e-9e5d1e592d5b>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Malagamba" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1840> .
+
+<https://rs.sealitproject.eu/kb/person/0AA03260-6EE1-3D5D-9ABE-D53F6C88CE38>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/2C6E390F-7B1D-3C80-A7B7-B39180761EB6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Angelina, 1861-02-16, Francesco Ferrando | row: 5, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T13%3A21%3A37.243Z_15> , <https://rs.sealitproject.eu/kb/person/45F9304F-6027-3401-99DB-3DE94FEBAFA4> .
+
+<https://rs.sealitproject.eu/kb/person/3775B274-3722-3EB2-815A-BC640FB84ADD>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giuseppe Malagamba" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/B1361FE4-67D0-31E9-A630-2787CE90F4A8> , <https://rs.sealitproject.eu/kb/ids/3741> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:bc5ba14d-5b50-428f-864e-9e5d1e592d5b> ;
+        sealit:has_first_name    "Giuseppe" ;
+        sealit:has_last_name     "Malagamba" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/31F3DEB4-3661-31FE-8A73-9A43D109AC8B> , <https://rs.sealitproject.eu/kb/person/50AC6BE5-7EE7-3A87-91BA-A940BC789FB8> .
+
+<https://rs.sealitproject.eu/kb/ids/15039>
+        a                crm:E42_Identifier ;
+        rdfs:label       "15039" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/209E1DF1-B564-36D2-BC0C-F37A51F9C700>
+        a       crm:E21_Person .

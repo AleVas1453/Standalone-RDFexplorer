@@ -1,0 +1,1405 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <https://rs.sealitproject.eu/kb/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/6999F11D-7438-3F6E-BC5A-874AE62B9806>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 29, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/66A768F8-F5FC-3C10-8CCB-1B591B80A4C0> .
+
+<https://rs.sealitproject.eu/kb/ids/Permesso>
+        a                crm:E42_Identifier ;
+        rdfs:label       "Permesso" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/date/1843>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1843" ;
+        crm:P82_at_some_time_within  "1843"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/7BFD6C97-44DC-3729-81CA-A8A206FE0A49>
+        a                        crm:E21_Person ;
+        rdfs:label               "? Dranovich" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/AA67EB37-DE56-3F42-9072-3C86C9C55B4A> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:c956dd53-4799-4b7a-ac03-011f1c019821> ;
+        sealit:has_first_name    "?" ;
+        sealit:has_last_name     "Dranovich" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/88418AB3-91C4-3772-A79C-15617EE65DBB> .
+
+<https://rs.sealitproject.eu/kb/ids/3519>
+        a                crm:E42_Identifier ;
+        rdfs:label       "3519" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/date/1822>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1822" ;
+        crm:P82_at_some_time_within  "1822"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/267F163C-1269-3704-B24B-A72F911D04A9>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Franchini" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/66A768F8-F5FC-3C10-8CCB-1B591B80A4C0>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/ADC7ECD5-948E-3B32-8FE8-339A2A10C4A8>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Vidal" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/285E935A-5F66-3135-94B6-B09B389321DA>
+        a                        crm:E21_Person ;
+        rdfs:label               "John Waith" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/29D5F5EA-7DB1-3C20-819B-2A2BF5703958> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "John" ;
+        sealit:has_last_name     "Waith" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/D8352CBE-C7A2-3579-8C01-417024CD8A93> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/A5EC055C-F87B-307B-A705-5D24909FA473>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Papovich" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/89C504A6-CB58-302B-BE51-C313EE2F956D>
+        a                        crm:E21_Person ;
+        rdfs:label               "Agostino Brandi" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/3519> , <https://rs.sealitproject.eu/kb/appellation_surname/B4736A48-E00B-37FA-909D-894D63C307D6> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:caefbe3c-3667-47c4-a6c7-cfa288168597> ;
+        sealit:has_first_name    "Agostino" ;
+        sealit:has_last_name     "Brandi" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/9BDD69A7-37DB-395C-8D3B-00A303F7D936> .
+
+<https://rs.sealitproject.eu/kb/person/355A8398-C023-3B62-8BC6-38302400A89C>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/numbers/serial%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "serial number" .
+
+<https://rs.sealitproject.eu/kb/person/E345B0CC-A1EB-33D4-8228-3C1F97AAA1D0>
+        a                        crm:E21_Person ;
+        rdfs:label               "Antonio Josè Duarte" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/B2D20D2F-E330-335B-8869-B070B1DCE7DE> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Antonio Josè" ;
+        sealit:has_last_name     "Duarte" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/D5F4B436-8D8F-3325-9430-A25DD668D269> .
+
+<https://rs.sealitproject.eu/kb/person/6E45490E-571A-34A6-BD50-ED4D456BB64C>
+        a                        crm:E21_Person ;
+        rdfs:label               "Francesco Vidal" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/160> , <https://rs.sealitproject.eu/kb/appellation_surname/ADC7ECD5-948E-3B32-8FE8-339A2A10C4A8> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:13c23e1c-be16-45eb-9a4f-66e0b549a5f9> ;
+        sealit:has_first_name    "Francesco" ;
+        sealit:has_last_name     "Vidal" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/9A55767F-7E4C-3836-827E-3D0B8C3B2E97> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/9D46B9E3-55E7-3500-891A-2AAEA3ED6097>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Pevovich" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/390CD941-A25F-3339-8317-62E4E2B82DDE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 30, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/567FC391-86E3-3AA1-A7D1-1F4AFB2B6E4B> .
+
+<https://rs.sealitproject.eu/kb/ids/27>
+        a                crm:E42_Identifier ;
+        rdfs:label       "27" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/E7DAB72A-F44B-3F19-AA19-FCAB87F01676>
+        a                        crm:E21_Person ;
+        rdfs:label               "Andrea Nicolò Depolli" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/Permesso> , <https://rs.sealitproject.eu/kb/appellation_surname/792410F0-58F7-3D53-9186-D74C7CB5D86B> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:b2662e9f-cab7-4bbc-bc2b-eae93d432975> ;
+        sealit:has_first_name    "Andrea Nicolò" ;
+        sealit:has_last_name     "Depolli" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/294FF39F-5B84-3DC2-8EBE-24B0C8B19D70> .
+
+<https://rs.sealitproject.eu/kb/person/371F6FEA-F335-3611-BF79-EF951640FC8C>
+        a                        crm:E21_Person ;
+        rdfs:label               "Franco Schiaffino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Franco" ;
+        sealit:has_last_name     "Schiaffino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/F25AD51B-3EA7-3038-B07E-6D31DFA44DCA> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/3CA2430D-5FFE-3C08-AB32-9BDFC87B3F58>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 20, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/56A4F68B-4F75-39C8-B691-7C7A3A7071F6> .
+
+<https://rs.sealitproject.eu/kb/person/356D1329-E0A2-360B-B2E7-B95755458F52>
+        a                        crm:E21_Person ;
+        rdfs:label               "Francesco Galliera" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/732> , <https://rs.sealitproject.eu/kb/appellation_surname/6126637E-B29B-3594-AF3E-AFB58E9858AF> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:83d89cbc-ebae-43c5-a13e-d28b792eca72> ;
+        sealit:has_first_name    "Francesco" ;
+        sealit:has_last_name     "Galliera" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/FC9F233E-4D75-3A56-827F-4D7ECE2997DF> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/AF8EF88F-5829-32B5-A49E-D4431266A531>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 19, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/7B4FA4CB-006D-34AC-A667-4259F33FCEB6> .
+
+<https://rs.sealitproject.eu/kb/ids/2442>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2442" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/F7477D91-79C6-3687-AA9B-5C4FB17B7C34>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 35, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/73DCBE37-0352-34A7-A5C5-0A56635A5A93> .
+
+<https://rs.sealitproject.eu/kb/ids/2250>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2250" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/7947FD44-4C38-35EE-B864-F714A48E3542>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 10, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/C485442C-687E-3EA2-8625-6E127DDE0070> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/80DACA0A-0010-3731-919F-444F4450AED6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 28, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/11B3D9C6-7612-3ABF-A43A-50AF02D20F77> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/5FD5345A-2586-331A-9783-D5886DF32AD2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 7, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/26000F63-BAFA-32A1-A9DF-CF4696C89238> .
+
+<urn:uuid:0e87aa6a-6324-40a1-bde4-b1c712a7be3a>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Balaria" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1839> .
+
+<https://rs.sealitproject.eu/kb/person/754A8AF9-7274-300F-A0E1-4000AE6EF075>
+        a                        crm:E21_Person ;
+        rdfs:label               "Matteo Dragubinavich" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/Permesso> , <https://rs.sealitproject.eu/kb/appellation_surname/12A4AEE2-1BF5-3D5B-B847-5D1903077DAF> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:35104593-4c4e-49c0-a88d-299ef8363680> ;
+        sealit:has_first_name    "Matteo" ;
+        sealit:has_last_name     "Dragubinavich" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/3E5AAB4A-A110-3A82-B8A6-825A18B691AE> .
+
+<https://rs.sealitproject.eu/kb/date/1838>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1838" ;
+        crm:P82_at_some_time_within  "1838"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/341B1005-BFD1-389A-94C7-32B298F26F4C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 9, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/355A8398-C023-3B62-8BC6-38302400A89C> .
+
+<https://rs.sealitproject.eu/kb/date/1817>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1817" ;
+        crm:P82_at_some_time_within  "1817"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/148CE5CE-B652-3F42-8759-38479F7DA4D8>
+        a                        crm:E21_Person ;
+        rdfs:label               "Mariano Burattini" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/Permesso> , <https://rs.sealitproject.eu/kb/appellation_surname/71C7F279-53F7-354F-BFCB-62CCC0E8CC6A> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:87e8e19f-8b0b-422a-80ff-02a175a62d01> ;
+        sealit:has_first_name    "Mariano" ;
+        sealit:has_last_name     "Burattini" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/26000F63-BAFA-32A1-A9DF-CF4696C89238> .
+
+<https://rs.sealitproject.eu/kb/person/BF6F1C7B-4C8C-37E7-971F-02701D99E620>
+        a                        crm:E21_Person ;
+        rdfs:label               "Gaspare Bupanich" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/315> , <https://rs.sealitproject.eu/kb/appellation_surname/213BF4A5-96D4-3613-98FC-AD22D0795F03> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:a5acdf34-fc99-44e2-96e3-cb3fc8d83477> ;
+        sealit:has_first_name    "Gaspare" ;
+        sealit:has_last_name     "Bupanich" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/8EEC3549-38D9-3302-90B3-3D4C5F7BE15F> .
+
+<https://rs.sealitproject.eu/kb/person/73DCBE37-0352-34A7-A5C5-0A56635A5A93>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/74BCF1F3-9E48-328F-A448-F8535B05E04E>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Giacopello" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/E5559EAA-B3B5-3C91-BAC8-CC496A03E8E8>
+        a                        crm:E21_Person ;
+        rdfs:label               "Bernardo Maria" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/CBC19B07-6624-38D5-B14C-C55657295924> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Bernardo" ;
+        sealit:has_last_name     "Maria" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/4AD701C5-CA1B-3ADE-8D4D-2958579634E9> .
+
+<https://rs.sealitproject.eu/kb/person/7136B78A-9003-3C97-AB36-27E6909246C5>
+        a                        crm:E21_Person ;
+        rdfs:label               "Diego De Sousa" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/9F7EBC43-E81A-31A6-9CB4-926C233E2A50> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Diego" ;
+        sealit:has_last_name     "De Sousa" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/EDAB37CB-B4F1-3D96-BEEA-EA89AF3EE5DF> .
+
+<https://rs.sealitproject.eu/kb/date/1825>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1825" ;
+        crm:P82_at_some_time_within  "1825"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/1289A334-D57E-38D8-82C2-DAF957B574C5>
+        a                        crm:E21_Person ;
+        rdfs:label               "Luca Urdepich" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/5E05002B-A317-3E43-953A-073B9BC1FC93> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:93af609a-c7b4-4dc6-85cb-c00aa78ed946> ;
+        sealit:has_first_name    "Luca" ;
+        sealit:has_last_name     "Urdepich" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/385CAA28-6EBC-3F6D-A372-88AF3844F075> .
+
+<https://rs.sealitproject.eu/kb/person/59AC1DE6-36C8-3998-B2A0-4257DEB10422>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giuseppe Lugeri" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/Permesso> , <https://rs.sealitproject.eu/kb/appellation_surname/B817D92C-2EE4-3204-9B7B-2C358304FACC> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:2fbdedae-2be3-4b2a-920d-b05ea295c638> ;
+        sealit:has_first_name    "Giuseppe" ;
+        sealit:has_last_name     "Lugeri" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/65D46139-C73E-304C-8221-2611FF371192> .
+
+<urn:uuid:87e8e19f-8b0b-422a-80ff-02a175a62d01>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Burattini" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1838> .
+
+<https://rs.sealitproject.eu/kb/person/D8352CBE-C7A2-3579-8C01-417024CD8A93>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/8FCF6218-0820-38C7-8C1A-AB029313E630>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/person/F25AD51B-3EA7-3038-B07E-6D31DFA44DCA> , <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/27377060-EFA6-3748-B9A5-313A7D648EE5> .
+
+<https://rs.sealitproject.eu/kb/person/99DDB4B6-369C-3C62-9F1C-BEE5622E35A6>
+        a                        crm:E21_Person ;
+        rdfs:label               "Gio Batta Daste" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/12608> , <https://rs.sealitproject.eu/kb/appellation_surname/6047FD6F-A631-3EC6-B9D5-95431F15CC64> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:5854b101-6cdf-4797-8a3c-fb5302e6be2a> ;
+        sealit:has_first_name    "Gio Batta" ;
+        sealit:has_last_name     "Daste" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/5654B473-6483-33CC-97DD-8F9E54691424> .
+
+<https://rs.sealitproject.eu/kb/person/36AEC971-5694-36CA-98A1-01363C6B903C>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giorgio William" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/604C8DD5-066E-3305-B903-7569A028DC9B> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Giorgio" ;
+        sealit:has_last_name     "William" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/E3D07029-1F4B-3501-826C-A6D090A48279> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/CC8BE5E6-56F8-3399-89E6-86786690FA4D>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Gandolfi" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/4631F0D8-97CA-3E31-AF86-8B13DF179287>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Bradi" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/EF16F10C-E2FF-3E62-8761-B268DD0EADB9>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 16, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/AA37E76B-82FC-37BA-AF54-AF271E1391DD> .
+
+<urn:uuid:c216d076-8a55-443d-b3ca-98930c0aea5f>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Di Manso" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1841> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/FE03A04A-A767-3563-8191-D7329A8BAA27>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 6, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/65D46139-C73E-304C-8221-2611FF371192> .
+
+<https://rs.sealitproject.eu/kb/person/16FF8760-F043-3BFC-B6BD-EACE37C9833E>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/28A9CE6E-810B-3A39-90E3-6E8E1E62F8F4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 38, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/79A27A23-EEA4-36B2-A917-D55CE2672BE7> .
+
+<https://rs.sealitproject.eu/kb/person/9839B7D4-D872-3AD6-BE2E-6D73B243436C>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/290>
+        a                crm:E42_Identifier ;
+        rdfs:label       "290" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/BB4A8422-CBBE-304D-A648-609B64800E27>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 42, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/D5F4B436-8D8F-3325-9430-A25DD668D269> .
+
+<https://rs.sealitproject.eu/kb/person/FDC64FC3-E1F1-337A-A96D-ACAA1A1F246A>
+        a                        crm:E21_Person ;
+        rdfs:label               "Antonio Modesto Fazio" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/290> , <https://rs.sealitproject.eu/kb/appellation_surname/33A52121-4CE8-316D-9950-4F8816DAF812> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:be82ff9c-3ba0-4d2d-baff-774c77fec450> ;
+        sealit:has_first_name    "Antonio Modesto" ;
+        sealit:has_last_name     "Fazio" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/4D50FA74-BBE6-3B10-AFD0-8343AA969796> .
+
+<https://rs.sealitproject.eu/kb/ids/16243>
+        a                crm:E42_Identifier ;
+        rdfs:label       "16243" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/date/1841>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1841" ;
+        crm:P82_at_some_time_within  "1841"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:cec74766-91d6-4af1-aba2-fbf72ca8a939>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Auda" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1843> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/5E05002B-A317-3E43-953A-073B9BC1FC93>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Urdepich" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/F3242A9C-9BF3-35D7-B88D-75EA624D78AD>
+        a                        crm:E21_Person ;
+        rdfs:label               "[Luigi] [Russo]" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/41644D61-002E-30E5-98A4-59F6FC3AA0FC> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:0dadf355-95ca-45d8-93f4-5bbfa31abc13> ;
+        sealit:has_first_name    "[Luigi]" ;
+        sealit:has_last_name     "[Russo]" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/B2934043-B609-34AC-9E6B-A838B8451A89> .
+
+<urn:uuid:be82ff9c-3ba0-4d2d-baff-774c77fec450>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Fazio" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1808> .
+
+<https://rs.sealitproject.eu/kb/ids/732>
+        a                crm:E42_Identifier ;
+        rdfs:label       "732" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/82474E79-E586-3F68-BC61-8DF8A3C9C203>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/46EC86E9-9B72-3D51-9BD7-F1AE5B9AC884>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/4DAAB2A5-6B8A-32EF-A193-F84FF7793D50>
+        a                        crm:E21_Person ;
+        rdfs:label               "Manoel Gioachino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/55B4D4C7-8D08-3E6F-B43D-5AF55CDCAD32> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:752ecac7-1fd9-4056-ba34-29643742b09e> ;
+        sealit:has_first_name    "Manoel" ;
+        sealit:has_last_name     "Gioachino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/66BF9C4B-2A63-3FAC-8EFF-836A7A5A1FB4> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/F5B3EBC2-31B4-3254-9D0C-10F830A5A8BD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 32, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/BB0F71E6-B828-345D-9624-70F57AE99897> .
+
+<https://rs.sealitproject.eu/kb/person/AA37E76B-82FC-37BA-AF54-AF271E1391DD>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/B551E776-DC8E-3291-B70C-B353ADB66DFC>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/25365B5D-AA31-385B-8515-6A4D07BBFCCB>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Costantinio" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Schiaffino" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/B4736A48-E00B-37FA-909D-894D63C307D6>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Brandi" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/D926B654-FF58-326A-B798-425BC2499926>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 33, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/294FF39F-5B84-3DC2-8EBE-24B0C8B19D70> .
+
+<https://rs.sealitproject.eu/kb/person/B1210335-1349-39FF-B2B7-92ED60BEFE26>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giovanni Antolic" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/B37FF3AE-AD25-3DEC-A917-61909954B295> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:3b84645a-e6ca-4fe9-b5bf-02ecc218173a> ;
+        sealit:has_first_name    "Giovanni" ;
+        sealit:has_last_name     "Antolic" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/79A27A23-EEA4-36B2-A917-D55CE2672BE7> .
+
+<https://rs.sealitproject.eu/kb/person/385CAA28-6EBC-3F6D-A372-88AF3844F075>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/AA67EB37-DE56-3F42-9072-3C86C9C55B4A>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Dranovich" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/7B4FA4CB-006D-34AC-A667-4259F33FCEB6>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/3DB971BB-BF4B-382E-A261-12758F957CED>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/0405B496-B9C9-3010-A25C-A00F1A979DE3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 4, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/9BDD69A7-37DB-395C-8D3B-00A303F7D936> .
+
+<urn:uuid:2fbdedae-2be3-4b2a-920d-b05ea295c638>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Lugeri" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1837> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/85D238F8-948C-300F-90B2-4FA75467D8DA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 2, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/45DA25F5-09B7-3BBB-BDE1-035B372B33DB> .
+
+<https://rs.sealitproject.eu/kb/person/ACF48778-DAE1-345B-876E-C47386A8FFDA>
+        a                        crm:E21_Person ;
+        rdfs:label               "Pietro Giacopello" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/3344> , <https://rs.sealitproject.eu/kb/appellation_surname/74BCF1F3-9E48-328F-A448-F8535B05E04E> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:89623615-8496-458f-bef0-8198fbbd4ac6> ;
+        sealit:has_first_name    "Pietro" ;
+        sealit:has_last_name     "Giacopello" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/82474E79-E586-3F68-BC61-8DF8A3C9C203> .
+
+<https://rs.sealitproject.eu/kb/person/8EEC3549-38D9-3302-90B3-3D4C5F7BE15F>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/B2934043-B609-34AC-9E6B-A838B8451A89>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/12634331-358C-3C86-AF54-F50E0C2E0809>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 40, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/9839B7D4-D872-3AD6-BE2E-6D73B243436C> .
+
+<https://rs.sealitproject.eu/kb/date/1836>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1836" ;
+        crm:P82_at_some_time_within  "1836"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/26000F63-BAFA-32A1-A9DF-CF4696C89238>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/5654B473-6483-33CC-97DD-8F9E54691424>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/5B2886F5-7A3F-340F-9D5A-F243B974D856>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 37, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/B2934043-B609-34AC-9E6B-A838B8451A89> .
+
+<https://rs.sealitproject.eu/kb/ids/3796>
+        a                crm:E42_Identifier ;
+        rdfs:label       "3796" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/79A27A23-EEA4-36B2-A917-D55CE2672BE7>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/604C8DD5-066E-3305-B903-7569A028DC9B>
+        a                crm:E41_Appellation ;
+        rdfs:label       "William" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-04-03T14:08:22.710Z_16&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/date/1844>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1844" ;
+        crm:P82_at_some_time_within  "1844"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/ids/12608>
+        a                crm:E42_Identifier ;
+        rdfs:label       "12608" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/9C72BDEC-85F3-37AB-B422-CCF526F67E1F>
+        a                        crm:E21_Person ;
+        rdfs:label               "Pasquale Balaria" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/06BC1A3C-4C49-38D2-A2E3-A358AE80043B> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:0e87aa6a-6324-40a1-bde4-b1c712a7be3a> ;
+        sealit:has_first_name    "Pasquale" ;
+        sealit:has_last_name     "Balaria" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/3DB971BB-BF4B-382E-A261-12758F957CED> .
+
+<urn:uuid:a350cde8-c54c-482d-8bd3-cb57037ac87f>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Papovich" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1841> .
+
+<https://rs.sealitproject.eu/kb/person/F80A2F2E-CF6F-3B00-B7C3-B80C1F38BF65>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giorgio Costantinio" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/25365B5D-AA31-385B-8515-6A4D07BBFCCB> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:55046641-c3bb-400d-a3cf-7037f4bf8e9d> ;
+        sealit:has_first_name    "Giorgio" ;
+        sealit:has_last_name     "Costantinio" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/46EC86E9-9B72-3D51-9BD7-F1AE5B9AC884> .
+
+<urn:uuid:c956dd53-4799-4b7a-ac03-011f1c019821>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Dranovich" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1840> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/9F7EBC43-E81A-31A6-9CB4-926C233E2A50>
+        a                crm:E41_Appellation ;
+        rdfs:label       "De Sousa" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/50085AAB-BBED-3C6E-A695-86C32A8D63FA>
+        a                        crm:E21_Person ;
+        rdfs:label               "Domingo Castagliola" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/076935CE-B6A0-370E-BF61-031AF606C0E2> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Domingo" ;
+        sealit:has_last_name     "Castagliola" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/66A768F8-F5FC-3C10-8CCB-1B591B80A4C0> .
+
+<https://rs.sealitproject.eu/kb/person/154BDA09-94C8-30A1-95E3-AD2C9567033D>
+        a                        crm:E21_Person ;
+        rdfs:label               "William Brossen" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/4FEE12DB-32DC-3C0B-BB25-8DAE55DC0473> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "William" ;
+        sealit:has_last_name     "Brossen" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/56A4F68B-4F75-39C8-B691-7C7A3A7071F6> .
+
+<https://rs.sealitproject.eu/kb/person/9BDD69A7-37DB-395C-8D3B-00A303F7D936>
+        a       crm:E21_Person .
+
+<urn:uuid:89623615-8496-458f-bef0-8198fbbd4ac6>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Giacopello" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1843> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/D49E37B2-1E4C-375E-9493-702AFCFC4FB7>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Snout" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/1202ECDE-5ECF-3B9B-879E-FF2DBE7B0F2F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 31, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/A8C90168-DB9C-3B64-881A-18735F6707EA> .
+
+<https://rs.sealitproject.eu/kb/person/FAA6E618-1E3D-3EB9-990E-1AB1D8A4B9EA>
+        a                        crm:E21_Person ;
+        rdfs:label               "Luigi Corveto" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/16243> , <https://rs.sealitproject.eu/kb/appellation_surname/C02193D1-4452-3179-BB66-D25B3C3F2A58> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:d4cdc397-95cf-43f3-81d2-5eacb08ceff9> ;
+        sealit:has_first_name    "Luigi" ;
+        sealit:has_last_name     "Corveto" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/C485442C-687E-3EA2-8625-6E127DDE0070> .
+
+<https://rs.sealitproject.eu/kb/person/EB0FD32A-E8A4-3CCA-A58C-FB07FB04EA0A>
+        a                        crm:E21_Person ;
+        rdfs:label               "Francesco Bracco" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/2442> , <https://rs.sealitproject.eu/kb/appellation_surname/FD1E7113-F716-3E80-8F72-FBE5A07A5B30> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:6e4de331-a10a-4ee5-b4c7-a6d9d8111508> ;
+        sealit:has_first_name    "Francesco" ;
+        sealit:has_last_name     "Bracco" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/B551E776-DC8E-3291-B70C-B353ADB66DFC> .
+
+<urn:uuid:93af609a-c7b4-4dc6-85cb-c00aa78ed946>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Urdepich" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1837> .
+
+<https://rs.sealitproject.eu/kb/person/AEC97DA8-9816-34EA-84FC-C2C1EE908D9B>
+        a                        crm:E21_Person ;
+        rdfs:label               "Vincenzo Franchini" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/267F163C-1269-3704-B24B-A72F911D04A9> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:2a3467b2-6df6-4593-b660-f3615408a347> ;
+        sealit:has_first_name    "Vincenzo" ;
+        sealit:has_last_name     "Franchini" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/73DCBE37-0352-34A7-A5C5-0A56635A5A93> .
+
+<urn:uuid:74e06b59-b200-4ce8-8cca-a550a5cb5f37>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Bradi" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1817> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/21DACA91-8F7D-3062-83EF-F8737A2BB61A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 39, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/88418AB3-91C4-3772-A79C-15617EE65DBB> .
+
+<https://rs.sealitproject.eu/kb/person/27377060-EFA6-3748-B9A5-313A7D648EE5>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/6126637E-B29B-3594-AF3E-AFB58E9858AF>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Galliera" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew list (ruoli di equipaggio)" .
+
+<https://rs.sealitproject.eu/kb/register_record_point/A42794E2-1827-365B-A693-788395521D40>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 5, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/B551E776-DC8E-3291-B70C-B353ADB66DFC> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/19D38BE3-7DBA-34FF-B064-A03DE0861417>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 21, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/065B89D8-B106-3F41-BD30-FA332FDBA11C> .
+
+<https://rs.sealitproject.eu/kb/date/1839>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1839" ;
+        crm:P82_at_some_time_within  "1839"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/ids/3344>
+        a                crm:E42_Identifier ;
+        rdfs:label       "3344" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/29D5F5EA-7DB1-3C20-819B-2A2BF5703958>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Waith" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/CA782B0A-9307-39CB-8142-22D123C4ADCE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 3, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/82474E79-E586-3F68-BC61-8DF8A3C9C203> .
+
+<https://rs.sealitproject.eu/kb/person/F29BAE58-2A36-31B2-814A-146B7BC7025A>
+        a                        crm:E21_Person ;
+        rdfs:label               "Daniele Gandolfi" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/941> , <https://rs.sealitproject.eu/kb/appellation_surname/CC8BE5E6-56F8-3399-89E6-86786690FA4D> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:8be880e4-3d9b-4087-ba6c-1aa855905829> ;
+        sealit:has_first_name    "Daniele" ;
+        sealit:has_last_name     "Gandolfi" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/567FC391-86E3-3AA1-A7D1-1F4AFB2B6E4B> .
+
+<https://rs.sealitproject.eu/kb/person/66BF9C4B-2A63-3FAC-8EFF-836A7A5A1FB4>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/E663D555-1C3F-3601-BFFD-36F2213E410D>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Schott" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/1DE836D5-8D98-3D89-B0D2-0117F09BE578>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Auda" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/45C59361-8988-3CD7-8235-77F20A96C256>
+        a                        crm:E21_Person ;
+        rdfs:label               "Nicolo Pevovich" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/Permesso> , <https://rs.sealitproject.eu/kb/appellation_surname/9D46B9E3-55E7-3500-891A-2AAEA3ED6097> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:385e9146-210c-46b1-af28-eb1398cb1746> ;
+        sealit:has_first_name    "Nicolo" ;
+        sealit:has_last_name     "Pevovich" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/BB0F71E6-B828-345D-9624-70F57AE99897> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/33A52121-4CE8-316D-9950-4F8816DAF812>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Fazio" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/date/1847>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1847" ;
+        crm:P82_at_some_time_within  "1847"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:8be880e4-3d9b-4087-ba6c-1aa855905829>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Gandolfi" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1826> .
+
+<https://rs.sealitproject.eu/kb/date/1826>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1826" ;
+        crm:P82_at_some_time_within  "1826"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/32662740-3F78-3805-8434-922C661EFF39>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 15, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/3E5AAB4A-A110-3A82-B8A6-825A18B691AE> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/4AE9C0F4-3817-306B-A184-69A00BE6BB5D>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Domenico" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/DE19046C-E02C-393F-A56D-659A221C4868>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/D2F74BD8-8796-3AE3-A72A-DF770F9371EE>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 8, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/5654B473-6483-33CC-97DD-8F9E54691424> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/55B4D4C7-8D08-3E6F-B43D-5AF55CDCAD32>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Gioachino" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/45DA25F5-09B7-3BBB-BDE1-035B372B33DB>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/9D79B731-01EE-3F47-8D72-1B8AEE671F3D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 17, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/16FF8760-F043-3BFC-B6BD-EACE37C9833E> .
+
+<https://rs.sealitproject.eu/kb/person/65D46139-C73E-304C-8221-2611FF371192>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/4D50FA74-BBE6-3B10-AFD0-8343AA969796>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/BB0F71E6-B828-345D-9624-70F57AE99897>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/1808>
+        a                crm:E42_Identifier ;
+        rdfs:label       "1808" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/065B89D8-B106-3F41-BD30-FA332FDBA11C>
+        a       crm:E21_Person .
+
+<urn:uuid:752ecac7-1fd9-4056-ba34-29643742b09e>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Gioachino" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1836> .
+
+<https://rs.sealitproject.eu/kb/person/4474D1A6-C555-3D23-ABDC-AC70A5B462C9>
+        a                        crm:E21_Person ;
+        rdfs:label               "Egidio Bradi" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/2250> , <https://rs.sealitproject.eu/kb/appellation_surname/4631F0D8-97CA-3E31-AF86-8B13DF179287> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:74e06b59-b200-4ce8-8cca-a550a5cb5f37> ;
+        sealit:has_first_name    "Egidio" ;
+        sealit:has_last_name     "Bradi" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/11B3D9C6-7612-3ABF-A43A-50AF02D20F77> .
+
+<https://rs.sealitproject.eu/kb/person/56A4F68B-4F75-39C8-B691-7C7A3A7071F6>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/B2D20D2F-E330-335B-8869-B070B1DCE7DE>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Duarte" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/73DEDC45-CF82-36DD-81B7-CBD86FB645AC>
+        a                        crm:E21_Person ;
+        rdfs:label               "Joseph Schott" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/E663D555-1C3F-3601-BFFD-36F2213E410D> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Joseph" ;
+        sealit:has_last_name     "Schott" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/065B89D8-B106-3F41-BD30-FA332FDBA11C> .
+
+<https://rs.sealitproject.eu/kb/person/E3ABD8C4-1E6E-3D2E-BC85-8633F96BF459>
+        a                        crm:E21_Person ;
+        rdfs:label               "Franchini Domenico" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/27> , <https://rs.sealitproject.eu/kb/appellation_surname/4AE9C0F4-3817-306B-A184-69A00BE6BB5D> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:0e6bdefc-c1dd-4fc0-ae22-757dde43733e> ;
+        sealit:has_first_name    "Franchini" ;
+        sealit:has_last_name     "Domenico" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/A8C90168-DB9C-3B64-881A-18735F6707EA> .
+
+<urn:uuid:a5acdf34-fc99-44e2-96e3-cb3fc8d83477>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Bupanich" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1832> .
+
+<https://rs.sealitproject.eu/kb/person/567FC391-86E3-3AA1-A7D1-1F4AFB2B6E4B>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/203A24B0-E87C-3DD2-92E7-EA1AE2B44334>
+        a                        crm:E21_Person ;
+        rdfs:label               "Gio Batta Delpino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/8423> , <https://rs.sealitproject.eu/kb/appellation_surname/856F98A8-D975-3698-BABE-7C26FA76711A> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:6e6b6dcf-6c38-43c6-91db-9b70f06c7665> ;
+        sealit:has_first_name    "Gio Batta" ;
+        sealit:has_last_name     "Delpino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/45DA25F5-09B7-3BBB-BDE1-035B372B33DB> .
+
+<https://rs.sealitproject.eu/kb/date/1842>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1842" ;
+        crm:P82_at_some_time_within  "1842"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/294FF39F-5B84-3DC2-8EBE-24B0C8B19D70>
+        a       crm:E21_Person .
+
+<urn:uuid:caefbe3c-3667-47c4-a6c7-cfa288168597>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Brandi" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1842> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/71C7F279-53F7-354F-BFCB-62CCC0E8CC6A>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Burattini" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<urn:uuid:871215be-436c-4b42-91b6-c4b1186ab6b4>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Schiaffino" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1822> .
+
+<https://rs.sealitproject.eu/kb/person/D5F4B436-8D8F-3325-9430-A25DD668D269>
+        a       crm:E21_Person .
+
+<urn:uuid:385e9146-210c-46b1-af28-eb1398cb1746>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Pevovich" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1837> .
+
+<urn:uuid:5854b101-6cdf-4797-8a3c-fb5302e6be2a>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Daste" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1839> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/FD1E7113-F716-3E80-8F72-FBE5A07A5B30>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Bracco" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/date/1808>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1808" ;
+        crm:P82_at_some_time_within  "1808"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/names/surname%20a>
+        a           crm:E55_Type ;
+        rdfs:label  "surname A" .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/A55B745B-7B24-3EAA-A8F7-44B086DA129C>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Musa" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/06BC1A3C-4C49-38D2-A2E3-A358AE80043B>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Balaria" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/12A4AEE2-1BF5-3D5B-B847-5D1903077DAF>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Dragubinavich" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/41644D61-002E-30E5-98A4-59F6FC3AA0FC>
+        a                crm:E41_Appellation ;
+        rdfs:label       "[Russo]" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<urn:uuid:9d5b97e1-bd9e-472c-8d2a-03111f25fd9f>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Socrati" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1838> .
+
+<https://rs.sealitproject.eu/kb/ids/315>
+        a                crm:E42_Identifier ;
+        rdfs:label       "315" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/4FEE12DB-32DC-3C0B-BB25-8DAE55DC0473>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Brossen" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<urn:uuid:35104593-4c4e-49c0-a88d-299ef8363680>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Dragubinavich" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1837> .
+
+<https://rs.sealitproject.eu/kb/person/F25AD51B-3EA7-3038-B07E-6D31DFA44DCA>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/C02193D1-4452-3179-BB66-D25B3C3F2A58>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Corveto" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/date/1837>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1837" ;
+        crm:P82_at_some_time_within  "1837"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/F10E4511-5822-3CD3-AD26-BF7146323389>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 18, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/EDAB37CB-B4F1-3D96-BEEA-EA89AF3EE5DF> .
+
+<https://rs.sealitproject.eu/kb/ids/941>
+        a                crm:E42_Identifier ;
+        rdfs:label       "941" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/8442B71D-E013-3EA7-BE5F-DB3B392EBB9F>
+        a                        crm:E21_Person ;
+        rdfs:label               "Ludovico Musa" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/A55B745B-7B24-3EAA-A8F7-44B086DA129C> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:0e931c90-e0bb-4a41-b6a8-c6cebc6a165c> ;
+        sealit:has_first_name    "Ludovico" ;
+        sealit:has_last_name     "Musa" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/9839B7D4-D872-3AD6-BE2E-6D73B243436C> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/427069B8-20F7-301A-9255-F71CB2925342>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 24, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/4D50FA74-BBE6-3B10-AFD0-8343AA969796> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/213BF4A5-96D4-3613-98FC-AD22D0795F03>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Bupanich" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/F84F3BAC-0427-3575-AF36-F070CE369E61>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 11, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/8EEC3549-38D9-3302-90B3-3D4C5F7BE15F> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/F88106B8-505D-3A87-85F1-90A95944A5B6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 12, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/9A55767F-7E4C-3836-827E-3D0B8C3B2E97> .
+
+<https://rs.sealitproject.eu/kb/person/C028257D-4D39-3A63-AE34-C8E51D0BF31E>
+        a                        crm:E21_Person ;
+        rdfs:label               "Angeli Giacopello" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/3997> , <https://rs.sealitproject.eu/kb/appellation_surname/74BCF1F3-9E48-328F-A448-F8535B05E04E> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:165336f2-9217-47dc-9791-8b004dafe903> ;
+        sealit:has_first_name    "Angeli" ;
+        sealit:has_last_name     "Giacopello" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/355A8398-C023-3B62-8BC6-38302400A89C> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/D4B82CDC-9F22-38E5-8A3C-A9487A88865D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 23, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/D8352CBE-C7A2-3579-8C01-417024CD8A93> .
+
+<urn:uuid:6e4de331-a10a-4ee5-b4c7-a6d9d8111508>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Bracco" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1842> .
+
+<urn:uuid:55046641-c3bb-400d-a3cf-7037f4bf8e9d>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Costantinio" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1836> .
+
+<urn:uuid:83d89cbc-ebae-43c5-a13e-d28b792eca72>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Galliera" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1832> .
+
+<https://rs.sealitproject.eu/kb/ids/8423>
+        a                crm:E42_Identifier ;
+        rdfs:label       "8423" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/date/1803>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1803" ;
+        crm:P82_at_some_time_within  "1803"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/6DC259A8-C5FC-32FC-9C79-708B49598223>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giovanni Auda" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/1808> , <https://rs.sealitproject.eu/kb/appellation_surname/1DE836D5-8D98-3D89-B0D2-0117F09BE578> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:cec74766-91d6-4af1-aba2-fbf72ca8a939> ;
+        sealit:has_first_name    "Giovanni" ;
+        sealit:has_last_name     "Auda" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/91F6A03F-5D5F-3B25-BF1A-6634B57B7EA7> .
+
+<urn:uuid:0e931c90-e0bb-4a41-b6a8-c6cebc6a165c>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Musa" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1844> .
+
+<https://rs.sealitproject.eu/kb/person/B19E8444-B14B-3B9E-8099-53F674F59A32>
+        a                        crm:E21_Person ;
+        rdfs:label               "Andrea Di Manso" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/Permesso> , <https://rs.sealitproject.eu/kb/appellation_surname/51A3C925-77A9-38B0-B93F-8A4AE3D692A2> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:c216d076-8a55-443d-b3ca-98930c0aea5f> ;
+        sealit:has_first_name    "Andrea" ;
+        sealit:has_last_name     "Di Manso" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/16FF8760-F043-3BFC-B6BD-EACE37C9833E> .
+
+<urn:uuid:3b84645a-e6ca-4fe9-b5bf-02ecc218173a>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Antolic" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1841> .
+
+<https://rs.sealitproject.eu/kb/person/A2F5F25F-6001-34DA-9891-26D80DF87820>
+        a                        crm:E21_Person ;
+        rdfs:label               "Agostino Schiaffino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:3277882c-3263-48e5-ab88-4d04e75c27ce> ;
+        sealit:has_first_name    "Agostino" ;
+        sealit:has_last_name     "Schiaffino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/27377060-EFA6-3748-B9A5-313A7D648EE5> .
+
+<https://rs.sealitproject.eu/kb/ids/3997>
+        a                crm:E42_Identifier ;
+        rdfs:label       "3997" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/ids/160>
+        a                crm:E42_Identifier ;
+        rdfs:label       "160" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/50C8A514-2A78-36D5-BE3D-CD8ED1F693AF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 41, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/66BF9C4B-2A63-3FAC-8EFF-836A7A5A1FB4> .
+
+<https://rs.sealitproject.eu/kb/person/3E5AAB4A-A110-3A82-B8A6-825A18B691AE>
+        a       crm:E21_Person .
+
+<urn:uuid:2a3467b2-6df6-4593-b660-f3615408a347>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Franchini" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1825> .
+
+<urn:uuid:0e6bdefc-c1dd-4fc0-ae22-757dde43733e>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Domenico" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1819> .
+
+<https://rs.sealitproject.eu/kb/date/1832>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1832" ;
+        crm:P82_at_some_time_within  "1832"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/FC9F233E-4D75-3A56-827F-4D7ECE2997DF>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/C485442C-687E-3EA2-8625-6E127DDE0070>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/4AD701C5-CA1B-3ADE-8D4D-2958579634E9>
+        a       crm:E21_Person .
+
+<urn:uuid:6e6b6dcf-6c38-43c6-91db-9b70f06c7665>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Delpino" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1803> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/856F98A8-D975-3698-BABE-7C26FA76711A>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Delpino" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/346F4803-BD44-31D9-8C0F-59466D4E7478>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 25, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/FC9F233E-4D75-3A56-827F-4D7ECE2997DF> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/161A2890-C2C2-34B7-9782-949917389F35>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 13, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/385CAA28-6EBC-3F6D-A372-88AF3844F075> .
+
+<urn:uuid:13c23e1c-be16-45eb-9a4f-66e0b549a5f9>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Vidal" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1839> .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<https://rs.sealitproject.eu/kb/date/1840>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1840" ;
+        crm:P82_at_some_time_within  "1840"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/70BE1A4A-9EE9-3038-9D07-1C7638EDE368>
+        a                        crm:E21_Person ;
+        rdfs:label               "John Snout" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/D49E37B2-1E4C-375E-9493-702AFCFC4FB7> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "John" ;
+        sealit:has_last_name     "Snout" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/7B4FA4CB-006D-34AC-A667-4259F33FCEB6> .
+
+<https://rs.sealitproject.eu/kb/date/1819>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1819" ;
+        crm:P82_at_some_time_within  "1819"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/91F6A03F-5D5F-3B25-BF1A-6634B57B7EA7>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/A8C90168-DB9C-3B64-881A-18735F6707EA>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/792410F0-58F7-3D53-9186-D74C7CB5D86B>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Depolli" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/51A3C925-77A9-38B0-B93F-8A4AE3D692A2>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Di Manso" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/62B89343-24B3-34EC-B4F7-25179A305583>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giovanni Papovich" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/Permesso> , <https://rs.sealitproject.eu/kb/appellation_surname/A5EC055C-F87B-307B-A705-5D24909FA473> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:a350cde8-c54c-482d-8bd3-cb57037ac87f> ;
+        sealit:has_first_name    "Giovanni" ;
+        sealit:has_last_name     "Papovich" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/60F84723-AFDC-3B98-8349-A0DC0A4BC1F6> .
+
+<https://rs.sealitproject.eu/kb/person/88418AB3-91C4-3772-A79C-15617EE65DBB>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/CBC19B07-6624-38D5-B14C-C55657295924>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Maria" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/076935CE-B6A0-370E-BF61-031AF606C0E2>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Castagliola" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/926939B0-CF14-3FBA-A7A1-162DA6768BBD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 1, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/DE19046C-E02C-393F-A56D-659A221C4868> .
+
+<urn:uuid:0dadf355-95ca-45d8-93f4-5bbfa31abc13>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of [Russo]" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1840> .
+
+<https://rs.sealitproject.eu/kb/person/757C8525-4A1B-3FEB-8FAB-FA820363423D>
+        a                        crm:E21_Person ;
+        rdfs:label               "Agostino Schiaffino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/3796> , <https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:871215be-436c-4b42-91b6-c4b1186ab6b4> ;
+        sealit:has_first_name    "Agostino" ;
+        sealit:has_last_name     "Schiaffino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/DE19046C-E02C-393F-A56D-659A221C4868> .
+
+<https://rs.sealitproject.eu/kb/person/E3D07029-1F4B-3501-826C-A6D090A48279>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/9A55767F-7E4C-3836-827E-3D0B8C3B2E97>
+        a       crm:E21_Person .
+
+<urn:uuid:3277882c-3263-48e5-ab88-4d04e75c27ce>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Schiaffino" ;
+        crm:P97_from_father  <https://rs.sealitproject.eu/kb/person/371F6FEA-F335-3611-BF79-EF951640FC8C> .
+
+<https://rs.sealitproject.eu/kb/person/7A723E99-F665-3478-A5BE-7DA15C8F9F9D>
+        a                        crm:E21_Person ;
+        rdfs:label               "Cambusheosa Socrati" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/68B76C93-583D-33E8-A485-6B8795705510> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:9d5b97e1-bd9e-472c-8d2a-03111f25fd9f> ;
+        sealit:has_first_name    "Cambusheosa" ;
+        sealit:has_last_name     "Socrati" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/AA37E76B-82FC-37BA-AF54-AF271E1391DD> .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-04-03T14:08:22.710Z_16&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/40CE6453-4650-389E-81DD-598DBAC4FA48>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 22, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/E3D07029-1F4B-3501-826C-A6D090A48279> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/AC14BB2A-23A4-371C-98D6-A0298716E865>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 14, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/60F84723-AFDC-3B98-8349-A0DC0A4BC1F6> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/B37FF3AE-AD25-3DEC-A917-61909954B295>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Antolic" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/B817D92C-2EE4-3204-9B7B-2C358304FACC>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Lugeri" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/EDAB37CB-B4F1-3D96-BEEA-EA89AF3EE5DF>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/6D19B0D7-CD2A-3820-AC2C-DA6336B48EFF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 36, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/3DB971BB-BF4B-382E-A261-12758F957CED> .
+
+<https://rs.sealitproject.eu/kb/person/60F84723-AFDC-3B98-8349-A0DC0A4BC1F6>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/D20E4F3B-71EB-35E6-B562-E6C6F1FBD9B1>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 27, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/91F6A03F-5D5F-3B25-BF1A-6634B57B7EA7> .
+
+<urn:uuid:b2662e9f-cab7-4bbc-bc2b-eae93d432975>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Depolli" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1838> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/68B76C93-583D-33E8-A485-6B8795705510>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Socrati" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<urn:uuid:d4cdc397-95cf-43f3-81d2-5eacb08ceff9>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Corveto" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1847> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/F50A497F-A816-3F5D-8944-C7CFABCE88A6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 34, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/46EC86E9-9B72-3D51-9BD7-F1AE5B9AC884> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/6047FD6F-A631-3EC6-B9D5-95431F15CC64>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Daste" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<urn:uuid:165336f2-9217-47dc-9791-8b004dafe903>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Giacopello" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1843> .
+
+<https://rs.sealitproject.eu/kb/person/11B3D9C6-7612-3ABF-A43A-50AF02D20F77>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/21A9BAF8-3B2C-3726-AFCD-5D09501EB2B2>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), I Tre Fratelli, 1861-02-20, Francesco  Ferrando | row: 43, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T14%3A08%3A22.710Z_16> , <https://rs.sealitproject.eu/kb/person/4AD701C5-CA1B-3ADE-8D4D-2958579634E9> .

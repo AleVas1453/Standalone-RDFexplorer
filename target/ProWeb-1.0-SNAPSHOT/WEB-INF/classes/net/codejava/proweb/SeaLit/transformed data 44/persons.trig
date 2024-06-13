@@ -1,0 +1,654 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <https://rs.sealitproject.eu/kb/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<https://rs.sealitproject.eu/kb/date/1832>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1832" ;
+        crm:P82_at_some_time_within  "1832"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/EC6250CD-774F-3C8B-9469-25CA128D6FF5>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Ognio" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/13063DCF-ECFF-3ED9-BBBB-74B8E05BAEDF>
+        a                        crm:E21_Person ;
+        rdfs:label               "Agostino Repetto" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/9270> , <https://rs.sealitproject.eu/kb/appellation_surname/A0105FA1-8E16-34B4-91E4-7D5D0515C42F> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:d877fb10-496a-4b4e-8bce-a01a01b1ff42> ;
+        sealit:has_first_name    "Agostino" ;
+        sealit:has_last_name     "Repetto" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/B4C69E79-249F-3972-9AE6-BE9CA6188280> .
+
+<https://rs.sealitproject.eu/kb/person/A84B2C32-C3B8-3149-A398-AC17DAF4C018>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/4FD600A7-59D9-32B4-B0A8-837F43118AEF>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Il Pegaso, 1853-07-06, Massimo  Ponasso | row: 14, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T08%3A23%3A01.594Z_1> , <https://rs.sealitproject.eu/kb/person/8C0B1EF9-29A1-34CC-B511-11EF0E5A9423> .
+
+<https://rs.sealitproject.eu/kb/person/2CCEFC01-6D14-36F3-9B15-A5C352D349A2>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/B6B83927-3F45-3BFB-B33D-42B62C50B14D>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/9270>
+        a                crm:E42_Identifier ;
+        rdfs:label       "9270" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<urn:uuid:8fe5a002-9c10-41c7-94f9-0d4329df3dc7>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Ognio" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1833> .
+
+<https://rs.sealitproject.eu/kb/date/1811>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1811" ;
+        crm:P82_at_some_time_within  "1811"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/date/1837>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1837" ;
+        crm:P82_at_some_time_within  "1837"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:778e31d7-7861-41f3-a91c-32213f3f8326>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Costa" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1833> .
+
+<urn:uuid:70a2efc9-ed4a-4608-b584-e1a8c1fbae71>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Figari" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1811> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/FB6917C2-B8B0-3282-B3CE-21556778CB63>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Andrea, 1860-04-09, Giacomo Calcagno | row: 3, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T13%3A26%3A48.597Z_2> , <https://rs.sealitproject.eu/kb/person/1E9908AE-AF9C-308B-B3C1-7C7734923DF2> .
+
+<https://rs.sealitproject.eu/kb/ids/4164>
+        a                crm:E42_Identifier ;
+        rdfs:label       "4164" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/numbers/serial%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "serial number" .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Schiaffino" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/5E7E50A0-139D-3BD2-8C27-E03E720FEAB0>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giovanni Costa" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/5732> , <https://rs.sealitproject.eu/kb/appellation_surname/6F50B8C8-A110-32C7-90CB-CD28FDE3713C> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:51abf2ab-7cc2-400e-8c24-86f2c102eb31> ;
+        sealit:has_first_name    "Giovanni" ;
+        sealit:has_last_name     "Costa" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/4EF4FA84-C6E0-3610-B55A-926644CB7F37> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/39E74BDA-D710-369F-A96A-38873438E983>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Il Pegaso, 1853-07-06, Massimo  Ponasso | row: 3, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T08%3A23%3A01.594Z_1> , <https://rs.sealitproject.eu/kb/person/732A267C-92AD-3403-A9A2-F0D0AFDC35A1> .
+
+<urn:uuid:33e2802d-f0df-4a66-bf21-174e6f2c1a67>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Schiaffino" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1815> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/A0105FA1-8E16-34B4-91E4-7D5D0515C42F>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Repetto" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/B4C69E79-249F-3972-9AE6-BE9CA6188280>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-02-27T13%3A26%3A48.597Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Andrea, 1860-04-09, Giacomo Calcagno" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T13:26:48.597Z_2&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<urn:uuid:0e3a69c5-7899-4055-8daa-2eaff6792e9e>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Parodi" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1827> .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<https://rs.sealitproject.eu/kb/ids/5854>
+        a                crm:E42_Identifier ;
+        rdfs:label       "5854" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-12T08:23:01.594Z_1&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/date/1836>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1836" ;
+        crm:P82_at_some_time_within  "1836"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/7DE62C19-6543-3A48-8682-76F239365867>
+        a                        crm:E21_Person ;
+        rdfs:label               "Fortunato Schiaffino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/1109> , <https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:1718f262-40b9-43bb-82d2-c049d9e23ecc> ;
+        sealit:has_first_name    "Fortunato" ;
+        sealit:has_last_name     "Schiaffino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/732A267C-92AD-3403-A9A2-F0D0AFDC35A1> .
+
+<https://rs.sealitproject.eu/kb/ids/1109>
+        a                crm:E42_Identifier ;
+        rdfs:label       "1109" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/ED67C08F-9A7E-3E66-B176-D363B71D386F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Il Pegaso, 1853-07-06, Massimo  Ponasso | row: 16, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T08%3A23%3A01.594Z_1> , <https://rs.sealitproject.eu/kb/person/D1E008AD-C18E-3B30-AA10-603D072D925A> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/DCD4AA0F-3CB5-3D9B-83C9-F682821BC2F0>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Corsiglia" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<urn:uuid:51abf2ab-7cc2-400e-8c24-86f2c102eb31>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Costa" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1836> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/D542D98D-91EC-3808-8051-AC9E9E5DB517>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Il Pegaso, 1853-07-06, Massimo  Ponasso | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T08%3A23%3A01.594Z_1> , <https://rs.sealitproject.eu/kb/person/F7B167B0-689C-3770-A60B-5DDC19462547> .
+
+<urn:uuid:b8e6f621-007d-4928-8b8b-797204ba6017>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Revello" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1828> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/83586DA3-4666-301F-9FBB-E24F9AD169E7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Il Pegaso, 1853-07-06, Massimo  Ponasso | row: 2, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T08%3A23%3A01.594Z_1> , <https://rs.sealitproject.eu/kb/person/C2BB7B11-629C-3CB2-A08A-D32DFD153275> .
+
+<https://rs.sealitproject.eu/kb/ids/9594>
+        a                crm:E42_Identifier ;
+        rdfs:label       "9594" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/A2B4E384-AFE2-36AD-A8D5-1A6C07DADF83>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Queirolo" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/date/1815>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1815" ;
+        crm:P82_at_some_time_within  "1815"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/C3770DC1-C179-3F08-84F1-A868D3988258>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Il Pegaso, 1853-07-06, Massimo  Ponasso | row: 4, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T08%3A23%3A01.594Z_1> , <https://rs.sealitproject.eu/kb/person/82758F38-7113-3083-92B3-4E0409FF9BBC> .
+
+<https://rs.sealitproject.eu/kb/date/1828>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1828" ;
+        crm:P82_at_some_time_within  "1828"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T13:26:48.597Z_2&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/names/surname%20a>
+        a           crm:E55_Type ;
+        rdfs:label  "surname A" .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/B60F370A-E6E3-38EB-8BE5-A85A29C98C42>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Figari" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/515FDF37-1CE7-35B3-9AE5-E384612DB4E7>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Il Pegaso, 1853-07-06, Massimo  Ponasso | row: 10, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T08%3A23%3A01.594Z_1> , <https://rs.sealitproject.eu/kb/person/B4C69E79-249F-3972-9AE6-BE9CA6188280> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/56F4C734-AA2C-304F-83EB-464BCF4EF7DA>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Parodi" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/A8D1A33A-8605-3152-92E0-AEAD0DD8B7C3>
+        a                        crm:E21_Person ;
+        rdfs:label               "Fortunato Figari" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/355> , <https://rs.sealitproject.eu/kb/appellation_surname/B60F370A-E6E3-38EB-8BE5-A85A29C98C42> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:70a2efc9-ed4a-4608-b584-e1a8c1fbae71> ;
+        sealit:has_first_name    "Fortunato" ;
+        sealit:has_last_name     "Figari" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/82758F38-7113-3083-92B3-4E0409FF9BBC> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/751286B0-9A56-35F6-9541-E6A49D6A4751>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Ansaldo" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/7D0FCFE7-694C-3FE6-B3C6-BF422B98A18A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Il Pegaso, 1853-07-06, Massimo  Ponasso | row: 5, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T08%3A23%3A01.594Z_1> , <https://rs.sealitproject.eu/kb/person/E26C6B62-8922-38DA-9AC9-11157754451E> .
+
+<https://rs.sealitproject.eu/kb/person/BB644C7F-841C-3707-9B79-59E842FE86D9>
+        a                        crm:E21_Person ;
+        rdfs:label               "Gio. Batta Queirolo" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/4164> , <https://rs.sealitproject.eu/kb/appellation_surname/A2B4E384-AFE2-36AD-A8D5-1A6C07DADF83> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:27460159-dc88-4291-9dff-9a1e923721b1> ;
+        sealit:has_first_name    "Gio. Batta" ;
+        sealit:has_last_name     "Queirolo" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/2CCEFC01-6D14-36F3-9B15-A5C352D349A2> .
+
+<https://rs.sealitproject.eu/kb/person/01DC26B3-34BE-3356-B7DF-1B6361E180F1>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/date/1835>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1835" ;
+        crm:P82_at_some_time_within  "1835"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/date/1807>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1807" ;
+        crm:P82_at_some_time_within  "1807"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<https://rs.sealitproject.eu/kb/person/E26C6B62-8922-38DA-9AC9-11157754451E>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/1A09985F-48D3-3FD7-ADC3-4417980CB13D>
+        a                        crm:E21_Person ;
+        rdfs:label               "Michele Revello" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/5223> , <https://rs.sealitproject.eu/kb/appellation_surname/736768A3-5A42-3CBC-B96B-4C192C24EB37> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:b8e6f621-007d-4928-8b8b-797204ba6017> ;
+        sealit:has_first_name    "Michele" ;
+        sealit:has_last_name     "Revello" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/1DD744FB-0550-3840-9C65-B7AF24AEE396> .
+
+<https://rs.sealitproject.eu/kb/person/0D7B2F80-1907-3834-914F-7C04A2501764>
+        a                        crm:E21_Person ;
+        rdfs:label               "Antonio Cimiglia" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/1043> , <https://rs.sealitproject.eu/kb/appellation_surname/A352ED5F-777B-3F82-8180-CDAF92A3F599> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:04640826-9372-47ea-812e-8075ec4ab367> ;
+        sealit:has_first_name    "Antonio" ;
+        sealit:has_last_name     "Cimiglia" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/E26C6B62-8922-38DA-9AC9-11157754451E> .
+
+<https://rs.sealitproject.eu/kb/person/4EF4FA84-C6E0-3610-B55A-926644CB7F37>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/FC733E05-1E4E-34B6-9DA9-36F538FD3D24>
+        a                        crm:E21_Person ;
+        rdfs:label               "Prospero Ognio" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/8336> , <https://rs.sealitproject.eu/kb/appellation_surname/EC6250CD-774F-3C8B-9469-25CA128D6FF5> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:8fe5a002-9c10-41c7-94f9-0d4329df3dc7> ;
+        sealit:has_first_name    "Prospero" ;
+        sealit:has_last_name     "Ognio" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/01DC26B3-34BE-3356-B7DF-1B6361E180F1> .
+
+<https://rs.sealitproject.eu/kb/person/F3644DD1-3F77-30E5-A540-AFAC959A395D>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/5732>
+        a                crm:E42_Identifier ;
+        rdfs:label       "5732" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/B0DBA3B6-2A73-3999-A785-2CA8E7D91C4C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Il Pegaso, 1853-07-06, Massimo  Ponasso | row: 12, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T08%3A23%3A01.594Z_1> , <https://rs.sealitproject.eu/kb/person/2CCEFC01-6D14-36F3-9B15-A5C352D349A2> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/2F0362CE-9C03-38B8-8698-A00AF3B88859>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Il Pegaso, 1853-07-06, Massimo  Ponasso | row: 6, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T08%3A23%3A01.594Z_1> , <https://rs.sealitproject.eu/kb/person/F3644DD1-3F77-30E5-A540-AFAC959A395D> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/6C621B66-0559-3EF6-8628-D2D44E76A6F3>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Castagniola" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/ids/4574>
+        a                crm:E42_Identifier ;
+        rdfs:label       "4574" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/52AF8E1F-F4B3-3E7D-8623-C2DC85B1FC2A>
+        a                        crm:E21_Person ;
+        rdfs:label               "Fortunato Corsiglia" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/7627> , <https://rs.sealitproject.eu/kb/appellation_surname/DCD4AA0F-3CB5-3D9B-83C9-F682821BC2F0> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:00b90c64-319c-4c6a-90bf-45dc6e0a3ade> ;
+        sealit:has_first_name    "Fortunato" ;
+        sealit:has_last_name     "Corsiglia" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/D1E008AD-C18E-3B30-AA10-603D072D925A> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/673F651C-6B45-3469-9E1B-7C70ABEE7D03>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Il Pegaso, 1853-07-06, Massimo  Ponasso | row: 11, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T08%3A23%3A01.594Z_1> , <https://rs.sealitproject.eu/kb/person/4EF4FA84-C6E0-3610-B55A-926644CB7F37> .
+
+<https://rs.sealitproject.eu/kb/date/1827>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1827" ;
+        crm:P82_at_some_time_within  "1827"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/ids/2647>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2647" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/AA8F334C-644F-3A44-96CD-FC096C804A83>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Il Pegaso, 1853-07-06, Massimo  Ponasso | row: 13, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T08%3A23%3A01.594Z_1> , <https://rs.sealitproject.eu/kb/person/23990163-75A4-36C9-94C7-1477E740B716> .
+
+<urn:uuid:04640826-9372-47ea-812e-8075ec4ab367>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Cimiglia" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1833> .
+
+<https://rs.sealitproject.eu/kb/ids/3940>
+        a                crm:E42_Identifier ;
+        rdfs:label       "3940" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/ids/1043>
+        a                crm:E42_Identifier ;
+        rdfs:label       "1043" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<urn:uuid:9d76f109-0128-4282-9fbf-2d94fe5c8e98>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Repetto" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1832> .
+
+<https://rs.sealitproject.eu/kb/person/EF9AF4E1-8634-3BBE-AAA1-EA4780A73827>
+        a                        crm:E21_Person ;
+        rdfs:label               "Agostino Repetto" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/2647> , <https://rs.sealitproject.eu/kb/appellation_surname/A0105FA1-8E16-34B4-91E4-7D5D0515C42F> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:9d76f109-0128-4282-9fbf-2d94fe5c8e98> ;
+        sealit:has_first_name    "Agostino" ;
+        sealit:has_last_name     "Repetto" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/8C0B1EF9-29A1-34CC-B511-11EF0E5A9423> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/6F50B8C8-A110-32C7-90CB-CD28FDE3713C>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Costa" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew list (ruoli di equipaggio)" .
+
+<https://rs.sealitproject.eu/kb/register_record_point/6C206777-379D-3104-8437-BB07ECFD7580>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Il Pegaso, 1853-07-06, Massimo  Ponasso | row: 9, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T08%3A23%3A01.594Z_1> , <https://rs.sealitproject.eu/kb/person/B6B83927-3F45-3BFB-B33D-42B62C50B14D> .
+
+<https://rs.sealitproject.eu/kb/ids/8336>
+        a                crm:E42_Identifier ;
+        rdfs:label       "8336" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/6A10E696-61B8-3AC1-B82E-70A8477AB01D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Il Pegaso, 1853-07-06, Massimo  Ponasso | row: 7, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T08%3A23%3A01.594Z_1> , <https://rs.sealitproject.eu/kb/person/A84B2C32-C3B8-3149-A398-AC17DAF4C018> .
+
+<https://rs.sealitproject.eu/kb/person/82758F38-7113-3083-92B3-4E0409FF9BBC>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/3740>
+        a                crm:E42_Identifier ;
+        rdfs:label       "3740" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/ids/11378>
+        a                crm:E42_Identifier ;
+        rdfs:label       "11378" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/C2BB7B11-629C-3CB2-A08A-D32DFD153275>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/F048611F-9C8C-3073-BD43-22732A0CCA4E>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Il Pegaso, 1853-07-06, Massimo  Ponasso | row: 15, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T08%3A23%3A01.594Z_1> , <https://rs.sealitproject.eu/kb/person/01DC26B3-34BE-3356-B7DF-1B6361E180F1> .
+
+<https://rs.sealitproject.eu/kb/person/97E38339-C080-319F-A7EA-C10EBB0E289C>
+        a                        crm:E21_Person ;
+        rdfs:label               "Carlo Costa" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/3940> , <https://rs.sealitproject.eu/kb/appellation_surname/6F50B8C8-A110-32C7-90CB-CD28FDE3713C> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:778e31d7-7861-41f3-a91c-32213f3f8326> ;
+        sealit:has_first_name    "Carlo" ;
+        sealit:has_last_name     "Costa" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/A84B2C32-C3B8-3149-A398-AC17DAF4C018> .
+
+<https://rs.sealitproject.eu/kb/date/1826>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1826" ;
+        crm:P82_at_some_time_within  "1826"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/2B36DE5B-B174-3FA4-845E-F960651B9F07>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/2325E151-811E-302E-A490-0FB31B0846B4>
+        a                        crm:E21_Person ;
+        rdfs:label               "Bernardo Schiaffino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Bernardo" ;
+        sealit:has_last_name     "Schiaffino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/F7B167B0-689C-3770-A60B-5DDC19462547> .
+
+<https://rs.sealitproject.eu/kb/person/096E2459-D279-3452-825B-78278F2DB62A>
+        a                        crm:E21_Person ;
+        rdfs:label               "Luigi Parodi" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/11378> , <https://rs.sealitproject.eu/kb/appellation_surname/56F4C734-AA2C-304F-83EB-464BCF4EF7DA> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:0e3a69c5-7899-4055-8daa-2eaff6792e9e> ;
+        sealit:has_first_name    "Luigi" ;
+        sealit:has_last_name     "Parodi" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/F3644DD1-3F77-30E5-A540-AFAC959A395D> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/A352ED5F-777B-3F82-8180-CDAF92A3F599>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Cimiglia" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/5AD869DA-AEB3-3CCE-A7DB-09BFBA6035F9>
+        a                        crm:E21_Person ;
+        rdfs:label               "Fortunato Castagniola" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/3740> , <https://rs.sealitproject.eu/kb/appellation_surname/6C621B66-0559-3EF6-8628-D2D44E76A6F3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:1034b7d6-c12d-458d-878e-d090597b2431> ;
+        sealit:has_first_name    "Fortunato" ;
+        sealit:has_last_name     "Castagniola" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/C2BB7B11-629C-3CB2-A08A-D32DFD153275> .
+
+<https://rs.sealitproject.eu/kb/person/BE258927-539D-3ACA-881E-011A41C20B22>
+        a                        crm:E21_Person ;
+        rdfs:label               "Bernardo Schiaffino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/5854> , <https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:33e2802d-f0df-4a66-bf21-174e6f2c1a67> ;
+        sealit:has_first_name    "Bernardo" ;
+        sealit:has_last_name     "Schiaffino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/2B36DE5B-B174-3FA4-845E-F960651B9F07> .
+
+<urn:uuid:810da740-ee4a-49fc-ab13-70f388d7d318>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Ansaldo" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1826> .
+
+<https://rs.sealitproject.eu/kb/date/1833>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1833" ;
+        crm:P82_at_some_time_within  "1833"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/B19847C8-54A9-343E-897C-881651D32165>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Il Pegaso, 1853-07-06, Massimo  Ponasso | row: 1, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T08%3A23%3A01.594Z_1> , <https://rs.sealitproject.eu/kb/person/2B36DE5B-B174-3FA4-845E-F960651B9F07> .
+
+<urn:uuid:27460159-dc88-4291-9dff-9a1e923721b1>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Queirolo" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1836> .
+
+<https://rs.sealitproject.eu/kb/ids/355>
+        a                crm:E42_Identifier ;
+        rdfs:label       "355" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<urn:uuid:d877fb10-496a-4b4e-8bce-a01a01b1ff42>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Repetto" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1837> .
+
+<https://rs.sealitproject.eu/kb/person/23990163-75A4-36C9-94C7-1477E740B716>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/0AF686AA-20E4-3928-BF32-9046A8CB0E01>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Il Pegaso, 1853-07-06, Massimo  Ponasso | row: 8, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-12-12T08%3A23%3A01.594Z_1> , <https://rs.sealitproject.eu/kb/person/1DD744FB-0550-3840-9C65-B7AF24AEE396> .
+
+<https://rs.sealitproject.eu/kb/person/0C963062-380D-3C82-81F9-9C308C6032FF>
+        a                        crm:E21_Person ;
+        rdfs:label               "Antonio Ansaldo" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/751286B0-9A56-35F6-9541-E6A49D6A4751> , <https://rs.sealitproject.eu/kb/ids/4574> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:810da740-ee4a-49fc-ab13-70f388d7d318> ;
+        sealit:has_first_name    "Antonio" ;
+        sealit:has_last_name     "Ansaldo" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/23990163-75A4-36C9-94C7-1477E740B716> , <https://rs.sealitproject.eu/kb/person/1E9908AE-AF9C-308B-B3C1-7C7734923DF2> .
+
+<https://rs.sealitproject.eu/kb/person/8C0B1EF9-29A1-34CC-B511-11EF0E5A9423>
+        a       crm:E21_Person .
+
+<urn:uuid:a0f4c2d0-163b-4814-a92f-9346b1f572ca>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Olivari" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1835> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/A63286C4-03F3-365D-ACA3-CBC8C9CC6D52>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Olivari" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/D1E008AD-C18E-3B30-AA10-603D072D925A>
+        a       crm:E21_Person .
+
+<urn:uuid:1034b7d6-c12d-458d-878e-d090597b2431>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Castagniola" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1811> .
+
+<https://rs.sealitproject.eu/kb/person/1DD744FB-0550-3840-9C65-B7AF24AEE396>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-12-12T08%3A23%3A01.594Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Il Pegaso, 1853-07-06, Massimo  Ponasso" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-12-12T08:23:01.594Z_1&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/ids/7627>
+        a                crm:E42_Identifier ;
+        rdfs:label       "7627" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/3090F161-2CBE-392F-9CC5-91439C82B3D2>
+        a                        crm:E21_Person ;
+        rdfs:label               "Pasquale Olivari" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/9594> , <https://rs.sealitproject.eu/kb/appellation_surname/A63286C4-03F3-365D-ACA3-CBC8C9CC6D52> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:a0f4c2d0-163b-4814-a92f-9346b1f572ca> ;
+        sealit:has_first_name    "Pasquale" ;
+        sealit:has_last_name     "Olivari" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/B6B83927-3F45-3BFB-B33D-42B62C50B14D> .
+
+<https://rs.sealitproject.eu/kb/person/F7B167B0-689C-3770-A60B-5DDC19462547>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/736768A3-5A42-3CBC-B96B-4C192C24EB37>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Revello" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/732A267C-92AD-3403-A9A2-F0D0AFDC35A1>
+        a       crm:E21_Person .
+
+<urn:uuid:00b90c64-319c-4c6a-90bf-45dc6e0a3ade>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Corsiglia" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1833> .
+
+<urn:uuid:1718f262-40b9-43bb-82d2-c049d9e23ecc>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Schiaffino" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1807> .
+
+<https://rs.sealitproject.eu/kb/person/1E9908AE-AF9C-308B-B3C1-7C7734923DF2>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/5223>
+        a                crm:E42_Identifier ;
+        rdfs:label       "5223" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .

@@ -1,0 +1,82 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <https://rs.sealitproject.eu/kb/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<https://rs.sealitproject.eu/kb/ship%20type/brigantino>
+        a           crm:E55_Type ;
+        rdfs:label  "brigantino" .
+
+<https://rs.sealitproject.eu/kb/ship%20name/argo>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Argo" .
+
+<urn:uuid:cdc6281e-f69a-423a-b375-8feba5d019d3>
+        a                     sealit:Ship_Construction ;
+        rdfs:label            "Construction of Argo" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1838> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/varazze> .
+
+<https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew list (ruoli di equipaggio)" .
+
+<https://rs.sealitproject.eu/kb/ship_identifier/1431>
+        a                sealit:Ship_ID ;
+        rdfs:label       "1431" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/register%20numbers/register%20number> .
+
+<https://rs.sealitproject.eu/kb/date/1838>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1838" ;
+        crm:P82_at_some_time_within  "1838"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/registration_number/1431>
+        a                    sealit:Ship_Registration ;
+        rdfs:label           "Registration of Argo" ;
+        sealit:with_ship_ID  <https://rs.sealitproject.eu/kb/ship_identifier/1431> .
+
+<https://rs.sealitproject.eu/kb/location/varazze>
+        a           crm:E53_Place ;
+        rdfs:label  "Varazze" .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T16:14:57.376Z_2&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/ship/D72D2AD7-712C-3260-8D2F-879696D9E164>
+        a       sealit:Ship .
+
+<https://rs.sealitproject.eu/kb/register%20numbers/register%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "register number" .
+
+<https://rs.sealitproject.eu/kb/register_record_point/0AA3EBEA-444F-3542-B748-91C241A4B648>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Argo, 1861-01-14, Beatrice Corradi | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T16%3A14%3A57.376Z_2> , <https://rs.sealitproject.eu/kb/ship/D72D2AD7-712C-3260-8D2F-879696D9E164> .
+
+<https://rs.sealitproject.eu/kb/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-02-27T16%3A14%3A57.376Z_2>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Argo, 1861-01-14, Beatrice Corradi" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T16:14:57.376Z_2&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/ship/D29F16F1-3FBD-3071-A877-23A35E1847A8>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Argo" ;
+        crm:P1_is_identified_by    <https://rs.sealitproject.eu/kb/ship%20name/argo> ;
+        crm:P2_has_type            <https://rs.sealitproject.eu/kb/ship%20type/brigantino> , <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:is_registered_by    <https://rs.sealitproject.eu/kb/registration_number/1431> ;
+        sealit:was_constructed_by  <urn:uuid:cdc6281e-f69a-423a-b375-8feba5d019d3> ;
+        owl:sameAs                 <https://rs.sealitproject.eu/kb/ship/D72D2AD7-712C-3260-8D2F-879696D9E164> .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .

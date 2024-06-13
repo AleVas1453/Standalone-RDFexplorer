@@ -1,0 +1,82 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <https://rs.sealitproject.eu/kb/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<https://rs.sealitproject.eu/kb/ship%20type/brigantino>
+        a           crm:E55_Type ;
+        rdfs:label  "brigantino" .
+
+<https://rs.sealitproject.eu/kb/ship/6C6EF236-00B1-3E9E-98C0-F6FAC03271DA>
+        a       sealit:Ship .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-03-20T16%3A22%3A47.100Z_10>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Indipendenza Peruviana, 1861-02-15, Francesco Ferrando" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T16:22:47.100Z_10&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/ship_identifier/1613>
+        a                sealit:Ship_ID ;
+        rdfs:label       "1613" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/register%20numbers/register%20number> .
+
+<https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew list (ruoli di equipaggio)" .
+
+<https://rs.sealitproject.eu/kb/location/pr%C3%A0>
+        a           crm:E53_Place ;
+        rdfs:label  "Prà" .
+
+<https://rs.sealitproject.eu/kb/registration_number/1613>
+        a                    sealit:Ship_Registration ;
+        rdfs:label           "Registration of Indipendenza Peruviana" ;
+        sealit:with_ship_ID  <https://rs.sealitproject.eu/kb/ship_identifier/1613> .
+
+<https://rs.sealitproject.eu/kb/date/1853>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1853" ;
+        crm:P82_at_some_time_within  "1853"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T16:22:47.100Z_10&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/ship/B4C619A1-27CF-37F9-AE02-B6DCDD64C968>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Indipendenza Peruviana" ;
+        crm:P1_is_identified_by    <https://rs.sealitproject.eu/kb/ship%20name/indipendenza%20peruviana> ;
+        crm:P2_has_type            <https://rs.sealitproject.eu/kb/ship%20type/brigantino> , <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:is_registered_by    <https://rs.sealitproject.eu/kb/registration_number/1613> ;
+        sealit:was_constructed_by  <urn:uuid:bf13df03-9bed-4d9a-a6d4-64e9a9cc632b> ;
+        owl:sameAs                 <https://rs.sealitproject.eu/kb/ship/6C6EF236-00B1-3E9E-98C0-F6FAC03271DA> .
+
+<https://rs.sealitproject.eu/kb/ship%20name/indipendenza%20peruviana>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Indipendenza Peruviana" .
+
+<urn:uuid:bf13df03-9bed-4d9a-a6d4-64e9a9cc632b>
+        a                     sealit:Ship_Construction ;
+        rdfs:label            "Construction of Indipendenza Peruviana" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1853> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/pr%C3%A0> .
+
+<https://rs.sealitproject.eu/kb/register%20numbers/register%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "register number" .
+
+<https://rs.sealitproject.eu/kb/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<https://rs.sealitproject.eu/kb/register_record_point/B2479010-DEAC-3C73-A271-9695B85DD8F6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Indipendenza Peruviana, 1861-02-15, Francesco Ferrando | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-20T16%3A22%3A47.100Z_10> , <https://rs.sealitproject.eu/kb/ship/6C6EF236-00B1-3E9E-98C0-F6FAC03271DA> .

@@ -1,0 +1,438 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <https://rs.sealitproject.eu/kb/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<https://rs.sealitproject.eu/kb/person/7C4F24AF-1B64-3C82-A764-395E4518CCC5>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/C292CFEF-EFCE-3F78-B495-64E6DD3013A8>
+        a       crm:E21_Person .
+
+<urn:uuid:e70f8003-01ed-4334-9f55-bd626700bcdc>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Peragallo" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1842> .
+
+<https://rs.sealitproject.eu/kb/person/2D06FADE-865A-3EA8-9B56-78A0AC46D247>
+        a                        crm:E21_Person ;
+        rdfs:label               "Antonio Schiaffino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/1272> , <https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:c17bdac5-6b7d-46c7-be8d-3750aa9ed855> ;
+        sealit:has_first_name    "Antonio" ;
+        sealit:has_last_name     "Schiaffino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/0EC85988-7326-3443-A28E-F867EF838882> .
+
+<https://rs.sealitproject.eu/kb/ids/13574>
+        a                crm:E42_Identifier ;
+        rdfs:label       "13574" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/9AC38DDE-033D-3F9D-9DDE-0BEA0F8C1C41>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dio mi Vede, 1862-03-26, Maki Asai | row: 9, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-27T15%3A33%3A02.073Z_5> , <https://rs.sealitproject.eu/kb/person/AC9B491A-9283-3F95-80AD-D18C4248FDA3> .
+
+<https://rs.sealitproject.eu/kb/date/1824>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1824" ;
+        crm:P82_at_some_time_within  "1824"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/F58D0596-26B4-3FD3-BFDE-6800E7DBD6AB>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Boggiano" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/76407381-D10F-3C33-A070-5E577F296939>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/date/1837>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1837" ;
+        crm:P82_at_some_time_within  "1837"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/EF349C46-4E91-3F4C-9DDD-F176D6EC95A8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dio mi Vede, 1862-03-26, Maki Asai | row: 8, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-27T15%3A33%3A02.073Z_5> , <https://rs.sealitproject.eu/kb/person/1D9C230D-F46C-3938-B8B8-BB696EC259D6> .
+
+<https://rs.sealitproject.eu/kb/person/A6A5B053-7C9F-3788-9D05-65A3BE028180>
+        a                        crm:E21_Person ;
+        rdfs:label               "Paolo Oneto" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/10963> , <https://rs.sealitproject.eu/kb/appellation_surname/1AAAF796-6416-30BC-9EAA-E08321D8DFA3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:a14fe854-bb9f-47ab-905d-df5a2031acb1> ;
+        sealit:has_first_name    "Paolo" ;
+        sealit:has_last_name     "Oneto" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/F5E5F031-AE81-3855-B605-4390EC34AD4B> .
+
+<https://rs.sealitproject.eu/kb/person/62D5D4FE-D866-32AA-8B3B-A961A35AF4C0>
+        a                        crm:E21_Person ;
+        rdfs:label               "Stefano Prospero Olcese" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/13574> , <https://rs.sealitproject.eu/kb/appellation_surname/284105FA-5C1A-3973-B7F0-B7AC9707E949> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:e6cbc190-de0f-4ead-86fd-4fad99894898> ;
+        sealit:has_first_name    "Stefano Prospero" ;
+        sealit:has_last_name     "Olcese" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/76407381-D10F-3C33-A070-5E577F296939> .
+
+<https://rs.sealitproject.eu/kb/ids/14366>
+        a                crm:E42_Identifier ;
+        rdfs:label       "14366" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/numbers/serial%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "serial number" .
+
+<https://rs.sealitproject.eu/kb/register_record_point/268164F5-1347-32C7-8CEB-539EE517F86C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dio mi Vede, 1862-03-26, Maki Asai | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-27T15%3A33%3A02.073Z_5> , <https://rs.sealitproject.eu/kb/person/C292CFEF-EFCE-3F78-B495-64E6DD3013A8> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/1AAAF796-6416-30BC-9EAA-E08321D8DFA3>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Oneto" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Schiaffino" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/date/1844>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1844" ;
+        crm:P82_at_some_time_within  "1844"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/ids/13745>
+        a                crm:E42_Identifier ;
+        rdfs:label       "13745" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<urn:uuid:67d85666-2cf5-487f-836a-8f209e94e4b8>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Marini" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1847> .
+
+<https://rs.sealitproject.eu/kb/person/0EC85988-7326-3443-A28E-F867EF838882>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/38408A25-B276-36F8-827C-442A05233A73>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dio mi Vede, 1862-03-26, Maki Asai | row: 6, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-27T15%3A33%3A02.073Z_5> , <https://rs.sealitproject.eu/kb/person/F52BA937-2D3D-3CDA-A13E-5533FF120E6B> .
+
+<https://rs.sealitproject.eu/kb/person/7B1A6A5E-9BE9-3F02-AE6E-B756B95B4CAE>
+        a       crm:E21_Person .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<https://rs.sealitproject.eu/kb/ids/15293>
+        a                crm:E42_Identifier ;
+        rdfs:label       "15293" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/31C86434-CDCB-3F72-8D02-E962AF58A2CC>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giulio Sancristoforo" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/18262> , <https://rs.sealitproject.eu/kb/appellation_surname/D174263A-8C60-3A07-943A-D72E282DB566> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:10bac4bf-6098-4a62-8f69-20794606e46a> ;
+        sealit:has_first_name    "Giulio" ;
+        sealit:has_last_name     "Sancristoforo" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/7C4F24AF-1B64-3C82-A764-395E4518CCC5> .
+
+<https://rs.sealitproject.eu/kb/person/F5E5F031-AE81-3855-B605-4390EC34AD4B>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/F52BA937-2D3D-3CDA-A13E-5533FF120E6B>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/date/1849>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1849" ;
+        crm:P82_at_some_time_within  "1849"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/CBFD7A39-B99F-3EE7-A071-F6A1059854C5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dio mi Vede, 1862-03-26, Maki Asai | row: 2, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-27T15%3A33%3A02.073Z_5> , <https://rs.sealitproject.eu/kb/person/F5E5F031-AE81-3855-B605-4390EC34AD4B> .
+
+<https://rs.sealitproject.eu/kb/ids/1272>
+        a                crm:E42_Identifier ;
+        rdfs:label       "1272" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/AB7226FD-537D-3922-AEC4-4AAA35D1A0DB>
+        a                        crm:E21_Person ;
+        rdfs:label               "Gio Batta Olivari" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/13745> , <https://rs.sealitproject.eu/kb/appellation_surname/A63286C4-03F3-365D-ACA3-CBC8C9CC6D52> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:807c8cd9-5806-4bd2-8445-7197475db647> ;
+        sealit:has_first_name    "Gio Batta" ;
+        sealit:has_last_name     "Olivari" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/F52BA937-2D3D-3CDA-A13E-5533FF120E6B> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/1381A645-B46F-3892-AAD9-FDD56D04DC6D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dio mi Vede, 1862-03-26, Maki Asai | row: 7, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-27T15%3A33%3A02.073Z_5> , <https://rs.sealitproject.eu/kb/person/FCAAAD4A-38AE-365E-94F5-954D08E9CB7A> .
+
+<https://rs.sealitproject.eu/kb/ids/11804>
+        a                crm:E42_Identifier ;
+        rdfs:label       "11804" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/date/1843>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1843" ;
+        crm:P82_at_some_time_within  "1843"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/E9675250-4988-33B2-A5CC-90609B5D6CB7>
+        a                        crm:E21_Person ;
+        rdfs:label               "Fortunato Emanuele Gazzale" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/14366> , <https://rs.sealitproject.eu/kb/appellation_surname/1F59729D-F2E2-3B60-8731-2574BDDB10D6> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:ca01f62f-ea90-4150-91c4-0bcd2aab1a73> ;
+        sealit:has_first_name    "Fortunato Emanuele" ;
+        sealit:has_last_name     "Gazzale" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/FCAAAD4A-38AE-365E-94F5-954D08E9CB7A> .
+
+<urn:uuid:76bda3cf-81a0-4fdf-85a5-4518328c6e04>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Boggiano" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1820> .
+
+<https://rs.sealitproject.eu/kb/person/1D9C230D-F46C-3938-B8B8-BB696EC259D6>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/names/surname%20a>
+        a           crm:E55_Type ;
+        rdfs:label  "surname A" .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/FEB700D8-0643-3749-8B99-B624F5B87E70>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Peragallo" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<urn:uuid:807c8cd9-5806-4bd2-8445-7197475db647>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Olivari" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1846> .
+
+<https://rs.sealitproject.eu/kb/ids/18262>
+        a                crm:E42_Identifier ;
+        rdfs:label       "18262" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/8B31C4F2-0032-3FB1-8598-2FA194221B68>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giuseppe Marini" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/15293> , <https://rs.sealitproject.eu/kb/appellation_surname/ABF87DCC-9E40-3AF5-854D-54672E1FC5AC> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:67d85666-2cf5-487f-836a-8f209e94e4b8> ;
+        sealit:has_first_name    "Giuseppe" ;
+        sealit:has_last_name     "Marini" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/1D9C230D-F46C-3938-B8B8-BB696EC259D6> .
+
+<urn:uuid:c17bdac5-6b7d-46c7-be8d-3750aa9ed855>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Schiaffino" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1824> .
+
+<urn:uuid:10bac4bf-6098-4a62-8f69-20794606e46a>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Sancristoforo" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1847> .
+
+<urn:uuid:ca01f62f-ea90-4150-91c4-0bcd2aab1a73>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Gazzale" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1843> .
+
+<https://rs.sealitproject.eu/kb/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<https://rs.sealitproject.eu/kb/register_record_point/BF974767-B514-3BA3-B606-8259D1DF9D4C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dio mi Vede, 1862-03-26, Maki Asai | row: 5, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-27T15%3A33%3A02.073Z_5> , <https://rs.sealitproject.eu/kb/person/7B1A6A5E-9BE9-3F02-AE6E-B756B95B4CAE> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/284105FA-5C1A-3973-B7F0-B7AC9707E949>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Olcese" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/ABF87DCC-9E40-3AF5-854D-54672E1FC5AC>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Marini" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-03-27T15%3A33%3A02.073Z_5>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Dio mi Vede, 1862-03-26, Maki Asai" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T15:33:02.073Z_5&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/D174263A-8C60-3A07-943A-D72E282DB566>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Sancristoforo" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/date/1842>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1842" ;
+        crm:P82_at_some_time_within  "1842"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/0CC512FE-B6E6-3335-9861-AAD2A6BD7E26>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dio mi Vede, 1862-03-26, Maki Asai | row: 1, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-27T15%3A33%3A02.073Z_5> , <https://rs.sealitproject.eu/kb/person/0EC85988-7326-3443-A28E-F867EF838882> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/29D6EB31-2B4A-384C-8955-29DFE99BADBB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dio mi Vede, 1862-03-26, Maki Asai | row: 3, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-27T15%3A33%3A02.073Z_5> , <https://rs.sealitproject.eu/kb/person/B641435A-44A4-315A-995E-2E4EB930A03B> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/14254FB5-07B5-36BE-80B0-77C00BA8320A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dio mi Vede, 1862-03-26, Maki Asai | row: 10, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-27T15%3A33%3A02.073Z_5> , <https://rs.sealitproject.eu/kb/person/7C4F24AF-1B64-3C82-A764-395E4518CCC5> .
+
+<urn:uuid:77b75212-8eac-484c-bf1c-4da2897a4de5>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Baggiano" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1849> .
+
+<https://rs.sealitproject.eu/kb/person/0F4A4CC5-41AC-3DB1-BF57-38B5432211E2>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giuseppe Boggiano" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/4631> , <https://rs.sealitproject.eu/kb/appellation_surname/F58D0596-26B4-3FD3-BFDE-6800E7DBD6AB> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:76bda3cf-81a0-4fdf-85a5-4518328c6e04> ;
+        sealit:has_first_name    "Giuseppe" ;
+        sealit:has_last_name     "Boggiano" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/B641435A-44A4-315A-995E-2E4EB930A03B> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/AE16269C-3604-3D98-8708-A75E39360451>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Baggiano" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew list (ruoli di equipaggio)" .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T15:33:02.073Z_5&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/register_record_point/11B40D38-91E3-31AD-B7B4-2D263370C9C5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Dio mi Vede, 1862-03-26, Maki Asai | row: 4, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-27T15%3A33%3A02.073Z_5> , <https://rs.sealitproject.eu/kb/person/76407381-D10F-3C33-A070-5E577F296939> .
+
+<https://rs.sealitproject.eu/kb/date/1847>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1847" ;
+        crm:P82_at_some_time_within  "1847"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/AC9B491A-9283-3F95-80AD-D18C4248FDA3>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/A461E641-F225-306C-9CBE-221B5167C921>
+        a                        crm:E21_Person ;
+        rdfs:label               "Rocco Peragallo" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/11804> , <https://rs.sealitproject.eu/kb/appellation_surname/FEB700D8-0643-3749-8B99-B624F5B87E70> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:e70f8003-01ed-4334-9f55-bd626700bcdc> ;
+        sealit:has_first_name    "Rocco" ;
+        sealit:has_last_name     "Peragallo" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/7B1A6A5E-9BE9-3F02-AE6E-B756B95B4CAE> .
+
+<https://rs.sealitproject.eu/kb/person/FCAAAD4A-38AE-365E-94F5-954D08E9CB7A>
+        a       crm:E21_Person .
+
+<urn:uuid:e6cbc190-de0f-4ead-86fd-4fad99894898>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Olcese" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1844> .
+
+<https://rs.sealitproject.eu/kb/date/1820>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1820" ;
+        crm:P82_at_some_time_within  "1820"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/9BA4D32E-3C9D-3705-8F01-0207B550C681>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giuseppe Boggiano" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/F58D0596-26B4-3FD3-BFDE-6800E7DBD6AB> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Giuseppe" ;
+        sealit:has_last_name     "Boggiano" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/C292CFEF-EFCE-3F78-B495-64E6DD3013A8> .
+
+<https://rs.sealitproject.eu/kb/date/1846>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1846" ;
+        crm:P82_at_some_time_within  "1846"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/ids/4631>
+        a                crm:E42_Identifier ;
+        rdfs:label       "4631" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/5289915D-D582-3A37-B638-AF138541D138>
+        a                        crm:E21_Person ;
+        rdfs:label               "Stefano Prospero Baggiano" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/16153> , <https://rs.sealitproject.eu/kb/appellation_surname/AE16269C-3604-3D98-8708-A75E39360451> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:77b75212-8eac-484c-bf1c-4da2897a4de5> ;
+        sealit:has_first_name    "Stefano Prospero" ;
+        sealit:has_last_name     "Baggiano" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/AC9B491A-9283-3F95-80AD-D18C4248FDA3> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/A63286C4-03F3-365D-ACA3-CBC8C9CC6D52>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Olivari" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/ids/10963>
+        a                crm:E42_Identifier ;
+        rdfs:label       "10963" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<urn:uuid:a14fe854-bb9f-47ab-905d-df5a2031acb1>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Oneto" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1837> .
+
+<https://rs.sealitproject.eu/kb/person/B641435A-44A4-315A-995E-2E4EB930A03B>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/16153>
+        a                crm:E42_Identifier ;
+        rdfs:label       "16153" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/1F59729D-F2E2-3B60-8731-2574BDDB10D6>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Gazzale" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .

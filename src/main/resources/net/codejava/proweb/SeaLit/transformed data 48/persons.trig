@@ -1,0 +1,514 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <https://rs.sealitproject.eu/kb/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<https://rs.sealitproject.eu/kb/person/41BAA05D-A9CF-3958-B12C-9142B4FF91F6>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/F91EE555-90B5-3D14-A553-9C0750C712EA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Indipendenza Peruviana, 1861-02-15, Francesco Ferrando | row: 2, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-20T16%3A22%3A47.100Z_10> , <https://rs.sealitproject.eu/kb/person/58A2F0EE-1F3F-3907-9E0E-F10626F9DD0D> .
+
+<https://rs.sealitproject.eu/kb/person/21731F6E-4CDC-3E43-BD91-F63997D0FCB1>
+        a                        crm:E21_Person ;
+        rdfs:label               "Michele Capurro" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/11976> , <https://rs.sealitproject.eu/kb/appellation_surname/7B2E3D2F-E8C4-30B9-80D0-BBBEAB562C5A> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:e563c6e5-845d-48d8-b8ee-01d8f3f1c97b> ;
+        sealit:has_first_name    "Michele" ;
+        sealit:has_last_name     "Capurro" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/41BAA05D-A9CF-3958-B12C-9142B4FF91F6> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/B2479010-DEAC-3C73-A271-9695B85DD8F6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Indipendenza Peruviana, 1861-02-15, Francesco Ferrando | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-20T16%3A22%3A47.100Z_10> , <https://rs.sealitproject.eu/kb/person/C7A1AF8D-DABD-3D14-931C-232BB6DED8CF> .
+
+<https://rs.sealitproject.eu/kb/person/F9D72178-46AF-3628-8F71-96623BF3CFAA>
+        a       crm:E21_Person .
+
+<urn:uuid:41c04e2d-b6de-4546-a8f3-cca6a0a5785e>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Schiaffino" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1820> .
+
+<https://rs.sealitproject.eu/kb/person/07BBAF9D-3C57-3931-9E6D-00744830D33A>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giuseppe Schiappacasse" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/Permesso> , <https://rs.sealitproject.eu/kb/appellation_surname/5B224519-EE09-3272-91E6-315016BCB8C9> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:4a43f4e6-3c6f-4003-8083-099e8e140a35> ;
+        sealit:has_first_name    "Giuseppe" ;
+        sealit:has_last_name     "Schiappacasse" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/E5B49A66-AB8D-3854-9E14-CD674CA244D6> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/3F559085-B197-3F05-99F9-C66CD3CD6353>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Indipendenza Peruviana, 1861-02-15, Francesco Ferrando | row: 9, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-20T16%3A22%3A47.100Z_10> , <https://rs.sealitproject.eu/kb/person/07A3697E-1E27-325B-97DC-D73C78AF433F> .
+
+<https://rs.sealitproject.eu/kb/person/CAE74F0B-B0F8-375D-9C55-14C0CB627A34>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/453927B8-37EC-38E9-BB0B-301969AA0084>
+        a                        crm:E21_Person ;
+        rdfs:label               "Nicolò Schiappacasse" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/Permesso> , <https://rs.sealitproject.eu/kb/appellation_surname/5B224519-EE09-3272-91E6-315016BCB8C9> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:2967ec28-5add-474a-a98e-140acab8b094> ;
+        sealit:has_first_name    "Nicolò" ;
+        sealit:has_last_name     "Schiappacasse" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/416491B1-14F6-3956-9642-59200D8DD642> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/7D9DDD67-4AC0-3882-A839-55EB7B701B8C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Indipendenza Peruviana, 1861-02-15, Francesco Ferrando | row: 6, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-20T16%3A22%3A47.100Z_10> , <https://rs.sealitproject.eu/kb/person/416491B1-14F6-3956-9642-59200D8DD642> .
+
+<https://rs.sealitproject.eu/kb/ids/261>
+        a                crm:E42_Identifier ;
+        rdfs:label       "261" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<urn:uuid:2967ec28-5add-474a-a98e-140acab8b094>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Schiappacasse" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1826> .
+
+<https://rs.sealitproject.eu/kb/person/A0FC70D0-78A5-35A6-A16F-D470092F1D38>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/numbers/serial%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "serial number" .
+
+<urn:uuid:ea2f9e6c-35e5-49ef-a059-2f17c6c1a3a4>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Mortola" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1829> .
+
+<https://rs.sealitproject.eu/kb/person/DE75588A-50DE-3894-8C55-DC5ACB5A3D24>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/8000>
+        a                crm:E42_Identifier ;
+        rdfs:label       "8000" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Schiaffino" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/AE6F9621-2D43-3C02-89AE-4BA719945E09>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Avegno" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/date/1829>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1829" ;
+        crm:P82_at_some_time_within  "1829"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/11C94586-BE45-3047-A484-D1F5EBA929B8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Indipendenza Peruviana, 1861-02-15, Francesco Ferrando | row: 8, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-20T16%3A22%3A47.100Z_10> , <https://rs.sealitproject.eu/kb/person/41BAA05D-A9CF-3958-B12C-9142B4FF91F6> .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<urn:uuid:8b94494b-d787-4552-a9d8-3792ca0c9616>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Schiappacasse" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1843> .
+
+<https://rs.sealitproject.eu/kb/person/79D0ED89-2E9E-377B-80A8-37AB2F756DD2>
+        a                        crm:E21_Person ;
+        rdfs:label               "Fortunato Dellacasa" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/8522> , <https://rs.sealitproject.eu/kb/appellation_surname/44BB84A8-F55E-382F-B42A-BF582B4A494A> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:4a59eead-1270-455f-9c59-9bd904a11860> ;
+        sealit:has_first_name    "Fortunato" ;
+        sealit:has_last_name     "Dellacasa" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/EDC42821-BA68-399D-BAC3-2CFE9C86B9FB> .
+
+<https://rs.sealitproject.eu/kb/person/676DD281-B1B6-3F09-A8FD-BE9D3D646EB4>
+        a                        crm:E21_Person ;
+        rdfs:label               "Eugenio Marchese" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/13455> , <https://rs.sealitproject.eu/kb/appellation_surname/1A862D3F-A9A4-3A18-B47A-06BA83510777> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:47e4bcae-0430-4817-9153-ab4150f2705d> ;
+        sealit:has_first_name    "Eugenio" ;
+        sealit:has_last_name     "Marchese" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/CAE74F0B-B0F8-375D-9C55-14C0CB627A34> .
+
+<https://rs.sealitproject.eu/kb/person/4142DF39-E99F-39F4-B270-48D34F7E2146>
+        a                        crm:E21_Person ;
+        rdfs:label               "Bartolomeo Pellegri" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/13415> , <https://rs.sealitproject.eu/kb/appellation_surname/0CF4E463-4D01-3B40-9C31-4DEA6BF37058> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:1e3e8cc4-5f68-4174-b8c4-39ae53e8a904> ;
+        sealit:has_first_name    "Bartolomeo" ;
+        sealit:has_last_name     "Pellegri" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/1ECF5F14-CDE8-361F-B69A-8C9729577782> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/6C98B525-5DAA-3339-8CC7-0477767E04A8>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Indipendenza Peruviana, 1861-02-15, Francesco Ferrando | row: 11, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-20T16%3A22%3A47.100Z_10> , <https://rs.sealitproject.eu/kb/person/F9D72178-46AF-3628-8F71-96623BF3CFAA> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/D881E33E-09E9-3916-93F8-6A22A2117B08>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Indipendenza Peruviana, 1861-02-15, Francesco Ferrando | row: 4, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-20T16%3A22%3A47.100Z_10> , <https://rs.sealitproject.eu/kb/person/E5B49A66-AB8D-3854-9E14-CD674CA244D6> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/DC830EB8-2833-3F85-A49F-BB591C37C68D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Indipendenza Peruviana, 1861-02-15, Francesco Ferrando | row: 5, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-20T16%3A22%3A47.100Z_10> , <https://rs.sealitproject.eu/kb/person/E05B5696-A35B-3DA8-8714-079D80CAD8EE> .
+
+<https://rs.sealitproject.eu/kb/date/1836>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1836" ;
+        crm:P82_at_some_time_within  "1836"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/22187B73-5257-33ED-9643-7B762C4B1031>
+        a                        crm:E21_Person ;
+        rdfs:label               "Simone Figari" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/14492> , <https://rs.sealitproject.eu/kb/appellation_surname/B60F370A-E6E3-38EB-8BE5-A85A29C98C42> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:de02f4bd-4bca-4e49-8b4d-b8beb9052872> ;
+        sealit:has_first_name    "Simone" ;
+        sealit:has_last_name     "Figari" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/07A3697E-1E27-325B-97DC-D73C78AF433F> .
+
+<https://rs.sealitproject.eu/kb/person/E05B5696-A35B-3DA8-8714-079D80CAD8EE>
+        a       crm:E21_Person .
+
+<urn:uuid:ece10db3-e6aa-4b4d-80e7-94f36da38bf6>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Olivari" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1833> .
+
+<https://rs.sealitproject.eu/kb/person/BFCA9317-E8C5-3D34-A5FC-9C653041A9A2>
+        a                        crm:E21_Person ;
+        rdfs:label               "Domenico Schiaffino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/261> , <https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:41c04e2d-b6de-4546-a8f3-cca6a0a5785e> ;
+        sealit:has_first_name    "Domenico" ;
+        sealit:has_last_name     "Schiaffino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/A0FC70D0-78A5-35A6-A16F-D470092F1D38> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/ACCB4A4A-BB9D-39C6-8E19-178D0AB72C8C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Indipendenza Peruviana, 1861-02-15, Francesco Ferrando | row: 7, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-20T16%3A22%3A47.100Z_10> , <https://rs.sealitproject.eu/kb/person/EDC42821-BA68-399D-BAC3-2CFE9C86B9FB> .
+
+<https://rs.sealitproject.eu/kb/person/58A2F0EE-1F3F-3907-9E0E-F10626F9DD0D>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/0C2B64A5-7AF0-3EB0-A93F-C1B849205F7E>
+        a                        crm:E21_Person ;
+        rdfs:label               "Benedetto Avegno" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/7278> , <https://rs.sealitproject.eu/kb/appellation_surname/AE6F9621-2D43-3C02-89AE-4BA719945E09> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:bd5e4332-ab1e-4b57-a9f5-f4556db69e0a> ;
+        sealit:has_first_name    "Benedetto" ;
+        sealit:has_last_name     "Avegno" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/5FCD08A4-6877-3293-A9C9-87373719182D> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/5B224519-EE09-3272-91E6-315016BCB8C9>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Schiappacasse" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/date/1843>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1843" ;
+        crm:P82_at_some_time_within  "1843"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/37643A71-95C4-3266-92A4-E2D56952E81F>
+        a                        crm:E21_Person ;
+        rdfs:label               "Angelo Mortola" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/3977> , <https://rs.sealitproject.eu/kb/appellation_surname/3256A258-CD28-3F87-AEDC-A59AC063C4C8> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:ea2f9e6c-35e5-49ef-a059-2f17c6c1a3a4> ;
+        sealit:has_first_name    "Angelo" ;
+        sealit:has_last_name     "Mortola" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/58A2F0EE-1F3F-3907-9E0E-F10626F9DD0D> .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-03-20T16%3A22%3A47.100Z_10>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Indipendenza Peruviana, 1861-02-15, Francesco Ferrando" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T16:22:47.100Z_10&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/names/surname%20a>
+        a           crm:E55_Type ;
+        rdfs:label  "surname A" .
+
+<https://rs.sealitproject.eu/kb/person/98FFD49C-2C12-379F-8825-B42678B5DF4F>
+        a                        crm:E21_Person ;
+        rdfs:label               "Lorenzo Olivari" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/8000> , <https://rs.sealitproject.eu/kb/appellation_surname/A63286C4-03F3-365D-ACA3-CBC8C9CC6D52> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:ece10db3-e6aa-4b4d-80e7-94f36da38bf6> ;
+        sealit:has_first_name    "Lorenzo" ;
+        sealit:has_last_name     "Olivari" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/F9D72178-46AF-3628-8F71-96623BF3CFAA> .
+
+<https://rs.sealitproject.eu/kb/ids/Permesso>
+        a                crm:E42_Identifier ;
+        rdfs:label       "Permesso" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/B60F370A-E6E3-38EB-8BE5-A85A29C98C42>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Figari" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<urn:uuid:4a43f4e6-3c6f-4003-8083-099e8e140a35>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Schiappacasse" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1836> .
+
+<https://rs.sealitproject.eu/kb/ids/14492>
+        a                crm:E42_Identifier ;
+        rdfs:label       "14492" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/date/1835>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1835" ;
+        crm:P82_at_some_time_within  "1835"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/1A862D3F-A9A4-3A18-B47A-06BA83510777>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Marchese" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T16:22:47.100Z_10&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/register_record_point/2D45DD76-2D56-368C-91EB-B04ADB4BA29D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Indipendenza Peruviana, 1861-02-15, Francesco Ferrando | row: 3, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-20T16%3A22%3A47.100Z_10> , <https://rs.sealitproject.eu/kb/person/5FCD08A4-6877-3293-A9C9-87373719182D> .
+
+<https://rs.sealitproject.eu/kb/person/1ECF5F14-CDE8-361F-B69A-8C9729577782>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/765A6A4B-15E9-3924-B769-B917D39A3A3D>
+        a                        crm:E21_Person ;
+        rdfs:label               "Capurro Fortunato" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/025B3996-3D95-30EE-80FA-1A4E0BDC7190> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Capurro" ;
+        sealit:has_last_name     "Fortunato" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/C7A1AF8D-DABD-3D14-931C-232BB6DED8CF> .
+
+<https://rs.sealitproject.eu/kb/ids/7278>
+        a                crm:E42_Identifier ;
+        rdfs:label       "7278" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/B975FE70-FE43-3DB7-9D85-7B5F2FE704F0>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Giorgio Nicolati" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew list (ruoli di equipaggio)" .
+
+<https://rs.sealitproject.eu/kb/person/E5B49A66-AB8D-3854-9E14-CD674CA244D6>
+        a       crm:E21_Person .
+
+<urn:uuid:de02f4bd-4bca-4e49-8b4d-b8beb9052872>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Figari" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1846> .
+
+<https://rs.sealitproject.eu/kb/ids/13415>
+        a                crm:E42_Identifier ;
+        rdfs:label       "13415" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<urn:uuid:4a59eead-1270-455f-9c59-9bd904a11860>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Dellacasa" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1835> .
+
+<https://rs.sealitproject.eu/kb/person/07A3697E-1E27-325B-97DC-D73C78AF433F>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/C753A5E9-042C-32F6-B8D2-F4B457B6A275>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Indipendenza Peruviana, 1861-02-15, Francesco Ferrando | row: 12, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-20T16%3A22%3A47.100Z_10> , <https://rs.sealitproject.eu/kb/person/1ECF5F14-CDE8-361F-B69A-8C9729577782> .
+
+<https://rs.sealitproject.eu/kb/person/416491B1-14F6-3956-9642-59200D8DD642>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/1421>
+        a                crm:E42_Identifier ;
+        rdfs:label       "1421" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/F7523F88-C927-3D71-9BDB-6C15E26DACD9>
+        a                        crm:E21_Person ;
+        rdfs:label               "Larzachi Giorgio Nicolati" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/1421> , <https://rs.sealitproject.eu/kb/appellation_surname/B975FE70-FE43-3DB7-9D85-7B5F2FE704F0> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Larzachi" ;
+        sealit:has_last_name     "Giorgio Nicolati" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/DE75588A-50DE-3894-8C55-DC5ACB5A3D24> .
+
+<https://rs.sealitproject.eu/kb/ids/8522>
+        a                crm:E42_Identifier ;
+        rdfs:label       "8522" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/date/1826>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1826" ;
+        crm:P82_at_some_time_within  "1826"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/31E71A44-FE56-3E93-86D4-81F5B170A420>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Indipendenza Peruviana, 1861-02-15, Francesco Ferrando | row: 1, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-20T16%3A22%3A47.100Z_10> , <https://rs.sealitproject.eu/kb/person/A0FC70D0-78A5-35A6-A16F-D470092F1D38> .
+
+<https://rs.sealitproject.eu/kb/person/A47E2716-EDBB-352C-B3B0-184FF75EFCDD>
+        a                        crm:E21_Person ;
+        rdfs:label               "Antonio Schiappacasse" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/Permesso> , <https://rs.sealitproject.eu/kb/appellation_surname/5B224519-EE09-3272-91E6-315016BCB8C9> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:8b94494b-d787-4552-a9d8-3792ca0c9616> ;
+        sealit:has_first_name    "Antonio" ;
+        sealit:has_last_name     "Schiappacasse" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/E05B5696-A35B-3DA8-8714-079D80CAD8EE> .
+
+<urn:uuid:1e3e8cc4-5f68-4174-b8c4-39ae53e8a904>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Pellegri" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1843> .
+
+<https://rs.sealitproject.eu/kb/date/1820>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1820" ;
+        crm:P82_at_some_time_within  "1820"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/ids/11976>
+        a                crm:E42_Identifier ;
+        rdfs:label       "11976" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/44BB84A8-F55E-382F-B42A-BF582B4A494A>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Dellacasa" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/0CF4E463-4D01-3B40-9C31-4DEA6BF37058>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Pellegri" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/date/1833>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1833" ;
+        crm:P82_at_some_time_within  "1833"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/C7A1AF8D-DABD-3D14-931C-232BB6DED8CF>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/date/1846>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1846" ;
+        crm:P82_at_some_time_within  "1846"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/ids/13455>
+        a                crm:E42_Identifier ;
+        rdfs:label       "13455" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/3256A258-CD28-3F87-AEDC-A59AC063C4C8>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Mortola" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/025B3996-3D95-30EE-80FA-1A4E0BDC7190>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Fortunato" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<urn:uuid:bd5e4332-ab1e-4b57-a9f5-f4556db69e0a>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Avegno" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1833> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/A63286C4-03F3-365D-ACA3-CBC8C9CC6D52>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Olivari" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/EDC42821-BA68-399D-BAC3-2CFE9C86B9FB>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/50772942-0225-3224-9DAF-B2737CC6C235>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Indipendenza Peruviana, 1861-02-15, Francesco Ferrando | row: 10, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-20T16%3A22%3A47.100Z_10> , <https://rs.sealitproject.eu/kb/person/CAE74F0B-B0F8-375D-9C55-14C0CB627A34> .
+
+<urn:uuid:47e4bcae-0430-4817-9153-ab4150f2705d>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Marchese" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1843> .
+
+<https://rs.sealitproject.eu/kb/person/5FCD08A4-6877-3293-A9C9-87373719182D>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/7B2E3D2F-E8C4-30B9-80D0-BBBEAB562C5A>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Capurro" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<urn:uuid:e563c6e5-845d-48d8-b8ee-01d8f3f1c97b>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Capurro" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1846> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/6B156066-7C63-3BA3-AC7F-94182E2C0F74>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Indipendenza Peruviana, 1861-02-15, Francesco Ferrando | row: 13, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-20T16%3A22%3A47.100Z_10> , <https://rs.sealitproject.eu/kb/person/DE75588A-50DE-3894-8C55-DC5ACB5A3D24> .
+
+<https://rs.sealitproject.eu/kb/ids/3977>
+        a                crm:E42_Identifier ;
+        rdfs:label       "3977" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .

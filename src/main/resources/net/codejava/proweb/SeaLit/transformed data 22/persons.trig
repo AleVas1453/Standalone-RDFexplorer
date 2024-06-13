@@ -1,0 +1,577 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <https://rs.sealitproject.eu/kb/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<urn:uuid:0cc9cb00-f2d8-4c40-81da-b444fe42bdab>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Olivari" ;
+        crm:P97_from_father  <https://rs.sealitproject.eu/kb/person/8128005E-83CE-37F6-911B-36C0B72E02D3> .
+
+<https://rs.sealitproject.eu/kb/date/1845>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1845" ;
+        crm:P82_at_some_time_within  "1845"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:ab2bec42-d9fb-45bd-91b1-8ae4e7ca3b45>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Brignati" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1845> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/0C135BBB-66D2-39B9-A805-32FFCBBFBFAD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Colombo, 1862-02-25, Carolina Gaggero | row: 2, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-27T14%3A40%3A32.384Z_22> , <https://rs.sealitproject.eu/kb/person/2C4B3777-ECDA-3A3F-B8E5-309123B99CD6> .
+
+<https://rs.sealitproject.eu/kb/date/%5B16%5D>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date [16]" ;
+        crm:P82_at_some_time_within  "[16]"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/B491A53F-BB90-3760-AF4F-3D27EAC60E6A>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giobatta Bartolomeo Sanguineti" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/7976> , <https://rs.sealitproject.eu/kb/appellation_surname/527CD28F-9A50-3F3B-8ABC-5EE2FBE7D734> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:1bf95d27-c9bb-44c6-9e9e-c6d01a2cb191> ;
+        sealit:has_first_name    "Giobatta Bartolomeo" ;
+        sealit:has_last_name     "Sanguineti" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/90856E35-760D-3443-9786-C5F3CF000C0D> .
+
+<https://rs.sealitproject.eu/kb/person/40E8E48F-CEF5-3FA6-803D-A93BDC01D3F0>
+        a                        crm:E21_Person ;
+        rdfs:label               "Fortunato Olivari" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/A63286C4-03F3-365D-ACA3-CBC8C9CC6D52> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:0cc9cb00-f2d8-4c40-81da-b444fe42bdab> ;
+        sealit:has_first_name    "Fortunato" ;
+        sealit:has_last_name     "Olivari" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/708FA90B-FEFD-3717-BAB6-140CFD68826A> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/29A02639-B563-367D-97CA-FC4403E65478>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Colombo, 1862-02-25, Carolina Gaggero | row: 4, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-27T14%3A40%3A32.384Z_22> , <https://rs.sealitproject.eu/kb/person/237139A2-DBFA-3768-9C0D-6D0A631B0577> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/E0EC6A2F-3C26-3873-B830-23BDC1CC034E>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Risfo" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/E267DEE7-D8C4-3955-9D12-B09B80919BC5>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Brignati" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/7D3848CA-BBA5-3C09-97D6-172136BCF8DA>
+        a       crm:E21_Person .
+
+<urn:uuid:7c0260ce-a01a-4d2e-9e73-352b08da06df>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Castello" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1846> .
+
+<https://rs.sealitproject.eu/kb/person/FC983AA0-DA37-34FF-B1AD-541A3BA8FE0E>
+        a                        crm:E21_Person ;
+        rdfs:label               "Gerolamo Giobatta Oneto" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/14436> , <https://rs.sealitproject.eu/kb/appellation_surname/1AAAF796-6416-30BC-9EAA-E08321D8DFA3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:2ad34a3e-aea3-4b58-afc2-77fd2a8b164c> ;
+        sealit:has_first_name    "Gerolamo Giobatta" ;
+        sealit:has_last_name     "Oneto" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/237139A2-DBFA-3768-9C0D-6D0A631B0577> .
+
+<https://rs.sealitproject.eu/kb/ids/11547>
+        a                crm:E42_Identifier ;
+        rdfs:label       "11547" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/DC493E87-2F76-334A-9479-5E59FACDB517>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Colombo, 1862-02-25, Carolina Gaggero | row: 14, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-27T14%3A40%3A32.384Z_22> , <https://rs.sealitproject.eu/kb/person/8CFCACA5-55BD-3577-90C5-34002071F928> .
+
+<https://rs.sealitproject.eu/kb/person/2ABB8488-D310-3B7F-8F73-77ADD049978A>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/numbers/serial%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "serial number" .
+
+<https://rs.sealitproject.eu/kb/person/C9D6447C-B088-3CBB-9AE1-66BFE8E61908>
+        a                        crm:E21_Person ;
+        rdfs:label               "Prospero Brignati" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/15727> , <https://rs.sealitproject.eu/kb/appellation_surname/E267DEE7-D8C4-3955-9D12-B09B80919BC5> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:ab2bec42-d9fb-45bd-91b1-8ae4e7ca3b45> ;
+        sealit:has_first_name    "Prospero" ;
+        sealit:has_last_name     "Brignati" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/2ABB8488-D310-3B7F-8F73-77ADD049978A> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Schiaffino" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/8CDE0F70-2B72-3D34-A223-DDD9E38E6E82>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/237139A2-DBFA-3768-9C0D-6D0A631B0577>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/1AAAF796-6416-30BC-9EAA-E08321D8DFA3>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Oneto" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/256DF0EB-EB60-3F2C-9656-D0BD97B74128>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/date/1844>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1844" ;
+        crm:P82_at_some_time_within  "1844"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-03-27T14%3A40%3A32.384Z_22>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Colombo, 1862-02-25, Carolina Gaggero" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T14:40:32.384Z_22&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/0CF0D62D-2274-3B66-B50F-222C4511C7B5>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Casanova" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/FA845732-FE84-366A-8463-6767314C4961>
+        a       crm:E21_Person .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T14:40:32.384Z_22&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<https://rs.sealitproject.eu/kb/person/EC1A7B5B-31EF-377C-8AB6-594F2B7F1492>
+        a                        crm:E21_Person ;
+        rdfs:label               "Fracesco Olivari" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/6192> , <https://rs.sealitproject.eu/kb/appellation_surname/A63286C4-03F3-365D-ACA3-CBC8C9CC6D52> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:251826b5-b48d-4c10-8c25-112b5d30a9d1> ;
+        sealit:has_first_name    "Fracesco" ;
+        sealit:has_last_name     "Olivari" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/7D3848CA-BBA5-3C09-97D6-172136BCF8DA> .
+
+<urn:uuid:9e381a2c-c1a1-479f-b103-8de5c8cd3729>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Merello" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1844> .
+
+<https://rs.sealitproject.eu/kb/ids/17049>
+        a                crm:E42_Identifier ;
+        rdfs:label       "17049" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<urn:uuid:67d9c61b-3c6c-46e1-91df-8a362d582e49>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Risfo" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1802> .
+
+<https://rs.sealitproject.eu/kb/date/1849>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1849" ;
+        crm:P82_at_some_time_within  "1849"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/B1747CD0-386D-3418-8932-15157BE44CBA>
+        a                        crm:E21_Person ;
+        rdfs:label               "Francesco Bernardo Schiapelli" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/17049> , <https://rs.sealitproject.eu/kb/appellation_surname/64566732-5653-32FE-B599-9CC6B2C6EB6E> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:9396b0ef-6bfe-4f72-9cdd-6fff1a2b75f4> ;
+        sealit:has_first_name    "Francesco Bernardo" ;
+        sealit:has_last_name     "Schiapelli" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/8CDE0F70-2B72-3D34-A223-DDD9E38E6E82> .
+
+<https://rs.sealitproject.eu/kb/date/1830>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1830" ;
+        crm:P82_at_some_time_within  "1830"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/date/1802>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1802" ;
+        crm:P82_at_some_time_within  "1802"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/date/1843>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1843" ;
+        crm:P82_at_some_time_within  "1843"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/490F3B19-6220-3581-A0CD-B214F76BAE99>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/A13D5BCC-5F88-385D-B0AD-6B4F46ADF166>
+        a                        crm:E21_Person ;
+        rdfs:label               "Luigi Olivari" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/11547> , <https://rs.sealitproject.eu/kb/appellation_surname/A63286C4-03F3-365D-ACA3-CBC8C9CC6D52> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:08e6ebc5-e77d-4902-b743-e00812873971> ;
+        sealit:has_first_name    "Luigi" ;
+        sealit:has_last_name     "Olivari" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/2C4B3777-ECDA-3A3F-B8E5-309123B99CD6> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/4CE4C8D2-D976-3169-81BF-554BB9B09158>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Merello" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/79A9F1E3-651B-37DF-BD1C-1D4D16EE78B2>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Castello" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/names/surname%20a>
+        a           crm:E55_Type ;
+        rdfs:label  "surname A" .
+
+<urn:uuid:251826b5-b48d-4c10-8c25-112b5d30a9d1>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Olivari" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1830> .
+
+<https://rs.sealitproject.eu/kb/person/8CFCACA5-55BD-3577-90C5-34002071F928>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/9D9ACCD1-5328-3C0F-B22E-09003B457F35>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Colombo, 1862-02-25, Carolina Gaggero | row: 10, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-27T14%3A40%3A32.384Z_22> , <https://rs.sealitproject.eu/kb/person/B1E0D6BE-6C51-31DB-BA28-03F0E4FFFDD0> .
+
+<urn:uuid:f51fa8de-85f5-4a02-b5c2-fbbadb5fab4e>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Casanova" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1843> .
+
+<https://rs.sealitproject.eu/kb/ids/14436>
+        a                crm:E42_Identifier ;
+        rdfs:label       "14436" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<https://rs.sealitproject.eu/kb/ids/14116>
+        a                crm:E42_Identifier ;
+        rdfs:label       "14116" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/ED78A29D-1372-3C67-8B70-C16821B2BA10>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Colombo, 1862-02-25, Carolina Gaggero | row: 7, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-27T14%3A40%3A32.384Z_22> , <https://rs.sealitproject.eu/kb/person/490F3B19-6220-3581-A0CD-B214F76BAE99> .
+
+<https://rs.sealitproject.eu/kb/ids/12160>
+        a                crm:E42_Identifier ;
+        rdfs:label       "12160" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/2C4B3777-ECDA-3A3F-B8E5-309123B99CD6>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/91ABEE84-E8AF-3519-ADE4-7C1390EA87BD>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Colombo, 1862-02-25, Carolina Gaggero | row: 9, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-27T14%3A40%3A32.384Z_22> , <https://rs.sealitproject.eu/kb/person/90856E35-760D-3443-9786-C5F3CF000C0D> .
+
+<urn:uuid:2ad34a3e-aea3-4b58-afc2-77fd2a8b164c>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Oneto" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1844> .
+
+<https://rs.sealitproject.eu/kb/person/50D0E357-762C-31E9-934E-4049A3522B0B>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/15727>
+        a                crm:E42_Identifier ;
+        rdfs:label       "15727" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<urn:uuid:114e8252-765b-4454-8b0b-666eef030262>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Olivari" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1842> .
+
+<https://rs.sealitproject.eu/kb/date/1842>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1842" ;
+        crm:P82_at_some_time_within  "1842"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/person/AB1CBCC7-D2A3-3011-AF9F-B3435C5E3266>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/B1E0D6BE-6C51-31DB-BA28-03F0E4FFFDD0>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/AE8453E2-8DA8-3C8E-9847-8CDE87AD6807>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giobatta Risfo" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/17552> , <https://rs.sealitproject.eu/kb/appellation_surname/E0EC6A2F-3C26-3873-B830-23BDC1CC034E> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:67d9c61b-3c6c-46e1-91df-8a362d582e49> ;
+        sealit:has_first_name    "Giobatta" ;
+        sealit:has_last_name     "Risfo" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/B1E0D6BE-6C51-31DB-BA28-03F0E4FFFDD0> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/725BDC18-54EF-3AE1-87AE-D0EA9398B62D>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Mansuetti" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/A30FA30A-FA43-3442-93FC-A326AA463058>
+        a                        crm:E21_Person ;
+        rdfs:label               "Enrico Schiaffino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:7088996f-03a8-49a2-8b6b-888ba7a657f4> ;
+        sealit:has_first_name    "Enrico" ;
+        sealit:has_last_name     "Schiaffino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/AB1CBCC7-D2A3-3011-AF9F-B3435C5E3266> .
+
+<https://rs.sealitproject.eu/kb/ids/1875>
+        a                crm:E42_Identifier ;
+        rdfs:label       "1875" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/90856E35-760D-3443-9786-C5F3CF000C0D>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/0B657932-0AE5-3057-AE6F-E55C87BDF209>
+        a                        crm:E21_Person ;
+        rdfs:label               "Adriano Mansuetti" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/16047> , <https://rs.sealitproject.eu/kb/appellation_surname/725BDC18-54EF-3AE1-87AE-D0EA9398B62D> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:18b54a59-3fe4-4544-94fb-3818b0338cc4> ;
+        sealit:has_first_name    "Adriano" ;
+        sealit:has_last_name     "Mansuetti" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/842DC13B-1C21-3BFA-BF74-822FA92978FA> .
+
+<https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew list (ruoli di equipaggio)" .
+
+<https://rs.sealitproject.eu/kb/register_record_point/C4162084-6656-30BE-9D21-A8EDE548F46B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Colombo, 1862-02-25, Carolina Gaggero | row: 6, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-27T14%3A40%3A32.384Z_22> , <https://rs.sealitproject.eu/kb/person/842DC13B-1C21-3BFA-BF74-822FA92978FA> .
+
+<urn:uuid:9396b0ef-6bfe-4f72-9cdd-6fff1a2b75f4>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Schiapelli" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1845> .
+
+<https://rs.sealitproject.eu/kb/person/842DC13B-1C21-3BFA-BF74-822FA92978FA>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/E647D350-2570-31AE-8923-F048A0350896>
+        a                        crm:E21_Person ;
+        rdfs:label               "Gaetano Oneto" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/18964> , <https://rs.sealitproject.eu/kb/appellation_surname/1AAAF796-6416-30BC-9EAA-E08321D8DFA3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:037ef4dc-67ba-489d-8d7e-01aa1e40f5b4> ;
+        sealit:has_first_name    "Gaetano" ;
+        sealit:has_last_name     "Oneto" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/8CFCACA5-55BD-3577-90C5-34002071F928> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/ED053F27-BB6A-33EA-A442-71FF4BB0BB78>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Colombo, 1862-02-25, Carolina Gaggero | row: 13, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-27T14%3A40%3A32.384Z_22> , <https://rs.sealitproject.eu/kb/person/AB1CBCC7-D2A3-3011-AF9F-B3435C5E3266> .
+
+<https://rs.sealitproject.eu/kb/person/BA998937-B7EC-3FD8-AAD3-F6AE1298FAA1>
+        a                        crm:E21_Person ;
+        rdfs:label               "Luigi Castello" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/14116> , <https://rs.sealitproject.eu/kb/appellation_surname/79A9F1E3-651B-37DF-BD1C-1D4D16EE78B2> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:7c0260ce-a01a-4d2e-9e73-352b08da06df> ;
+        sealit:has_first_name    "Luigi" ;
+        sealit:has_last_name     "Castello" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/FA845732-FE84-366A-8463-6767314C4961> .
+
+<https://rs.sealitproject.eu/kb/person/89FBD0F3-295C-3166-B0BB-D21EEF6C1A03>
+        a                        crm:E21_Person ;
+        rdfs:label               "Antonio Olivari" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/12160> , <https://rs.sealitproject.eu/kb/appellation_surname/A63286C4-03F3-365D-ACA3-CBC8C9CC6D52> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:114e8252-765b-4454-8b0b-666eef030262> ;
+        sealit:has_first_name    "Antonio" ;
+        sealit:has_last_name     "Olivari" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/50D0E357-762C-31E9-934E-4049A3522B0B> .
+
+<urn:uuid:18b54a59-3fe4-4544-94fb-3818b0338cc4>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Mansuetti" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1843> .
+
+<https://rs.sealitproject.eu/kb/ids/7976>
+        a                crm:E42_Identifier ;
+        rdfs:label       "7976" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/C3AA1CF5-DB6E-3653-A658-4A02C2A1F8FC>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giuseppe Casanova" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/1875> , <https://rs.sealitproject.eu/kb/appellation_surname/0CF0D62D-2274-3B66-B50F-222C4511C7B5> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:f51fa8de-85f5-4a02-b5c2-fbbadb5fab4e> ;
+        sealit:has_first_name    "Giuseppe" ;
+        sealit:has_last_name     "Casanova" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/256DF0EB-EB60-3F2C-9656-D0BD97B74128> .
+
+<https://rs.sealitproject.eu/kb/ids/16047>
+        a                crm:E42_Identifier ;
+        rdfs:label       "16047" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/date/1839>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1839" ;
+        crm:P82_at_some_time_within  "1839"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/30EB0DEB-83F8-3F46-BA4D-BD73FEAEF336>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Colombo, 1862-02-25, Carolina Gaggero | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/person/AD8CD934-F7AB-3B5A-9580-47C1E1AE3451> , <https://rs.sealitproject.eu/kb/register_record/2018-03-27T14%3A40%3A32.384Z_22> , <https://rs.sealitproject.eu/kb/person/708FA90B-FEFD-3717-BAB6-140CFD68826A> .
+
+<urn:uuid:037ef4dc-67ba-489d-8d7e-01aa1e40f5b4>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Oneto" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1849> .
+
+<https://rs.sealitproject.eu/kb/person/AD8CD934-F7AB-3B5A-9580-47C1E1AE3451>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/18964>
+        a                crm:E42_Identifier ;
+        rdfs:label       "18964" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/date/1846>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1846" ;
+        crm:P82_at_some_time_within  "1846"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:08e6ebc5-e77d-4902-b743-e00812873971>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Olivari" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1839> .
+
+<https://rs.sealitproject.eu/kb/person/8128005E-83CE-37F6-911B-36C0B72E02D3>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giobatta Olivari" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/A63286C4-03F3-365D-ACA3-CBC8C9CC6D52> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Giobatta" ;
+        sealit:has_last_name     "Olivari" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/AD8CD934-F7AB-3B5A-9580-47C1E1AE3451> .
+
+<urn:uuid:7088996f-03a8-49a2-8b6b-888ba7a657f4>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Schiaffino" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/%5B16%5D> .
+
+<https://rs.sealitproject.eu/kb/ids/6584>
+        a                crm:E42_Identifier ;
+        rdfs:label       "6584" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/A63286C4-03F3-365D-ACA3-CBC8C9CC6D52>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Olivari" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/724E5577-8AFA-302D-B519-D81D68E0EA32>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Colombo, 1862-02-25, Carolina Gaggero | row: 1, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-27T14%3A40%3A32.384Z_22> , <https://rs.sealitproject.eu/kb/person/7D3848CA-BBA5-3C09-97D6-172136BCF8DA> .
+
+<https://rs.sealitproject.eu/kb/ids/17552>
+        a                crm:E42_Identifier ;
+        rdfs:label       "17552" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/527CD28F-9A50-3F3B-8ABC-5EE2FBE7D734>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Sanguineti" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/64566732-5653-32FE-B599-9CC6B2C6EB6E>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Schiapelli" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/ids/6192>
+        a                crm:E42_Identifier ;
+        rdfs:label       "6192" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/23AD1D1A-EE3D-308A-9B5A-5F9986AC203A>
+        a                        crm:E21_Person ;
+        rdfs:label               "Lorenzo Merello" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/6584> , <https://rs.sealitproject.eu/kb/appellation_surname/4CE4C8D2-D976-3169-81BF-554BB9B09158> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        crm:P98i_was_born        <urn:uuid:9e381a2c-c1a1-479f-b103-8de5c8cd3729> ;
+        sealit:has_first_name    "Lorenzo" ;
+        sealit:has_last_name     "Merello" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/490F3B19-6220-3581-A0CD-B214F76BAE99> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/8B9C4E9D-24B9-3BC9-A0A7-56DAD95D3772>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Colombo, 1862-02-25, Carolina Gaggero | row: 8, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-27T14%3A40%3A32.384Z_22> , <https://rs.sealitproject.eu/kb/person/8CDE0F70-2B72-3D34-A223-DDD9E38E6E82> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/BBCA9D24-106B-33DF-9708-42EEE45695E5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Colombo, 1862-02-25, Carolina Gaggero | row: 5, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-27T14%3A40%3A32.384Z_22> , <https://rs.sealitproject.eu/kb/person/256DF0EB-EB60-3F2C-9656-D0BD97B74128> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/122F8CEC-49FB-3C0E-9914-A2FAAF42612A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Colombo, 1862-02-25, Carolina Gaggero | row: 11, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-27T14%3A40%3A32.384Z_22> , <https://rs.sealitproject.eu/kb/person/2ABB8488-D310-3B7F-8F73-77ADD049978A> .
+
+<urn:uuid:1bf95d27-c9bb-44c6-9e9e-c6d01a2cb191>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Sanguineti" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1845> .
+
+<https://rs.sealitproject.eu/kb/person/708FA90B-FEFD-3717-BAB6-140CFD68826A>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/3B5A44EB-49B0-3C3B-ACDC-1E221C03E198>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Colombo, 1862-02-25, Carolina Gaggero | row: 3, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-27T14%3A40%3A32.384Z_22> , <https://rs.sealitproject.eu/kb/person/50D0E357-762C-31E9-934E-4049A3522B0B> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/47C7ABB3-DD30-3C2A-912D-85F09D17A682>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Colombo, 1862-02-25, Carolina Gaggero | row: 12, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-27T14%3A40%3A32.384Z_22> , <https://rs.sealitproject.eu/kb/person/FA845732-FE84-366A-8463-6767314C4961> .
