@@ -1,3 +1,6 @@
+<%@page import="java.util.List"%>
+<%@page import="java.util.HashMap"%>
+<%@page import="java.nio.charset.StandardCharsets"%>
 <%@page import="java.util.Arrays"%>
 <%@page import="java.util.stream.Collectors"%>
 <%@page import="net.codejava.proweb.Configuration"%>
@@ -46,22 +49,81 @@
                     ArrayList<Map<String, String>> results = myReader.categInstances(category.getDetails());
                     if (!results.isEmpty()) {
                         for (Map<String, String> result : results) {
+                            Map<String, ArrayList<String>> uriData = new HashMap<>();
+                            ArrayList<String> groupedColumn = new ArrayList<>(); 
                             if (URIDetails != null && URIDetails.equals(result.get("URI").trim())) {%>                                
                                 <style>
                                     .ag-theme-quartz{
                                         display: none;
                                     }
                                 </style>
-                                <%for (String column : result.keySet()) {%>
-                                    <p>
-                                        <%=column%>: <%=result.get(column)%></br>
-                                    </p>
-                                <%}%><br>
-                            <%}
+                                <%for (String column : result.keySet()) {
+                                    groupedColumn.add(result.get(column));
+                                    if(!column.equals("URI")){
+                                        uriData.put(column, groupedColumn);
+                                    }%>
+                                <%}
+                                System.out.println("uriData: "+uriData);    %> 
+                                <p>
+                                <%if(groupedColumn.size() != 1){%>
+                                    <ul>
+                                        <%for (String value : groupedColumn.subList(0, groupedColumn.size())) {%>
+                                            <li><%=value%></li>
+                                        <%}%>
+                                    </ul></br>
+                                <%}%>
+                                </p><br>
+                                <%
+                            }            
                         }
                     }
                 }
-            }%>
+            }
+            Map<String, Map<String, List<String>>> aggregatedResults = new HashMap<>();
+            for (EntityCategory category : categories) {
+                if (selectedCategory != null && selectedCategory.equals(category.getUriName().trim())) {
+                    ArrayList<Map<String, String>> results = myReader.categInstances(category.getDetails());
+                    if (!results.isEmpty()) {
+                        for (Map<String, String> result : results) {
+                            String uri = result.get("URI").trim();
+                            if (!aggregatedResults.containsKey(uri)) {
+                                aggregatedResults.put(uri, new HashMap<>());
+                            }
+                            Map<String, List<String>> uriResults = aggregatedResults.get(uri);
+                            for (String column : result.keySet()) {
+                                if (!uriResults.containsKey(column)) {
+                                    uriResults.put(column, new ArrayList<>());
+                                }
+                                if (!uriResults.get(column).contains(result.get(column).trim())) {
+                                    uriResults.get(column).add(result.get(column).trim());
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            // Method to display aggregated results
+            for (String uri : aggregatedResults.keySet()) {
+                Map<String, List<String>> result = aggregatedResults.get(uri);
+                if (URIDetails != null && URIDetails.equals(uri)) {
+                    for (String column : result.keySet()) {
+                        List<String> values = result.get(column);
+                        System.out.println("values: "+values);%>
+                        <p><%= column%>:
+                        <%if (values.size() == 1) {%>
+                            <%= values.get(0)%>
+                        <%} else {%>
+                            <ul>
+                            <%for (String value : values) {%>
+                                <li><%=value%></li>
+                            <%}%>
+                            </ul></br></p>
+                    <%}%><br>
+                <%}
+                }
+            }
+%>
         </div>
         
         <!-- Add class="ag-theme-quartz, so I can hide it when I get in URL with the URI (No other reason to use this class inside the form) -->
@@ -190,6 +252,10 @@
                                 {   field: "More",
                                     cellRenderer: function(params) {
                                         const uriValue = params.data.URI; // Access the value of the "URI" field
+//                                        const encoded = encodeURI(uriValue);
+//                                        console.log("ENCODE"+encoded);
+//                                        decodeURI(encoded);
+//                                        console.log("DECODE"+decodeURI(encoded));
                                         return '<a href="?obj=<%= category.getUriName().trim() %>&URIDetails='+uriValue+'">More info</a>';
                                       }
                                 },
@@ -208,7 +274,10 @@
                                 <%for (String column : result.keySet()) {%>
                                     <%= column%>: "<%= result.get(column)%>",
                                     
-                                    <%if(column.equals("URI")){%>
+                                    <%if(column.equals("URI")){
+//                                        System.out.println("URI coded:"+result.get(column));
+                                        String decoded = java.net.URLDecoder.decode(result.get(column), StandardCharsets.UTF_8);
+//                                        System.out.println("URI decoded:"+decoded);%>
                                         More: "<%= result.get(column)%>",//"More" is useless, here
                                     <%}%>
                                 <% } %>
