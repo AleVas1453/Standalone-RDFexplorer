@@ -49,32 +49,32 @@
                     ArrayList<Map<String, String>> results = myReader.categInstances(category.getDetails());
                     if (!results.isEmpty()) {
                         for (Map<String, String> result : results) {
-                            Map<String, ArrayList<String>> uriData = new HashMap<>();
-                            ArrayList<String> groupedColumn = new ArrayList<>(); 
+//                            ArrayList<String> groupedColumn = new ArrayList<>(); 
                             if (URIDetails != null && URIDetails.equals(result.get("URI").trim())) {%>                                
                                 <style>
                                     .ag-theme-quartz{
                                         display: none;
                                     }
                                 </style>
-                                <%for (String column : result.keySet()) {
-                                    groupedColumn.add(result.get(column));
-                                    if(!column.equals("URI")){
-                                        uriData.put(column, groupedColumn);
-                                    }%>
-                                <%}
-                                System.out.println("uriData: "+uriData);    %> 
-                                <p>
-                                <%if(groupedColumn.size() != 1){%>
-                                    <ul>
-                                        <%for (String value : groupedColumn.subList(0, groupedColumn.size())) {%>
-                                            <li><%=value%></li>
-                                        <%}%>
-                                    </ul></br>
-                                <%}%>
-                                </p><br>
                                 <%
-                            }            
+                                Map<String, ArrayList<String>> uriData = myReader.groupedResults(category);
+                                for (String column : result.keySet()) {
+                                    ArrayList<String> groupedColumn = new ArrayList<>(); 
+                                    groupedColumn.add(result.get(column));%>
+                                    <p><%=column%>: 
+                                    <%if(uriData.values().size() == 1){%>
+                                    <%= uriData.get(0) %>
+                                    <%}else{%>
+                                        <ul>
+                                            <%for (String value : groupedColumn) {%>
+                                                <li><%=value%></li>
+                                            <%}%>
+                                        </ul></br>
+                                   
+                                    <%} 
+                                } %>
+                                </p>
+                            <%}
                         }
                     }
                 }
@@ -118,7 +118,8 @@
                             <%for (String value : values) {%>
                                 <li><%=value%></li>
                             <%}%>
-                            </ul></br></p>
+                            </ul></br>
+                        </p>
                     <%}%><br>
                 <%}
                 }
