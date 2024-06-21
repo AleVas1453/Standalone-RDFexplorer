@@ -14,6 +14,7 @@ import java.util.Properties;
  */
 public class Configuration {
 
+    private String welcomeTitle;
     private String title;
     private String subtitle;
     private String description;
@@ -22,6 +23,14 @@ public class Configuration {
 
     }
 
+    public String getWelcomeTitle() {
+        return welcomeTitle;
+    }
+
+    public void setWelcomeTitle(String welcomeTitle) {
+        this.welcomeTitle = welcomeTitle;
+    }
+    
     public String getTitle() {
         return title;
     }
@@ -78,7 +87,8 @@ public class Configuration {
 
         try {
             prop.load(getClass().getResourceAsStream("config.properties"));
-
+            
+            setWelcomeTitle(prop.getProperty("application.welcomeTitle"));
             setTitle(prop.getProperty("application.title"));
             setSubtitle(prop.getProperty("application.subtitle"));
             setDescription(prop.getProperty("application.description"));
