@@ -1,0 +1,76 @@
+body{
+    background-color: #ECF0F1;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),url('../images/home-img.jpg');
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: top;
+    background-size: 980px 200px ;
+    max-width: 980px;
+    margin:auto
+}
+
+.topnav ul{
+    /*                position: fixed;
+                    width: 980px;
+                    top: 0;*/
+    list-style-type: none;
+    background-color: #7695bfd4;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.topnav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.topnav a:hover {
+    background-color: #4b607d;
+    color: black;
+}
+
+.topnav li{
+    float: left;
+}
+
+.apokatw {
+    margin-top: 110px;
+    display: block;
+    border-right: 2px solid #4b607d;
+    position: absolute;
+}
+.info{
+    margin-top: 135px;
+    margin-left: 190px;
+}
+
+.frame{
+    border: 2px solid #4b607d; 
+    padding: 10px;
+    border-radius: 5px;
+}
+a{
+    color: #4b607d;    
+}
+.links{
+    border: 2px solid #4b607d; /* You can change the border color and thickness as needed */
+    padding: 5px; /* Adjust the padding to control the distance between text and the border */
+    display: inline-block; /* This makes the border wrap around the text */
+    border-radius: 10px;
+    margin: 2px;
+}
+.links:visited {
+    color: #4b607d;
+}
+.links:hover {
+    color:black;
+}
+.links:active {
+    /*color:teal;*/
+}
