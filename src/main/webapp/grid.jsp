@@ -15,7 +15,6 @@
 
 <%
     String selectedCategory = request.getParameter("obj");
-    String chartParam = request.getParameter("chartParam");
     String URIDetails = request.getParameter("URIDetails");
     RDFReader myReader = new RDFReader();
     Configuration myConf = new Configuration();
@@ -28,30 +27,23 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>ProWeb</title>
         <script src="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/ag-grid-community.min.js"></script>
-        <!--<script type="module" src="https://cdn.jsdelivr.net/npm/chart.js"></script>-->
-        <!--<script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>-->
-        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>-->
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"/>
-<!--        <link rel="stylesheet" href="css/header.css"/>-->
+        <jsp:include page="header.jsp" />
+
+        
     </head>
     <body>
-
-        <div>
-            <% for (EntityCategory category : categories) {%>
-            <a class="links" href="?obj=<%= category.getUriName().trim()%>"> 
-                <%= category.getName()%> (<%= myReader.countCateg(category.getCount_query())%>)
-            </a><br/><%}%>
-        </div>
         
-        
-        <div id="myGrid" class="ag-theme-quartz" style="height: 500px; max-width: 980px; "></div> 
+        <div id="myGrid" class="ag-theme-quartz info" style="height: 500px; max-width: 980px; ">
+            <h3 class="frame" style="background-color: #4b607d; color:white "><%= selectedCategory %></h3>
+        </div> 
  
-        <div>    
+        <div class=" info ">
             <%             
             Map<String, Map<String, List<String>>> aggregatedResults = new HashMap<>();
             for (EntityCategory category : categories) {
-                if (selectedCategory != null && selectedCategory.equals(category.getUriName().trim())) {
+                if (selectedCategory != null && selectedCategory.equals(category.getName().trim())) {
                     ArrayList<Map<String, String>> results = myReader.categInstances(category.getDetails());
                     if (!results.isEmpty()) {
                         for (Map<String, String> result : results) {
@@ -73,19 +65,20 @@
                 }
             }
 
-            // Method to display aggregated results
             for (String uri : aggregatedResults.keySet()) {
                 Map<String, List<String>> result = aggregatedResults.get(uri);
                 if (URIDetails != null && URIDetails.equals(uri)) {%>
+                    <h3 class="frame" style="background-color: #4b607d; color:white "><%= selectedCategory %></h3>
                     <style>
                         .ag-theme-quartz{
                             display: none;
                         }
                     </style>
+                    <div class="frame">
                     <%for (String column : result.keySet()) {
                         List<String> values = result.get(column);
                         System.out.println("values: "+values);%>
-                        <p><%= column%>:
+                        <p><b><%= column = column.replaceAll("_", " ")%>:</b>
                         <%if (values.size() == 1) {%>
                             <%= values.get(0)%>
                         <%} else {%>
@@ -95,18 +88,20 @@
                             <%}%>
                             </ul>
                         </p>
+                        <%}%>
                     <%}%>
+                    </div>
                 <%}
-                }
             }%>
         </div>
 
         </div>
         
         <!-- Add class="ag-theme-quartz, so I can hide it when I get in URL with the URI (No other reason to use this class inside the form) -->
-        <form id="myform" class="ag-theme-quartz">Charts:
+        <form id="myform" class="ag-theme-quartz">
+            <h6>Charts:
             <%for (EntityCategory category : categories) {
-                if (selectedCategory != null && selectedCategory.equals(category.getUriName().trim())) {
+                if (selectedCategory != null && selectedCategory.equals(category.getName().trim())) {
                     ArrayList<Map<String, String>> results = myReader.categInstances(category.getInfo());
                     if(!results.isEmpty()) {
                         Map<String, String> firstName = results.get(0);
@@ -119,13 +114,13 @@
                         <%}
                     }
                 }
-            }%>
+            }%></h6>
         </form>
         
     </body>
         
         <%for (EntityCategory category : categories) {
-            if (selectedCategory != null && selectedCategory.equals(category.getUriName().trim())) {
+            if (selectedCategory != null && selectedCategory.equals(category.getName().trim())) {
 
                 ArrayList<Map<String, String>> results = myReader.categInstances(category.getInfo());
                 if(!results.isEmpty()) {
@@ -203,7 +198,7 @@
             columnDefs: 
             [
                 <% for (EntityCategory category : categories) {
-                    if (selectedCategory != null && selectedCategory.equals(category.getUriName().trim())) {
+                    if (selectedCategory != null && selectedCategory.equals(category.getName().trim())) {
                         ArrayList<Map<String, String>> results = myReader.categInstances(category.getInfo());
                         if (!results.isEmpty()) {
                             Map<String, String> firstName = results.get(0);
@@ -229,11 +224,7 @@
                                 {   field: "More",
                                     cellRenderer: function(params) {
                                         const uriValue = params.data.URI; // Access the value of the "URI" field
-//                                        const encoded = encodeURI(uriValue);
-//                                        console.log("ENCODE"+encoded);
-//                                        decodeURI(encoded);
-//                                        console.log("DECODE"+decodeURI(encoded));
-                                        return '<a href="?obj=<%= category.getUriName().trim() %>&URIDetails='+uriValue+'">More info</a>';
+                                        return '<a href="?obj=<%= category.getName().trim() %>&URIDetails='+uriValue+'">More info</a>';
                                       }
                                 },
                         <%}
@@ -243,7 +234,7 @@
             rowData: 
             [
                 <% for (EntityCategory category : categories) {
-                    if (selectedCategory != null && selectedCategory.equals(category.getUriName().trim())) {
+                    if (selectedCategory != null && selectedCategory.equals(category.getName().trim())) {
                         ArrayList<Map<String, String>> results = myReader.categInstances(category.getInfo());
                         if (!results.isEmpty()) {
                             for (Map<String, String> result : results) {%>
@@ -251,12 +242,6 @@
                                 <%for (String column : result.keySet()) {%>
                                     <%= column%>: "<%= result.get(column)%>",
                                     
-                                    <%if(column.equals("URI")){
-//                                        System.URI coded:"+result.get(column));
-                                        String decoded = java.net.URLDecoder.decode(result.get(column), StandardCharsets.UTF_8);
-//                                        System.URI decoded:"+decoded);%>
-                                        More: "<%= result.get(column)%>",//"More" is useless, here
-                                    <%}%>
                                 <% } %>
                             },
                             <%}
