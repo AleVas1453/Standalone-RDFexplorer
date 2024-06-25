@@ -3,6 +3,7 @@
 <%@page import="net.codejava.proweb.Configuration"%>
 <%@page import="net.codejava.proweb.RDFReader"%>
 <%
+    String selectedCategory = request.getParameter("obj");
     RDFReader myReader = new RDFReader();
     Configuration myConf = new Configuration();
     myReader.loadModel();
@@ -22,8 +23,7 @@
 
         <nav class="topnav">
             <ul>
-                <li><a href="main_1.jsp">Main</a></li>
-                <!--<li><a href="grid.jsp">Categories</a></li>-->
+                <li><a href="index.jsp">Main</a></li>
             </ul>
         </nav>
 
@@ -35,7 +35,7 @@
 
         <div class="apokatw" align="left">
             <% for (EntityCategory category : categories) {%>
-            <a class="links" href="grid_2.jsp?obj=<%= category.getName().trim()%>"> 
+            <a class="links" href="grid.jsp?obj=<%= category.getName().trim()%>"> 
                 <%= category.getName()%> (<%= myReader.countCateg(category.getCount_query())%>)
             </a><br/><%}%>
         </div>
