@@ -143,10 +143,11 @@ public class RDFReader {
         Properties prop = new Properties();
         try {
             prop.load(getClass().getResourceAsStream("config.properties"));
-
-            String title = prop.getProperty("application.title");
-            String subtitle = prop.getProperty("application.subtitle");
-            String description = prop.getProperty("application.description");
+            
+            String welcomeTitle =   prop.getProperty("application.welcomeTitle");
+            String title        =   prop.getProperty("application.title");
+            String subtitle     =   prop.getProperty("application.subtitle");
+            String description  =   prop.getProperty("application.description");
 
             String categories = prop.getProperty("categories");   // categories = “1,2,3”
             String categoryIds[] = categories.split(",");  // [“1”, “2”, “3”]
@@ -161,6 +162,7 @@ public class RDFReader {
             }
 
             //get the property value and print it out
+            System.out.println(welcomeTitle);
             System.out.println(title);
             System.out.println(subtitle);
             System.out.println(description);
@@ -214,7 +216,6 @@ public class RDFReader {
         return totalPages;
     }
 
-    
 /**
  * 
  * @param list
