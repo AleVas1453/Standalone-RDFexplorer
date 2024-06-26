@@ -35,7 +35,7 @@
 
         <div class="apokatw" align="left">
             <% for (EntityCategory category : categories) {%>
-            <a class="links" href="grid.jsp?obj=<%= category.getName().trim()%>"> 
+            <a class="links <%= category.getName().equals(selectedCategory) ? "clicked" : "" %>" href="grid.jsp?obj=<%= category.getName().trim()%>"> 
                 <%= category.getName()%> (<%= myReader.countCateg(category.getCount_query())%>)
             </a><br/><%}%>
         </div>

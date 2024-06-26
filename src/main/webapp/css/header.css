@@ -74,3 +74,14 @@ a{
 .links:active {
     /*color:teal;*/
 }
+
+.links.selected{
+    background-color: teal;
+}
+
+
+.links:active,
+        .links.clicked {
+            background-color: #4b607d;
+            color:white;
+        }
