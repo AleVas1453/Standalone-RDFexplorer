@@ -34,6 +34,13 @@
         
     </head>
     <body>
+ 
+        <div class="apokatw" align="left">
+            <% for (EntityCategory category : categories) {%>
+            <a class="links <%= category.getName().equals(selectedCategory) ? "clicked" : "" %>" href="grid.jsp?obj=<%= category.getName().trim()%>"> 
+                <%= category.getName()%> (<%= myReader.countCateg(category.getCount_query())%>)
+            </a><br/><%}%>
+        </div>
         
         <div id="myGrid" class="ag-theme-quartz info" style="height: 500px; max-width: 980px; ">
             <h3 class="frame" style="background-color: #4b607d; color:white "><%= selectedCategory %></h3>

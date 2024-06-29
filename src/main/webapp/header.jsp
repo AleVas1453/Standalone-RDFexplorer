@@ -24,6 +24,7 @@
         <nav class="topnav">
             <ul>
                 <li><a href="index.jsp">Main</a></li>
+                <li><a href="about.jsp">About</a></li>
             </ul>
         </nav>
 
@@ -33,11 +34,6 @@
             </h2>
         </div>
 
-        <div class="apokatw" align="left">
-            <% for (EntityCategory category : categories) {%>
-            <a class="links <%= category.getName().equals(selectedCategory) ? "clicked" : "" %>" href="grid.jsp?obj=<%= category.getName().trim()%>"> 
-                <%= category.getName()%> (<%= myReader.countCateg(category.getCount_query())%>)
-            </a><br/><%}%>
-        </div>
+
     </body>
 </html>
