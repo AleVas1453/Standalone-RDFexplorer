@@ -67,12 +67,10 @@ public class Configuration {
             String categoryIds[] = categories.split(",");  // [“1”, “2”, “3”]
             for (String catId : categoryIds) {
                 String categName    = prop.getProperty("categories." + catId + ".name");
-                String categIcon    = prop.getProperty("categories." + catId + ".icon");
                 String categCountQr = prop.getProperty("categories." + catId + ".count_query");
-                String categUriName = prop.getProperty("categories." + catId + ".uriName");
                 String categInfo    = prop.getProperty("categories." + catId + ".info");
                 String categDetails = prop.getProperty("categories." + catId + ".details");
-                EntityCategory category = new EntityCategory(categName, categIcon, categCountQr, categUriName, categInfo, categDetails);
+                EntityCategory category = new EntityCategory(categName, categCountQr, categInfo, categDetails);
                 allCateg.add(category);
                 System.out.println("INFO"+categInfo);
             }

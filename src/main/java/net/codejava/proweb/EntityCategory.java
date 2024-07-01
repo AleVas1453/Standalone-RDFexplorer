@@ -11,17 +11,13 @@ package net.codejava.proweb;
 public class EntityCategory {
     
     private String name; 
-    private String iconFile;
     private String count_query;
-    private String uriName;
     private String info;
     private String details;
 
-    public EntityCategory(String name, String iconFile, String count_query, String uriName, String info, String details) {
+    public EntityCategory(String name, String count_query, String info, String details) {
         this.name = name;
-        this.iconFile = iconFile;
         this.count_query = count_query;
-        this.uriName = uriName;
         this.info = info;
         this.details = details;
     }
@@ -33,14 +29,7 @@ public class EntityCategory {
     public void setName(String name) {
         this.name = name;
     }
-
-    public String getIconFile() {
-        return iconFile;
-    }
-    public void setIconFile(String iconFile) {
-        this.iconFile = iconFile;
-    }
-
+    
     public String getCount_query() {
         return count_query;
     }
@@ -48,13 +37,6 @@ public class EntityCategory {
         this.count_query = count_query;
     }
 
-    public String getUriName() {
-        return uriName;
-    }
-    public void setUriName(String uriName) {
-        this.uriName = uriName;
-    }
-    
     public String getInfo(){
         return info;
     }
