@@ -13,8 +13,6 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.Properties;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import org.apache.jena.query.Query;
 import org.apache.jena.query.QueryExecution;
 import org.apache.jena.query.QueryExecutionFactory;
@@ -38,7 +36,36 @@ public class RDFReader {
     public RDFReader() {
 
     }
-
+    
+       
+        public boolean RDFFileType(String fileName){
+            if(fileName.endsWith(".trig")){
+                return true ;
+            }else if(fileName.endsWith(".rdf")){
+                return true ;
+            }else if(fileName.endsWith(".n3")){
+                return true ;
+            }else if(fileName.endsWith(".ttl") || fileName.endsWith(".turtle")){
+                return true ;
+            }else{
+                return false;
+            }
+        }
+        
+        public String RDFType(String fileName){
+            if(fileName.endsWith(".trig")){
+                return "TRIG" ;
+            }else if(fileName.endsWith(".rdf")){
+                return "RDF" ;
+            }else if(fileName.endsWith(".n3")){
+                return "N3" ;
+            }else if(fileName.endsWith(".ttl" || fileName.endsWith(".turtle")){
+                return "TURTLE" ;
+            }else{
+                return null;
+            }
+        }
+        
     /**
      * Method to load data|(RDF files)
      *
@@ -72,10 +99,11 @@ public class RDFReader {
             File[] listOfFiles = folder.listFiles();
             if (listOfFiles != null) {
                 for (File file : listOfFiles) {
-                    if (file.isFile() && file.getName().endsWith(".trig")) {
+//                    System.out.println("ENDs with = " + file.getName().endsWith(".trig"));
+                    if (file.isFile() && RDFFileType(file.getName())) {
                         try {
                             InputStream inStream = RDFDataMgr.open(file.getPath());
-                            model.read(inStream, null, "TRIG");/* Diavazw ta dedomena se typo TRIG */
+                            model.read(inStream, null, RDFType(file.getName()));/* Diavazw ta dedomena se typo TRIG */
                         } catch (NoSuchElementException e) {
                             e.printStackTrace();
                         }
@@ -86,6 +114,8 @@ public class RDFReader {
         return model;
     }
 
+ 
+        
     public ArrayList<Map<String, String>> categInstances(String info) {
         int xxx=0;
         String queryString = info;
