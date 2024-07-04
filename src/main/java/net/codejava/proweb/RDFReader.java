@@ -54,7 +54,7 @@ public class RDFReader {
                 return "RDF" ;
             }else if(fileName.endsWith(".n3")){
                 return "N3" ;
-            }else if(fileName.endsWith(".ttl" || fileName.endsWith(".turtle")){
+            }else if(fileName.endsWith(".ttl") || fileName.endsWith(".turtle")){
                 return "TURTLE" ;
             }else{
                 return null;
@@ -80,7 +80,9 @@ public class RDFReader {
         
         String path = getClass().getResource("").getPath();
         System.out.println(path);
-        String folderPath = path + prop.getProperty("application.folder");
+        System.out.println("PROP: " + prop.getProperty("application.folder"));
+        String folderPath = classLoader.getResource(prop.getProperty("application.folder")).getPath();
+        System.out.println(folderPath);
         File folder2 = new File(folderPath);
 
         File[] listOfFiles2 = folder2.listFiles();
@@ -94,7 +96,6 @@ public class RDFReader {
             File[] listOfFiles = folder.listFiles();
             if (listOfFiles != null) {
                 for (File file : listOfFiles) {
-//                    System.out.println("ENDs with = " + file.getName().endsWith(".trig"));
                     if (file.isFile() && RDFFileType(file.getName())) {
                         try {
                             InputStream inStream = RDFDataMgr.open(file.getPath());
