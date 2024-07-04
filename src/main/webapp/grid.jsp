@@ -83,8 +83,7 @@
                     </style>
                     <div class="frame">
                     <%for (String column : result.keySet()) {
-                        List<String> values = result.get(column);
-                        System.out.println("values: "+values);%>
+                        List<String> values = result.get(column);%>
                         <p><b><%= column = column.replaceAll("_", " ")%>:</b>
                         <%if (values.size() == 1) {%>
                             <%= values.get(0)%>
