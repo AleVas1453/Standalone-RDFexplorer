@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package net.codejava.proweb;
 
 import java.io.File;
@@ -37,7 +33,6 @@ public class RDFReader {
 
     }
     
-       
         public boolean RDFFileType(String fileName){
             if(fileName.endsWith(".trig")){
                 return true ;
