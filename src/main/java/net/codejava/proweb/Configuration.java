@@ -5,6 +5,7 @@
 package net.codejava.proweb;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Properties;
 
@@ -72,7 +73,7 @@ public class Configuration {
                 String categDetails = prop.getProperty("categories." + catId + ".details");
                 EntityCategory category = new EntityCategory(categName, categCountQr, categInfo, categDetails);
                 allCateg.add(category);
-                System.out.println("INFO"+categInfo);
+//                System.out.println("INFO"+categInfo);
             }
         } catch (IOException ex) {
             ex.printStackTrace();
@@ -84,7 +85,12 @@ public class Configuration {
     public void appInfo() {
 
         try {
-            prop.load(getClass().getResourceAsStream("config.properties"));
+            /* This takes the file from "resources" */
+            ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
+            InputStream input = classLoader.getResourceAsStream("config2.properties");
+            prop.load(input);
+            /* This takes the file from "resources/net/codejava/proweb" */
+//            prop.load(getClass().getResourceAsStream("config.properties"));
             
             setWelcomeTitle(prop.getProperty("application.welcomeTitle"));
             setTitle(prop.getProperty("application.title"));
