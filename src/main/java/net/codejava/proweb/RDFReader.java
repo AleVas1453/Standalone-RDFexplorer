@@ -13,6 +13,8 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.Properties;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import org.apache.jena.query.Query;
 import org.apache.jena.query.QueryExecution;
 import org.apache.jena.query.QueryExecutionFactory;
@@ -43,9 +45,20 @@ public class RDFReader {
      * @return each model's data
      */
     public Model loadModel() {
+        
+        Properties prop = new Properties();
+        
+        ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
+        InputStream input = classLoader.getResourceAsStream("config2.properties");
+        try {
+            prop.load(input);
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
+        
         String path = getClass().getResource("").getPath();
         System.out.println(path);
-        String folderPath = path + "SeaLiT";
+        String folderPath = path + prop.getProperty("application.folder");
         File folder2 = new File(folderPath);
 
         File[] listOfFiles2 = folder2.listFiles();
@@ -138,43 +151,6 @@ public class RDFReader {
         return resultsList;
     }
 
-
-    public String[] configProperties() {
-        Properties prop = new Properties();
-        try {
-            prop.load(getClass().getResourceAsStream("config.properties"));
-            
-            String welcomeTitle =   prop.getProperty("application.welcomeTitle");
-            String title        =   prop.getProperty("application.title");
-            String subtitle     =   prop.getProperty("application.subtitle");
-            String description  =   prop.getProperty("application.description");
-
-            String categories = prop.getProperty("categories");   // categories = “1,2,3”
-            String categoryIds[] = categories.split(",");  // [“1”, “2”, “3”]
-            System.out.println(categories);
-            System.out.println(categoryIds);
-            for (String catId : categoryIds) {
-                String category_name = prop.getProperty("categories." + catId + ".name");
-                String category_icon = prop.getProperty("categories." + catId + ".icon");
-                System.out.println(category_name);
-                System.out.println(category_icon);
-                System.out.println(catId);
-            }
-
-            //get the property value and print it out
-            System.out.println(welcomeTitle);
-            System.out.println(title);
-            System.out.println(subtitle);
-            System.out.println(description);
-            return categoryIds;
-
-        } catch (IOException ex) {
-            ex.printStackTrace();
-        }
-
-        return null;
-    }
-
     /**
      *
      * @param count_query
@@ -240,11 +216,6 @@ public class RDFReader {
                 }
             }
         }
-//            System.out.println("SIZE: " + countData.size());
-        for (Map.Entry<String, Integer> entry : countData.entrySet()) {
-//            System.out.println("Value: " + entry.getKey() + ", Count: " + entry.getValue());
-        }
-
         return countData;
     }  
     
