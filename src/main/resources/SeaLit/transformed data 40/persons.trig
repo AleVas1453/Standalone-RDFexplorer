@@ -1,0 +1,795 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <https://rs.sealitproject.eu/kb/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/4BBBB0DC-205D-35C7-A0A5-C7A8D3601FB4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi | row: 8, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5> , <https://rs.sealitproject.eu/kb/person/64F3B734-35F0-33B2-9E76-4571841DEEF7> .
+
+<https://rs.sealitproject.eu/kb/person/BEC1CE44-AF0E-382C-8278-94A64A400B6F>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/119>
+        a                crm:E42_Identifier ;
+        rdfs:label       "119" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/52897114-377D-3DEC-88F2-33A66467FC12>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/694477C2-A79E-35FB-BDAD-9FE2434996E9>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Rollo" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/ids/2012>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2012" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/6C5B90CE-A858-312B-8A7F-070448F8CD1F>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Ferrari" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/E19B2406-AD23-3649-A1F2-61402CC2F962>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi | row: 1, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5> , <https://rs.sealitproject.eu/kb/person/BA3AB0C2-C137-3BE7-B6F7-4B112EA33A5C> .
+
+<https://rs.sealitproject.eu/kb/ids/2631>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2631" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/20FE9602-3B12-3360-B5C1-339BB87F2678>
+        a                        crm:E21_Person ;
+        rdfs:label               "Fabiano Ferrari" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/2556> , <https://rs.sealitproject.eu/kb/appellation_surname/6C5B90CE-A858-312B-8A7F-070448F8CD1F> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Fabiano" ;
+        sealit:has_last_name     "Ferrari" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/33A676E7-523D-3D3B-A641-6498BECEDBB3> .
+
+<https://rs.sealitproject.eu/kb/ids/3608>
+        a                crm:E42_Identifier ;
+        rdfs:label       "3608" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/ids/2352>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2352" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/4E643BE8-13D0-32C7-8286-DCBD609B35CA>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Rolla" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-03-20T13%3A21%3A30.542Z_4>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Rosina, 1859-06-06, Benedetta Risso" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T13:21:30.542Z_4&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/person/89CEDDDB-2FBD-3621-8C71-5A5FE559C697>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/0DE780FC-4EB4-3B92-8F1C-7219BA33E0F3>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Mezzano" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T13:21:30.542Z_4&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/register_record_point/07E90F14-AE1C-39F8-BAF9-A0D02B5AD0C3>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi | row: 14, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5> , <https://rs.sealitproject.eu/kb/person/139C6716-FAE5-3532-8EEE-9D5A6A590614> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/6BF539CF-E5F8-3963-928F-F15483087886>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Schenone" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/7A6B548D-54C0-3AD2-834B-0801F34C9128>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Sturlese" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/C739A1CA-B142-3964-AD67-44B6C2BE6D69>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/C0D278EE-FFFF-34D4-A514-0E3DBC546323>
+        a                        crm:E21_Person ;
+        rdfs:label               "pasquale Perio" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/240> , <https://rs.sealitproject.eu/kb/appellation_surname/5F5B35EC-0137-3D14-8C96-E2B9651F3FB6> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "pasquale" ;
+        sealit:has_last_name     "Perio" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/BEC1CE44-AF0E-382C-8278-94A64A400B6F> .
+
+<https://rs.sealitproject.eu/kb/numbers/serial%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "serial number" .
+
+<https://rs.sealitproject.eu/kb/person/4D5496C0-5ABA-3C64-BC20-4F6E3FA5A7F6>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/5896FCEC-8E74-3643-91D7-E30718468848>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi | row: 21, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5> , <https://rs.sealitproject.eu/kb/person/BEC1CE44-AF0E-382C-8278-94A64A400B6F> .
+
+<https://rs.sealitproject.eu/kb/person/A13C53BC-EA53-3B0B-A93F-D20CEA1950D3>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giobatta Macera" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/2631> , <https://rs.sealitproject.eu/kb/appellation_surname/223B57A9-2F7C-3E5F-9A95-DA18F1700BC9> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Giobatta" ;
+        sealit:has_last_name     "Macera" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/83891719-5513-3D7D-A60C-D977625314C3> .
+
+<https://rs.sealitproject.eu/kb/person/C9282626-E837-3BBE-86C6-7570A4C63C69>
+        a                        crm:E21_Person ;
+        rdfs:label               "Benedetto Schenone" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/6BF539CF-E5F8-3963-928F-F15483087886> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Benedetto" ;
+        sealit:has_last_name     "Schenone" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/67DEA37A-FB1F-3CFC-9AF9-00BDC1A20339> .
+
+<https://rs.sealitproject.eu/kb/ids/5348>
+        a                crm:E42_Identifier ;
+        rdfs:label       "5348" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/39FD1AF7-D670-30EC-835C-CCCA00B4614F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi | row: 18, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5> , <https://rs.sealitproject.eu/kb/person/36CDCDBE-AB28-3B5D-A8C0-403C1C939AB8> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Schiaffino" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/ids/18491>
+        a                crm:E42_Identifier ;
+        rdfs:label       "18491" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/ED616599-1D82-3047-807D-4CCE6589244A>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Deambrogi" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/ids/240>
+        a                crm:E42_Identifier ;
+        rdfs:label       "240" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-03-27T14%3A40%3A32.384Z_22>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Colombo, 1862-02-25, Carolina Gaggero" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T14:40:32.384Z_22&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/B0725E20-6E76-3694-B54D-7DEB67C20E92>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi | row: 24, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5> , <https://rs.sealitproject.eu/kb/person/67DEA37A-FB1F-3CFC-9AF9-00BDC1A20339> .
+
+<https://rs.sealitproject.eu/kb/person/FA845732-FE84-366A-8463-6767314C4961>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/AAAC2864-B72A-3AA1-8B8A-EF5F5B833CE1>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giuseppe Rolla" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/2626> , <https://rs.sealitproject.eu/kb/appellation_surname/4E643BE8-13D0-32C7-8286-DCBD609B35CA> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Giuseppe" ;
+        sealit:has_last_name     "Rolla" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/59219EC5-E7F5-3BB4-BFC2-19AB4E521F27> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-27T14:40:32.384Z_22&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<https://rs.sealitproject.eu/kb/person/E2941FC8-5D6E-3B72-9EF2-B13605096049>
+        a                        crm:E21_Person ;
+        rdfs:label               "Pietro Bartolomeo Vigo" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/1626> , <https://rs.sealitproject.eu/kb/appellation_surname/A2F4478A-C5DD-3D0F-A476-15EEEFC6FC4F> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Pietro Bartolomeo" ;
+        sealit:has_last_name     "Vigo" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/139C6716-FAE5-3532-8EEE-9D5A6A590614> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/54C526D3-C167-3D41-A1CB-934ED531C6D4>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi | row: 26, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5> , <https://rs.sealitproject.eu/kb/person/1E77B3B1-9C36-3FF8-B5B4-0F329EF4D2D6> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/9CB808DE-ED12-3AD1-9297-2F98B2B31E6B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi | row: 13, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5> , <https://rs.sealitproject.eu/kb/person/0C1DB88B-F750-321E-BD88-5CB355BF9140> .
+
+<https://rs.sealitproject.eu/kb/person/E4C2910A-A13C-3E4E-8124-AAEDC7AFC61A>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giuseppe Sturlese" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/2832> , <https://rs.sealitproject.eu/kb/appellation_surname/7A6B548D-54C0-3AD2-834B-0801F34C9128> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Giuseppe" ;
+        sealit:has_last_name     "Sturlese" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/BE0E307B-BF0C-31AF-BE59-038951286C33> .
+
+<https://rs.sealitproject.eu/kb/ids/9019>
+        a                crm:E42_Identifier ;
+        rdfs:label       "9019" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-04-03T12:57:56.737Z_14&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/person/06794A01-93D6-349A-A6AE-6408A4DC8A46>
+        a                        crm:E21_Person ;
+        rdfs:label               "Paolo Rollo" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/2012> , <https://rs.sealitproject.eu/kb/appellation_surname/694477C2-A79E-35FB-BDAD-9FE2434996E9> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Paolo" ;
+        sealit:has_last_name     "Rollo" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/AD2FCA4B-17CD-3903-B51B-EF58363D5262> .
+
+<https://rs.sealitproject.eu/kb/person/64F3B734-35F0-33B2-9E76-4571841DEEF7>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/2556>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2556" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/3FA3DF93-2D35-3DE9-B386-E5F96986D32A>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi | row: 4, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5> , <https://rs.sealitproject.eu/kb/person/59219EC5-E7F5-3BB4-BFC2-19AB4E521F27> .
+
+<https://rs.sealitproject.eu/kb/person/FA3E9C42-FEB4-335A-A8F9-1743AE3ABDAD>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/139C6716-FAE5-3532-8EEE-9D5A6A590614>
+        a       crm:E21_Person .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T13:40:18.902Z_1&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-02-27T13%3A40%3A18.902Z_1>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Enoch, 1861-01-30, Maurizio Antinori" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-02-27T13:40:18.902Z_1&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/person/BE39B929-286C-3D5E-9D05-637C4EF6038E>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/8829>
+        a                crm:E42_Identifier ;
+        rdfs:label       "8829" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/ids/17150>
+        a                crm:E42_Identifier ;
+        rdfs:label       "17150" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/79A9F1E3-651B-37DF-BD1C-1D4D16EE78B2>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Castello" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/F72A0569-E628-3FDF-A0CC-692E2BD002A6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi | row: 11, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5> , <https://rs.sealitproject.eu/kb/person/6067DD5A-E8E6-38AC-A444-CA74E93CB26E> .
+
+<https://rs.sealitproject.eu/kb/names/surname%20a>
+        a           crm:E55_Type ;
+        rdfs:label  "surname A" .
+
+<https://rs.sealitproject.eu/kb/person/6F551B6A-1DD6-3AE5-B0F3-F0BDE3BFA7DE>
+        a                        crm:E21_Person ;
+        rdfs:label               "Prospero Schiaffino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/5348> , <https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Prospero" ;
+        sealit:has_last_name     "Schiaffino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/BA3AB0C2-C137-3BE7-B6F7-4B112EA33A5C> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/04556A51-465B-34A0-8CDA-F85EF399D8B0>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Giacomazzi" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/6067DD5A-E8E6-38AC-A444-CA74E93CB26E>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/56F4C734-AA2C-304F-83EB-464BCF4EF7DA>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Parodi" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/B20F7621-BF3E-303B-9257-E365E16C7D68>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giuseppe Schiaffino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/4174> , <https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Giuseppe" ;
+        sealit:has_last_name     "Schiaffino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/4D5496C0-5ABA-3C64-BC20-4F6E3FA5A7F6> .
+
+<https://rs.sealitproject.eu/kb/person/33A676E7-523D-3D3B-A641-6498BECEDBB3>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/63215C14-9FCF-364F-BFA1-C795F9B07814>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/138D3C2F-E248-387C-8140-9FDD6AE6F4DA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi | row: 5, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5> , <https://rs.sealitproject.eu/kb/person/92F73748-9619-3E60-B096-A93846A9E90B> .
+
+<https://rs.sealitproject.eu/kb/person/628E65E7-BCD0-3EC0-AFEE-3E21B0417BF7>
+        a                        crm:E21_Person ;
+        rdfs:label               "Cesare Peirano" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/18491> , <https://rs.sealitproject.eu/kb/appellation_surname/B77ABA4A-02A0-3D42-8F7D-943C2D818AA7> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Cesare" ;
+        sealit:has_last_name     "Peirano" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/1AB12033-87C0-37AA-9643-16EF9E06D59C> .
+
+<https://rs.sealitproject.eu/kb/person/E10FB285-E35D-3F49-ABCA-3AE645DAE0AD>
+        a                        crm:E21_Person ;
+        rdfs:label               "Filippo Mortola" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/1813> , <https://rs.sealitproject.eu/kb/appellation_surname/3256A258-CD28-3F87-AEDC-A59AC063C4C8> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Filippo" ;
+        sealit:has_last_name     "Mortola" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/1E77B3B1-9C36-3FF8-B5B4-0F329EF4D2D6> .
+
+<https://rs.sealitproject.eu/kb/person/90B705F8-28A9-33DD-AC1F-911579321890>
+        a                        crm:E21_Person ;
+        rdfs:label               "Francesco Giacomazzi" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/2352> , <https://rs.sealitproject.eu/kb/appellation_surname/04556A51-465B-34A0-8CDA-F85EF399D8B0> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Francesco" ;
+        sealit:has_last_name     "Giacomazzi" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/F1ECE5C1-6E68-3F99-9E99-6BF0DFC614FA> .
+
+<https://rs.sealitproject.eu/kb/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<https://rs.sealitproject.eu/kb/ids/14116>
+        a                crm:E42_Identifier ;
+        rdfs:label       "14116" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/EEDDFE71-1326-3BC3-9E20-6889E153197A>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/17170>
+        a                crm:E42_Identifier ;
+        rdfs:label       "17170" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/CE124D26-8E13-3E9D-9EA4-D6C2236EDE71>
+        a                        crm:E21_Person ;
+        rdfs:label               "Fortunato Schiaffino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/12808> , <https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Fortunato" ;
+        sealit:has_last_name     "Schiaffino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/FA3E9C42-FEB4-335A-A8F9-1743AE3ABDAD> , <https://rs.sealitproject.eu/kb/person/BE39B929-286C-3D5E-9D05-637C4EF6038E> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/C7C3B09E-72C7-31A1-BB22-77EB14A14BFB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi | row: 3, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5> , <https://rs.sealitproject.eu/kb/person/4D5496C0-5ABA-3C64-BC20-4F6E3FA5A7F6> .
+
+<https://rs.sealitproject.eu/kb/ids/2401>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2401" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/C1A73A93-733C-3971-B790-C5B58423E32B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi | row: 20, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5> , <https://rs.sealitproject.eu/kb/person/C739A1CA-B142-3964-AD67-44B6C2BE6D69> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/A2F4478A-C5DD-3D0F-A476-15EEEFC6FC4F>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Vigo" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/10623C00-475A-30F3-A071-A29754F60CE4>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Pagano" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/223B57A9-2F7C-3E5F-9A95-DA18F1700BC9>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Macera" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/EE1D318C-0437-3AF7-900B-06C53946D4BB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi | row: 7, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5> , <https://rs.sealitproject.eu/kb/person/33A676E7-523D-3D3B-A641-6498BECEDBB3> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/EFB40F0F-AF10-39C2-9E41-2A9F6E6703EB>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Salvi" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/BE0E307B-BF0C-31AF-BE59-038951286C33>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/1AB12033-87C0-37AA-9643-16EF9E06D59C>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/12808>
+        a                crm:E42_Identifier ;
+        rdfs:label       "12808" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/B216ABCC-3AC2-3D09-A750-AA4D738CC434>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Manfredini" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/5F5B35EC-0137-3D14-8C96-E2B9651F3FB6>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Perio" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/8263C381-D6E9-386D-861C-C8C85614BD68>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/9FE2D857-D104-3680-9CD5-0509853D54CA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi | row: 9, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5> , <https://rs.sealitproject.eu/kb/person/83891719-5513-3D7D-A60C-D977625314C3> .
+
+<https://rs.sealitproject.eu/kb/person/5A9B421F-A48F-3A36-8ECD-09B7443B7EE2>
+        a                        crm:E21_Person ;
+        rdfs:label               "Luigi Pagano" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/2639> , <https://rs.sealitproject.eu/kb/appellation_surname/10623C00-475A-30F3-A071-A29754F60CE4> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Luigi" ;
+        sealit:has_last_name     "Pagano" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/EEDDFE71-1326-3BC3-9E20-6889E153197A> .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/B77ABA4A-02A0-3D42-8F7D-943C2D818AA7>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Peirano" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/E583BA54-F419-3CFD-B0F7-06D163FDE9AA>
+        a                        crm:E21_Person ;
+        rdfs:label               "Domenico Manfredini" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/3053> , <https://rs.sealitproject.eu/kb/appellation_surname/B216ABCC-3AC2-3D09-A750-AA4D738CC434> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Domenico" ;
+        sealit:has_last_name     "Manfredini" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/C739A1CA-B142-3964-AD67-44B6C2BE6D69> .
+
+<https://rs.sealitproject.eu/kb/person/0C1DB88B-F750-321E-BD88-5CB355BF9140>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/9D8FF2E3-D021-3B2A-A561-91AC95E79476>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Cornice" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/92F73748-9619-3E60-B096-A93846A9E90B>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/F16F63D4-64F0-33FD-A5B2-954D9CE8D6A0>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi | row: 22, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5> , <https://rs.sealitproject.eu/kb/person/FA3E9C42-FEB4-335A-A8F9-1743AE3ABDAD> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/40999FA6-281C-3DC3-8B5C-9C64B126FDBB>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi | row: 23, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5> , <https://rs.sealitproject.eu/kb/person/86CCD83B-7B0A-3952-AAD9-521ED52EEDD0> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/ED32B907-395E-3BD1-907C-3EA8D7BADC78>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi | row: 2, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5> , <https://rs.sealitproject.eu/kb/person/BE0E307B-BF0C-31AF-BE59-038951286C33> .
+
+<https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew list (ruoli di equipaggio)" .
+
+<https://rs.sealitproject.eu/kb/person/F1ECE5C1-6E68-3F99-9E99-6BF0DFC614FA>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/B827BF63-D25B-39E3-8E53-EC5283869696>
+        a                        crm:E21_Person ;
+        rdfs:label               "Pietro Manfredini" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/119> , <https://rs.sealitproject.eu/kb/appellation_surname/B216ABCC-3AC2-3D09-A750-AA4D738CC434> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Pietro" ;
+        sealit:has_last_name     "Manfredini" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/869BCAC9-AB45-3487-B3A5-BC77EECA024E> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/C5CAFFA1-8FF5-3317-AFCF-545BC8AB8304>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi | row: 16, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5> , <https://rs.sealitproject.eu/kb/person/89CEDDDB-2FBD-3621-8C71-5A5FE559C697> .
+
+<https://rs.sealitproject.eu/kb/ids/2626>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2626" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/83891719-5513-3D7D-A60C-D977625314C3>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/B6FB6C4C-640D-38EA-BE89-32EDF1EC5072>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi | row: 19, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5> , <https://rs.sealitproject.eu/kb/person/AD2FCA4B-17CD-3903-B51B-EF58363D5262> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/DB7287E6-F8EB-395B-8323-7D3332F297D5>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi | row: 10, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5> , <https://rs.sealitproject.eu/kb/person/EEDDFE71-1326-3BC3-9E20-6889E153197A> .
+
+<https://rs.sealitproject.eu/kb/ids/2639>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2639" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/ids/1813>
+        a                crm:E42_Identifier ;
+        rdfs:label       "1813" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/67DEA37A-FB1F-3CFC-9AF9-00BDC1A20339>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/4174>
+        a                crm:E42_Identifier ;
+        rdfs:label       "4174" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A57%3A56.737Z_14>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Erminia, 1861-02-16, Francesco  Ferrando" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-04-03T12:57:56.737Z_14&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/person/AD2FCA4B-17CD-3903-B51B-EF58363D5262>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/A74043FB-07AD-3DC4-A0CF-27FAB9A77702>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/ids/1626>
+        a                crm:E42_Identifier ;
+        rdfs:label       "1626" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/59FA5780-23FE-30A6-9218-8D9628640C8A>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/3774DF68-CAA5-3366-A090-2F1466AF2D1A>
+        a                        crm:E21_Person ;
+        rdfs:label               "Giuseppe Cornice" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/9019> , <https://rs.sealitproject.eu/kb/appellation_surname/9D8FF2E3-D021-3B2A-A561-91AC95E79476> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Giuseppe" ;
+        sealit:has_last_name     "Cornice" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/36CDCDBE-AB28-3B5D-A8C0-403C1C939AB8> .
+
+<https://rs.sealitproject.eu/kb/person/6CA6834F-ED1D-3296-9199-36E0584FB4F3>
+        a                        crm:E21_Person ;
+        rdfs:label               "Marcello Mezzano" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/17170> , <https://rs.sealitproject.eu/kb/appellation_surname/0DE780FC-4EB4-3B92-8F1C-7219BA33E0F3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Marcello" ;
+        sealit:has_last_name     "Mezzano" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/86CCD83B-7B0A-3952-AAD9-521ED52EEDD0> .
+
+<https://rs.sealitproject.eu/kb/person/86CCD83B-7B0A-3952-AAD9-521ED52EEDD0>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/register_record_point/20EEFF61-D3A1-3C58-87AF-296B3DB2E430>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Erminia, 1861-02-16, Francesco  Ferrando | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T12%3A57%3A56.737Z_14> , <https://rs.sealitproject.eu/kb/person/63215C14-9FCF-364F-BFA1-C795F9B07814> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/62714FF6-5234-3117-8358-9655E974762F>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi | row: 17, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5> , <https://rs.sealitproject.eu/kb/person/869BCAC9-AB45-3487-B3A5-BC77EECA024E> .
+
+<https://rs.sealitproject.eu/kb/person/206A94F4-B133-3359-BA53-C26A4A81AB40>
+        a                        crm:E21_Person ;
+        rdfs:label               "Martino Mezzano" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/8829> , <https://rs.sealitproject.eu/kb/appellation_surname/0DE780FC-4EB4-3B92-8F1C-7219BA33E0F3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Martino" ;
+        sealit:has_last_name     "Mezzano" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/A74043FB-07AD-3DC4-A0CF-27FAB9A77702> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/BB6F6C5F-1B54-3717-8B1B-E4BCD2130F7B>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5> , <https://rs.sealitproject.eu/kb/person/59FA5780-23FE-30A6-9218-8D9628640C8A> .
+
+<https://rs.sealitproject.eu/kb/person/1E77B3B1-9C36-3FF8-B5B4-0F329EF4D2D6>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/47A7A908-6291-340B-9CB7-42B21EB1B891>
+        a                        crm:E21_Person ;
+        rdfs:label               "Luigi Castello" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/14116> , <https://rs.sealitproject.eu/kb/appellation_surname/79A9F1E3-651B-37DF-BD1C-1D4D16EE78B2> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Luigi" ;
+        sealit:has_last_name     "Castello" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/FA845732-FE84-366A-8463-6767314C4961> , <https://rs.sealitproject.eu/kb/person/0C1DB88B-F750-321E-BD88-5CB355BF9140> .
+
+<https://rs.sealitproject.eu/kb/ids/2832>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2832" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/person/869BCAC9-AB45-3487-B3A5-BC77EECA024E>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/appellation_surname/3256A258-CD28-3F87-AEDC-A59AC063C4C8>
+        a                crm:E41_Appellation ;
+        rdfs:label       "Mortola" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/names/surname%20a> .
+
+<https://rs.sealitproject.eu/kb/person/59219EC5-E7F5-3BB4-BFC2-19AB4E521F27>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/3111120C-0BF0-33B1-9548-9817C5FA2EC7>
+        a                        crm:E21_Person ;
+        rdfs:label               "Prospero Schiaffino" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/2E009DF4-AC45-3882-9D20-5D2EF608ADD3> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Prospero" ;
+        sealit:has_last_name     "Schiaffino" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/59FA5780-23FE-30A6-9218-8D9628640C8A> , <https://rs.sealitproject.eu/kb/person/8263C381-D6E9-386D-861C-C8C85614BD68> , <https://rs.sealitproject.eu/kb/person/63215C14-9FCF-364F-BFA1-C795F9B07814> , <https://rs.sealitproject.eu/kb/person/52897114-377D-3DEC-88F2-33A66467FC12> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/2C3AD77F-78A8-303B-A9AE-D826E5F1A1BA>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi | row: 15, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5> , <https://rs.sealitproject.eu/kb/person/A74043FB-07AD-3DC4-A0CF-27FAB9A77702> .
+
+<https://rs.sealitproject.eu/kb/person/5935C106-8949-33D4-9CA1-B859E6E73D6A>
+        a                        crm:E21_Person ;
+        rdfs:label               "Raffaello Deambrogi" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation_surname/ED616599-1D82-3047-807D-4CCE6589244A> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Raffaello" ;
+        sealit:has_last_name     "Deambrogi" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/6067DD5A-E8E6-38AC-A444-CA74E93CB26E> .
+
+<https://rs.sealitproject.eu/kb/person/36CDCDBE-AB28-3B5D-A8C0-403C1C939AB8>
+        a       crm:E21_Person .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-06T14:38:02.713Z_5&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/register_record_point/07EB3C10-04A4-3978-B220-FE3660F7EB83>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi | row: 25, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5> , <https://rs.sealitproject.eu/kb/person/1AB12033-87C0-37AA-9643-16EF9E06D59C> .
+
+<https://rs.sealitproject.eu/kb/ids/3053>
+        a                crm:E42_Identifier ;
+        rdfs:label       "3053" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/D8FAA9AF-F334-3C88-80B9-4DDEB3F01E4D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Rosina, 1859-06-06, Benedetta Risso | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-20T13%3A21%3A30.542Z_4> , <https://rs.sealitproject.eu/kb/person/8263C381-D6E9-386D-861C-C8C85614BD68> .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-06T14:38:02.713Z_5&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/person/9C9B36EE-1262-3198-A5DE-7D3F217E8D60>
+        a                        crm:E21_Person ;
+        rdfs:label               "Pietro Salvi" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/3608> , <https://rs.sealitproject.eu/kb/appellation_surname/EFB40F0F-AF10-39C2-9E41-2A9F6E6703EB> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Pietro" ;
+        sealit:has_last_name     "Salvi" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/92F73748-9619-3E60-B096-A93846A9E90B> .
+
+<https://rs.sealitproject.eu/kb/person/BA3AB0C2-C137-3BE7-B6F7-4B112EA33A5C>
+        a       crm:E21_Person .
+
+<https://rs.sealitproject.eu/kb/person/03E2A604-F8B6-3AD1-A110-1FE1F310AD8A>
+        a                        crm:E21_Person ;
+        rdfs:label               "Tommaso Parodi" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/17150> , <https://rs.sealitproject.eu/kb/appellation_surname/56F4C734-AA2C-304F-83EB-464BCF4EF7DA> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Tommaso" ;
+        sealit:has_last_name     "Parodi" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/89CEDDDB-2FBD-3621-8C71-5A5FE559C697> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/F8AD4DDE-B7DC-3831-81D3-A19ED989D1E6>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Enoch, 1861-01-30, Maurizio Antinori | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-02-27T13%3A40%3A18.902Z_1> , <https://rs.sealitproject.eu/kb/person/52897114-377D-3DEC-88F2-33A66467FC12> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/5E024847-8AC3-359B-9AB4-063A22829237>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi | row: 12, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5> , <https://rs.sealitproject.eu/kb/person/BE39B929-286C-3D5E-9D05-637C4EF6038E> .
+
+<https://rs.sealitproject.eu/kb/person/D63B63A3-18C3-3066-82B0-D32C38963317>
+        a                        crm:E21_Person ;
+        rdfs:label               "Francesco Vigo" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/ids/2401> , <https://rs.sealitproject.eu/kb/appellation_surname/A2F4478A-C5DD-3D0F-A476-15EEEFC6FC4F> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:has_first_name    "Francesco" ;
+        sealit:has_last_name     "Vigo" ;
+        owl:sameAs               <https://rs.sealitproject.eu/kb/person/64F3B734-35F0-33B2-9E76-4571841DEEF7> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/2D4C7575-40B8-30F3-B262-3FB5C4663A14>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Guardia, 1861-01-19, Beatrice Corradi | row: 6, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-06T14%3A38%3A02.713Z_5> , <https://rs.sealitproject.eu/kb/person/F1ECE5C1-6E68-3F99-9E99-6BF0DFC614FA> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/47C7ABB3-DD30-3C2A-912D-85F09D17A682>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Colombo, 1862-02-25, Carolina Gaggero | row: 12, table: crew_list" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-27T14%3A40%3A32.384Z_22> , <https://rs.sealitproject.eu/kb/person/FA845732-FE84-366A-8463-6767314C4961> .

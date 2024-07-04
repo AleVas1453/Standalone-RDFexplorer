@@ -1,0 +1,82 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <https://rs.sealitproject.eu/kb/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<https://rs.sealitproject.eu/kb/ship%20type/brigantino>
+        a           crm:E55_Type ;
+        rdfs:label  "brigantino" .
+
+<urn:uuid:bb280f9b-fb49-452e-bd0a-977cc72d5ca1>
+        a                     sealit:Ship_Construction ;
+        rdfs:label            "Construction of Angiolina" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1846> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/varazze> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T13:39:33.445Z_7&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/date/1846>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1846" ;
+        crm:P82_at_some_time_within  "1846"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/ship/15BADE89-709B-3140-A8A0-127108047711>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Angiolina" ;
+        crm:P1_is_identified_by    <https://rs.sealitproject.eu/kb/ship%20name/angiolina> ;
+        crm:P2_has_type            <https://rs.sealitproject.eu/kb/ship%20type/brigantino> , <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:is_registered_by    <https://rs.sealitproject.eu/kb/registration_number/986> ;
+        sealit:was_constructed_by  <urn:uuid:bb280f9b-fb49-452e-bd0a-977cc72d5ca1> ;
+        owl:sameAs                 <https://rs.sealitproject.eu/kb/ship/F665CF8F-EB97-3E83-9373-F751627F3686> .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-03-20T13%3A39%3A33.445Z_7>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Angiolina, 1861-01-24, Beatrice Corradi" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-20T13:39:33.445Z_7&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew list (ruoli di equipaggio)" .
+
+<https://rs.sealitproject.eu/kb/ship/F665CF8F-EB97-3E83-9373-F751627F3686>
+        a       sealit:Ship .
+
+<https://rs.sealitproject.eu/kb/register_record_point/4114E1AC-C59E-33C6-ADCA-D66EFC612867>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Angiolina, 1861-01-24, Beatrice Corradi | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-20T13%3A39%3A33.445Z_7> , <https://rs.sealitproject.eu/kb/ship/F665CF8F-EB97-3E83-9373-F751627F3686> .
+
+<https://rs.sealitproject.eu/kb/registration_number/986>
+        a                    sealit:Ship_Registration ;
+        rdfs:label           "Registration of Angiolina" ;
+        sealit:with_ship_ID  <https://rs.sealitproject.eu/kb/ship_identifier/986> .
+
+<https://rs.sealitproject.eu/kb/location/varazze>
+        a           crm:E53_Place ;
+        rdfs:label  "Varazze" .
+
+<https://rs.sealitproject.eu/kb/ship%20name/angiolina>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Angiolina" .
+
+<https://rs.sealitproject.eu/kb/register%20numbers/register%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "register number" .
+
+<https://rs.sealitproject.eu/kb/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<https://rs.sealitproject.eu/kb/ship_identifier/986>
+        a                sealit:Ship_ID ;
+        rdfs:label       "986" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/register%20numbers/register%20number> .

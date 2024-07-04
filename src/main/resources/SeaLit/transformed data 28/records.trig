@@ -1,0 +1,1542 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <https://rs.sealitproject.eu/kb/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<https://rs.sealitproject.eu/kb/departure/05778C05-A985-3122-8EFF-094090FD91B5>
+        a                     sealit:Leaving ;
+        rdfs:label            "Departure of ship Doge ,from port Malta ,on date 1861-05-24" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-05-24> ;
+        sealit:from_place     <https://rs.sealitproject.eu/kb/location/malta> .
+
+<https://rs.sealitproject.eu/kb/ids/Permesso>
+        a                crm:E42_Identifier ;
+        rdfs:label       "Permesso" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/ids/16074>
+        a                crm:E42_Identifier ;
+        rdfs:label       "16074" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/date/1861-08-13>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "departure date 1861-08-13" ;
+        crm:P82_at_some_time_within  "1861-08-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/date/1843>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "1843" ;
+        crm:P82_at_some_time_within  "1843"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:258971b6-12a7-4465-b540-77d2e63be7ab>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "1861-02-08 1861-09-10" ;
+        crm:P82a_begin_of_the_begin  "1861-02-08"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        crm:P82b_end_of_the_end      "1861-09-10"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        sealit:had_duration          <urn:uuid:4a11f0f8-99e5-4f95-bbfd-cde6f15246b4> .
+
+<urn:uuid:6123b281-17fb-4dec-b6ff-c66c7ec71b74>
+        a                            crm:E52_Time-Span ;
+        crm:P82a_begin_of_the_begin  "1861-02-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/discharge/69B7EC83-D5C9-3C7A-8ED2-144E1AAE4B90>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of GioBatta Avegno" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-10-10> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/genova> .
+
+<https://rs.sealitproject.eu/kb/date/1861-03-19>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "departure date 1861-03-19" ;
+        crm:P82_at_some_time_within  "1861-03-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:68fba91f-838f-45c1-98a9-8c0024cf9e6f>
+        a                         crm:PC14_carried_out_by ;
+        rdfs:label                "in the role of" ;
+        crm:P14.1_in_the_role_of  <https://rs.sealitproject.eu/kb/profession%20type/marinaio> .
+
+<https://rs.sealitproject.eu/kb/recruitment/8CCAFE5F-E9F4-3B66-8583-B6A282BAE2CD>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Antonio Gliubelich" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-02-08> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/genova> .
+
+<urn:uuid:317cd95f-1b5d-43ad-af9c-4f0ea263d3e9>
+        a                    crm:E52_Time-Span ;
+        rdfs:label           "for employment period of Canevaro" ;
+        sealit:had_duration  <urn:uuid:8937117a-4b2f-430a-ad6a-75d78fca4d6d> .
+
+<https://rs.sealitproject.eu/kb/employment/6E123B9C-3163-332D-B6BF-53D21462F650>
+        a                     sealit:Employment ;
+        rdfs:label            "Employment of GioBatta Boccardo" ;
+        crm:P02i_is_range_of  <urn:uuid:bfcdddcc-493e-46ec-aa3a-13ca3bf02b8e> ;
+        sealit:ended_by       <https://rs.sealitproject.eu/kb/discharge/6E123B9C-3163-332D-B6BF-53D21462F650> ;
+        sealit:started_by     <https://rs.sealitproject.eu/kb/recruitment/6E123B9C-3163-332D-B6BF-53D21462F650> .
+
+<https://rs.sealitproject.eu/kb/person/50D85844-26E6-302A-BF40-79229961C6A5>
+        a                           crm:E21_Person ;
+        rdfs:label                  "GioBatta Avegno" ;
+        crm:P1_is_identified_by     <https://rs.sealitproject.eu/kb/ids/13560> ;
+        crm:P74_has_current_or_former_residence
+                <https://rs.sealitproject.eu/kb/location/recco> ;
+        crm:P98i_was_born           <urn:uuid:c780c6e8-89e9-42d0-a2a0-a4e308a6dd24> ;
+        sealit:has_first_name       "GioBatta" ;
+        sealit:has_last_name        "Avegno" ;
+        sealit:has_profession       <https://rs.sealitproject.eu/kb/profession%20type/marinaio> ;
+        sealit:provided_employment  <https://rs.sealitproject.eu/kb/employment/69B7EC83-D5C9-3C7A-8ED2-144E1AAE4B90> ;
+        sealit:received_money       <https://rs.sealitproject.eu/kb/payment/69B7EC83-D5C9-3C7A-8ED2-144E1AAE4B90> .
+
+<https://rs.sealitproject.eu/kb/discharge/B2B08D8A-0B41-3251-BCB5-556756991321>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Stefano Solimano" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-10-10> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/genova> .
+
+<urn:uuid:c38cb3c7-b1de-4384-b452-bff48e857c98>
+        a                         crm:PC14_carried_out_by ;
+        rdfs:label                "in the role of" ;
+        crm:P14.1_in_the_role_of  <https://rs.sealitproject.eu/kb/profession%20type/marinaio> .
+
+<urn:uuid:f8522179-df24-4262-a4fd-448996e3801b>
+        a                      crm:E97_Monetary_Amount ;
+        rdfs:label             "monetary amount 8,91" ;
+        crm:P180_has_currency  <https://rs.sealitproject.eu/kb/currency/italian%20lira> ;
+        crm:P2_has_type        <https://rs.sealitproject.eu/kb/money%20payments%20types/pension%20funds> ;
+        crm:P90_has_value      "8.91" .
+
+<urn:uuid:3e0d6c57-93da-48a9-a814-8f4d020e9d79>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Tomaso Beretta" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1841> .
+
+<https://rs.sealitproject.eu/kb/location/camogli>
+        a                crm:E53_Place ;
+        rdfs:label       "Camogli" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/place%20type/port> .
+
+<https://rs.sealitproject.eu/kb/ship/000EE317-0EEE-3601-B9C2-BDF7636C9DEF>
+        a                           sealit:Ship ;
+        rdfs:label                  "ship Doge" ;
+        crm:P1_is_identified_by     <https://rs.sealitproject.eu/kb/ship%20name/doge> ;
+        crm:P2_has_type             <https://rs.sealitproject.eu/kb/ship%20type/brigantino> ;
+        sealit:has_ownership_phase  <https://rs.sealitproject.eu/kb/ownership/000EE317-0EEE-3601-B9C2-BDF7636C9DEF> ;
+        sealit:has_tonnage          <urn:uuid:0d662849-1424-411f-8483-9c39a43953fb> ;
+        sealit:is_registered_by     <urn:uuid:52ec92be-4c21-499a-9ea4-b20cca6221c4> ;
+        sealit:voyages              <urn:uuid:c90bcf29-bf11-49f8-83d0-455a7197725f> ;
+        sealit:was_constructed_by   <urn:uuid:9ec2f769-474b-4259-a850-6953396e102b> .
+
+<https://rs.sealitproject.eu/kb/numbers/serial%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "serial number" .
+
+<urn:uuid:4bfd7575-3960-4296-9797-893d4d8330b2>
+        a                          sealit:Duration ;
+        rdfs:label                 "duration" ;
+        crm:P2_has_type            <https://rs.sealitproject.eu/kb/duration%20type/total%20work%20duration> ;
+        sealit:has_duration_value  "P8M9D"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<https://rs.sealitproject.eu/kb/doc%20types/record%20information>
+        a           crm:E55_Type ;
+        rdfs:label  "record information" .
+
+<https://rs.sealitproject.eu/kb/ids/9092>
+        a                crm:E42_Identifier ;
+        rdfs:label       "9092" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/payment/FB99FBEA-115A-3F8F-A86B-34F758E6D868>
+        a                             sealit:Crew_Payment ;
+        rdfs:label                    "Payment to GioBatta Canevaro" ;
+        crm:P01i_is_domain_of         <urn:uuid:ef495ede-5cd6-4aeb-9de9-cea84400dc25> ;
+        sealit:for_employment_period  <urn:uuid:317cd95f-1b5d-43ad-af9c-4f0ea263d3e9> ;
+        sealit:for_service            <https://rs.sealitproject.eu/kb/employment/FB99FBEA-115A-3F8F-A86B-34F758E6D868> ;
+        sealit:had_money_value        <urn:uuid:5242dbd2-ea8a-42a0-9a8f-e581a63918a3> , <urn:uuid:4be59858-baa3-4914-a468-4e1f7eef59c9> .
+
+<https://rs.sealitproject.eu/kb/person/4D7FEA8C-6ACA-3203-8C21-366A809B2097>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Gaetano Marciani" ;
+        crm:P1_is_identified_by     <https://rs.sealitproject.eu/kb/ids/2444> ;
+        crm:P74_has_current_or_former_residence
+                <https://rs.sealitproject.eu/kb/location/camogli> ;
+        crm:P98i_was_born           <urn:uuid:7235c02d-c95d-457e-9207-4d91fcc05e21> ;
+        sealit:has_first_name       "Gaetano" ;
+        sealit:has_last_name        "Marciani" ;
+        sealit:has_profession       <https://rs.sealitproject.eu/kb/profession%20type/secondo> ;
+        sealit:provided_employment  <https://rs.sealitproject.eu/kb/employment/D69B2ADD-D494-31CA-9984-1B85A6AAC781> ;
+        sealit:received_money       <https://rs.sealitproject.eu/kb/payment/D69B2ADD-D494-31CA-9984-1B85A6AAC781> .
+
+<urn:uuid:b07a1fe7-6d0c-4707-be83-bdfb5536ef88>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Giacomo Ageno" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1844> .
+
+<https://rs.sealitproject.eu/kb/employment/D69B2ADD-D494-31CA-9984-1B85A6AAC781>
+        a                     sealit:Employment ;
+        rdfs:label            "Employment of Gaetano Marciani" ;
+        crm:P02i_is_range_of  <urn:uuid:0884603e-bc3e-4afc-b972-4efb38ff1e5a> ;
+        sealit:ended_by       <https://rs.sealitproject.eu/kb/discharge/D69B2ADD-D494-31CA-9984-1B85A6AAC781> ;
+        sealit:started_by     <https://rs.sealitproject.eu/kb/recruitment/D69B2ADD-D494-31CA-9984-1B85A6AAC781> .
+
+<https://rs.sealitproject.eu/kb/discharge/8CCAFE5F-E9F4-3B66-8583-B6A282BAE2CD>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Antonio Gliubelich" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-03-18> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/camogli> .
+
+<urn:uuid:b97aae38-28f3-4623-b434-db2595bb29b1>
+        a                      crm:E97_Monetary_Amount ;
+        rdfs:label             "monetary amount 85" ;
+        crm:P180_has_currency  <https://rs.sealitproject.eu/kb/currency/italian%20lira> ;
+        crm:P90_has_value      "85" .
+
+<https://rs.sealitproject.eu/kb/register%20numbers/register%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "register number" .
+
+<urn:uuid:ccca1258-4fcb-48ef-8791-9de507f24ff0>
+        a                         crm:PC14_carried_out_by ;
+        rdfs:label                "carried out by" ;
+        crm:P02_has_range         <https://rs.sealitproject.eu/kb/organisation/direzione%20marittima%20di%20genova> ;
+        crm:P14.1_in_the_role_of  <https://rs.sealitproject.eu/kb/role%20types/issuing%20authority> .
+
+<https://rs.sealitproject.eu/kb/payment/BA8DC7B7-4015-3E7B-BDC1-87F6A4881D71>
+        a                             sealit:Crew_Payment ;
+        rdfs:label                    "Payment to Eliseo Pardolli" ;
+        crm:P01i_is_domain_of         <urn:uuid:c38cb3c7-b1de-4384-b452-bff48e857c98> ;
+        sealit:for_employment_period  <urn:uuid:2e632aaf-f410-4157-a8dd-2a97cfa0f9f3> ;
+        sealit:for_service            <https://rs.sealitproject.eu/kb/employment/BA8DC7B7-4015-3E7B-BDC1-87F6A4881D71> ;
+        sealit:had_money_value        <urn:uuid:9069f0f7-e039-45ad-965c-288930fbc50b> , <urn:uuid:0f7e5e81-c013-4778-9851-329fcedd77a6> .
+
+<urn:uuid:e3d60ce6-7580-462e-a1d9-522c7cc22bd4>
+        a                          sealit:PC_provided_service ;
+        rdfs:label                 "provided service" ;
+        sealit:PCa_in_the_role_of  <https://rs.sealitproject.eu/kb/profession%20type/marinaio> .
+
+<urn:uuid:5242dbd2-ea8a-42a0-9a8f-e581a63918a3>
+        a                      crm:E97_Monetary_Amount ;
+        rdfs:label             "monetary amount 6,48" ;
+        crm:P180_has_currency  <https://rs.sealitproject.eu/kb/currency/italian%20lira> ;
+        crm:P2_has_type        <https://rs.sealitproject.eu/kb/money%20payments%20types/pension%20funds> ;
+        crm:P90_has_value      "6.48" .
+
+<https://rs.sealitproject.eu/kb/departure/0138AC8C-E739-370E-B981-B342A2618D39>
+        a                     sealit:Leaving ;
+        rdfs:label            "Departure of ship Doge ,from port Costantinopoli ,on date 1861-03-19" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-03-19> ;
+        sealit:from_place     <https://rs.sealitproject.eu/kb/location/costantinopoli> .
+
+<https://rs.sealitproject.eu/kb/person/A9332790-5533-3AC6-9E9E-8EF14BF17FAF>
+        a                           crm:E21_Person ;
+        rdfs:label                  "GioBatta Boccardo" ;
+        crm:P1_is_identified_by     <https://rs.sealitproject.eu/kb/ids/9092> ;
+        crm:P74_has_current_or_former_residence
+                <https://rs.sealitproject.eu/kb/location/camogli> ;
+        crm:P98i_was_born           <urn:uuid:3cb4b52a-66f3-40e7-bd18-8fb983f6a49c> ;
+        sealit:has_first_name       "GioBatta" ;
+        sealit:has_last_name        "Boccardo" ;
+        sealit:has_profession       <https://rs.sealitproject.eu/kb/profession%20type/marinaio> ;
+        sealit:provided_employment  <https://rs.sealitproject.eu/kb/employment/6E123B9C-3163-332D-B6BF-53D21462F650> ;
+        sealit:received_money       <https://rs.sealitproject.eu/kb/payment/6E123B9C-3163-332D-B6BF-53D21462F650> .
+
+<https://rs.sealitproject.eu/kb/employment/06E5C007-91DD-3928-8EF0-15EDA9168AE0>
+        a                     sealit:Employment ;
+        rdfs:label            "Employment of Nicolò Oneto" ;
+        crm:P02i_is_range_of  <urn:uuid:54e87db0-0d2d-4a1b-be22-68924cf3d9a7> ;
+        sealit:ended_by       <https://rs.sealitproject.eu/kb/discharge/06E5C007-91DD-3928-8EF0-15EDA9168AE0> ;
+        sealit:started_by     <https://rs.sealitproject.eu/kb/recruitment/06E5C007-91DD-3928-8EF0-15EDA9168AE0> .
+
+<urn:uuid:1443948f-efe4-403c-b107-91277625748c>
+        a                      crm:E97_Monetary_Amount ;
+        rdfs:label             "monetary amount 65" ;
+        crm:P180_has_currency  <https://rs.sealitproject.eu/kb/currency/italian%20lira> ;
+        crm:P90_has_value      "65" .
+
+<urn:uuid:52ec92be-4c21-499a-9ea4-b20cca6221c4>
+        a                     sealit:Ship_Registration ;
+        rdfs:label            "Registration of Doge" ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/genova> ;
+        sealit:with_ship_ID   <https://rs.sealitproject.eu/kb/ship_identifier/1850> .
+
+<https://rs.sealitproject.eu/kb/date/1825>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "1825" ;
+        crm:P82_at_some_time_within  "1825"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:948e2003-5216-45fe-b4fe-2f6b72ac528c>
+        a                    crm:E52_Time-Span ;
+        rdfs:label           "for employment period of Avegno" ;
+        sealit:had_duration  <urn:uuid:38300989-996e-4410-8b95-93324d52e72e> .
+
+<https://rs.sealitproject.eu/kb/payment/6E123B9C-3163-332D-B6BF-53D21462F650>
+        a                             sealit:Crew_Payment ;
+        rdfs:label                    "Payment to GioBatta Boccardo" ;
+        crm:P01i_is_domain_of         <urn:uuid:51b08850-c2de-43c7-9b3f-4dfecf23c2a0> ;
+        sealit:for_employment_period  <urn:uuid:fd4bd15a-45e2-4887-93c4-64c66630ae95> ;
+        sealit:for_service            <https://rs.sealitproject.eu/kb/employment/6E123B9C-3163-332D-B6BF-53D21462F650> ;
+        sealit:had_money_value        <urn:uuid:a4a876e8-b45f-46eb-a7e7-b583ae1d7aea> , <urn:uuid:cf11a964-df31-49d1-ae63-959859634706> .
+
+<https://rs.sealitproject.eu/kb/appellation/7270356B-8B36-38BD-AA2A-F6362467DA4F>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Direzione Marittima di Genova" .
+
+<urn:uuid:c08bc652-c78d-49d3-a4d3-28b4da2c0f45>
+        a                      crm:E97_Monetary_Amount ;
+        rdfs:label             "monetary amount 60" ;
+        crm:P180_has_currency  <https://rs.sealitproject.eu/kb/currency/italian%20lira> ;
+        crm:P90_has_value      "60" .
+
+<https://rs.sealitproject.eu/kb/date/1861-02-08>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "date 1861-02-08" ;
+        crm:P82_at_some_time_within  "1861-02-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:d820d359-5e0b-4422-b9d0-87b5b47bbbdb>
+        a                          sealit:Duration ;
+        rdfs:label                 "duration" ;
+        crm:P2_has_type            <https://rs.sealitproject.eu/kb/duration%20type/total%20work%20duration> ;
+        sealit:has_duration_value  "P8M9D"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<urn:uuid:2bd57c5b-3ca9-4e11-8925-a9477ccb6942>
+        a                      crm:E97_Monetary_Amount ;
+        rdfs:label             "monetary amount 20" ;
+        crm:P180_has_currency  <https://rs.sealitproject.eu/kb/currency/italian%20lira> ;
+        crm:P90_has_value      "20" .
+
+<urn:uuid:28b7e141-e9c3-4a2a-b294-fe08d6348b7f>
+        a                         crm:PC14_carried_out_by ;
+        rdfs:label                "in the role of" ;
+        crm:P14.1_in_the_role_of  <https://rs.sealitproject.eu/kb/profession%20type/marinaio> .
+
+<urn:uuid:2e632aaf-f410-4157-a8dd-2a97cfa0f9f3>
+        a                    crm:E52_Time-Span ;
+        rdfs:label           "for employment period of Pardolli" ;
+        sealit:had_duration  <urn:uuid:e1772163-3bfb-47f3-8094-22b2e2fb64b0> .
+
+<https://rs.sealitproject.eu/kb/ids/14533>
+        a                crm:E42_Identifier ;
+        rdfs:label       "14533" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<urn:uuid:0f7e5e81-c013-4778-9851-329fcedd77a6>
+        a                      crm:E97_Monetary_Amount ;
+        rdfs:label             "monetary amount 60" ;
+        crm:P180_has_currency  <https://rs.sealitproject.eu/kb/currency/italian%20lira> ;
+        crm:P90_has_value      "60" .
+
+<https://rs.sealitproject.eu/kb/departure/54EFEB9D-6A77-3A66-AA44-7C1A1E23BBD0>
+        a                     sealit:Leaving ;
+        rdfs:label            "Departure of ship Doge ,from port Costantinopoli ,on date 1861-05-10" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-05-10> ;
+        sealit:from_place     <https://rs.sealitproject.eu/kb/location/costantinopoli> .
+
+<urn:uuid:cf11a964-df31-49d1-ae63-959859634706>
+        a                      crm:E97_Monetary_Amount ;
+        rdfs:label             "monetary amount 60" ;
+        crm:P180_has_currency  <https://rs.sealitproject.eu/kb/currency/italian%20lira> ;
+        crm:P90_has_value      "60" .
+
+<urn:uuid:9dfdd396-aa92-45ef-9851-709c61faec98>
+        a                crm:E74_Group ;
+        rdfs:label       "total crew number of Doge" ;
+        crm:P3_has_note  "12" .
+
+<https://rs.sealitproject.eu/kb/recruitment/EB89D6D2-CCB8-3C2C-8DC5-90173CCE8A7D>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Giacomo Ageno" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-02-08> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/genova> .
+
+<https://rs.sealitproject.eu/kb/employment/B2B08D8A-0B41-3251-BCB5-556756991321>
+        a                     sealit:Employment ;
+        rdfs:label            "Employment of Stefano Solimano" ;
+        crm:P02i_is_range_of  <urn:uuid:4311b798-6fd7-4c54-bb25-2651494a56c6> ;
+        sealit:ended_by       <https://rs.sealitproject.eu/kb/discharge/B2B08D8A-0B41-3251-BCB5-556756991321> ;
+        sealit:started_by     <https://rs.sealitproject.eu/kb/recruitment/B2B08D8A-0B41-3251-BCB5-556756991321> .
+
+<urn:uuid:bf7a83e7-6977-4cd1-899d-e7d5cd8da406>
+        a                       crm:E65_Creation ;
+        rdfs:label              "Creation of doc Crew List (Ruoli di Equipaggio), Doge, 1861-02-08, Francesco Ferrando" ;
+        crm:P14_carried_out_by  <https://rs.sealitproject.eu/kb/person/707966B1-E65B-345B-89C8-1DAEBC1A7826> ;
+        crm:P4_has_time-span    <urn:uuid:5f72e597-d345-4aa3-be23-e18abaac3bea> .
+
+<https://rs.sealitproject.eu/kb/recruitment/BAC6A770-E940-374F-8046-F5B83C87EEFF>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Domenico Rocchi" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-02-08> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/genova> .
+
+<urn:uuid:261cb488-2413-4247-ad6a-300c75c561fd>
+        a                         crm:PC14_carried_out_by ;
+        rdfs:label                "in the role of" ;
+        crm:P14.1_in_the_role_of  <https://rs.sealitproject.eu/kb/profession%20type/marinaio> .
+
+<urn:uuid:bca89c84-60ae-47b2-9c68-671bf4bf9ae0>
+        a                          sealit:PC_provided_service ;
+        rdfs:label                 "provided service" ;
+        sealit:PCa_in_the_role_of  <https://rs.sealitproject.eu/kb/profession%20type/marinaio> .
+
+<https://rs.sealitproject.eu/kb/recruitment/5FACB837-C3DE-3EC8-990B-F520CA26D39B>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Tomaso Beretta" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-02-08> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/genova> .
+
+<https://rs.sealitproject.eu/kb/date/1861-05-24>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "departure date 1861-05-24" ;
+        crm:P82_at_some_time_within  "1861-05-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:4d45dbc3-3306-4a28-9f6f-1dadf0ed06ac>
+        a                     crm:E33_Linguistic_Object ;
+        rdfs:label            "Content of doc 6835" ;
+        crm:P72_has_language  <https://rs.sealitproject.eu/kb/language/italian> .
+
+<https://rs.sealitproject.eu/kb/ids/2445>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2445" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/date/1861-05-03>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "departure date 1861-05-03" ;
+        crm:P82_at_some_time_within  "1861-05-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/location/malta>
+        a                crm:E53_Place ;
+        rdfs:label       "Malta" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/place%20type/port> .
+
+<https://rs.sealitproject.eu/kb/organisation/direzione%20marittima%20di%20genova>
+        a                        crm:E74_Group ;
+        rdfs:label               "Direzione Marittima di Genova" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation/7270356B-8B36-38BD-AA2A-F6362467DA4F> ;
+        crm:P74_has_current_or_former_residence
+                <https://rs.sealitproject.eu/kb/location/genova> .
+
+<https://rs.sealitproject.eu/kb/date/1841>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "1841" ;
+        crm:P82_at_some_time_within  "1841"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:c93f34bd-6ff2-4c49-bfe8-234c3d26aff2>
+        a                      crm:E65_Creation ;
+        rdfs:label             "Creation of doc 6835" ;
+        crm:P01i_is_domain_of  <urn:uuid:ccca1258-4fcb-48ef-8791-9de507f24ff0> ;
+        crm:P4_has_time-span   <urn:uuid:6123b281-17fb-4dec-b6ff-c66c7ec71b74> .
+
+<urn:uuid:3e58f8ef-53fa-47b1-b929-8c3f98f294b1>
+        a                          sealit:PC_provided_service ;
+        rdfs:label                 "provided service" ;
+        sealit:PCa_in_the_role_of  <https://rs.sealitproject.eu/kb/profession%20type/maestro> .
+
+<urn:uuid:5a689511-18f6-4588-ae52-191eeea31053>
+        a                          sealit:Duration ;
+        rdfs:label                 "duration" ;
+        crm:P2_has_type            <https://rs.sealitproject.eu/kb/duration%20type/total%20work%20duration> ;
+        sealit:has_duration_value  "P1M11D"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<urn:uuid:3a8823e3-5d95-4c66-a16e-e2e6b9887226>
+        a                      crm:E97_Monetary_Amount ;
+        rdfs:label             "monetary amount 70" ;
+        crm:P180_has_currency  <https://rs.sealitproject.eu/kb/currency/italian%20lira> ;
+        crm:P90_has_value      "70" .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-03-06T13%3A53%3A38.808Z_3>
+        a                        crm:E73_Information_Object ;
+        rdfs:label               "Crew List (Ruoli di Equipaggio), Doge, 1861-02-08, Francesco Ferrando" ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , <https://rs.sealitproject.eu/kb/doc%20types/record%20information> ;
+        crm:P67_refers_to        <https://rs.sealitproject.eu/kb/Document_of_Register/14/6835/1861-02-08> ;
+        crm:P94i_was_created_by  <urn:uuid:bf7a83e7-6977-4cd1-899d-e7d5cd8da406> .
+
+<urn:uuid:c22693af-e50a-4895-b473-4a319e36563d>
+        a                          sealit:Duration ;
+        rdfs:label                 "duration" ;
+        crm:P2_has_type            <https://rs.sealitproject.eu/kb/duration%20type/total%20work%20duration> ;
+        sealit:has_duration_value  "P8M9D"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<urn:uuid:cf762b00-ec51-4f81-82c0-a4cf86ae4308>
+        a                      crm:E97_Monetary_Amount ;
+        rdfs:label             "monetary amount 6,48" ;
+        crm:P180_has_currency  <https://rs.sealitproject.eu/kb/currency/italian%20lira> ;
+        crm:P2_has_type        <https://rs.sealitproject.eu/kb/money%20payments%20types/pension%20funds> ;
+        crm:P90_has_value      "6.48" .
+
+<https://rs.sealitproject.eu/kb/construction_date/1857>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Construction date 1857" ;
+        crm:P82_at_some_time_within  "1857"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/Document_of_Register/14/6835/1861-02-08>
+        a                        crm:E31_Document , crm:E18_Physical_Thing ;
+        rdfs:label               "Document 6835" ;
+        crm:P128_carries         <urn:uuid:4d45dbc3-3306-4a28-9f6f-1dadf0ed06ac> ;
+        crm:P1_is_identified_by  <urn:uuid:add3f1e8-705b-4d53-8ccb-7916b67ff54a> , <urn:uuid:b9992e16-00b5-4fcf-b120-ea5827d660ae> ;
+        crm:P2_has_type          <https://rs.sealitproject.eu/kb/doc%20types/source%20identity> ;
+        crm:P49_has_former_or_current_keeper
+                <https://rs.sealitproject.eu/kb/organisation/archivio%20di%20stato%20di%20genova> ;
+        crm:P94i_was_created_by  <urn:uuid:c93f34bd-6ff2-4c49-bfe8-234c3d26aff2> .
+
+<https://rs.sealitproject.eu/kb/departure/F99E7133-F0B3-331D-B0E0-0856DDEB2DAF>
+        a                     sealit:Leaving ;
+        rdfs:label            "Departure of ship Doge ,from port Gibilterra ,on date 1861-06-19" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-06-19> ;
+        sealit:from_place     <https://rs.sealitproject.eu/kb/location/gibilterra> .
+
+<https://rs.sealitproject.eu/kb/employment/8CCAFE5F-E9F4-3B66-8583-B6A282BAE2CD>
+        a                     sealit:Employment ;
+        rdfs:label            "Employment of Antonio Gliubelich" ;
+        crm:P02i_is_range_of  <urn:uuid:e3d60ce6-7580-462e-a1d9-522c7cc22bd4> ;
+        sealit:ended_by       <https://rs.sealitproject.eu/kb/discharge/8CCAFE5F-E9F4-3B66-8583-B6A282BAE2CD> ;
+        sealit:started_by     <https://rs.sealitproject.eu/kb/recruitment/8CCAFE5F-E9F4-3B66-8583-B6A282BAE2CD> .
+
+<https://rs.sealitproject.eu/kb/person/2700B893-3F31-3547-B5C9-E10D532D5686>
+        a                           crm:E21_Person ;
+        rdfs:label                  "GioBatta Canevaro" ;
+        crm:P1_is_identified_by     <https://rs.sealitproject.eu/kb/ids/14533> ;
+        crm:P74_has_current_or_former_residence
+                <https://rs.sealitproject.eu/kb/location/genova> ;
+        crm:P98i_was_born           <urn:uuid:ac7c3a9a-2a76-42f6-b070-3e753836f7e2> ;
+        sealit:has_first_name       "GioBatta" ;
+        sealit:has_last_name        "Canevaro" ;
+        sealit:has_profession       <https://rs.sealitproject.eu/kb/profession%20type/mozzo> ;
+        sealit:provided_employment  <https://rs.sealitproject.eu/kb/employment/FB99FBEA-115A-3F8F-A86B-34F758E6D868> ;
+        sealit:received_money       <https://rs.sealitproject.eu/kb/payment/FB99FBEA-115A-3F8F-A86B-34F758E6D868> .
+
+<urn:uuid:9ec2f769-474b-4259-a850-6953396e102b>
+        a                     sealit:Ship_Construction ;
+        rdfs:label            "Construction of Doge" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/construction_date/1857> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/varazze> ;
+        sealit:under_name     <https://rs.sealitproject.eu/kb/ship%20name/doge> .
+
+<https://rs.sealitproject.eu/kb/payment/526B4E7C-EF67-36A3-8EFB-516C7368ED0E>
+        a                             sealit:Crew_Payment ;
+        rdfs:label                    "Payment to Prospero Schiaffino" ;
+        crm:P01i_is_domain_of         <urn:uuid:96d271ae-5d08-44dd-91b3-f23691c4adf2> ;
+        sealit:for_employment_period  <urn:uuid:e417d96f-ec29-424f-b974-f2124417a6c3> ;
+        sealit:for_service            <https://rs.sealitproject.eu/kb/employment/526B4E7C-EF67-36A3-8EFB-516C7368ED0E> ;
+        sealit:had_money_value        <urn:uuid:f4516417-626c-48f8-95e5-ec3cd51c0b12> .
+
+<urn:uuid:25759636-97ff-4e67-b398-17b3fb536827>
+        a                          sealit:Duration ;
+        rdfs:label                 "duration" ;
+        crm:P2_has_type            <https://rs.sealitproject.eu/kb/duration%20type/total%20work%20duration> ;
+        sealit:has_duration_value  "P8M9D"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<https://rs.sealitproject.eu/kb/duration%20type/total%20navigation%20duration>
+        a           crm:E55_Type ;
+        rdfs:label  "total navigation duration" .
+
+<https://rs.sealitproject.eu/kb/payment/06E5C007-91DD-3928-8EF0-15EDA9168AE0>
+        a                             sealit:Crew_Payment ;
+        rdfs:label                    "Payment to Nicolò Oneto" ;
+        crm:P01i_is_domain_of         <urn:uuid:61c7fe85-27ba-4c7e-a6b2-7689799b2bb0> ;
+        sealit:for_employment_period  <urn:uuid:432b081b-6285-47f0-85c8-6fc90d31d338> ;
+        sealit:for_service            <https://rs.sealitproject.eu/kb/employment/06E5C007-91DD-3928-8EF0-15EDA9168AE0> ;
+        sealit:had_money_value        <urn:uuid:19d49a25-10ca-47a1-890c-1ebf2d373adc> , <urn:uuid:3a8823e3-5d95-4c66-a16e-e2e6b9887226> .
+
+<https://rs.sealitproject.eu/kb/discharge/EB89D6D2-CCB8-3C2C-8DC5-90173CCE8A7D>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Giacomo Ageno" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-10-10> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/genova> .
+
+<urn:uuid:b9992e16-00b5-4fcf-b120-ea5827d660ae>
+        a                crm:E42_Identifier ;
+        rdfs:label       "14" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/register%20numbers/register%20number> .
+
+<https://rs.sealitproject.eu/kb/discharge/BAC6A770-E940-374F-8046-F5B83C87EEFF>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Domenico Rocchi" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-10-10> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/genova> .
+
+<https://rs.sealitproject.eu/kb/discharge/5FACB837-C3DE-3EC8-990B-F520CA26D39B>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Tomaso Beretta" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-10-10> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/genova> .
+
+<https://rs.sealitproject.eu/kb/person/707966B1-E65B-345B-89C8-1DAEBC1A7826>
+        a                      crm:E21_Person ;
+        rdfs:label             "Francesco Ferrando" ;
+        crm:P107i_is_current_or_former_member_of
+                <https://rs.sealitproject.eu/kb/organisation/navlab-universit%CE%B3%20%20di%20genova> ;
+        sealit:has_first_name  "Francesco" ;
+        sealit:has_last_name   "Ferrando" .
+
+<https://rs.sealitproject.eu/kb/recruitment/86E6FD6C-E707-31E1-A0C3-D6E27DAD37A8>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Giacomo Fassio" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-02-08> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/genova> .
+
+<https://rs.sealitproject.eu/kb/profession%20type/marinaio>
+        a           sealit:Profession ;
+        rdfs:label  "Marinaio" .
+
+<https://rs.sealitproject.eu/kb/ship%20type/brigantino>
+        a           crm:E55_Type ;
+        rdfs:label  "brigantino" .
+
+<urn:uuid:51b08850-c2de-43c7-9b3f-4dfecf23c2a0>
+        a                         crm:PC14_carried_out_by ;
+        rdfs:label                "in the role of" ;
+        crm:P14.1_in_the_role_of  <https://rs.sealitproject.eu/kb/profession%20type/marinaio> .
+
+<urn:uuid:57b3a3a3-0519-410e-82c5-27d766cff132>
+        a                         crm:PC14_carried_out_by ;
+        rdfs:label                "in the role of" ;
+        crm:P14.1_in_the_role_of  <https://rs.sealitproject.eu/kb/profession%20type/marinaio> .
+
+<https://rs.sealitproject.eu/kb/payment/69B7EC83-D5C9-3C7A-8ED2-144E1AAE4B90>
+        a                             sealit:Crew_Payment ;
+        rdfs:label                    "Payment to GioBatta Avegno" ;
+        crm:P01i_is_domain_of         <urn:uuid:57b3a3a3-0519-410e-82c5-27d766cff132> ;
+        sealit:for_employment_period  <urn:uuid:948e2003-5216-45fe-b4fe-2f6b72ac528c> ;
+        sealit:for_service            <https://rs.sealitproject.eu/kb/employment/69B7EC83-D5C9-3C7A-8ED2-144E1AAE4B90> ;
+        sealit:had_money_value        <urn:uuid:f8522179-df24-4262-a4fd-448996e3801b> , <urn:uuid:c8ad9576-8859-458a-bf55-2e4c8b64b162> .
+
+<https://rs.sealitproject.eu/kb/location/austriaco>
+        a           crm:E53_Place ;
+        rdfs:label  "Austriaco" .
+
+<https://rs.sealitproject.eu/kb/departure/B08B5F05-53B5-3087-BB48-41B8A867FB9F>
+        a                     sealit:Leaving ;
+        rdfs:label            "Departure of ship Doge ,from port Sulina ,on date 1861-03-21" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-03-21> ;
+        sealit:from_place     <https://rs.sealitproject.eu/kb/location/sulina> .
+
+<https://rs.sealitproject.eu/kb/profession%20type/nostromo>
+        a           sealit:Profession ;
+        rdfs:label  "Nostromo" .
+
+<https://rs.sealitproject.eu/kb/payment/B2B08D8A-0B41-3251-BCB5-556756991321>
+        a                             sealit:Crew_Payment ;
+        rdfs:label                    "Payment to Stefano Solimano" ;
+        crm:P01i_is_domain_of         <urn:uuid:561f755e-bbeb-4e19-a57d-1d421fb44fd5> ;
+        sealit:for_employment_period  <urn:uuid:4ede7f07-43d6-419c-af3d-60290015d9d2> ;
+        sealit:for_service            <https://rs.sealitproject.eu/kb/employment/B2B08D8A-0B41-3251-BCB5-556756991321> ;
+        sealit:had_money_value        <urn:uuid:7cf218a8-7098-494c-8c06-ff94acc6fd89> , <urn:uuid:a6f795d6-7da5-4608-9058-b98a19602a6a> .
+
+<urn:uuid:c8ad9576-8859-458a-bf55-2e4c8b64b162>
+        a                      crm:E97_Monetary_Amount ;
+        rdfs:label             "monetary amount 60" ;
+        crm:P180_has_currency  <https://rs.sealitproject.eu/kb/currency/italian%20lira> ;
+        crm:P90_has_value      "60" .
+
+<urn:uuid:fd4bd15a-45e2-4887-93c4-64c66630ae95>
+        a                    crm:E52_Time-Span ;
+        rdfs:label           "for employment period of Boccardo" ;
+        sealit:had_duration  <urn:uuid:25759636-97ff-4e67-b398-17b3fb536827> .
+
+<https://rs.sealitproject.eu/kb/profession%20type/mozzo>
+        a           sealit:Profession ;
+        rdfs:label  "Mozzo" .
+
+<urn:uuid:d906cddf-6219-4d36-aaf7-2b6b2d9a8302>
+        a                    crm:E52_Time-Span ;
+        rdfs:label           "for employment period of Ageno" ;
+        sealit:had_duration  <urn:uuid:3f42fb71-0cbd-4638-ac88-bd7355630396> .
+
+<urn:uuid:99e1bc14-a305-44a2-9c16-2d309fbf9d86>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Stefano Solimano" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1845> .
+
+<https://rs.sealitproject.eu/kb/departure/5730FFC5-BB1D-3832-B547-276062DA6FD6>
+        a                     sealit:Leaving ;
+        rdfs:label            "Departure of ship Doge ,from port Galaz ,on date 1861-04-22" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-04-22> ;
+        sealit:from_place     <https://rs.sealitproject.eu/kb/location/galaz> .
+
+<https://rs.sealitproject.eu/kb/discharge/86E6FD6C-E707-31E1-A0C3-D6E27DAD37A8>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Giacomo Fassio" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-10-10> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/genova> .
+
+<https://rs.sealitproject.eu/kb/date/1844>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "1844" ;
+        crm:P82_at_some_time_within  "1844"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/profession%20type/capitano%20di%202%2A%20classe>
+        a           sealit:Profession ;
+        rdfs:label  "Capitano di 2* classe" .
+
+<https://rs.sealitproject.eu/kb/recruitment/D69B2ADD-D494-31CA-9984-1B85A6AAC781>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Gaetano Marciani" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-02-08> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/genova> .
+
+<https://rs.sealitproject.eu/kb/person/8D40F4EF-74E9-3FFB-9D57-C0EAE3F1B86F>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Giacomo Fassio" ;
+        crm:P3_has_note             "passaggio"@en ;
+        crm:P74_has_current_or_former_residence
+                <https://rs.sealitproject.eu/kb/location/varazze> ;
+        crm:P98i_was_born           <urn:uuid:b0c0af22-ed81-4ac8-9683-d109320c9129> ;
+        sealit:has_first_name       "Giacomo" ;
+        sealit:has_last_name        "Fassio" ;
+        sealit:has_profession       <https://rs.sealitproject.eu/kb/profession%20type/maestro> ;
+        sealit:provided_employment  <https://rs.sealitproject.eu/kb/employment/86E6FD6C-E707-31E1-A0C3-D6E27DAD37A8> ;
+        sealit:received_money       <https://rs.sealitproject.eu/kb/payment/86E6FD6C-E707-31E1-A0C3-D6E27DAD37A8> .
+
+<https://rs.sealitproject.eu/kb/location/varazze>
+        a           crm:E53_Place ;
+        rdfs:label  "Varazze" .
+
+<https://rs.sealitproject.eu/kb/ids/7237>
+        a                crm:E42_Identifier ;
+        rdfs:label       "7237" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/payment/8CCAFE5F-E9F4-3B66-8583-B6A282BAE2CD>
+        a                             sealit:Crew_Payment ;
+        rdfs:label                    "Payment to Antonio Gliubelich" ;
+        crm:P01i_is_domain_of         <urn:uuid:68fba91f-838f-45c1-98a9-8c0024cf9e6f> ;
+        sealit:for_employment_period  <urn:uuid:0ffd7b2d-1a64-42b7-94f3-1434e428b18e> ;
+        sealit:for_service            <https://rs.sealitproject.eu/kb/employment/8CCAFE5F-E9F4-3B66-8583-B6A282BAE2CD> ;
+        sealit:had_money_value        <urn:uuid:665aed45-9b0a-4139-82f2-5e3ccc07ed3e> , <urn:uuid:74b4f69f-b5e6-469e-9cfa-868bdc53cfe2> .
+
+<https://rs.sealitproject.eu/kb/profession%20type/maestro>
+        a           sealit:Profession ;
+        rdfs:label  "Maestro" .
+
+<https://rs.sealitproject.eu/kb/role%20types/issuing%20authority>
+        a           crm:E55_Type ;
+        rdfs:label  "issuing authority" .
+
+<https://rs.sealitproject.eu/kb/employment/BA8DC7B7-4015-3E7B-BDC1-87F6A4881D71>
+        a                     sealit:Employment ;
+        rdfs:label            "Employment of Eliseo Pardolli" ;
+        crm:P02i_is_range_of  <urn:uuid:b3f2a710-5c02-4036-8b47-2d6494a6217a> ;
+        sealit:ended_by       <https://rs.sealitproject.eu/kb/discharge/BA8DC7B7-4015-3E7B-BDC1-87F6A4881D71> ;
+        sealit:started_by     <https://rs.sealitproject.eu/kb/recruitment/BA8DC7B7-4015-3E7B-BDC1-87F6A4881D71> .
+
+<https://rs.sealitproject.eu/kb/date/1831>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "1831" ;
+        crm:P82_at_some_time_within  "1831"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:469f9e4d-b911-438e-b707-b6751064f663>
+        a                      crm:E97_Monetary_Amount ;
+        rdfs:label             "monetary amount 8,91" ;
+        crm:P180_has_currency  <https://rs.sealitproject.eu/kb/currency/italian%20lira> ;
+        crm:P2_has_type        <https://rs.sealitproject.eu/kb/money%20payments%20types/pension%20funds> ;
+        crm:P90_has_value      "8.91" .
+
+<https://rs.sealitproject.eu/kb/location/galaz>
+        a                crm:E53_Place ;
+        rdfs:label       "Galaz" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/place%20type/port> .
+
+<urn:uuid:604c3e1e-b730-48a6-90af-f411cf0c990a>
+        a                          sealit:Duration ;
+        rdfs:label                 "duration" ;
+        crm:P2_has_type            <https://rs.sealitproject.eu/kb/duration%20type/total%20work%20duration> ;
+        sealit:has_duration_value  "P8M9D"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<https://rs.sealitproject.eu/kb/currency/italian%20lira>
+        a           crm:E98_Currency ;
+        rdfs:label  "Italian Lira" .
+
+<https://rs.sealitproject.eu/kb/person/1D0206F1-18BE-3E8C-9503-71CA0CB0E4C1>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Domenico Rocchi" ;
+        crm:P1_is_identified_by     <https://rs.sealitproject.eu/kb/ids/Permesso> ;
+        crm:P74_has_current_or_former_residence
+                <https://rs.sealitproject.eu/kb/location/austriaco> ;
+        sealit:has_first_name       "Domenico" ;
+        sealit:has_last_name        "Rocchi" ;
+        sealit:has_profession       <https://rs.sealitproject.eu/kb/profession%20type/marinaio> ;
+        sealit:provided_employment  <https://rs.sealitproject.eu/kb/employment/BAC6A770-E940-374F-8046-F5B83C87EEFF> ;
+        sealit:received_money       <https://rs.sealitproject.eu/kb/payment/BAC6A770-E940-374F-8046-F5B83C87EEFF> .
+
+<urn:uuid:62668b27-f6d7-406d-8901-c3c5ebb4a15c>
+        a                         crm:PC14_carried_out_by ;
+        rdfs:label                "in the role of" ;
+        crm:P14.1_in_the_role_of  <https://rs.sealitproject.eu/kb/profession%20type/secondo> .
+
+<https://rs.sealitproject.eu/kb/ownership/000EE317-0EEE-3601-B9C2-BDF7636C9DEF>
+        a                 sealit:Ship_Ownership_Phase ;
+        rdfs:label        "Ownership of Doge" ;
+        sealit:has_owner  <https://rs.sealitproject.eu/kb/person/C3C8B812-2245-30A8-9D4F-FC416C4C8D30> .
+
+<https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew list (ruoli di equipaggio)" .
+
+<https://rs.sealitproject.eu/kb/departure/50485351-5964-3635-AFD0-755A1E4C4FD5>
+        a                     sealit:Leaving ;
+        rdfs:label            "Departure of ship Doge ,from port Londondarry ,on date 1861-08-13" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-08-13> ;
+        sealit:from_place     <https://rs.sealitproject.eu/kb/location/londondarry> .
+
+<https://rs.sealitproject.eu/kb/employment/BAC6A770-E940-374F-8046-F5B83C87EEFF>
+        a                     sealit:Employment ;
+        rdfs:label            "Employment of Domenico Rocchi" ;
+        crm:P02i_is_range_of  <urn:uuid:bca89c84-60ae-47b2-9c68-671bf4bf9ae0> ;
+        sealit:ended_by       <https://rs.sealitproject.eu/kb/discharge/BAC6A770-E940-374F-8046-F5B83C87EEFF> ;
+        sealit:started_by     <https://rs.sealitproject.eu/kb/recruitment/BAC6A770-E940-374F-8046-F5B83C87EEFF> .
+
+<https://rs.sealitproject.eu/kb/discharge/D69B2ADD-D494-31CA-9984-1B85A6AAC781>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Gaetano Marciani" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-10-10> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/genova> .
+
+<urn:uuid:a6f795d6-7da5-4608-9058-b98a19602a6a>
+        a                      crm:E97_Monetary_Amount ;
+        rdfs:label             "monetary amount 15" ;
+        crm:P180_has_currency  <https://rs.sealitproject.eu/kb/currency/italian%20lira> ;
+        crm:P90_has_value      "15" .
+
+<urn:uuid:3cb4b52a-66f3-40e7-bd18-8fb983f6a49c>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of GioBatta Boccardo" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1831> .
+
+<urn:uuid:96d271ae-5d08-44dd-91b3-f23691c4adf2>
+        a                         crm:PC14_carried_out_by ;
+        rdfs:label                "in the role of" ;
+        crm:P14.1_in_the_role_of  <https://rs.sealitproject.eu/kb/profession%20type/capitano%20di%202%2A%20classe> .
+
+<urn:uuid:7235c02d-c95d-457e-9207-4d91fcc05e21>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Gaetano Marciani" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1813> .
+
+<urn:uuid:432b081b-6285-47f0-85c8-6fc90d31d338>
+        a                    crm:E52_Time-Span ;
+        rdfs:label           "for employment period of Oneto" ;
+        sealit:had_duration  <urn:uuid:1cf0059e-9a9d-4ffb-b909-a0d0f652bba8> .
+
+<https://rs.sealitproject.eu/kb/appellation/288019BD-3E8B-3682-811D-28F4BF2F1BD0>
+        a           crm:E41_Appellation ;
+        rdfs:label  "Archivio di Stato di Genova" .
+
+<urn:uuid:4a11f0f8-99e5-4f95-bbfd-cde6f15246b4>
+        a                          sealit:Duration ;
+        rdfs:label                 "duration" ;
+        crm:P2_has_type            <https://rs.sealitproject.eu/kb/duration%20type/total%20navigation%20duration> ;
+        sealit:has_duration_value  "P8M3D"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<urn:uuid:4311b798-6fd7-4c54-bb25-2651494a56c6>
+        a                          sealit:PC_provided_service ;
+        rdfs:label                 "provided service" ;
+        sealit:PCa_in_the_role_of  <https://rs.sealitproject.eu/kb/profession%20type/mozzo> .
+
+<https://rs.sealitproject.eu/kb/person/302CE1D9-AC08-3120-9036-86C58079A846>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Stefano Solimano" ;
+        crm:P1_is_identified_by     <https://rs.sealitproject.eu/kb/ids/7237> ;
+        crm:P74_has_current_or_former_residence
+                <https://rs.sealitproject.eu/kb/location/rapallo> ;
+        crm:P98i_was_born           <urn:uuid:99e1bc14-a305-44a2-9c16-2d309fbf9d86> ;
+        sealit:has_first_name       "Stefano" ;
+        sealit:has_last_name        "Solimano" ;
+        sealit:has_profession       <https://rs.sealitproject.eu/kb/profession%20type/mozzo> ;
+        sealit:provided_employment  <https://rs.sealitproject.eu/kb/employment/B2B08D8A-0B41-3251-BCB5-556756991321> ;
+        sealit:received_money       <https://rs.sealitproject.eu/kb/payment/B2B08D8A-0B41-3251-BCB5-556756991321> .
+
+<https://rs.sealitproject.eu/kb/person/D300C28B-9DF5-3F64-8AFD-099E7ED1B817>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Eliseo Pardolli" ;
+        crm:P74_has_current_or_former_residence
+                <https://rs.sealitproject.eu/kb/location/toscano> ;
+        crm:P98i_was_born           <urn:uuid:a20ad442-7d88-4c2f-8fa5-6645155d7339> ;
+        sealit:has_first_name       "Eliseo" ;
+        sealit:has_last_name        "Pardolli" ;
+        sealit:has_profession       <https://rs.sealitproject.eu/kb/profession%20type/marinaio> ;
+        sealit:provided_employment  <https://rs.sealitproject.eu/kb/employment/BA8DC7B7-4015-3E7B-BDC1-87F6A4881D71> ;
+        sealit:received_money       <https://rs.sealitproject.eu/kb/payment/BA8DC7B7-4015-3E7B-BDC1-87F6A4881D71> .
+
+<https://rs.sealitproject.eu/kb/person/C3C8B812-2245-30A8-9D4F-FC416C4C8D30>
+        a                      crm:E21_Person ;
+        rdfs:label             "Prospero Schiaffino" ;
+        crm:P98i_was_born      <https://rs.sealitproject.eu/kb/birth%20of/prospero/schiaffino/owner> ;
+        sealit:has_first_name  "Prospero" ;
+        sealit:has_last_name   "Schiaffino" .
+
+<https://rs.sealitproject.eu/kb/money%20payments%20types/pension%20funds>
+        a           crm:E55_Type ;
+        rdfs:label  "pension funds" .
+
+<urn:uuid:a4a876e8-b45f-46eb-a7e7-b583ae1d7aea>
+        a                      crm:E97_Monetary_Amount ;
+        rdfs:label             "monetary amount 8,91" ;
+        crm:P180_has_currency  <https://rs.sealitproject.eu/kb/currency/italian%20lira> ;
+        crm:P2_has_type        <https://rs.sealitproject.eu/kb/money%20payments%20types/pension%20funds> ;
+        crm:P90_has_value      "8.91" .
+
+<urn:uuid:ef495ede-5cd6-4aeb-9de9-cea84400dc25>
+        a                         crm:PC14_carried_out_by ;
+        rdfs:label                "in the role of" ;
+        crm:P14.1_in_the_role_of  <https://rs.sealitproject.eu/kb/profession%20type/mozzo> .
+
+<urn:uuid:7cba57fc-74e2-4b83-9ddd-7c2bedc35de8>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Prospero Schiaffino" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1825> .
+
+<urn:uuid:ac7c3a9a-2a76-42f6-b070-3e753836f7e2>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of GioBatta Canevaro" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1843> .
+
+<https://rs.sealitproject.eu/kb/profession%20type/secondo>
+        a           sealit:Profession ;
+        rdfs:label  "Secondo" .
+
+<https://rs.sealitproject.eu/kb/location/recco>
+        a           crm:E53_Place ;
+        rdfs:label  "Recco" .
+
+<https://rs.sealitproject.eu/kb/organisation/navlab-universit%CE%B3%20%20di%20genova>
+        a           crm:E74_Group ;
+        rdfs:label  "NAVLAB-UniversitΓ  di Genova" .
+
+<urn:uuid:8c2ad6b9-3336-4cd7-8c7e-d5538cf2e5b9>
+        a                          sealit:PC_provided_service ;
+        rdfs:label                 "provided service" ;
+        sealit:PCa_in_the_role_of  <https://rs.sealitproject.eu/kb/profession%20type/mozzo> .
+
+<urn:uuid:7cf218a8-7098-494c-8c06-ff94acc6fd89>
+        a                      crm:E97_Monetary_Amount ;
+        rdfs:label             "monetary amount 6,48" ;
+        crm:P180_has_currency  <https://rs.sealitproject.eu/kb/currency/italian%20lira> ;
+        crm:P2_has_type        <https://rs.sealitproject.eu/kb/money%20payments%20types/pension%20funds> ;
+        crm:P90_has_value      "6.48" .
+
+<https://rs.sealitproject.eu/kb/employment/86E6FD6C-E707-31E1-A0C3-D6E27DAD37A8>
+        a                     sealit:Employment ;
+        rdfs:label            "Employment of Giacomo Fassio" ;
+        crm:P02i_is_range_of  <urn:uuid:3e58f8ef-53fa-47b1-b929-8c3f98f294b1> ;
+        sealit:ended_by       <https://rs.sealitproject.eu/kb/discharge/86E6FD6C-E707-31E1-A0C3-D6E27DAD37A8> ;
+        sealit:started_by     <https://rs.sealitproject.eu/kb/recruitment/86E6FD6C-E707-31E1-A0C3-D6E27DAD37A8> .
+
+<urn:uuid:19d49a25-10ca-47a1-890c-1ebf2d373adc>
+        a                      crm:E97_Monetary_Amount ;
+        rdfs:label             "monetary amount 12,15" ;
+        crm:P180_has_currency  <https://rs.sealitproject.eu/kb/currency/italian%20lira> ;
+        crm:P2_has_type        <https://rs.sealitproject.eu/kb/money%20payments%20types/pension%20funds> ;
+        crm:P90_has_value      "12.15" .
+
+<https://rs.sealitproject.eu/kb/location/toscano>
+        a           crm:E53_Place ;
+        rdfs:label  "Toscano" .
+
+<urn:uuid:c04abcd4-0391-47bd-90ee-45a1f29e9a49>
+        a                    crm:E52_Time-Span ;
+        rdfs:label           "for employment period of Rocchi" ;
+        sealit:had_duration  <urn:uuid:cdf76f21-689a-4109-b9ae-5e75eb7c15a6> .
+
+<https://rs.sealitproject.eu/kb/person/77AEE258-F4D5-38D0-92C4-758B79D36DD2>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Antonio Gliubelich" ;
+        crm:P1_is_identified_by     <https://rs.sealitproject.eu/kb/ids/Permesso> ;
+        crm:P74_has_current_or_former_residence
+                <https://rs.sealitproject.eu/kb/location/austriaco> ;
+        sealit:has_first_name       "Antonio" ;
+        sealit:has_last_name        "Gliubelich" ;
+        sealit:has_profession       <https://rs.sealitproject.eu/kb/profession%20type/marinaio> ;
+        sealit:provided_employment  <https://rs.sealitproject.eu/kb/employment/8CCAFE5F-E9F4-3B66-8583-B6A282BAE2CD> ;
+        sealit:received_money       <https://rs.sealitproject.eu/kb/payment/8CCAFE5F-E9F4-3B66-8583-B6A282BAE2CD> .
+
+<https://rs.sealitproject.eu/kb/date/1834>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "1834" ;
+        crm:P82_at_some_time_within  "1834"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/date/1813>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "1813" ;
+        crm:P82_at_some_time_within  "1813"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:add3f1e8-705b-4d53-8ccb-7916b67ff54a>
+        a                crm:E42_Identifier ;
+        rdfs:label       "6835" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/doc%20numbers/document%20number> .
+
+<https://rs.sealitproject.eu/kb/employment/526B4E7C-EF67-36A3-8EFB-516C7368ED0E>
+        a                     sealit:Employment ;
+        rdfs:label            "Employment of Prospero Schiaffino" ;
+        crm:P02i_is_range_of  <urn:uuid:2400da2b-8a58-470b-b2ff-f0a6895c9ba5> ;
+        sealit:ended_by       <https://rs.sealitproject.eu/kb/discharge/526B4E7C-EF67-36A3-8EFB-516C7368ED0E> ;
+        sealit:started_by     <https://rs.sealitproject.eu/kb/recruitment/526B4E7C-EF67-36A3-8EFB-516C7368ED0E> .
+
+<https://rs.sealitproject.eu/kb/payment/EB89D6D2-CCB8-3C2C-8DC5-90173CCE8A7D>
+        a                             sealit:Crew_Payment ;
+        rdfs:label                    "Payment to Giacomo Ageno" ;
+        crm:P01i_is_domain_of         <urn:uuid:71bfd216-136a-49cc-b69b-64b9bd25a443> ;
+        sealit:for_employment_period  <urn:uuid:d906cddf-6219-4d36-aaf7-2b6b2d9a8302> ;
+        sealit:for_service            <https://rs.sealitproject.eu/kb/employment/EB89D6D2-CCB8-3C2C-8DC5-90173CCE8A7D> ;
+        sealit:had_money_value        <urn:uuid:cf762b00-ec51-4f81-82c0-a4cf86ae4308> , <urn:uuid:2bd57c5b-3ca9-4e11-8925-a9477ccb6942> .
+
+<urn:uuid:41090827-9378-4921-82e8-6f35c4b61dd0>
+        a                      crm:E97_Monetary_Amount ;
+        rdfs:label             "monetary amount 60" ;
+        crm:P180_has_currency  <https://rs.sealitproject.eu/kb/currency/italian%20lira> ;
+        crm:P90_has_value      "60" .
+
+<urn:uuid:39994332-63ec-46ad-a752-c225e775e456>
+        a                    crm:E52_Time-Span ;
+        rdfs:label           "for employment period of Fassio" ;
+        sealit:had_duration  <urn:uuid:c22693af-e50a-4895-b473-4a319e36563d> .
+
+<https://rs.sealitproject.eu/kb/organisation/archivio%20di%20stato%20di%20genova>
+        a                        crm:E74_Group ;
+        rdfs:label               "Archivio di Stato di Genova" ;
+        crm:P1_is_identified_by  <https://rs.sealitproject.eu/kb/appellation/288019BD-3E8B-3682-811D-28F4BF2F1BD0> ;
+        crm:P74_has_current_or_former_residence
+                <https://rs.sealitproject.eu/kb/location/genova> .
+
+<https://rs.sealitproject.eu/kb/person/D45B3A70-C99A-396A-97D0-17C21F308050>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Nicolò Oneto" ;
+        crm:P1_is_identified_by     <https://rs.sealitproject.eu/kb/ids/4327> ;
+        crm:P74_has_current_or_former_residence
+                <https://rs.sealitproject.eu/kb/location/rapallo> ;
+        crm:P98i_was_born           <urn:uuid:ac706e87-f0df-40a1-823f-dd1ee8226423> ;
+        sealit:has_first_name       "Nicolò" ;
+        sealit:has_last_name        "Oneto" ;
+        sealit:has_profession       <https://rs.sealitproject.eu/kb/profession%20type/nostromo> ;
+        sealit:provided_employment  <https://rs.sealitproject.eu/kb/employment/06E5C007-91DD-3928-8EF0-15EDA9168AE0> ;
+        sealit:received_money       <https://rs.sealitproject.eu/kb/payment/06E5C007-91DD-3928-8EF0-15EDA9168AE0> .
+
+<urn:uuid:b3f2a710-5c02-4036-8b47-2d6494a6217a>
+        a                          sealit:PC_provided_service ;
+        rdfs:label                 "provided service" ;
+        sealit:PCa_in_the_role_of  <https://rs.sealitproject.eu/kb/profession%20type/marinaio> .
+
+<https://rs.sealitproject.eu/kb/payment/BAC6A770-E940-374F-8046-F5B83C87EEFF>
+        a                             sealit:Crew_Payment ;
+        rdfs:label                    "Payment to Domenico Rocchi" ;
+        crm:P01i_is_domain_of         <urn:uuid:261cb488-2413-4247-ad6a-300c75c561fd> ;
+        sealit:for_employment_period  <urn:uuid:c04abcd4-0391-47bd-90ee-45a1f29e9a49> ;
+        sealit:for_service            <https://rs.sealitproject.eu/kb/employment/BAC6A770-E940-374F-8046-F5B83C87EEFF> ;
+        sealit:had_money_value        <urn:uuid:1d45b259-765a-49e0-99a0-51c45f0c043b> , <urn:uuid:c08bc652-c78d-49d3-a4d3-28b4da2c0f45> .
+
+<urn:uuid:5f5c61b5-d4be-48cd-9c27-da45311f91b8>
+        a                          sealit:PC_provided_service ;
+        rdfs:label                 "provided service" ;
+        sealit:PCa_in_the_role_of  <https://rs.sealitproject.eu/kb/profession%20type/marinaio> .
+
+<https://rs.sealitproject.eu/kb/location/danubio>
+        a           crm:E53_Place ;
+        rdfs:label  "Danubio" .
+
+<https://rs.sealitproject.eu/kb/payment/5FACB837-C3DE-3EC8-990B-F520CA26D39B>
+        a                             sealit:Crew_Payment ;
+        rdfs:label                    "Payment to Tomaso Beretta" ;
+        crm:P01i_is_domain_of         <urn:uuid:28b7e141-e9c3-4a2a-b294-fe08d6348b7f> ;
+        sealit:for_employment_period  <urn:uuid:b05fb8c5-d8df-44cd-9f1d-60bd9b0f9d89> ;
+        sealit:for_service            <https://rs.sealitproject.eu/kb/employment/5FACB837-C3DE-3EC8-990B-F520CA26D39B> ;
+        sealit:had_money_value        <urn:uuid:469f9e4d-b911-438e-b707-b6751064f663> , <urn:uuid:41090827-9378-4921-82e8-6f35c4b61dd0> .
+
+<urn:uuid:0ffd7b2d-1a64-42b7-94f3-1434e428b18e>
+        a                    crm:E52_Time-Span ;
+        rdfs:label           "for employment period of Gliubelich" ;
+        sealit:had_duration  <urn:uuid:5a689511-18f6-4588-ae52-191eeea31053> .
+
+<urn:uuid:c780c6e8-89e9-42d0-a2a0-a4e308a6dd24>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of GioBatta Avegno" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1841> .
+
+<urn:uuid:61c7fe85-27ba-4c7e-a6b2-7689799b2bb0>
+        a                         crm:PC14_carried_out_by ;
+        rdfs:label                "in the role of" ;
+        crm:P14.1_in_the_role_of  <https://rs.sealitproject.eu/kb/profession%20type/nostromo> .
+
+<urn:uuid:9069f0f7-e039-45ad-965c-288930fbc50b>
+        a                      crm:E97_Monetary_Amount ;
+        rdfs:label             "monetary amount 7,44" ;
+        crm:P180_has_currency  <https://rs.sealitproject.eu/kb/currency/italian%20lira> ;
+        crm:P2_has_type        <https://rs.sealitproject.eu/kb/money%20payments%20types/pension%20funds> ;
+        crm:P90_has_value      "7.44" .
+
+<urn:uuid:0884603e-bc3e-4afc-b972-4efb38ff1e5a>
+        a                          sealit:PC_provided_service ;
+        rdfs:label                 "provided service" ;
+        sealit:PCa_in_the_role_of  <https://rs.sealitproject.eu/kb/profession%20type/secondo> .
+
+<urn:uuid:561f755e-bbeb-4e19-a57d-1d421fb44fd5>
+        a                         crm:PC14_carried_out_by ;
+        rdfs:label                "in the role of" ;
+        crm:P14.1_in_the_role_of  <https://rs.sealitproject.eu/kb/profession%20type/mozzo> .
+
+<https://rs.sealitproject.eu/kb/date/1861-03-18>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "date 1861-03-18" , "Date 1861-03-18" ;
+        crm:P82_at_some_time_within  "1861-03-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/employment/69B7EC83-D5C9-3C7A-8ED2-144E1AAE4B90>
+        a                     sealit:Employment ;
+        rdfs:label            "Employment of GioBatta Avegno" ;
+        crm:P02i_is_range_of  <urn:uuid:acdf1596-7638-4c8e-a95e-f917decd1b0d> ;
+        sealit:ended_by       <https://rs.sealitproject.eu/kb/discharge/69B7EC83-D5C9-3C7A-8ED2-144E1AAE4B90> ;
+        sealit:started_by     <https://rs.sealitproject.eu/kb/recruitment/69B7EC83-D5C9-3C7A-8ED2-144E1AAE4B90> .
+
+<urn:uuid:9b4236b8-59c2-4f37-b734-8cb3f62cb085>
+        a                          sealit:PC_provided_service ;
+        rdfs:label                 "provided service" ;
+        sealit:PCa_in_the_role_of  <https://rs.sealitproject.eu/kb/profession%20type/mozzo> .
+
+<urn:uuid:f8cffb30-2dc2-442c-a70b-78b1375b9c90>
+        a                          sealit:Duration ;
+        rdfs:label                 "duration" ;
+        crm:P2_has_type            <https://rs.sealitproject.eu/kb/duration%20type/total%20work%20duration> ;
+        sealit:has_duration_value  "P8M9D"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<urn:uuid:e417d96f-ec29-424f-b974-f2124417a6c3>
+        a                    crm:E52_Time-Span ;
+        rdfs:label           "for employment period of Schiaffino" ;
+        sealit:had_duration  <urn:uuid:f8cffb30-2dc2-442c-a70b-78b1375b9c90> .
+
+<urn:uuid:bfcdddcc-493e-46ec-aa3a-13ca3bf02b8e>
+        a                          sealit:PC_provided_service ;
+        rdfs:label                 "provided service" ;
+        sealit:PCa_in_the_role_of  <https://rs.sealitproject.eu/kb/profession%20type/marinaio> .
+
+<https://rs.sealitproject.eu/kb/birth%20of/prospero/schiaffino/owner>
+        a                    crm:E67_Birth ;
+        rdfs:label           "Birth of Prospero Schiaffino" ;
+        crm:P97_from_father  <https://rs.sealitproject.eu/kb/person/234D0CF7-92B6-3EDE-BC23-735D7ABC3C49> .
+
+<https://rs.sealitproject.eu/kb/person/7DDCBCC5-81E0-3841-8CB4-1BD447099C43>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Giacomo Ageno" ;
+        crm:P1_is_identified_by     <https://rs.sealitproject.eu/kb/ids/16074> ;
+        crm:P74_has_current_or_former_residence
+                <https://rs.sealitproject.eu/kb/location/recco> ;
+        crm:P98i_was_born           <urn:uuid:b07a1fe7-6d0c-4707-be83-bdfb5536ef88> ;
+        sealit:has_first_name       "Giacomo" ;
+        sealit:has_last_name        "Ageno" ;
+        sealit:has_profession       <https://rs.sealitproject.eu/kb/profession%20type/mozzo> ;
+        sealit:provided_employment  <https://rs.sealitproject.eu/kb/employment/EB89D6D2-CCB8-3C2C-8DC5-90173CCE8A7D> ;
+        sealit:received_money       <https://rs.sealitproject.eu/kb/payment/EB89D6D2-CCB8-3C2C-8DC5-90173CCE8A7D> .
+
+<https://rs.sealitproject.eu/kb/ids/4327>
+        a                crm:E42_Identifier ;
+        rdfs:label       "4327" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/language/italian>
+        a           crm:E56_Language ;
+        rdfs:label  "Italian" .
+
+<urn:uuid:b0c0af22-ed81-4ac8-9683-d109320c9129>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Giacomo Fassio" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1840> .
+
+<urn:uuid:8b0b9a6b-a1f0-4fdb-8601-163836bbe442>
+        a                         crm:PC14_carried_out_by ;
+        rdfs:label                "in the role of" ;
+        crm:P14.1_in_the_role_of  <https://rs.sealitproject.eu/kb/profession%20type/maestro> .
+
+<https://rs.sealitproject.eu/kb/recruitment/FB99FBEA-115A-3F8F-A86B-34F758E6D868>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of GioBatta Canevaro" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-02-08> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/genova> .
+
+<https://rs.sealitproject.eu/kb/place%20type/port>
+        a           crm:E55_Type ;
+        rdfs:label  "port" .
+
+<https://rs.sealitproject.eu/kb/payment/86E6FD6C-E707-31E1-A0C3-D6E27DAD37A8>
+        a                             sealit:Crew_Payment ;
+        rdfs:label                    "Payment to Giacomo Fassio" ;
+        crm:P01i_is_domain_of         <urn:uuid:8b0b9a6b-a1f0-4fdb-8601-163836bbe442> ;
+        sealit:for_employment_period  <urn:uuid:39994332-63ec-46ad-a752-c225e775e456> ;
+        sealit:for_service            <https://rs.sealitproject.eu/kb/employment/86E6FD6C-E707-31E1-A0C3-D6E27DAD37A8> ;
+        sealit:had_money_value        <urn:uuid:3ece09f4-1b3b-4adf-9588-def17c702d84> , <urn:uuid:1443948f-efe4-403c-b107-91277625748c> .
+
+<https://rs.sealitproject.eu/kb/person/7F543F8D-4BD5-38D0-8BC5-0080C6905DE9>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Tomaso Beretta" ;
+        crm:P1_is_identified_by     <https://rs.sealitproject.eu/kb/ids/6203> ;
+        crm:P74_has_current_or_former_residence
+                <https://rs.sealitproject.eu/kb/location/rapallo> ;
+        crm:P98i_was_born           <urn:uuid:3e0d6c57-93da-48a9-a814-8f4d020e9d79> ;
+        sealit:has_first_name       "Tomaso" ;
+        sealit:has_last_name        "Beretta" ;
+        sealit:has_profession       <https://rs.sealitproject.eu/kb/profession%20type/marinaio> ;
+        sealit:provided_employment  <https://rs.sealitproject.eu/kb/employment/5FACB837-C3DE-3EC8-990B-F520CA26D39B> ;
+        sealit:received_money       <https://rs.sealitproject.eu/kb/payment/5FACB837-C3DE-3EC8-990B-F520CA26D39B> .
+
+<https://rs.sealitproject.eu/kb/location/genova>
+        a                crm:E53_Place ;
+        rdfs:label       "Genova" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/place%20type/port> .
+
+<https://rs.sealitproject.eu/kb/departure/A9978E27-041F-3E23-A463-B3716AF31A31>
+        a                     sealit:Leaving ;
+        rdfs:label            "Departure of ship Doge ,from port Sulina ,on date 1861-05-03" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-05-03> ;
+        sealit:from_place     <https://rs.sealitproject.eu/kb/location/sulina> .
+
+<urn:uuid:71bfd216-136a-49cc-b69b-64b9bd25a443>
+        a                         crm:PC14_carried_out_by ;
+        rdfs:label                "in the role of" ;
+        crm:P14.1_in_the_role_of  <https://rs.sealitproject.eu/kb/profession%20type/mozzo> .
+
+<urn:uuid:3ece09f4-1b3b-4adf-9588-def17c702d84>
+        a                      crm:E97_Monetary_Amount ;
+        rdfs:label             "monetary amount 8,91" ;
+        crm:P180_has_currency  <https://rs.sealitproject.eu/kb/currency/italian%20lira> ;
+        crm:P2_has_type        <https://rs.sealitproject.eu/kb/money%20payments%20types/pension%20funds> ;
+        crm:P90_has_value      "8.91" .
+
+<https://rs.sealitproject.eu/kb/recruitment/BA8DC7B7-4015-3E7B-BDC1-87F6A4881D71>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Eliseo Pardolli" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-03-18> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/camogli> .
+
+<https://rs.sealitproject.eu/kb/ship%20name/doge>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Doge" .
+
+<https://rs.sealitproject.eu/kb/discharge/FB99FBEA-115A-3F8F-A86B-34F758E6D868>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of GioBatta Canevaro" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-10-10> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/genova> .
+
+<https://rs.sealitproject.eu/kb/date/1845>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "1845" ;
+        crm:P82_at_some_time_within  "1845"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/location/londondarry>
+        a                crm:E53_Place ;
+        rdfs:label       "Londondarry" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/place%20type/port> .
+
+<urn:uuid:1d45b259-765a-49e0-99a0-51c45f0c043b>
+        a                      crm:E97_Monetary_Amount ;
+        rdfs:label             "monetary amount 8,91" ;
+        crm:P180_has_currency  <https://rs.sealitproject.eu/kb/currency/italian%20lira> ;
+        crm:P2_has_type        <https://rs.sealitproject.eu/kb/money%20payments%20types/pension%20funds> ;
+        crm:P90_has_value      "8.91" .
+
+<https://rs.sealitproject.eu/kb/date/1861-10-10>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1861-10-10" ;
+        crm:P82_at_some_time_within  "1861-10-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/date/1861-03-21>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "departure date 1861-03-21" ;
+        crm:P82_at_some_time_within  "1861-03-21"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/recruitment/6E123B9C-3163-332D-B6BF-53D21462F650>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of GioBatta Boccardo" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-02-08> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/genova> .
+
+<https://rs.sealitproject.eu/kb/person/234D0CF7-92B6-3EDE-BC23-735D7ABC3C49>
+        a                      crm:E21_Person ;
+        rdfs:label             "Nicolò Schiaffino" ;
+        sealit:has_first_name  "Nicolò" ;
+        sealit:has_last_name   "Schiaffino" .
+
+<https://rs.sealitproject.eu/kb/payment/D69B2ADD-D494-31CA-9984-1B85A6AAC781>
+        a                             sealit:Crew_Payment ;
+        rdfs:label                    "Payment to Gaetano Marciani" ;
+        crm:P01i_is_domain_of         <urn:uuid:62668b27-f6d7-406d-8901-c3c5ebb4a15c> ;
+        sealit:for_employment_period  <urn:uuid:d9ab6d22-1d1b-4e6f-bbec-089de5a59720> ;
+        sealit:for_service            <https://rs.sealitproject.eu/kb/employment/D69B2ADD-D494-31CA-9984-1B85A6AAC781> ;
+        sealit:had_money_value        <urn:uuid:a8a2c600-2a71-47eb-b4f5-c45aecd011c0> , <urn:uuid:b97aae38-28f3-4623-b434-db2595bb29b1> .
+
+<urn:uuid:665aed45-9b0a-4139-82f2-5e3ccc07ed3e>
+        a                      crm:E97_Monetary_Amount ;
+        rdfs:label             "monetary amount 1,50" ;
+        crm:P180_has_currency  <https://rs.sealitproject.eu/kb/currency/italian%20lira> ;
+        crm:P2_has_type        <https://rs.sealitproject.eu/kb/money%20payments%20types/pension%20funds> ;
+        crm:P90_has_value      "1.50" .
+
+<urn:uuid:d9ab6d22-1d1b-4e6f-bbec-089de5a59720>
+        a                    crm:E52_Time-Span ;
+        rdfs:label           "for employment period of Marciani" ;
+        sealit:had_duration  <urn:uuid:4bfd7575-3960-4296-9797-893d4d8330b2> .
+
+<https://rs.sealitproject.eu/kb/person/56A60C1D-39D2-3BDF-8E5E-B9DFDC85AF22>
+        a                           crm:E21_Person ;
+        rdfs:label                  "Prospero Schiaffino" ;
+        crm:P1_is_identified_by     <https://rs.sealitproject.eu/kb/ids/2445> ;
+        crm:P74_has_current_or_former_residence
+                <https://rs.sealitproject.eu/kb/location/camogli> ;
+        crm:P98i_was_born           <urn:uuid:7cba57fc-74e2-4b83-9ddd-7c2bedc35de8> ;
+        sealit:has_first_name       "Prospero" ;
+        sealit:has_last_name        "Schiaffino" ;
+        sealit:has_profession       <https://rs.sealitproject.eu/kb/profession%20type/capitano%20di%202%2A%20classe> ;
+        sealit:provided_employment  <https://rs.sealitproject.eu/kb/employment/526B4E7C-EF67-36A3-8EFB-516C7368ED0E> ;
+        sealit:received_money       <https://rs.sealitproject.eu/kb/payment/526B4E7C-EF67-36A3-8EFB-516C7368ED0E> .
+
+<urn:uuid:5f72e597-d345-4aa3-be23-e18abaac3bea>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "2018-03-06 2020-09-22T15:15:43" ;
+        crm:P82a_begin_of_the_begin  "2018-03-06"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end      "2020-09-22T15:15:43"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<https://rs.sealitproject.eu/kb/discharge/BA8DC7B7-4015-3E7B-BDC1-87F6A4881D71>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Eliseo Pardolli" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-10-10> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/genova> .
+
+<https://rs.sealitproject.eu/kb/ids/6203>
+        a                crm:E42_Identifier ;
+        rdfs:label       "6203" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/date/1861-04-22>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "departure date 1861-04-22" ;
+        crm:P82_at_some_time_within  "1861-04-22"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/location/gibilterra>
+        a                crm:E53_Place ;
+        rdfs:label       "Gibilterra" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/place%20type/port> .
+
+<https://rs.sealitproject.eu/kb/ids/13560>
+        a                crm:E42_Identifier ;
+        rdfs:label       "13560" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<urn:uuid:ac706e87-f0df-40a1-823f-dd1ee8226423>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Nicolò Oneto" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1834> .
+
+<https://rs.sealitproject.eu/kb/location/rapallo>
+        a           crm:E53_Place ;
+        rdfs:label  "Rapallo" .
+
+<urn:uuid:38300989-996e-4410-8b95-93324d52e72e>
+        a                          sealit:Duration ;
+        rdfs:label                 "duration" ;
+        crm:P2_has_type            <https://rs.sealitproject.eu/kb/duration%20type/total%20work%20duration> ;
+        sealit:has_duration_value  "P8M9D"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<urn:uuid:54e87db0-0d2d-4a1b-be22-68924cf3d9a7>
+        a                          sealit:PC_provided_service ;
+        rdfs:label                 "provided service" ;
+        sealit:PCa_in_the_role_of  <https://rs.sealitproject.eu/kb/profession%20type/nostromo> .
+
+<urn:uuid:a8a2c600-2a71-47eb-b4f5-c45aecd011c0>
+        a                      crm:E97_Monetary_Amount ;
+        rdfs:label             "monetary amount 12,15" ;
+        crm:P180_has_currency  <https://rs.sealitproject.eu/kb/currency/italian%20lira> ;
+        crm:P2_has_type        <https://rs.sealitproject.eu/kb/money%20payments%20types/pension%20funds> ;
+        crm:P90_has_value      "12.15" .
+
+<urn:uuid:4ede7f07-43d6-419c-af3d-60290015d9d2>
+        a                    crm:E52_Time-Span ;
+        rdfs:label           "for employment period of Solimano" ;
+        sealit:had_duration  <urn:uuid:d820d359-5e0b-4422-b9d0-87b5b47bbbdb> .
+
+<https://rs.sealitproject.eu/kb/ids/2444>
+        a                crm:E42_Identifier ;
+        rdfs:label       "2444" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/numbers/serial%20number> .
+
+<https://rs.sealitproject.eu/kb/doc%20types/source%20identity>
+        a           crm:E55_Type ;
+        rdfs:label  "source identity" .
+
+<urn:uuid:3f42fb71-0cbd-4638-ac88-bd7355630396>
+        a                          sealit:Duration ;
+        rdfs:label                 "duration" ;
+        crm:P2_has_type            <https://rs.sealitproject.eu/kb/duration%20type/total%20work%20duration> ;
+        sealit:has_duration_value  "P8M9D"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<https://rs.sealitproject.eu/kb/discharge/6E123B9C-3163-332D-B6BF-53D21462F650>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of GioBatta Boccardo" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-10-10> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/genova> .
+
+<urn:uuid:4be59858-baa3-4914-a468-4e1f7eef59c9>
+        a                      crm:E97_Monetary_Amount ;
+        rdfs:label             "monetary amount 40" ;
+        crm:P180_has_currency  <https://rs.sealitproject.eu/kb/currency/italian%20lira> ;
+        crm:P90_has_value      "40" .
+
+<https://rs.sealitproject.eu/kb/date/1840>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "1840" ;
+        crm:P82_at_some_time_within  "1840"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:e1772163-3bfb-47f3-8094-22b2e2fb64b0>
+        a                          sealit:Duration ;
+        rdfs:label                 "duration" ;
+        crm:P2_has_type            <https://rs.sealitproject.eu/kb/duration%20type/total%20work%20duration> ;
+        sealit:has_duration_value  "P6M29D"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<urn:uuid:2400da2b-8a58-470b-b2ff-f0a6895c9ba5>
+        a                          sealit:PC_provided_service ;
+        rdfs:label                 "provided service" ;
+        sealit:PCa_in_the_role_of  <https://rs.sealitproject.eu/kb/profession%20type/capitano%20di%202%2A%20classe> .
+
+<https://rs.sealitproject.eu/kb/recruitment/526B4E7C-EF67-36A3-8EFB-516C7368ED0E>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Prospero Schiaffino" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-02-08> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/genova> .
+
+<https://rs.sealitproject.eu/kb/ship_identifier/1850>
+        a           sealit:Ship_ID ;
+        rdfs:label  "1850" .
+
+<urn:uuid:cdf76f21-689a-4109-b9ae-5e75eb7c15a6>
+        a                          sealit:Duration ;
+        rdfs:label                 "duration" ;
+        crm:P2_has_type            <https://rs.sealitproject.eu/kb/duration%20type/total%20work%20duration> ;
+        sealit:has_duration_value  "P8M9D"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<https://rs.sealitproject.eu/kb/recruitment/06E5C007-91DD-3928-8EF0-15EDA9168AE0>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Nicolò Oneto" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-02-08> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/genova> .
+
+<urn:uuid:c90bcf29-bf11-49f8-83d0-455a7197725f>
+        a                           sealit:Voyage ;
+        rdfs:label                  "Voyage of ship Doge" ;
+        crm:P14_carried_out_by      <https://rs.sealitproject.eu/kb/person/77AEE258-F4D5-38D0-92C4-758B79D36DD2> , <https://rs.sealitproject.eu/kb/person/D45B3A70-C99A-396A-97D0-17C21F308050> , <urn:uuid:9dfdd396-aa92-45ef-9851-709c61faec98> , <https://rs.sealitproject.eu/kb/person/8D40F4EF-74E9-3FFB-9D57-C0EAE3F1B86F> , <https://rs.sealitproject.eu/kb/person/7DDCBCC5-81E0-3841-8CB4-1BD447099C43> , <https://rs.sealitproject.eu/kb/person/A9332790-5533-3AC6-9E9E-8EF14BF17FAF> , <https://rs.sealitproject.eu/kb/person/50D85844-26E6-302A-BF40-79229961C6A5> , <https://rs.sealitproject.eu/kb/person/4D7FEA8C-6ACA-3203-8C21-366A809B2097> , <https://rs.sealitproject.eu/kb/person/7F543F8D-4BD5-38D0-8BC5-0080C6905DE9> , <https://rs.sealitproject.eu/kb/person/1D0206F1-18BE-3E8C-9503-71CA0CB0E4C1> , <https://rs.sealitproject.eu/kb/person/2700B893-3F31-3547-B5C9-E10D532D5686> , <https://rs.sealitproject.eu/kb/person/56A60C1D-39D2-3BDF-8E5E-B9DFDC85AF22> , <https://rs.sealitproject.eu/kb/person/D300C28B-9DF5-3F64-8AFD-099E7ED1B817> , <https://rs.sealitproject.eu/kb/person/302CE1D9-AC08-3120-9036-86C58079A846> ;
+        crm:P4_has_time-span        <urn:uuid:258971b6-12a7-4465-b540-77d2e63be7ab> ;
+        sealit:consists_of_leaving  <https://rs.sealitproject.eu/kb/departure/0138AC8C-E739-370E-B981-B342A2618D39> , <https://rs.sealitproject.eu/kb/departure/50485351-5964-3635-AFD0-755A1E4C4FD5> , <https://rs.sealitproject.eu/kb/departure/5730FFC5-BB1D-3832-B547-276062DA6FD6> , <https://rs.sealitproject.eu/kb/departure/05778C05-A985-3122-8EFF-094090FD91B5> , <https://rs.sealitproject.eu/kb/departure/F99E7133-F0B3-331D-B0E0-0856DDEB2DAF> , <https://rs.sealitproject.eu/kb/departure/B08B5F05-53B5-3087-BB48-41B8A867FB9F> , <https://rs.sealitproject.eu/kb/departure/54EFEB9D-6A77-3A66-AA44-7C1A1E23BBD0> , <https://rs.sealitproject.eu/kb/departure/A9978E27-041F-3E23-A463-B3716AF31A31> ;
+        sealit:destination          <https://rs.sealitproject.eu/kb/location/danubio> .
+
+<https://rs.sealitproject.eu/kb/date/1861-05-10>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "departure date 1861-05-10" ;
+        crm:P82_at_some_time_within  "1861-05-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:1cf0059e-9a9d-4ffb-b909-a0d0f652bba8>
+        a                          sealit:Duration ;
+        rdfs:label                 "duration" ;
+        crm:P2_has_type            <https://rs.sealitproject.eu/kb/duration%20type/total%20work%20duration> ;
+        sealit:has_duration_value  "P8M9D"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<urn:uuid:acdf1596-7638-4c8e-a95e-f917decd1b0d>
+        a                          sealit:PC_provided_service ;
+        rdfs:label                 "provided service" ;
+        sealit:PCa_in_the_role_of  <https://rs.sealitproject.eu/kb/profession%20type/marinaio> .
+
+<https://rs.sealitproject.eu/kb/location/costantinopoli>
+        a                crm:E53_Place ;
+        rdfs:label       "Costantinopoli" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/place%20type/port> .
+
+<urn:uuid:0d662849-1424-411f-8483-9c39a43953fb>
+        a                  sealit:Tonnage ;
+        rdfs:label         "tonnage of Doge" ;
+        crm:P90_has_value  "261.21" .
+
+<https://rs.sealitproject.eu/kb/employment/EB89D6D2-CCB8-3C2C-8DC5-90173CCE8A7D>
+        a                     sealit:Employment ;
+        rdfs:label            "Employment of Giacomo Ageno" ;
+        crm:P02i_is_range_of  <urn:uuid:8c2ad6b9-3336-4cd7-8c7e-d5538cf2e5b9> ;
+        sealit:ended_by       <https://rs.sealitproject.eu/kb/discharge/EB89D6D2-CCB8-3C2C-8DC5-90173CCE8A7D> ;
+        sealit:started_by     <https://rs.sealitproject.eu/kb/recruitment/EB89D6D2-CCB8-3C2C-8DC5-90173CCE8A7D> .
+
+<https://rs.sealitproject.eu/kb/employment/5FACB837-C3DE-3EC8-990B-F520CA26D39B>
+        a                     sealit:Employment ;
+        rdfs:label            "Employment of Tomaso Beretta" ;
+        crm:P02i_is_range_of  <urn:uuid:5f5c61b5-d4be-48cd-9c27-da45311f91b8> ;
+        sealit:ended_by       <https://rs.sealitproject.eu/kb/discharge/5FACB837-C3DE-3EC8-990B-F520CA26D39B> ;
+        sealit:started_by     <https://rs.sealitproject.eu/kb/recruitment/5FACB837-C3DE-3EC8-990B-F520CA26D39B> .
+
+<https://rs.sealitproject.eu/kb/employment/FB99FBEA-115A-3F8F-A86B-34F758E6D868>
+        a                     sealit:Employment ;
+        rdfs:label            "Employment of GioBatta Canevaro" ;
+        crm:P02i_is_range_of  <urn:uuid:9b4236b8-59c2-4f37-b734-8cb3f62cb085> ;
+        sealit:ended_by       <https://rs.sealitproject.eu/kb/discharge/FB99FBEA-115A-3F8F-A86B-34F758E6D868> ;
+        sealit:started_by     <https://rs.sealitproject.eu/kb/recruitment/FB99FBEA-115A-3F8F-A86B-34F758E6D868> .
+
+<urn:uuid:f4516417-626c-48f8-95e5-ec3cd51c0b12>
+        a                      crm:E97_Monetary_Amount ;
+        rdfs:label             "monetary amount 28,95" ;
+        crm:P180_has_currency  <https://rs.sealitproject.eu/kb/currency/italian%20lira> ;
+        crm:P2_has_type        <https://rs.sealitproject.eu/kb/money%20payments%20types/pension%20funds> ;
+        crm:P90_has_value      "28.95" .
+
+<https://rs.sealitproject.eu/kb/recruitment/69B7EC83-D5C9-3C7A-8ED2-144E1AAE4B90>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of GioBatta Avegno" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-02-08> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/genova> .
+
+<https://rs.sealitproject.eu/kb/duration%20type/total%20work%20duration>
+        a           crm:E55_Type ;
+        rdfs:label  "total work duration" .
+
+<https://rs.sealitproject.eu/kb/recruitment/B2B08D8A-0B41-3251-BCB5-556756991321>
+        a                     sealit:Recruitment ;
+        rdfs:label            "Embarkation of Stefano Solimano" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-02-08> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/genova> .
+
+<https://rs.sealitproject.eu/kb/discharge/526B4E7C-EF67-36A3-8EFB-516C7368ED0E>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Prospero Schiaffino" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-10-10> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/genova> .
+
+<urn:uuid:8937117a-4b2f-430a-ad6a-75d78fca4d6d>
+        a                          sealit:Duration ;
+        rdfs:label                 "duration" ;
+        crm:P2_has_type            <https://rs.sealitproject.eu/kb/duration%20type/total%20work%20duration> ;
+        sealit:has_duration_value  "P8M9D"^^<http://www.w3.org/2001/XMLSchema#duration> .
+
+<https://rs.sealitproject.eu/kb/discharge/06E5C007-91DD-3928-8EF0-15EDA9168AE0>
+        a                     sealit:Discharge ;
+        rdfs:label            "Discharge of Nicolò Oneto" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1861-10-10> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/genova> .
+
+<urn:uuid:a20ad442-7d88-4c2f-8fa5-6645155d7339>
+        a                     crm:E67_Birth ;
+        rdfs:label            "Birth of Eliseo Pardolli" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1840> .
+
+<https://rs.sealitproject.eu/kb/doc%20numbers/document%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "Document number" .
+
+<urn:uuid:74b4f69f-b5e6-469e-9cfa-868bdc53cfe2>
+        a                      crm:E97_Monetary_Amount ;
+        rdfs:label             "monetary amount 60" ;
+        crm:P180_has_currency  <https://rs.sealitproject.eu/kb/currency/italian%20lira> ;
+        crm:P90_has_value      "60" .
+
+<https://rs.sealitproject.eu/kb/date/1861-06-19>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "departure date 1861-06-19" ;
+        crm:P82_at_some_time_within  "1861-06-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<urn:uuid:b05fb8c5-d8df-44cd-9f1d-60bd9b0f9d89>
+        a                    crm:E52_Time-Span ;
+        rdfs:label           "for employment period of Beretta" ;
+        sealit:had_duration  <urn:uuid:604c3e1e-b730-48a6-90af-f411cf0c990a> .
+
+<https://rs.sealitproject.eu/kb/location/sulina>
+        a                crm:E53_Place ;
+        rdfs:label       "Sulina" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/place%20type/port> .

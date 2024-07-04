@@ -1,0 +1,82 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <https://rs.sealitproject.eu/kb/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<https://rs.sealitproject.eu/kb/date/1848>
+        a                            crm:E52_Time-Span ;
+        rdfs:label                   "Date 1848" ;
+        crm:P82_at_some_time_within  "1848"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://rs.sealitproject.eu/kb/ship%20type/brigantino>
+        a           crm:E55_Type ;
+        rdfs:label  "brigantino" .
+
+<https://rs.sealitproject.eu/kb/ship%20name/antonietta>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Antonietta" .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-03-06T15%3A20%3A22.852Z_11>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Antonietta, 1860-04-29, Carolina Gaggero" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-06T15:20:22.852Z_11&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/location/loano>
+        a           crm:E53_Place ;
+        rdfs:label  "Loano" .
+
+<https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew list (ruoli di equipaggio)" .
+
+<https://rs.sealitproject.eu/kb/ship/C3351356-6734-32C2-B065-76183ACE921B>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Antonietta" ;
+        crm:P1_is_identified_by    <https://rs.sealitproject.eu/kb/ship%20name/antonietta> ;
+        crm:P2_has_type            <https://rs.sealitproject.eu/kb/ship%20type/brigantino> , <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:is_registered_by    <https://rs.sealitproject.eu/kb/registration_number/1153> ;
+        sealit:was_constructed_by  <urn:uuid:003d8319-0253-4b54-bac1-a3a2b917c9df> ;
+        owl:sameAs                 <https://rs.sealitproject.eu/kb/ship/0C955579-6797-37CE-A118-69A6F33EDE6E> .
+
+<https://rs.sealitproject.eu/kb/register_record_point/1FD7C885-472F-390C-A5AE-BBE6D350E93C>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Antonietta, 1860-04-29, Carolina Gaggero | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-03-06T15%3A20%3A22.852Z_11> , <https://rs.sealitproject.eu/kb/ship/0C955579-6797-37CE-A118-69A6F33EDE6E> .
+
+<https://rs.sealitproject.eu/kb/ship_identifier/1153>
+        a                sealit:Ship_ID ;
+        rdfs:label       "1153" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/register%20numbers/register%20number> .
+
+<https://rs.sealitproject.eu/kb/ship/0C955579-6797-37CE-A118-69A6F33EDE6E>
+        a       sealit:Ship .
+
+<https://rs.sealitproject.eu/kb/register%20numbers/register%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "register number" .
+
+<https://rs.sealitproject.eu/kb/registration_number/1153>
+        a                    sealit:Ship_Registration ;
+        rdfs:label           "Registration of Antonietta" ;
+        sealit:with_ship_ID  <https://rs.sealitproject.eu/kb/ship_identifier/1153> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-03-06T15:20:22.852Z_11&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<urn:uuid:003d8319-0253-4b54-bac1-a3a2b917c9df>
+        a                     sealit:Ship_Construction ;
+        rdfs:label            "Construction of Antonietta" ;
+        crm:P4_has_time-span  <https://rs.sealitproject.eu/kb/date/1848> ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/loano> .

@@ -1,0 +1,76 @@
+@prefix sealit: <http://www.sealit.gr/ontology/sealit#> .
+@prefix sealitDB: <https://rs.sealitproject.eu/kb/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<https://rs.sealitproject.eu/kb/ship%20type/brigantino>
+        a           crm:E55_Type ;
+        rdfs:label  "brigantino" .
+
+<https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29>
+        a           crm:E55_Type ;
+        rdfs:label  "crew list (ruoli di equipaggio)" .
+
+<https://rs.sealitproject.eu/kb/ship/8FB73676-9EA0-3659-A032-E4D7D0B3F9D8>
+        a       sealit:Ship .
+
+<https://rs.sealitproject.eu/kb/location/%5Ball%60estero%5D>
+        a           crm:E53_Place ;
+        rdfs:label  "[all`estero]" .
+
+<urn:uuid:1f6f13b7-2fe3-44f5-8939-2fa0ac96610f>
+        a                     sealit:Ship_Construction ;
+        rdfs:label            "Construction of Angelina" ;
+        crm:P7_took_place_at  <https://rs.sealitproject.eu/kb/location/%5Ball%60estero%5D> .
+
+<https://rs.sealitproject.eu/kb/ship/5044A35A-D23E-38A3-BDAA-57E95F271EB3>
+        a                          sealit:Ship ;
+        rdfs:label                 "ship Angelina" ;
+        crm:P1_is_identified_by    <https://rs.sealitproject.eu/kb/ship%20name/angelina> ;
+        crm:P2_has_type            <https://rs.sealitproject.eu/kb/ship%20type/brigantino> , <https://rs.sealitproject.eu/kb/type/master> ;
+        sealit:is_registered_by    <https://rs.sealitproject.eu/kb/registration_number/2060> ;
+        sealit:was_constructed_by  <urn:uuid:1f6f13b7-2fe3-44f5-8939-2fa0ac96610f> ;
+        owl:sameAs                 <https://rs.sealitproject.eu/kb/ship/8FB73676-9EA0-3659-A032-E4D7D0B3F9D8> .
+
+<http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-04-03T13:21:37.243Z_15&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView>
+        a       rdfs:Resource .
+
+<https://rs.sealitproject.eu/kb/register_record/2018-04-03T13%3A21%3A37.243Z_15>
+        a             crm:E73_Information_Object ;
+        rdfs:label    "Crew List (Ruoli di Equipaggio), Angelina, 1861-02-16, Francesco Ferrando" ;
+        rdfs:seeAlso  <http://isl.ics.forth.gr/FastCatTeam/templates/Crew%20List_IT.html?name=2018-04-03T13:21:37.243Z_15&templateTitle=Crew%20List%20(Ruoli%20di%20Equipaggio)&mode=teamView> .
+
+<https://rs.sealitproject.eu/kb/ship_identifier/2060>
+        a                sealit:Ship_ID ;
+        rdfs:label       "2060" ;
+        crm:P2_has_type  <https://rs.sealitproject.eu/kb/register%20numbers/register%20number> .
+
+<https://rs.sealitproject.eu/kb/register%20numbers/register%20number>
+        a           crm:E55_Type ;
+        rdfs:label  "register number" .
+
+<https://rs.sealitproject.eu/kb/type/master>
+        a           crm:E55_Type ;
+        rdfs:label  "master" .
+
+<https://rs.sealitproject.eu/kb/ship%20name/angelina>
+        a           sealit:Ship_Name ;
+        rdfs:label  "Angelina" .
+
+sealitDB:template  a  crm:E55_Type ;
+        rdfs:label  "template" .
+
+<https://rs.sealitproject.eu/kb/register_record_point/BEB28E3F-104F-3C03-AF85-013AF4DAA83D>
+        a                  crm:E73_Information_Object ;
+        rdfs:label         "Crew List (Ruoli di Equipaggio), Angelina, 1861-02-16, Francesco Ferrando | row: 1, table: ship_identity" ;
+        crm:P2_has_type    <https://rs.sealitproject.eu/kb/template%20types/crew%20list%20%28ruoli%20di%20equipaggio%29> , sealitDB:template ;
+        crm:P67_refers_to  <https://rs.sealitproject.eu/kb/register_record/2018-04-03T13%3A21%3A37.243Z_15> , <https://rs.sealitproject.eu/kb/ship/8FB73676-9EA0-3659-A032-E4D7D0B3F9D8> .
+
+<https://rs.sealitproject.eu/kb/registration_number/2060>
+        a                    sealit:Ship_Registration ;
+        rdfs:label           "Registration of Angelina" ;
+        sealit:with_ship_ID  <https://rs.sealitproject.eu/kb/ship_identifier/2060> .
