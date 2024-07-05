@@ -75,7 +75,6 @@ public class Configuration {
                 String categDetails = prop.getProperty("categories." + catId + ".details");
                 EntityCategory category = new EntityCategory(categName, categCountQr, categInfo, categDetails);
                 allCateg.add(category);
-//                System.out.println("INFO"+categInfo);
             }
         } catch (IOException ex) {
             ex.printStackTrace();

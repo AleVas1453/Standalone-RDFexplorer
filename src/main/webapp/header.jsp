@@ -3,12 +3,10 @@
 <%@page import="net.codejava.proweb.Configuration"%>
 <%@page import="net.codejava.proweb.RDFReader"%>
 <%
-    String selectedCategory = request.getParameter("obj");
     RDFReader myReader = new RDFReader();
     Configuration myConf = new Configuration();
     myReader.loadModel();
     myConf.appInfo();
-    ArrayList<EntityCategory> categories = myConf.chooseCat();
 %>
 <html lang="en">
     <head>

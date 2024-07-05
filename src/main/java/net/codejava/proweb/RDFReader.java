@@ -113,17 +113,12 @@ public class RDFReader {
  
         
     public ArrayList<Map<String, String>> categInstances(String info) {
-        int xxx=0;
         String queryString = info;
         Query query = QueryFactory.create(queryString);
         QueryExecution qexec = QueryExecutionFactory.create(query, getModel());
         ResultSet results = qexec.execSelect();
         ArrayList<Map<String, String>> resultsList = new ArrayList<>();
         while (results.hasNext()) {
-//            xxx++;
-//            if(xxx==12){
-//                break;
-//            }
             QuerySolution soln = results.nextSolution();
             Iterator<String> selectVars = soln.varNames();
             Map<String, String> columnToValue = new HashMap<>();
