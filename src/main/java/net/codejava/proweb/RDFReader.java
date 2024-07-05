@@ -71,7 +71,7 @@ public class RDFReader {
         Properties prop = new Properties();
         
         ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
-        InputStream input = classLoader.getResourceAsStream("config2.properties");
+        InputStream input = classLoader.getResourceAsStream("config.properties");
         try {
             prop.load(input);
         } catch (IOException ex) {

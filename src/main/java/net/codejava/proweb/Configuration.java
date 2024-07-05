@@ -62,8 +62,10 @@ public class Configuration {
         Properties prop = new Properties();
 
         try {
-            prop.load(getClass().getResourceAsStream("config.properties"));
-
+            ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
+            InputStream input = classLoader.getResourceAsStream("config.properties");
+            prop.load(input);
+            
             String categories = prop.getProperty("categories");   // categories = “1,2,3”
             String categoryIds[] = categories.split(",");  // [“1”, “2”, “3”]
             for (String catId : categoryIds) {
@@ -87,7 +89,7 @@ public class Configuration {
         try {
             /* This takes the file from "resources" */
             ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
-            InputStream input = classLoader.getResourceAsStream("config2.properties");
+            InputStream input = classLoader.getResourceAsStream("config.properties");
             prop.load(input);
             /* This takes the file from "resources/net/codejava/proweb" */
 //            prop.load(getClass().getResourceAsStream("config.properties"));
