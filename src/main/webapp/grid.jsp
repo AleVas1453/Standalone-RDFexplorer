@@ -55,13 +55,15 @@
                     if (!results.isEmpty()) {
                         for (Map<String, String> result : results) {
                             String uri = result.get("URI").trim();
+                            Map<String, List<String>> map = new HashMap<>();
                             if (!aggregatedResults.containsKey(uri)) {
-                                aggregatedResults.put(uri, new HashMap<>());
+                                aggregatedResults.put(uri, map);
                             }
                             Map<String, List<String>> uriResults = aggregatedResults.get(uri);
                             for (String column : result.keySet()) {
+                                List<String> list = new ArrayList<>();
                                 if (!uriResults.containsKey(column)) {
-                                    uriResults.put(column, new ArrayList<>());
+                                    uriResults.put(column, list);
                                 }
                                 if (!uriResults.get(column).contains(result.get(column).trim())) {
                                     uriResults.get(column).add(result.get(column).trim());
